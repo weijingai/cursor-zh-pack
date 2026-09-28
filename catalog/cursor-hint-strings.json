@@ -1,0 +1,3425 @@
+{
+  "extractedAt": "2026-09-28T03:31:20.691Z",
+  "sourceApp": "C:/Program Files/Cursor/resources/app/out",
+  "messageCount": 13622,
+  "hintedCount": 648,
+  "moduleCount": 174,
+  "modules": [
+    "vs/code/electron-main/main",
+    "vs/code/electron-utility/mcpProcess/mcpProcessMain",
+    "vs/editor/browser/coreCommands",
+    "vs/editor/browser/widget/codeEditor/codeEditorWidget",
+    "vs/editor/common/config/editorOptions",
+    "vs/editor/common/core/editorColorRegistry",
+    "vs/editor/common/editorContextKeys",
+    "vs/editor/common/standaloneStrings",
+    "vs/editor/contrib/anchorSelect/browser/anchorSelect",
+    "vs/editor/contrib/codeAction/browser/codeAction",
+    "vs/editor/contrib/codeAction/browser/codeActionCommands",
+    "vs/editor/contrib/cursorUndo/browser/cursorUndo",
+    "vs/editor/contrib/dropOrPasteInto/browser/copyPasteContribution",
+    "vs/editor/contrib/dropOrPasteInto/browser/postEditWidget",
+    "vs/editor/contrib/gotoError/browser/gotoError",
+    "vs/editor/contrib/gotoSymbol/browser/peek/referencesWidget",
+    "vs/editor/contrib/hover/browser/hoverActions",
+    "vs/editor/contrib/inlineCompletions/browser/controller/commands",
+    "vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionContextKeys",
+    "vs/editor/contrib/inlineCompletions/browser/inlineCompletionsAccessibleView",
+    "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsModel",
+    "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+    "vs/editor/contrib/linesOperations/browser/linesOperations",
+    "vs/editor/contrib/multicursor/browser/multicursor",
+    "vs/editor/contrib/rename/browser/rename",
+    "vs/platform/action/common/actionCommonCategories",
+    "vs/platform/actionWidget/browser/actionList",
+    "vs/platform/contextkey/common/contextkeys",
+    "vs/platform/environment/node/argv",
+    "vs/platform/mcpProcess/electron-main/mcpProcess",
+    "vs/platform/native/electron-main/nativeHostMainService",
+    "vs/platform/quickinput/browser/quickInput",
+    "vs/platform/storage/electron-main/storageMainService",
+    "vs/platform/telemetry/common/telemetryService",
+    "vs/platform/theme/common/colors/baseColors",
+    "vs/platform/update/common/update.config.contribution",
+    "vs/server/node/remoteExtensionHostAgentCli",
+    "vs/workbench/api/browser/mainThreadCursor",
+    "vs/workbench/api/browser/viewsExtensionPoint",
+    "vs/workbench/api/common/configurationExtensionPoint",
+    "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuComponents",
+    "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuState",
+    "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuTypes",
+    "vs/workbench/browser/actions/developerActions",
+    "vs/workbench/browser/actions/exportCustomModesAction",
+    "vs/workbench/browser/actions/exportNotepadsAction",
+    "vs/workbench/browser/actions/helpActions",
+    "vs/workbench/browser/actions/layoutActions",
+    "vs/workbench/browser/actions/layoutSwitcherOverlay",
+    "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarPart",
+    "vs/workbench/browser/parts/editor/editorActions.cursor",
+    "vs/workbench/browser/parts/editor/editorConfiguration",
+    "vs/workbench/browser/parts/editor/editorGroupWatermark",
+    "vs/workbench/browser/parts/titlebar/titlebarActions",
+    "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "vs/workbench/browser/windowQuitConfirmation",
+    "vs/workbench/browser/workbench.contribution",
+    "vs/workbench/common/contextkeys",
+    "vs/workbench/contrib/accessibility/browser/accessibilityConfiguration",
+    "vs/workbench/contrib/agents/browser/agentsActions",
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+    "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton",
+    "vs/workbench/contrib/agents/common/agentsContextKeys",
+    "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab",
+    "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+    "vs/workbench/contrib/appLayout/browser/dumpLayoutAction",
+    "vs/workbench/contrib/appLayout/common/agentsWindowOrFocusMenuRegistrations",
+    "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+    "vs/workbench/contrib/bulkEdit/browser/preview/bulkEdit.contribution",
+    "vs/workbench/contrib/bulkEdit/browser/preview/bulkEditPane",
+    "vs/workbench/contrib/codeEditor/browser/saveParticipants",
+    "vs/workbench/contrib/codeEditor/browser/toggleMultiCursorModifier",
+    "vs/workbench/contrib/codeEditor/common/languageConfigurationExtensionPoint",
+    "vs/workbench/contrib/comments/browser/commentsController",
+    "vs/workbench/contrib/comments/browser/commentsEditorContribution",
+    "vs/workbench/contrib/comments/common/commentContextKeys",
+    "vs/workbench/contrib/composer/browser/browserEditor.contribution",
+    "vs/workbench/contrib/composer/browser/capabilities/chimes",
+    "vs/workbench/contrib/composer/browser/composer.contribution",
+    "vs/workbench/contrib/composer/browser/composerMessageStorageService",
+    "vs/workbench/contrib/composer/browser/transcript/composerTranscriptToolRuntime",
+    "vs/workbench/contrib/composer/electron-sandbox/browserAutomation.contribution",
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+    "vs/workbench/contrib/cpuMonitor/electron-sandbox/cpuMonitor.contribution",
+    "vs/workbench/contrib/cursorAiFeedback/browser/aiFeedbackActions",
+    "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu",
+    "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+    "vs/workbench/contrib/cursorLocalTrace/browser/cursorLocalTrace.contribution",
+    "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+    "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/usePlanEditorState",
+    "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
+    "vs/workbench/contrib/debug/browser/breakpointsView",
+    "vs/workbench/contrib/debug/browser/debug.contribution",
+    "vs/workbench/contrib/debug/browser/debugCommands",
+    "vs/workbench/contrib/debug/browser/debugEditorActions",
+    "vs/workbench/contrib/debug/common/debug",
+    "vs/workbench/contrib/extensions/browser/extensions.contribution",
+    "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "vs/workbench/contrib/extensions/electron-sandbox/debugExtensionHostAction",
+    "vs/workbench/contrib/extensions/electron-sandbox/extensionProfileService",
+    "vs/workbench/contrib/extensions/electron-sandbox/runtimeExtensionsEditor",
+    "vs/workbench/contrib/inlineCompletions/browser/inlineCompletionLanguageStatusBarContribution",
+    "vs/workbench/contrib/markers/browser/markers.contribution",
+    "vs/workbench/contrib/mcp/common/discovery/nativeMcpDiscoveryAbstract",
+    "vs/workbench/contrib/mcp/common/mcpConfigPathsService",
+    "vs/workbench/contrib/mcp/common/mcpConfiguration",
+    "vs/workbench/contrib/mcp/common/mcpRegistry",
+    "vs/workbench/contrib/mcp/common/mcpServer",
+    "vs/workbench/contrib/mcp/common/mcpServerConnection",
+    "vs/workbench/contrib/mcp/common/mcpService",
+    "vs/workbench/contrib/mcp/common/mcpTypes",
+    "vs/workbench/contrib/mdceditor/browser/mdceditor.contribution",
+    "vs/workbench/contrib/notebook/browser/contrib/multicursor/notebookMulticursor",
+    "vs/workbench/contrib/notebook/browser/contrib/navigation/arrow",
+    "vs/workbench/contrib/notebook/browser/contrib/saveParticipants/saveParticipants",
+    "vs/workbench/contrib/notebook/browser/notebook.contribution",
+    "vs/workbench/contrib/notebook/browser/notebookAccessibilityHelp",
+    "vs/workbench/contrib/onboarding/electron-sandbox/onboarding.contribution",
+    "vs/workbench/contrib/outline/browser/outlineActions",
+    "vs/workbench/contrib/preferences/browser/settingsLayout",
+    "vs/workbench/contrib/preferences/browser/settingsTree",
+    "vs/workbench/contrib/remote/common/remote.contribution",
+    "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+    "vs/workbench/contrib/scm/browser/editorBugbotViewPane",
+    "vs/workbench/contrib/scm/browser/scm.contribution",
+    "vs/workbench/contrib/scm/browser/scmHistoryViewPane",
+    "vs/workbench/contrib/search/browser/search.contribution",
+    "vs/workbench/contrib/search/browser/searchActionsNav",
+    "vs/workbench/contrib/search/browser/searchView",
+    "vs/workbench/contrib/snippets/browser/snippets.contribution",
+    "vs/workbench/contrib/tasks/browser/taskQuickPick",
+    "vs/workbench/contrib/tasks/common/problemMatcher",
+    "vs/workbench/contrib/terminal/browser/terminalView",
+    "vs/workbench/contrib/terminal/common/terminalColorRegistry",
+    "vs/workbench/contrib/terminal/common/terminalConfiguration",
+    "vs/workbench/contrib/terminalContrib/accessibility/browser/terminalAccessibilityHelp",
+    "vs/workbench/contrib/terminalContrib/accessibility/common/terminalAccessibilityConfiguration",
+    "vs/workbench/contrib/terminalContrib/autoReplies/common/terminalAutoRepliesConfiguration",
+    "vs/workbench/contrib/terminalContrib/cursorCliPrompt/browser/terminal.cursorCliPrompt.contribution",
+    "vs/workbench/contrib/terminalContrib/cursorDeveloper/browser/terminal.cursorDeveloper.contribution",
+    "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution",
+    "vs/workbench/contrib/terminalContrib/cursorPromptBar/browser/terminalPromptBarContextKeys",
+    "vs/workbench/contrib/testing/browser/testExplorerActions",
+    "vs/workbench/contrib/testing/common/testingContextKeys",
+    "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "vs/workbench/contrib/ui/browser/buttons/AgentsWindowButton",
+    "vs/workbench/contrib/ui/browser/buttons/IdeTitlebarUpdateButton",
+    "vs/workbench/contrib/update/browser/update.contribution",
+    "vs/workbench/contrib/userDataProfile/browser/userDataProfilesEditorModel",
+    "vs/workbench/electron-sandbox/actions/devRefreshTeamAdminSettingsAction.cursor",
+    "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+    "vs/workbench/electron-sandbox/actions/installActions",
+    "vs/workbench/electron-sandbox/actions/windowActions",
+    "vs/workbench/electron-sandbox/desktop.contribution",
+    "vs/workbench/electron-sandbox/parts/dialogs/dialogHandler",
+    "vs/workbench/services/agent/browser/agentExecProviderService",
+    "vs/workbench/services/agent/electron-sandbox/localAgentPromptQualityUrlHandler",
+    "vs/workbench/services/ai/browser/urlOpenToastService",
+    "vs/workbench/services/configuration/common/configurationEditing",
+    "vs/workbench/services/cursorAuth/browser/authenticationService.contribution",
+    "vs/workbench/services/experiment/browser/dynamicConfigOverrideActions",
+    "vs/workbench/services/experiment/browser/experimentOverrideActions",
+    "vs/workbench/services/experiment/browser/featureFlagOverrideActions",
+    "vs/workbench/services/extensionManagement/electron-sandbox/extensionGalleryManifestService",
+    "vs/workbench/services/extensions/common/abstractExtensionService",
+    "vs/workbench/services/extensions/common/extensionHostManager",
+    "vs/workbench/services/extensions/common/extensionsRegistry",
+    "vs/workbench/services/remote/browser/remoteAgentService",
+    "vs/workbench/services/remote/electron-sandbox/remoteAgentService",
+    "vs/workbench/services/userDataProfile/browser/userDataProfileImportExportService",
+    "vs/workbench/services/workspaceConnection/browser/workspaceConnectionService",
+    "vs/workbench/services/worktree/browser/worktree.contribution"
+  ],
+  "entries": [
+    {
+      "moduleId": "vs/code/electron-main/main",
+      "key": "localModeDataImportError",
+      "source": "Cursor Data Import Failed"
+    },
+    {
+      "moduleId": "vs/code/electron-utility/mcpProcess/mcpProcessMain",
+      "key": "mcpProcessLog",
+      "source": "MCP Process"
+    },
+    {
+      "moduleId": "vs/editor/browser/coreCommands",
+      "key": "removedCursor",
+      "source": "Removed secondary cursors"
+    },
+    {
+      "moduleId": "vs/editor/browser/widget/codeEditor/codeEditorWidget",
+      "key": "cursors.maximum",
+      "source": "The number of cursors has been limited to {0}. Consider using [find and replace](https://code.visualstudio.com/docs/editor/codebasics#_find-and-replace) for larger changes or increase the editor multi cursor limit setting."
+    },
+    {
+      "moduleId": "vs/editor/browser/widget/codeEditor/codeEditorWidget",
+      "key": "goToSetting",
+      "source": "Increase Multi Cursor Limit"
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "find.cursorMoveOnType",
+      "source": "Controls whether the cursor should jump to find matches while typing."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "editor.find.seedSearchStringFromSelection.always",
+      "source": "Always seed search string from the editor selection, including word at cursor position."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "editor.lightbulb.enabled.onCode",
+      "source": "Show the code action menu when the cursor is on lines with code."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "editor.lightbulb.enabled.on",
+      "source": "Show the code action menu when the cursor is on lines with code or on empty lines."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "lineNumbers.relative",
+      "source": "Line numbers are rendered as distance in lines to cursor position."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "suggest.insertMode.insert",
+      "source": "Insert suggestion without overwriting text right of the cursor."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "suggest.insertMode.replace",
+      "source": "Insert suggestion and overwrite text right of the cursor."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "suggest.localityBonus",
+      "source": "Controls whether sorting favors words that appear close to the cursor."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "editor.autoClosingBrackets.beforeWhitespace",
+      "source": "Autoclose brackets only when the cursor is to the left of whitespace."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "editor.autoClosingComments.beforeWhitespace",
+      "source": "Autoclose comments only when the cursor is to the left of whitespace."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "editor.autoClosingQuotes.beforeWhitespace",
+      "source": "Autoclose quotes only when the cursor is to the left of whitespace."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "cursorBlinking",
+      "source": "Control the cursor animation style."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "cursorSmoothCaretAnimation.off",
+      "source": "Smooth caret animation is disabled."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "cursorSmoothCaretAnimation.explicit",
+      "source": "Smooth caret animation is enabled only when the user moves the cursor with an explicit gesture."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "cursorSmoothCaretAnimation.on",
+      "source": "Smooth caret animation is always enabled."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "cursorSmoothCaretAnimation",
+      "source": "Controls whether the smooth caret animation should be enabled."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "cursorStyle",
+      "source": "Controls the cursor style in insert input mode."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "overtypeCursorStyle",
+      "source": "Controls the cursor style in overtype input mode."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "cursorSurroundingLines",
+      "source": "Controls the minimal number of visible leading lines (minimum 0) and trailing lines (minimum 1) surrounding the cursor. Known as 'scrollOff' or 'scrollOffset' in some other editors."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "cursorSurroundingLinesStyle.default",
+      "source": "`cursorSurroundingLines` is enforced only when triggered via the keyboard or API."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "cursorSurroundingLinesStyle.all",
+      "source": "`cursorSurroundingLines` is enforced always."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "cursorSurroundingLinesStyle",
+      "source": "Controls when `#editor.cursorSurroundingLines#` should be enforced."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "cursorWidth",
+      "source": "Controls the width of the cursor when `#editor.cursorStyle#` is set to `line`."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "hideCursorInOverviewRuler",
+      "source": "Controls whether the cursor should be hidden in the overview ruler."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "multiCursorMergeOverlapping",
+      "source": "Merge multiple cursors when they are overlapping."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "multiCursorModifier.ctrlCmd",
+      "source": "Maps to `Control` on Windows and Linux and to `Command` on macOS."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "multiCursorModifier.alt",
+      "source": "Maps to `Alt` on Windows and Linux and to `Option` on macOS."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "multiCursorModifier",
+      "source": "The modifier to be used to add multiple cursors with the mouse. The Go to Definition and Open Link mouse gestures will adapt such that they do not conflict with the [multicursor modifier](https://code.visualstudio.com/docs/editor/codebasics#_multicursor-modifier)."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "multiCursorPaste.spread",
+      "source": "Each cursor pastes a single line of the text."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "multiCursorPaste.full",
+      "source": "Each cursor pastes the full text."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "multiCursorPaste",
+      "source": "Controls pasting when the line count of the pasted text matches the cursor count."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "multiCursorLimit",
+      "source": "Controls the max number of cursors that can be in an active editor at once."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "peekWidgetDefaultFocus",
+      "source": "Controls whether to focus the inline editor or the tree in the peek widget."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "tabCompletion.on",
+      "source": "Tab complete will insert the best matching suggestion when pressing tab."
+    },
+    {
+      "moduleId": "vs/editor/common/config/editorOptions",
+      "key": "tabCompletion.onlySnippets",
+      "source": "Tab complete snippets when their prefix match. Works best when 'quickSuggestions' aren't enabled."
+    },
+    {
+      "moduleId": "vs/editor/common/core/editorColorRegistry",
+      "key": "lineHighlight",
+      "source": "Background color for the highlight of line at the cursor position."
+    },
+    {
+      "moduleId": "vs/editor/common/core/editorColorRegistry",
+      "key": "lineHighlightBorderBox",
+      "source": "Background color for the border around the line at the cursor position."
+    },
+    {
+      "moduleId": "vs/editor/common/core/editorColorRegistry",
+      "key": "caret",
+      "source": "Color of the editor cursor."
+    },
+    {
+      "moduleId": "vs/editor/common/core/editorColorRegistry",
+      "key": "editorCursorBackground",
+      "source": "The background color of the editor cursor. Allows customizing the color of a character overlapped by a block cursor."
+    },
+    {
+      "moduleId": "vs/editor/common/core/editorColorRegistry",
+      "key": "editorMultiCursorPrimaryForeground",
+      "source": "Color of the primary editor cursor when multiple cursors are present."
+    },
+    {
+      "moduleId": "vs/editor/common/core/editorColorRegistry",
+      "key": "editorMultiCursorPrimaryBackground",
+      "source": "The background color of the primary editor cursor when multiple cursors are present. Allows customizing the color of a character overlapped by a block cursor."
+    },
+    {
+      "moduleId": "vs/editor/common/core/editorColorRegistry",
+      "key": "editorMultiCursorSecondaryForeground",
+      "source": "Color of secondary editor cursors when multiple cursors are present."
+    },
+    {
+      "moduleId": "vs/editor/common/core/editorColorRegistry",
+      "key": "editorMultiCursorSecondaryBackground",
+      "source": "The background color of secondary editor cursors when multiple cursors are present. Allows customizing the color of a character overlapped by a block cursor."
+    },
+    {
+      "moduleId": "vs/editor/common/editorContextKeys",
+      "key": "editorTextFocus",
+      "source": "Whether the editor text has focus (cursor is blinking)"
+    },
+    {
+      "moduleId": "vs/editor/common/editorContextKeys",
+      "key": "textInputFocus",
+      "source": "Whether an editor or a rich text input has focus (cursor is blinking)"
+    },
+    {
+      "moduleId": "vs/editor/common/standaloneStrings",
+      "key": "debugConsole.setBreakpoint",
+      "source": "The Debug: Inline Breakpoint command{0} will set or unset a breakpoint at the current cursor position in the active editor."
+    },
+    {
+      "moduleId": "vs/editor/contrib/anchorSelect/browser/anchorSelect",
+      "key": "selectFromAnchorToCursor",
+      "source": "Select from Anchor to Cursor"
+    },
+    {
+      "moduleId": "vs/editor/contrib/codeAction/browser/codeAction",
+      "key": "applyCodeActionFailed",
+      "source": "An unknown error occurred while applying the code action"
+    },
+    {
+      "moduleId": "vs/editor/contrib/codeAction/browser/codeActionCommands",
+      "key": "args.schema.apply",
+      "source": "Controls when the returned actions are applied."
+    },
+    {
+      "moduleId": "vs/editor/contrib/codeAction/browser/codeActionCommands",
+      "key": "args.schema.apply.first",
+      "source": "Always apply the first returned code action."
+    },
+    {
+      "moduleId": "vs/editor/contrib/codeAction/browser/codeActionCommands",
+      "key": "args.schema.apply.ifSingle",
+      "source": "Apply the first returned code action if it is the only one."
+    },
+    {
+      "moduleId": "vs/editor/contrib/codeAction/browser/codeActionCommands",
+      "key": "args.schema.apply.never",
+      "source": "Do not apply the returned code actions."
+    },
+    {
+      "moduleId": "vs/editor/contrib/cursorUndo/browser/cursorUndo",
+      "key": "cursor.undo",
+      "source": "Cursor Undo"
+    },
+    {
+      "moduleId": "vs/editor/contrib/cursorUndo/browser/cursorUndo",
+      "key": "cursor.redo",
+      "source": "Cursor Redo"
+    },
+    {
+      "moduleId": "vs/editor/contrib/dropOrPasteInto/browser/copyPasteContribution",
+      "key": "pasteAs.preferences",
+      "source": "List of preferred paste edit kind to try applying.\nThe first edit matching the preferences will be applied."
+    },
+    {
+      "moduleId": "vs/editor/contrib/dropOrPasteInto/browser/postEditWidget",
+      "key": "applyError",
+      "source": "Error applying edit '{0}':\n{1}"
+    },
+    {
+      "moduleId": "vs/editor/contrib/gotoError/browser/gotoError",
+      "key": "markerAction.this.label",
+      "source": "Go to Problem at Cursor (Error, Warning, Info)"
+    },
+    {
+      "moduleId": "vs/editor/contrib/gotoSymbol/browser/peek/referencesWidget",
+      "key": "label.composer",
+      "source": "Open in Chat"
+    },
+    {
+      "moduleId": "vs/editor/contrib/hover/browser/hoverActions",
+      "key": "showOrFocusHoverDescription",
+      "source": "Show or focus the editor hover which shows documentation, references, and other content for a symbol at the current cursor position."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/controller/commands",
+      "key": "noInlineEditAvailable",
+      "source": "No inline edit is available."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/controller/commands",
+      "key": "action.inlineSuggest.jump",
+      "source": "Jump to next inline edit"
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/controller/commands",
+      "key": "action.inlineSuggest.acceptNextInlineEditPart",
+      "source": "Accept Next Inline Edit Part"
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionContextKeys",
+      "key": "cursorInIndentation",
+      "source": "Whether the cursor is in indentation"
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionContextKeys",
+      "key": "cursorAtInlineEdit",
+      "source": "Whether the cursor is at an inline edit"
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionContextKeys",
+      "key": "inlineEditVisible",
+      "source": "Whether an inline edit is visible"
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionContextKeys",
+      "key": "tabShouldJumpToInlineEdit",
+      "source": "Whether tab should jump to an inline edit."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionContextKeys",
+      "key": "tabShouldAcceptInlineEdit",
+      "source": "Whether tab should accept the inline edit."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionContextKeys",
+      "key": "inInlineEditsPreviewEditor",
+      "source": "Whether the current code editor is showing an inline edits preview"
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/inlineCompletionsAccessibleView",
+      "key": "inlineEditAvailable",
+      "source": "There is an inline edit available:"
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsModel",
+      "key": "inlineEdit",
+      "source": "Inline Edit"
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.originalBackground",
+      "source": "Background color for the original text in inline edits."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.modifiedBackground",
+      "source": "Background color for the modified text in inline edits."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.originalChangedLineBackground",
+      "source": "Background color for the changed lines in the original text of inline edits."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.originalChangedTextBackground",
+      "source": "Overlay color for the changed text in the original text of inline edits."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.modifiedChangedLineBackground",
+      "source": "Background color for the changed lines in the modified text of inline edits."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.modifiedChangedTextBackground",
+      "source": "Overlay color for the changed text in the modified text of inline edits."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.gutterIndicator.primaryForeground",
+      "source": "Foreground color for the primary inline edit gutter indicator."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.gutterIndicator.primaryBorder",
+      "source": "Border color for the primary inline edit gutter indicator."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.gutterIndicator.primaryBackground",
+      "source": "Background color for the primary inline edit gutter indicator."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.gutterIndicator.secondaryForeground",
+      "source": "Foreground color for the secondary inline edit gutter indicator."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.gutterIndicator.secondaryBorder",
+      "source": "Border color for the secondary inline edit gutter indicator."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.gutterIndicator.secondaryBackground",
+      "source": "Background color for the secondary inline edit gutter indicator."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.gutterIndicator.successfulForeground",
+      "source": "Foreground color for the successful inline edit gutter indicator."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.gutterIndicator.successfulBorder",
+      "source": "Border color for the successful inline edit gutter indicator."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.gutterIndicator.successfulBackground",
+      "source": "Background color for the successful inline edit gutter indicator."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.gutterIndicator.background",
+      "source": "Background color for the inline edit gutter indicator."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.originalBorder",
+      "source": "Border color for the original text in inline edits."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.modifiedBorder",
+      "source": "Border color for the modified text in inline edits."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.tabWillAcceptModifiedBorder",
+      "source": "Modified border color for the inline edits widget when tab will accept it."
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme",
+      "key": "inlineEdit.tabWillAcceptOriginalBorder",
+      "source": "Original border color for the inline edits widget over the original text when tab will accept it."
+    },
+    {
+      "moduleId": "vs/editor/contrib/linesOperations/browser/linesOperations",
+      "key": "editor.transpose",
+      "source": "Transpose Characters around the Cursor"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "cursorAdded",
+      "source": "Cursor added: {0}"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "cursorsAdded",
+      "source": "Cursors added: {0}"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "miInsertCursorAbove",
+      "source": "&&Add Cursor Above"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "miInsertCursorBelow",
+      "source": "A&&dd Cursor Below"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "miInsertCursorAtEndOfEachLineSelected",
+      "source": "Add C&&ursors to Line Ends"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "miAddSelectionToNextFindMatch",
+      "source": "Add &&Next Occurrence"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "miAddSelectionToPreviousFindMatch",
+      "source": "Add P&&revious Occurrence"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "miSelectHighlights",
+      "source": "Select All &&Occurrences"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "mutlicursor.focusNextCursor.description",
+      "source": "Focuses the next cursor"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "mutlicursor.focusPreviousCursor.description",
+      "source": "Focuses the previous cursor"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "mutlicursor.insertAbove",
+      "source": "Add Cursor Above"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "mutlicursor.insertBelow",
+      "source": "Add Cursor Below"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "mutlicursor.insertAtEndOfEachLineSelected",
+      "source": "Add Cursors to Line Ends"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "mutlicursor.addCursorsToBottom",
+      "source": "Add Cursors to Bottom"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "mutlicursor.addCursorsToTop",
+      "source": "Add Cursors to Top"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "addSelectionToNextFindMatch",
+      "source": "Add Selection to Next Find Match"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "addSelectionToPreviousFindMatch",
+      "source": "Add Selection to Previous Find Match"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "moveSelectionToNextFindMatch",
+      "source": "Move Last Selection to Next Find Match"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "moveSelectionToPreviousFindMatch",
+      "source": "Move Last Selection to Previous Find Match"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "selectAllOccurrencesOfFindMatch",
+      "source": "Select All Occurrences of Find Match"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "changeAll.label",
+      "source": "Change All Occurrences"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "mutlicursor.focusNextCursor",
+      "source": "Focus Next Cursor"
+    },
+    {
+      "moduleId": "vs/editor/contrib/multicursor/browser/multicursor",
+      "key": "mutlicursor.focusPreviousCursor",
+      "source": "Focus Previous Cursor"
+    },
+    {
+      "moduleId": "vs/editor/contrib/rename/browser/rename",
+      "key": "rename.failedApply",
+      "source": "Rename failed to apply edits"
+    },
+    {
+      "moduleId": "vs/platform/action/common/actionCommonCategories",
+      "key": "cursor",
+      "source": "Cursor"
+    },
+    {
+      "moduleId": "vs/platform/actionWidget/browser/actionList",
+      "key": "label-preview",
+      "source": "{0} to Apply, {1} to Preview"
+    },
+    {
+      "moduleId": "vs/platform/actionWidget/browser/actionList",
+      "key": "label",
+      "source": "{0} to Apply"
+    },
+    {
+      "moduleId": "vs/platform/contextkey/common/contextkeys",
+      "key": "isDevUser",
+      "source": "Whether the user is a Cursor developer/employee"
+    },
+    {
+      "moduleId": "vs/platform/environment/node/argv",
+      "key": "addMcp",
+      "source": "Adds a Model Context Protocol server definition to the user profile, or workspace or folder when used with --mcp-workspace. Accepts JSON input in the form '{\"name\":\"server-name\",\"command\":...}'"
+    },
+    {
+      "moduleId": "vs/platform/mcpProcess/electron-main/mcpProcess",
+      "key": "mcpProcessLog",
+      "source": "MCP Process"
+    },
+    {
+      "moduleId": "vs/platform/native/electron-main/nativeHostMainService",
+      "key": "cantRemoveVSCodeFromPath",
+      "source": "Unable to replace `code` with `Cursor` on the path."
+    },
+    {
+      "moduleId": "vs/platform/quickinput/browser/quickInput",
+      "key": "cursorAtEndOfQuickInputBox",
+      "source": "Whether the cursor in the quick input is at the end of the input box"
+    },
+    {
+      "moduleId": "vs/platform/storage/electron-main/storageMainService",
+      "key": "storageError.message",
+      "source": "Cursor was unable to open local storage. Please reload or contact support."
+    },
+    {
+      "moduleId": "vs/platform/telemetry/common/telemetryService",
+      "key": "telemetry.docsStatement",
+      "source": "Read more about the [Cursor's privacy posture]({0}) and [Cursor's security posture]({1})."
+    },
+    {
+      "moduleId": "vs/platform/theme/common/colors/baseColors",
+      "key": "selectionBackground",
+      "source": "The background color of text selections in the workbench (e.g. for input fields or text areas). Note that this does not apply to selections within the editor."
+    },
+    {
+      "moduleId": "vs/platform/update/common/update.config.contribution",
+      "key": "updateMode",
+      "source": "Configure whether you receive automatic updates. Requires a restart after change. The updates are fetched from a Microsoft online service.\n\n**⚠️ Warning**: When 'silentlyApplyOnQuit' is selected, updates will be downloaded and applied automatically without prompting. Updates will be applied when you next restart the application."
+    },
+    {
+      "moduleId": "vs/platform/update/common/update.config.contribution",
+      "key": "updateMode",
+      "source": "Configure whether you receive automatic updates. Requires a restart after change. The updates are fetched from a Microsoft online service.\n\n**⚠️ Warning**: When 'silentlyApplyOnQuit' is selected, updates will be downloaded and applied automatically without prompting. Updates will be applied when you next restart the application."
+    },
+    {
+      "moduleId": "vs/platform/update/common/update.config.contribution",
+      "key": "silentlyApplyOnQuit",
+      "source": "Enable automatic update checks and install updates automatically without prompting. Updates will be applied automatically when available."
+    },
+    {
+      "moduleId": "vs/server/node/remoteExtensionHostAgentCli",
+      "key": "remotecli",
+      "source": "Remote CLI"
+    },
+    {
+      "moduleId": "vs/workbench/api/browser/mainThreadCursor",
+      "key": "extensionHostTimeoutTitle",
+      "source": "Workspace Disconnected"
+    },
+    {
+      "moduleId": "vs/workbench/api/browser/mainThreadCursor",
+      "key": "extensionHostTimeoutDetail",
+      "source": "Cursor lost connection to the workspace while starting tool execution. Reload the window and try again."
+    },
+    {
+      "moduleId": "vs/workbench/api/browser/mainThreadCursor",
+      "key": "sessionInitFailedTitle",
+      "source": "Agent Session Initialization Failed"
+    },
+    {
+      "moduleId": "vs/workbench/api/browser/mainThreadCursor",
+      "key": "sessionInitFailedDetail",
+      "source": "Failed to initialize the agent execution session. Please reload the window to continue."
+    },
+    {
+      "moduleId": "vs/workbench/api/browser/mainThreadCursor",
+      "key": "sessionNotFoundTitle",
+      "source": "Agent Session Not Found"
+    },
+    {
+      "moduleId": "vs/workbench/api/browser/mainThreadCursor",
+      "key": "sessionNotFoundDetail",
+      "source": "The agent execution session was lost. Please reload the window to continue."
+    },
+    {
+      "moduleId": "vs/workbench/api/browser/mainThreadCursor",
+      "key": "streamStartFailedTitle",
+      "source": "Agent Stream Start Failed"
+    },
+    {
+      "moduleId": "vs/workbench/api/browser/mainThreadCursor",
+      "key": "streamStartFailedDetail",
+      "source": "Failed to start the agent execution stream. Please reload the window to continue."
+    },
+    {
+      "moduleId": "vs/workbench/api/browser/mainThreadCursor",
+      "key": "reloadWindow",
+      "source": "Reload Window"
+    },
+    {
+      "moduleId": "vs/workbench/api/browser/viewsExtensionPoint",
+      "key": "views.container.secondarySidebar.unsupported",
+      "source": "View containers cannot be contributed to the Secondary Side Bar in Cursor. It is reserved for Cursor's agent UI. Contribute to 'activitybar' or 'panel' instead."
+    },
+    {
+      "moduleId": "vs/workbench/api/common/configurationExtensionPoint",
+      "key": "workspaceConfig.mcp.description",
+      "source": "Model Context Protocol server configurations"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuComponents",
+      "key": "agentLayoutMenu.add",
+      "source": "Add"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuComponents",
+      "key": "agentLayoutMenu.moreActions",
+      "source": "More actions"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuState",
+      "key": "agentLayoutMenu.savedLayoutName",
+      "source": "Layout {0}"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuTypes",
+      "key": "agentLayoutMenu.layout.agent",
+      "source": "Layout • Left"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuTypes",
+      "key": "agentLayoutMenu.layout.editor",
+      "source": "Layout • Right"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuTypes",
+      "key": "agentLayoutMenu.layout.zen",
+      "source": "Layout • Zen"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuTypes",
+      "key": "agentLayoutMenu.layout.browser",
+      "source": "Browser"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/developerActions",
+      "key": "injectCursorSocketFailure.done",
+      "source": "Injected cursor-socket failure into {0} client socket(s) and {1} server connection(s)."
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/developerActions",
+      "key": "screencastMode.keyboardOptions.showSingleEditorCursorMoves",
+      "source": "Show single editor cursor move commands."
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/developerActions",
+      "key": "injectCursorSocketFailure",
+      "source": "Inject cursor-socket failure"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/exportCustomModesAction",
+      "key": "hasCustomModes",
+      "source": "Whether the user has legacy custom composer modes"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/exportNotepadsAction",
+      "key": "hasNotepads",
+      "source": "Whether the user has notepads in storage"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/exportNotepadsAction",
+      "key": "noNotepadsFound",
+      "source": "No notepads found in storage."
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/exportNotepadsAction",
+      "key": "parseError",
+      "source": "Failed to parse notepad data: {0}"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/exportNotepadsAction",
+      "key": "noNotepadsFound",
+      "source": "No notepads found in storage."
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/exportNotepadsAction",
+      "key": "notepadsExported",
+      "source": "Exported {0} notepad(s) to {1}"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/exportNotepadsAction",
+      "key": "exportNotepadsError",
+      "source": "Failed to export notepads: {0}"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/exportNotepadsAction",
+      "key": "exportNotepads",
+      "source": "Export Notepads to Files"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/helpActions",
+      "key": "setupBugBot",
+      "source": "Setup Bugbot"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/layoutActions",
+      "key": "maximizeChatSizeDescription",
+      "source": "Maximize Chat Size - hides editor, panel, and primary sidebar to focus on AI agent"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/layoutActions",
+      "key": "toggleUnifiedSideBar",
+      "source": "Toggle Agents Side Bar"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/layoutActions",
+      "key": "toggleUnifiedSideBar",
+      "source": "Toggle Agents Side Bar"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/layoutActions",
+      "key": "openAgentLayoutQuickMenu",
+      "source": "Open Cursor Settings"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/layoutSwitcherOverlay",
+      "key": "layoutSwitcher.agent",
+      "source": "Agent"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarPart",
+      "key": "auxiliaryBarShowAgentsSidebar",
+      "source": "Show Agents Side Bar"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarPart",
+      "key": "auxiliaryBarNewAgent",
+      "source": "New Agent"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/editor/editorActions.cursor",
+      "key": "evenEditorGroupsExcludingAgent",
+      "source": "Reset Editor Group Sizes (Excluding Agent)"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/editor/editorConfiguration",
+      "key": "editorLargeFileSizeConfirmation",
+      "source": "Controls the minimum size of a file in MB before asking for confirmation when opening in the editor. Note that this setting may not apply to all editor types and environments."
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/editor/editorGroupWatermark",
+      "key": "watermark.openChat",
+      "source": "New Agent"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/titlebarActions",
+      "key": "toggle.agentsWindow",
+      "source": "Agents Window Button"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/titlebarActions",
+      "key": "toggle.agentsWindowDescription",
+      "source": "Toggle visibility of the Agents Window button in the title bar"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+      "key": "newAgentShort",
+      "source": "New Agent"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+      "key": "openAgentsWindowTitlebar",
+      "source": "Open Agents Window"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+      "key": "toggleAgents",
+      "source": "Toggle Agents"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+      "key": "titlebarOpenCursorSettings",
+      "source": "Open Cursor Settings"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+      "key": "cursorSettings",
+      "source": "Cursor Settings"
+    },
+    {
+      "moduleId": "vs/workbench/browser/windowQuitConfirmation",
+      "key": "shutdownChatStreamingTitle",
+      "source": "Agent is still working"
+    },
+    {
+      "moduleId": "vs/workbench/browser/windowQuitConfirmation",
+      "key": "shutdownChatStreamingTitlePlural",
+      "source": "{0} agents are still working"
+    },
+    {
+      "moduleId": "vs/workbench/browser/windowQuitConfirmation",
+      "key": "shutdownChatStreamingAutoContinueDetail",
+      "source": "Cursor will pick this agent back up when you reopen."
+    },
+    {
+      "moduleId": "vs/workbench/browser/windowQuitConfirmation",
+      "key": "shutdownChatStreamingAutoContinueDetailPlural",
+      "source": "Cursor will pick these agents back up when you reopen."
+    },
+    {
+      "moduleId": "vs/workbench/browser/windowQuitConfirmation",
+      "key": "shutdownChatStreamingAutoContinueToggle",
+      "source": "Resume agent automatically"
+    },
+    {
+      "moduleId": "vs/workbench/browser/windowQuitConfirmation",
+      "key": "shutdownChatStreamingAutoContinueTogglePlural",
+      "source": "Resume agents automatically"
+    },
+    {
+      "moduleId": "vs/workbench/browser/windowQuitConfirmation",
+      "key": "archiveRunningAgentTitle",
+      "source": "Archive running agent?"
+    },
+    {
+      "moduleId": "vs/workbench/browser/windowQuitConfirmation",
+      "key": "archiveRunningAgentDetail",
+      "source": "This agent is still working. Archiving will stop it and cancel the current task."
+    },
+    {
+      "moduleId": "vs/workbench/browser/windowQuitConfirmation",
+      "key": "archiveRunningAgentConfirm",
+      "source": "Archive"
+    },
+    {
+      "moduleId": "vs/workbench/browser/workbench.contribution",
+      "key": "perEditorGroup",
+      "source": "Controls if the limit of maximum opened editors should apply per editor group or across all editor groups."
+    },
+    {
+      "moduleId": "vs/workbench/browser/workbench.contribution",
+      "key": "agentsWindowButtonEnabled",
+      "source": "Controls whether the Agents Window button in the title bar is shown."
+    },
+    {
+      "moduleId": "vs/workbench/common/contextkeys",
+      "key": "agentChatMaximized",
+      "source": "Whether the agent chat experience is maximized and hiding the editor area via unified maximize mode"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/accessibility/browser/accessibilityConfiguration",
+      "key": "verbosity.interactiveEditor.description",
+      "source": "Provide information about how to access the inline editor chat accessibility help menu and alert with hints that describe how to use the feature when the input is focused."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsActions",
+      "key": "all-agents",
+      "source": "All Agents"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsActions",
+      "key": "quickOpenPreviousRecentlyUsedAgent",
+      "source": "Quick Open Previous Recently Used Agent"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsActions",
+      "key": "quickOpenLeastRecentlyUsedAgent",
+      "source": "Quick Open Least Recently Used Agent"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+      "key": "agents.chatHistory.section.chats",
+      "source": "Chats"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+      "key": "agents.chatHistory.section.cloudAgents",
+      "source": "Cloud agents"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+      "key": "agents.chatHistory.noResults",
+      "source": "No chats available"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+      "key": "agents.chatHistory.noResults.filter",
+      "source": "Try a different search query"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+      "key": "agents.chatHistory.noResults.empty",
+      "source": "Start a new agent to see it here"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+      "key": "agents.chatHistory.noResults.aria",
+      "source": "No chats available"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+      "key": "agents.chatHistory.composerAria",
+      "source": "Chat {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+      "key": "agents.chatHistory.backgroundAria",
+      "source": "Cloud agent {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+      "key": "agents.chatHistory.untitledChat",
+      "source": "Untitled chat"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+      "key": "agents.chatHistory.placeholder",
+      "source": "Search chats and cloud agents"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+      "key": "agents.chatHistory.help",
+      "source": "Search chat history"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+      "key": "agents.mru.noResults",
+      "source": "No recent agents"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+      "key": "agents.mru.composerAria",
+      "source": "Agent {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+      "key": "agents.mru.composerAria",
+      "source": "Agent {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+      "key": "agents.mru.backgroundAria",
+      "source": "Cloud agent {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+      "key": "agents.ctrlTab.draft",
+      "source": "Draft"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+      "key": "agents.mru.placeholder",
+      "source": "Switch between recently used agents"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/agentsQuickAccess",
+      "key": "agents.mru.help",
+      "source": "Switch between recently used agents"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton",
+      "key": "agentSidebarUpdateButton.tooltip",
+      "source": "Restart Cursor to install the pending update."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton",
+      "key": "agentSidebarUpdateButton.tooltipWithVersion",
+      "source": "Restart Cursor to install the pending update to {0}."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton",
+      "key": "agentSidebarUpdateButton.installingTooltip",
+      "source": "Installing update — Cursor will close and reopen automatically."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton",
+      "key": "agentSidebarUpdateButton.label",
+      "source": "Update"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton",
+      "key": "agentSidebarUpdateButton.installingLabel",
+      "source": "Installing"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/common/agentsContextKeys",
+      "key": "agentsPaneFocused",
+      "source": "Whether the Agents sidebar currently contains keyboard focus."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/common/agentsContextKeys",
+      "key": "agentNavigationMode",
+      "source": "Whether currently in agent navigation mode (hold-and-release to switch)."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+      "key": "cursorGeneralConfigurationTitle",
+      "source": "General"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+      "key": "http2.disable.title",
+      "source": "Disable HTTP/2.0"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+      "key": "http2.disable.description",
+      "source": "Disable HTTP/2 for all requests, and use HTTP/1.1 instead. This increases resource utilization and latency, but is useful behind a corporate proxy that blocks HTTP/2."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+      "key": "debug.timeoutPrevention.title",
+      "source": "Debug Timeout Prevention"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+      "key": "cursor.composer.planTextSizeScale.matchAgentChat",
+      "source": "Match Agent chat"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+      "key": "cursor.composer.planTextSizeScale.small",
+      "source": "Small"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+      "key": "cursor.composer.planTextSizeScale.defaultSize",
+      "source": "Default"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+      "key": "cursor.composer.planTextSizeScale.large",
+      "source": "Large"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+      "key": "cursor.composer.planTextSizeScale.extraLarge",
+      "source": "Extra Large"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+      "key": "cursor.composer.conversationDensity.toolSummary",
+      "source": "Compact"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+      "key": "cursor.composer.conversationDensity.compactRows",
+      "source": "Balanced"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+      "key": "cursor.composer.conversationDensity.detailed",
+      "source": "Detailed"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+      "key": "cursor.composer.editorConversationDensity.toolSummary",
+      "source": "Compact"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+      "key": "cursor.composer.editorConversationDensity.compactRows",
+      "source": "Balanced"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+      "key": "cursor.composer.editorConversationDensity.detailed",
+      "source": "Detailed"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab",
+      "key": "noWorkspace",
+      "source": "Please open a workspace folder first."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab",
+      "key": "importGithubRule",
+      "source": "Import Project Rules from GitHub/GitLab"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab",
+      "key": "githubUrlPlaceholder",
+      "source": "https://github.com/owner/repository.git"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab",
+      "key": "githubUrlPrompt",
+      "source": "Enter the GitHub/GitLab repository URL to import project rules"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab",
+      "key": "emptyUrl",
+      "source": "URL cannot be empty"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab",
+      "key": "invalidGitRepoUrl",
+      "source": "Please enter a valid GitHub/GitLab repository URL."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab",
+      "key": "invalidRepoUrl",
+      "source": "Could not extract repository name from URL."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab",
+      "key": "ruleAlreadyExists",
+      "source": "Imported rules for \"{0}\" already exist in `.cursor/rules/imported/{0}`."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab",
+      "key": "cloningRule",
+      "source": "Cloning rule from GitHub/GitLab..."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab",
+      "key": "rulesImported",
+      "source": "Imported {1} project rule file(s) from \"{0}\" into `.cursor/rules/imported/{0}`."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab",
+      "key": "importFailed",
+      "source": "Failed to import GitHub/GitLab rules: {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab",
+      "key": "teamContentDashboard",
+      "source": "Team {0} can be created and edited in the Cursor Dashboard."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab",
+      "key": "openDashboard",
+      "source": "Open Dashboard"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab",
+      "key": "noWorkspaceForProjectRule",
+      "source": "Cannot create project rules without a workspace. Please open a folder first."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab",
+      "key": "createRuleFailed",
+      "source": "Failed to create rule. Please try again."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+      "key": "hideUnifiedSideBar",
+      "source": "Toggle Agents Side Bar"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+      "key": "toggleUnifiedSideBarDescription",
+      "source": "Toggle Agents Side Bar visibility"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+      "key": "toggleAgentsToggled",
+      "source": "Toggle Agents"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+      "key": "toggleAgentsDescription",
+      "source": "Toggle Agents visibility"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+      "key": "toggleUnifiedSideBar",
+      "source": "Toggle Agents Side Bar"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+      "key": "toggleAgents",
+      "source": "Toggle Agents"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/browser/dumpLayoutAction",
+      "key": "applyLayoutStorageDataTitle",
+      "source": "Apply Layout Storage Data"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/browser/dumpLayoutAction",
+      "key": "applyLayoutStorageDataPrompt",
+      "source": "Paste JSON produced by \"Dump Layout Storage Data\""
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/browser/dumpLayoutAction",
+      "key": "applyLayoutStorageDataInvalidJson",
+      "source": "Invalid JSON: {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/browser/dumpLayoutAction",
+      "key": "applyLayoutStorageDataSuccess",
+      "source": "Applied layout storage data ({0} updated, {1} removed). Some changes may require a window reload to fully reflect."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/browser/dumpLayoutAction",
+      "key": "applyLayoutStorageDataFailed",
+      "source": "Failed to apply layout storage data: {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/browser/dumpLayoutAction",
+      "key": "applyLayoutStorageData",
+      "source": "Apply Layout Storage Data"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/common/agentsWindowOrFocusMenuRegistrations",
+      "key": "cursor.agentsWindowNew",
+      "source": "New Agents Window"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/common/agentsWindowOrFocusMenuRegistrations",
+      "key": "cursor.agentsWindowSwitchTo",
+      "source": "Switch to {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+      "key": "switchToModelSlug.noAgentsWindow",
+      "source": "Couldn't open the Agents window to switch the model. Open the Agents window and try again."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+      "key": "switchToModelSlug.agentsWindowRoutingFailed",
+      "source": "Couldn't switch the model in the Agents window. Try again."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+      "key": "cursor.newAgentsWindow",
+      "source": "New Agents Window"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+      "key": "cursor.newAdditionalAgentsWindowDev",
+      "source": "Developer: New Additional Agents Window"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+      "key": "cursor.switchToNamedWindow",
+      "source": "Switch to {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+      "key": "cursor.openOrFocusNamedWindow",
+      "source": "Open or Focus {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+      "key": "cursor.openOrFocusEditorWindow",
+      "source": "Open or Focus IDE"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+      "key": "cursor.openGlassAndSwitchModelSlug",
+      "source": "Open Glass and Switch Model"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+      "key": "cursor.openGlassAndChangeToMultitask",
+      "source": "Open Glass and Change to Multitask"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+      "key": "cursor.openGlassAndStartCloudAgent",
+      "source": "Open Agents Window and Start Cloud Agent"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/bulkEdit/browser/preview/bulkEdit.contribution",
+      "key": "apply",
+      "source": "Apply Refactoring"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/bulkEdit/browser/preview/bulkEditPane",
+      "key": "ok",
+      "source": "Apply"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/bulkEdit/browser/preview/bulkEditPane",
+      "key": "conflict.1",
+      "source": "Cannot apply refactoring because '{0}' has changed in the meantime."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/bulkEdit/browser/preview/bulkEditPane",
+      "key": "conflict.N",
+      "source": "Cannot apply refactoring because {0} other files have changed in the meantime."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/codeEditor/browser/saveParticipants",
+      "key": "codeAction.apply",
+      "source": "Applying code action '{0}'."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/codeEditor/browser/toggleMultiCursorModifier",
+      "key": "miMultiCursorAlt",
+      "source": "Switch to Alt+Click for Multi-Cursor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/codeEditor/browser/toggleMultiCursorModifier",
+      "key": "miMultiCursorCmd",
+      "source": "Switch to Cmd+Click for Multi-Cursor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/codeEditor/browser/toggleMultiCursorModifier",
+      "key": "miMultiCursorCtrl",
+      "source": "Switch to Ctrl+Click for Multi-Cursor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/codeEditor/browser/toggleMultiCursorModifier",
+      "key": "toggleLocation",
+      "source": "Toggle Multi-Cursor Modifier"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/codeEditor/common/languageConfigurationExtensionPoint",
+      "key": "schema.autoCloseBefore",
+      "source": "Defines what characters must be after the cursor in order for bracket or quote autoclosing to occur when using the 'languageDefined' autoclosing setting. This is typically the set of characters which can not start an expression."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/codeEditor/common/languageConfigurationExtensionPoint",
+      "key": "schema.onEnterRules.beforeText",
+      "source": "This rule will only execute if the text before the cursor matches this regular expression."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/codeEditor/common/languageConfigurationExtensionPoint",
+      "key": "schema.onEnterRules.afterText",
+      "source": "This rule will only execute if the text after the cursor matches this regular expression."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/codeEditor/common/languageConfigurationExtensionPoint",
+      "key": "schema.onEnterRules.action.indent.indentOutdent",
+      "source": "Insert two new lines:\n - the first one indented which will hold the cursor\n - the second one at the same indentation level"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/comments/browser/commentsController",
+      "key": "comments.addCommand.error",
+      "source": "The cursor must be within a commenting range to add a comment."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/comments/browser/commentsEditorContribution",
+      "key": "comments.focusCommand.error",
+      "source": "The cursor must be on a line with a comment to focus the comment"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/comments/browser/commentsEditorContribution",
+      "key": "comments.focusCommand.error",
+      "source": "The cursor must be on a line with a comment to focus the comment"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/comments/common/commentContextKeys",
+      "key": "hasCommentingRange",
+      "source": "Whether the position at the active cursor has a commenting range"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/comments/common/commentContextKeys",
+      "key": "hasComment",
+      "source": "Whether the position at the active cursor has a comment"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
+      "key": "closeBrowserTab.message",
+      "source": "Close Browser Tab"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
+      "key": "closeBrowserTab.detail",
+      "source": "This browser was created by an Agent. Closing it may impact a running chat."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
+      "key": "closeBrowserTab.hide",
+      "source": "&&Hide"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
+      "key": "closeBrowserTab.close",
+      "source": "&&Close"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
+      "key": "openBrowser",
+      "source": "Open Browser"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
+      "key": "newBrowserTab",
+      "source": "New Browser Tab"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
+      "key": "reloadBrowserTab",
+      "source": "Reload Browser Tab"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
+      "key": "focusBrowserLocationBar",
+      "source": "Focus Browser Location Bar"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
+      "key": "openCursorWebsite",
+      "source": "Open cursor.com in Browser"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/capabilities/chimes",
+      "key": "chimes.unsafePath.unc",
+      "source": "Custom chime sound path cannot be a network (UNC) path for security reasons. Please use a local file path."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/capabilities/chimes",
+      "key": "chimes.unsafePath.url",
+      "source": "Custom chime sound path cannot be a URL. Please use a local file path."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/capabilities/chimes",
+      "key": "chimes.untrustedWorkspace",
+      "source": "Custom chime sound is configured in workspace settings but the workspace is not trusted. The custom sound will be ignored."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/capabilities/chimes",
+      "key": "chimes.source",
+      "source": "Cursor Chimes"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/composer.contribution",
+      "key": "cursor ai",
+      "source": "Cursor AI"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/composer.contribution",
+      "key": "composerEditor",
+      "source": "Cursor AI"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/composerMessageStorageService",
+      "key": "checkpointHydrationErrorTitle",
+      "source": "Failed to Load Conversation"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/composerMessageStorageService",
+      "key": "checkpointHydrationErrorDetail",
+      "source": "The conversation checkpoint data may be corrupted. You can start a new conversation or try reloading the window."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/transcript/composerTranscriptToolRuntime",
+      "key": "composerTranscript.openFileFailed",
+      "source": "Unable to open {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/browserAutomation.contribution",
+      "key": "crashBrowserWebviewRenderer",
+      "source": "Developer: Crash Browser Webview Renderer"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/browserAutomation.contribution",
+      "key": "orphanBrowserViewEntry",
+      "source": "Developer: Orphan Browser View Entry"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "passkeyRequestStalled",
+      "source": "This page is waiting for a passkey or security key. If using a hardware security key, insert and tap it to continue."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "passkeyHybridUnsupported",
+      "source": "This sign-in needs a passkey from your phone or tablet via QR code, which the Cursor browser can't display. Open this page in your regular browser to continue."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.openLinkExternalBrowser",
+      "source": "Open Link in Browser"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.openLinkNewTab",
+      "source": "Open Link in New Tab"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.openLinkBackgroundTab",
+      "source": "Open Link in Background Tab"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.copyLinkAddress",
+      "source": "Copy Link Address"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.openMediaExternalBrowser",
+      "source": "Open Media in Browser"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.openMediaNewTab",
+      "source": "Open Media in New Tab"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.copyMediaAddress",
+      "source": "Copy Media Address"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.copyImage",
+      "source": "Copy Image"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.back",
+      "source": "Back"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.forward",
+      "source": "Forward"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.reload",
+      "source": "Reload"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.undo",
+      "source": "Undo"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.redo",
+      "source": "Redo"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.cut",
+      "source": "Cut"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.copy",
+      "source": "Copy"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.paste",
+      "source": "Paste"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.selectAll",
+      "source": "Select All"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.inspectElement",
+      "source": "Inspect Element"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cpuMonitor/electron-sandbox/cpuMonitor.contribution",
+      "key": "cpuMonitorEnabled",
+      "source": "Controls whether Cursor monitors for sustained high CPU usage and offers to capture a diagnostic process snapshot. Only active for Anysphere-internal users."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorAiFeedback/browser/aiFeedbackActions",
+      "key": "miReportIssue",
+      "source": "Report &&Issue"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorAiFeedback/browser/aiFeedbackActions",
+      "key": "miGiveFeedback",
+      "source": "Give &&Feedback..."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu",
+      "key": "chatRevealInWindows",
+      "source": "Reveal in File Explorer"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu",
+      "key": "chatRevealInMac",
+      "source": "Reveal in Finder"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu",
+      "key": "chatOpenContainer",
+      "source": "Open Containing Folder"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu",
+      "key": "chatFileAddToChat",
+      "source": "Add to Chat"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu",
+      "key": "copyPath",
+      "source": "Copy Path"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+      "key": "cursorBlame.openFileBlameTitle",
+      "source": "Open File Blame"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+      "key": "cursorBlame.category",
+      "source": "Cursor Blame"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+      "key": "cursorBlame.openCommitTitle",
+      "source": "View Commit"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+      "key": "cursorBlame.category",
+      "source": "Cursor Blame"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+      "key": "cursorBlame.pasteCommitHash",
+      "source": "Paste commit hash"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+      "key": "cursorBlame.viewCommitTitle",
+      "source": "View commit"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+      "key": "cursorBlame.category",
+      "source": "Cursor Blame"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+      "key": "cursorBlame.noGit",
+      "source": "No git repository found"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+      "key": "cursorBlame.uncommittedLine",
+      "source": "This line has not been committed yet"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+      "key": "cursorBlame.explorerContextMenu",
+      "source": "Cursor Blame"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+      "key": "cursorBlameSubmenu",
+      "source": "Cursor Blame"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+      "key": "toggleFileBlame",
+      "source": "Toggle file blame"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+      "key": "cursorBlame.viewCommitTitle",
+      "source": "View commit"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+      "key": "cursorBlameConfigurationTitle",
+      "source": "Cursor Blame"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+      "key": "cursor.blame.hoverDelay",
+      "source": "Controls the delay in milliseconds before hovers in the Cursor Blame panes appear. If not set, uses `#editor.hover.delay#` with a minimum of 500ms."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+      "key": "exampleUtilityHost.echo",
+      "source": "Example Utility Host Echo"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+      "key": "exampleUtilityHost.echo.ok",
+      "source": "Example Utility Host Echo: \"{0}\" ({1}ms round-trip)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+      "key": "exampleUtilityHost.echo.err",
+      "source": "Example Utility Host Echo failed: {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+      "key": "exampleUtilityHost.ping",
+      "source": "Example Utility Host Ping"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+      "key": "exampleUtilityHost.ping.ok",
+      "source": "Example Utility Host Ping: host time {0}, {1}ms round-trip"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+      "key": "exampleUtilityHost.ping.err",
+      "source": "Example Utility Host Ping failed: {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+      "key": "exampleUtilityHost.tick",
+      "source": "Example Utility Host Tick"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+      "key": "exampleUtilityHost.tick.start",
+      "source": "Example Utility Host Tick: waiting for ticks…"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+      "key": "exampleUtilityHost.tick.progress",
+      "source": "Example Utility Host Tick: {0}/{1} (host time {2})"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+      "key": "exampleUtilityHost.tick.ok",
+      "source": "Example Utility Host Tick: received {0} ticks in {1}ms (last host time {2})"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+      "key": "exampleUtilityHost.tick.partial",
+      "source": "Example Utility Host Tick: cancelled after {0}/{1} ticks"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+      "key": "exampleUtilityHost.tick.err",
+      "source": "Example Utility Host Tick: no ticks received (stream ended early)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+      "key": "exampleUtilityHost.stressTest.start",
+      "source": "Example Utility Host Stress Test ({0}): receiving payload…"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+      "key": "exampleUtilityHost.stressTest.ok",
+      "source": "Example Utility Host Stress Test ({0}): received {1} MiB in {2}ms ({3} MiB/s)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+      "key": "exampleUtilityHost.stressTest.err",
+      "source": "Example Utility Host Stress Test ({0}) failed: {1}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+      "key": "exampleUtilityHost.stressTest",
+      "source": "Example Utility Host Stress Test (16 MiB)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+      "key": "exampleUtilityHost.stressTestLarge",
+      "source": "Example Utility Host Stress Test Large (63 MiB, under 64 MiB tunnel cap)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorLocalTrace/browser/cursorLocalTrace.contribution",
+      "key": "cursorLocalTraceModeConfigurationTitle",
+      "source": "Local Trace Mode"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorLocalTrace/browser/cursorLocalTrace.contribution",
+      "key": "cursorLocalTraceMode.settingTitle",
+      "source": "Local Trace Mode"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorLocalTrace/browser/cursorLocalTrace.contribution",
+      "key": "cursorLocalTraceMode",
+      "source": "When enabled, records performance marks and measures locally (for example in Chrome DevTools Performance) and mirrors VS Code RPCs into the DevTools Network tab."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+      "key": "toggleMarkdownPlanEditorMode",
+      "source": "Toggle Editor Mode"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+      "key": "markdownPlanEditor",
+      "source": "Markdown Plan Editor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+      "key": "acceptPlan",
+      "source": "Build Plan"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+      "key": "markdownPlanEditor",
+      "source": "Markdown Plan Editor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+      "key": "find",
+      "source": "Find"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+      "key": "markdownPlanEditor",
+      "source": "Markdown Plan Editor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+      "key": "findNext",
+      "source": "Find Next"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+      "key": "markdownPlanEditor",
+      "source": "Markdown Plan Editor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+      "key": "findPrevious",
+      "source": "Find Previous"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+      "key": "markdownPlanEditor",
+      "source": "Markdown Plan Editor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+      "key": "closeFindWidget",
+      "source": "Close Find Widget"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+      "key": "markdownPlanEditor",
+      "source": "Markdown Plan Editor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/usePlanEditorState",
+      "key": "markdownPlanEditor.fileChangedWhileDirty",
+      "source": "The content of the file is newer. Do you want to overwrite the file with your changes, or revert your changes?"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/usePlanEditorState",
+      "key": "overwrite",
+      "source": "Overwrite"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/usePlanEditorState",
+      "key": "revert",
+      "source": "Revert"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
+      "key": "cursorOrigin.category",
+      "source": "Cursor Origin"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
+      "key": "cursorOrigin.noFile",
+      "source": "No file is currently open."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
+      "key": "cursorOrigin.noLink",
+      "source": "Could not build a cursor.com link. Open a file in a git repository with an eligible remote."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
+      "key": "cursorOrigin.copyCodeLink",
+      "source": "Copy cursor.com link (with selection)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
+      "key": "cursorOrigin.copyCodeLinkWithoutRange",
+      "source": "Copy cursor.com link (file only)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
+      "key": "cursorOrigin.copyCodeLink.menu",
+      "source": "Copy cursor.com link"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
+      "key": "cursorOrigin.copyCodeLinkExplorer.menu",
+      "source": "Copy cursor.com link"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
+      "key": "cursorOrigin.copyCodeLinkEditorTitle.menu",
+      "source": "Copy cursor.com link"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
+      "key": "cursorOrigin.copyCodeLinkLineNumber.menu",
+      "source": "Copy cursor.com link"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/debug/browser/breakpointsView",
+      "key": "reapplyAllBreakpoints",
+      "source": "Reapply All Breakpoints"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/debug/browser/debug.contribution",
+      "key": "jumpToCursor",
+      "source": "Jump to Cursor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/debug/browser/debugCommands",
+      "key": "noExecutableCode",
+      "source": "No executable code is associated at the current cursor position."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/debug/browser/debugCommands",
+      "key": "jumpToCursor",
+      "source": "Jump to Cursor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/debug/browser/debugEditorActions",
+      "key": "runToCursor",
+      "source": "Run to Cursor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/debug/common/debug",
+      "key": "jumpToCursorSupported",
+      "source": "True when the focused session supports 'jumpToCursor' request."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/browser/extensions.contribution",
+      "key": "workbench.extensions.action.toggleApplyToAllProfiles",
+      "source": "Apply Extension to all Profiles"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+      "key": "notInstalled",
+      "source": "Extension '{0}' is not installed. Make sure you use the full extension ID, including the publisher, e.g.: anysphere.csharp."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/debugExtensionHostAction",
+      "key": "debugCursorAlwaysLocalExtensionHost",
+      "source": "Start Debugging Cursor Always Local Extension Host In New Window"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/debugExtensionHostAction",
+      "key": "restartCursorAlwaysLocal1",
+      "source": "Debug Cursor Always Local Extension Host"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/debugExtensionHostAction",
+      "key": "restartCursorAlwaysLocal2",
+      "source": "In order to debug the cursor-always-local extension host, a restart is required. Do you want to restart '{0}' now?"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/debugExtensionHostAction",
+      "key": "openDevToolsForCursorAlwaysLocal",
+      "source": "Open Developer Tools for Cursor Always Local Extension Host"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionProfileService",
+      "key": "remoteAgentProfileNoRemote",
+      "source": "Open a remote workspace to profile the remote server."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionProfileService",
+      "key": "remoteAgentProfileUnavailable",
+      "source": "Remote server CPU profiling is not available for this connection."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionProfileService",
+      "key": "remoteAgentProfileMaxDurationReached",
+      "source": "Remote Server CPU Profiler reached the maximum duration and was stopped."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionProfileService",
+      "key": "remoteAgentCPUProfilerRunning",
+      "source": "Remote Server CPU Profiler is running"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/runtimeExtensionsEditor",
+      "key": "remoteAgentProfileStart",
+      "source": "Start Remote Server CPU Profiler"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/inlineCompletions/browser/inlineCompletionLanguageStatusBarContribution",
+      "key": "inlineEditAvailable",
+      "source": "Inline edit available"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/markers/browser/markers.contribution",
+      "key": "fixInChat",
+      "source": "Fix with Agent"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/discovery/nativeMcpDiscoveryAbstract",
+      "key": "onRemoteLabel",
+      "source": " on {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpConfigPathsService",
+      "key": "mcp.configuration.userLocalValue",
+      "source": "Global in {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpConfiguration",
+      "key": "mcp.discovery.source.claude-desktop",
+      "source": "Claude Desktop"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpConfiguration",
+      "key": "mcp.discovery.source.windsurf",
+      "source": "Windsurf"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpConfiguration",
+      "key": "mcp.discovery.source.cursor-global",
+      "source": "Cursor (Global)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpConfiguration",
+      "key": "mcp.discovery.source.cursor-workspace",
+      "source": "Cursor (Workspace)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpConfiguration",
+      "key": "app.mcp.json.type",
+      "source": "The type of the server."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpConfiguration",
+      "key": "app.mcp.json.command",
+      "source": "The command to run the server."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpConfiguration",
+      "key": "app.mcp.args.command",
+      "source": "Arguments passed to the server."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpConfiguration",
+      "key": "app.mcp.envFile.command",
+      "source": "Path to a file containing environment variables for the server."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpConfiguration",
+      "key": "app.mcp.env.command",
+      "source": "Environment variables passed to the server."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpConfiguration",
+      "key": "app.mcp.json.title",
+      "source": "Model Context Protocol Servers"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpConfiguration",
+      "key": "app.mcp.json.type",
+      "source": "The type of the server."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpConfiguration",
+      "key": "app.mcp.json.url",
+      "source": "The URL of the server-sent-event (SSE) server."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpConfiguration",
+      "key": "app.mcp.json.headers",
+      "source": "Additional headers sent to the server."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpConfiguration",
+      "key": "vscode.extension.contributes.mcp",
+      "source": "Contributes Model Context Protocol servers. Users of this should also use `vscode.lm.registerMcpConfigurationProvider`."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpConfiguration",
+      "key": "vscode.extension.contributes.mcp.id",
+      "source": "Unique ID for the collection."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpConfiguration",
+      "key": "vscode.extension.contributes.mcp.label",
+      "source": "Display name for the collection."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpRegistry",
+      "key": "trustTitleWithOrigin",
+      "source": "Trust MCP servers from {0}?"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpRegistry",
+      "key": "mcp.trust.details",
+      "source": "{0} discovered Model Context Protocol servers from {1} (`{2}`). {0} can use their capabilities in Chat.\n\nDo you want to allow running MCP servers from {3}?"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpRegistry",
+      "key": "mcp.trust.yes",
+      "source": "Trust"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpRegistry",
+      "key": "mcp.trust.no",
+      "source": "Do not trust"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpRegistry",
+      "key": "runTrust",
+      "source": "This MCP server definition is defined in your workspace files."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpRegistry",
+      "key": "mcp.launchError",
+      "source": "Error starting {0}: {1}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpRegistry",
+      "key": "mcp.launchError.openConfig",
+      "source": "Open Configuration"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpServer",
+      "key": "mcpBadSchema.tool",
+      "source": "Tool `{0}` has invalid JSON parameters:"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpServer",
+      "key": "mcpBadSchema",
+      "source": "MCP server `{0}` has tools with invalid parameters which will be omitted."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpServer",
+      "key": "mcpBadSchema.show",
+      "source": "Show"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpServerConnection",
+      "key": "mcpServer.starting",
+      "source": "Starting server {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpServerConnection",
+      "key": "mcpServer.state",
+      "source": "Connection state: {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpServerConnection",
+      "key": "mcpServer.stopping",
+      "source": "Stopping server {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpService",
+      "key": "mcp.tool.warning",
+      "source": "{0} This tool is from '{1}' (MCP Server). Note that MCP servers or malicious conversation content may attempt to misuse '{2}' through tools. Please carefully review any requested actions."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpService",
+      "key": "msg.title",
+      "source": "Run `{0}`"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpService",
+      "key": "msg.msg",
+      "source": "{0}\n\n {1}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpService",
+      "key": "msg.run",
+      "source": "Running `{0}`"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpService",
+      "key": "msg.ran",
+      "source": "Ran `{0}` "
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpTypes",
+      "key": "mcpstate.stopped",
+      "source": "Stopped"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpTypes",
+      "key": "mcpstate.starting",
+      "source": "Starting"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpTypes",
+      "key": "mcpstate.running",
+      "source": "Running"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mcp/common/mcpTypes",
+      "key": "mcpstate.error",
+      "source": "Error {0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mdceditor/browser/mdceditor.contribution",
+      "key": "newCursorRule",
+      "source": "New Cursor Rule"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mdceditor/browser/mdceditor.contribution",
+      "key": "newProjectCursorCommand",
+      "source": "New Project Cursor Command"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mdceditor/browser/mdceditor.contribution",
+      "key": "newUserCursorCommand",
+      "source": "New User Cursor Command"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/contrib/multicursor/notebookMulticursor",
+      "key": "selectAllFindMatches",
+      "source": "Select All Occurrences of Find Match"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/contrib/multicursor/notebookMulticursor",
+      "key": "addFindMatchToSelection",
+      "source": "Add Selection to Next Find Match"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/contrib/multicursor/notebookMulticursor",
+      "key": "exitMultiSelection",
+      "source": "Exit Multi Cursor Mode"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/contrib/multicursor/notebookMulticursor",
+      "key": "deleteLeftMultiSelection",
+      "source": "Delete Left"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/contrib/multicursor/notebookMulticursor",
+      "key": "deleteRightMultiSelection",
+      "source": "Delete Right"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/contrib/navigation/arrow",
+      "key": "cursorMoveDown",
+      "source": "Focus Next Cell Editor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/contrib/navigation/arrow",
+      "key": "cursorMoveUp",
+      "source": "Focus Previous Cell Editor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/contrib/navigation/arrow",
+      "key": "cursorPageUp",
+      "source": "Cell Cursor Page Up"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/contrib/navigation/arrow",
+      "key": "cursorPageUpSelect",
+      "source": "Cell Cursor Page Up Select"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/contrib/navigation/arrow",
+      "key": "cursorPageDown",
+      "source": "Cell Cursor Page Down"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/contrib/navigation/arrow",
+      "key": "cursorPageDownSelect",
+      "source": "Cell Cursor Page Down Select"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/contrib/navigation/arrow",
+      "key": "notebook.navigation.allowNavigateToSurroundingCells",
+      "source": "When enabled cursor can navigate to the next/previous cell when the current cursor in the cell editor is at the first/last line."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/contrib/saveParticipants/saveParticipants",
+      "key": "codeAction.apply",
+      "source": "Applying code action '{0}'."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/contrib/saveParticipants/saveParticipants",
+      "key": "codeAction.apply",
+      "source": "Applying code action '{0}'."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/notebook.contribution",
+      "key": "notebook.multiCursor.enabled",
+      "source": "Experimental. Enables a limited set of multi cursor controls across multiple cells in the notebook editor. Currently supported are core editor actions (typing/cut/copy/paste/composition) and a limited subset of editor commands."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/notebookAccessibilityHelp",
+      "key": "notebook.cell.quitEdit",
+      "source": "The Quit Edit command{0} will set focus on the cell container. The default (Escape) key may need to be pressed twice first exit the virtual cursor if active."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/onboarding/electron-sandbox/onboarding.contribution",
+      "key": "onboarding.importFromVSCodeToast.message",
+      "source": "Bring your VS Code setup to Cursor. Import your settings and extensions for a seamless start."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/outline/browser/outlineActions",
+      "key": "followCur",
+      "source": "Follow Cursor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/settingsLayout",
+      "key": "cursor",
+      "source": "Cursor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/settingsTree",
+      "key": "applyToAllProfiles",
+      "source": "Apply Setting to all Profiles"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/common/remote.contribution",
+      "key": "remote.portsAttributes.port",
+      "source": "A port, range of ports (ex. \"40000-55000\"), host and port (ex. \"db:1234\"), or regular expression (ex. \".+\\\\/server.js\").  For a port number or range, the attributes will apply to that port number or range of port numbers. Attributes which use a regular expression will apply to ports whose associated process command line matches the expression."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+      "key": "wslMntWorkspaceWarning.message",
+      "source": "Opening a WSL workspace under /mnt is not recommended"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+      "key": "wslMntWorkspaceWarning.detail",
+      "source": "The folder you opened resolves to '{0}', which is a mounted Windows filesystem. This can be significantly slower than the Linux filesystem and some features may not work correctly.\n\nFor best results, either move your project into your WSL home directory (for example: ~/projects), or open the Windows directory directly in Cursor."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+      "key": "wslMntWorkspaceWarning.checkbox",
+      "source": "Don't show this warning again"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+      "key": "wslMntWorkspaceWarning.ok",
+      "source": "&&OK"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+      "key": "windowsWslPathWarning.message",
+      "source": "Opening a WSL folder without the WSL extension is not recommended"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+      "key": "windowsWslPathWarning.detail",
+      "source": "The folder you opened ('{0}') is located in the Windows Subsystem for Linux filesystem. Opening WSL folders directly from Windows can be significantly slower and some features may not work correctly.\n\nFor best results, install the WSL extension and use it to open your WSL folders. This will give you full access to the Linux filesystem with better performance."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+      "key": "windowsWslPathWarning.checkbox",
+      "source": "Don't show this warning again"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+      "key": "windowsWslPathWarning.install",
+      "source": "&&Install WSL Extension"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+      "key": "windowsWslPathWarning.ok",
+      "source": "&&OK"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+      "key": "windowsWslPathWarning.extensionInstalled.message",
+      "source": "Opening a WSL folder without using the WSL extension is not recommended"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+      "key": "windowsWslPathWarning.extensionInstalled.detail",
+      "source": "The folder you opened ('{0}') is located in the Windows Subsystem for Linux filesystem. Opening WSL folders directly from Windows can be significantly slower and some features may not work correctly.\n\nYou have the WSL extension installed. For best results, use the command 'WSL: Connect to WSL' or open this folder from within WSL using 'cursor .' in the WSL terminal."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+      "key": "windowsWslPathWarning.checkbox",
+      "source": "Don't show this warning again"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+      "key": "windowsWslPathWarning.ok",
+      "source": "&&OK"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/scm/browser/editorBugbotViewPane",
+      "key": "editorBugbotTitle",
+      "source": "Review"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/scm/browser/scm.contribution",
+      "key": "editorBugbot",
+      "source": "Agent Review"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/scm/browser/scm.contribution",
+      "key": "openBugbotSettings",
+      "source": "Agent Review Settings"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/scm/browser/scm.contribution",
+      "key": "triggerAgentReview",
+      "source": "Start Agent Review"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/scm/browser/scmHistoryViewPane",
+      "key": "openInCursorBlame",
+      "source": "Open in Cursor Blame"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/search/browser/search.contribution",
+      "key": "search.quickOpen.useVscodeSearch",
+      "source": "When enabled, use the default VSCode quick open search algorithm instead of Cursor's modified version."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/search/browser/search.contribution",
+      "key": "search.seedWithNearestWord",
+      "source": "Enable seeding search from the word nearest the cursor when the active editor has no selection."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/search/browser/search.contribution",
+      "key": "search.searchEditor.doubleClickBehaviour.selectWord",
+      "source": "Double-clicking selects the word under the cursor."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/search/browser/searchActionsNav",
+      "key": "AddCursorsAtSearchResults.label",
+      "source": "Add Cursors at Search Results"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/search/browser/searchView",
+      "key": "openInComposer.tooltip",
+      "source": "Open search results in chat"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/snippets/browser/snippets.contribution",
+      "key": "snippetSchema.json.body",
+      "source": "The snippet content. Use `$1`, `${1:defaultText}` to define cursor positions, use `$0` for the final cursor position. Insert variable values with `${varName}` and `${varName:defaultText}`, e.g. `This is file: $TM_FILENAME`."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/tasks/browser/taskQuickPick",
+      "key": "TaskQuickPick.changeSettingDetails",
+      "source": "Task detection for {0} tasks causes files in any workspace you open to be run as code. Enabling {0} task detection is a user setting and will apply to any workspace you open. \n\n Do you want to enable {0} task detection for all workspaces?"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/tasks/common/problemMatcher",
+      "key": "ProblemMatcherSchema.applyTo",
+      "source": "Controls if a problem reported on a text document is applied only to open, closed or all documents."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminal/browser/terminalView",
+      "key": "terminal.externalAgentActions",
+      "source": "Terminal contribution actions"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminal/common/terminalColorRegistry",
+      "key": "terminalCursor.foreground",
+      "source": "The foreground color of the terminal cursor."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminal/common/terminalColorRegistry",
+      "key": "terminalCursor.background",
+      "source": "The background color of the terminal cursor. Allows customizing the color of a character overlapped by a block cursor."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminal/common/terminalColorRegistry",
+      "key": "terminalOverviewRuler.cursorForeground",
+      "source": "The overview ruler cursor color."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminal/common/terminalConfiguration",
+      "key": "terminal.integrated.altClickMovesCursor",
+      "source": "If enabled, alt/option + click will reposition the prompt cursor to underneath the mouse when {0} is set to {1} (the default value). This may not work reliably depending on your shell."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminal/common/terminalConfiguration",
+      "key": "terminal.integrated.minimumContrastRatio",
+      "source": "When set, the foreground color of each cell will change to try meet the contrast ratio specified. Note that this will not apply to `powerline` characters per #146406. Example values:\n\n- 1: Do nothing and use the standard theme colors.\n- 4.5: [WCAG AA compliance (minimum)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) (default).\n- 7: [WCAG AAA compliance (enhanced)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast7.html).\n- 21: White on black or black on white."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminal/common/terminalConfiguration",
+      "key": "terminal.integrated.cursorBlinking",
+      "source": "Controls whether the terminal cursor blinks."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminal/common/terminalConfiguration",
+      "key": "terminal.integrated.cursorStyle",
+      "source": "Controls the style of terminal cursor when the terminal is focused."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminal/common/terminalConfiguration",
+      "key": "terminal.integrated.cursorStyleInactive",
+      "source": "Controls the style of terminal cursor when the terminal is not focused."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminal/common/terminalConfiguration",
+      "key": "terminal.integrated.cursorWidth",
+      "source": "Controls the width of the cursor when {0} is set to {1}."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminal/common/terminalConfiguration",
+      "key": "terminal.integrated.rightClickBehavior.selectWord",
+      "source": "Select the word under the cursor and show the context menu."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminal/common/terminalConfiguration",
+      "key": "terminal.integrated.allowChords",
+      "source": "Whether or not to allow chord keybindings in the terminal. Note that when this is true and the keystroke results in a chord it will bypass {0}, setting this to false is particularly useful when you want ctrl+k to go to your shell (not VS Code)."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminalContrib/accessibility/browser/terminalAccessibilityHelp",
+      "key": "preserveCursor",
+      "source": "Customize the behavior of the cursor when toggling between the terminal and accessible view with `terminal.integrated.accessibleViewPreserveCursorPosition.`"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminalContrib/accessibility/common/terminalAccessibilityConfiguration",
+      "key": "terminal.integrated.accessibleViewPreserveCursorPosition",
+      "source": "Preserve the cursor position on reopen of the terminal's accessible view rather than setting it to the bottom of the buffer."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminalContrib/autoReplies/common/terminalAutoRepliesConfiguration",
+      "key": "terminal.integrated.autoReplies",
+      "source": "A set of messages that, when encountered in the terminal, will be automatically responded to. Provided the message is specific enough, this can help automate away common responses.\n\nRemarks:\n\n- Use {0} to automatically respond to the terminate batch job prompt on Windows.\n- The message includes escape sequences so the reply might not happen with styled text.\n- Each reply can only happen once every second.\n- Use {1} in the reply to mean the enter key.\n- To unset a default key, set the value to null.\n- Restart VS Code if new don't apply."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminalContrib/cursorCliPrompt/browser/terminal.cursorCliPrompt.contribution",
+      "key": "cursor.cliAlreadyInstalled",
+      "source": "Cursor CLI is already installed."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminalContrib/cursorCliPrompt/browser/terminal.cursorCliPrompt.contribution",
+      "key": "cursor.installCli",
+      "source": "Install Cursor CLI"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminalContrib/cursorDeveloper/browser/terminal.cursorDeveloper.contribution",
+      "key": "workbench.action.terminal.debugCheckExecutionServiceVersion",
+      "source": "Debug: Check Terminal Execution Service Version"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution",
+      "key": "workbench.action.terminal.externalAgentActions",
+      "source": "External Agent Actions"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution",
+      "key": "workbench.action.terminal.externalAgentSecondOpinion",
+      "source": "Second Opinion"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution",
+      "key": "workbench.action.terminal.externalAgentAsk",
+      "source": "Side Chat"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution",
+      "key": "workbench.action.terminal.externalAgentAsk.menu",
+      "source": "Side Chat"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution",
+      "key": "workbench.action.terminal.externalAgentSecondOpinion.menu",
+      "source": "Second Opinion"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution",
+      "key": "workbench.action.terminal.externalAgentActions.title",
+      "source": "External Agent Actions"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminalContrib/cursorPromptBar/browser/terminalPromptBarContextKeys",
+      "key": "terminalPromptBarVisible",
+      "source": "Whether the terminal prompt bar is currently visible"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminalContrib/cursorPromptBar/browser/terminalPromptBarContextKeys",
+      "key": "terminalPromptBarCanCancelGeneration",
+      "source": "Whether terminal prompt-bar generation can be cancelled"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminalContrib/cursorPromptBar/browser/terminalPromptBarContextKeys",
+      "key": "terminalPromptBarCanRejectGeneration",
+      "source": "Whether terminal prompt-bar generated command can be rejected"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/testing/browser/testExplorerActions",
+      "key": "noTestsAtCursor",
+      "source": "No tests found here"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/testing/browser/testExplorerActions",
+      "key": "testing.runAtCursor",
+      "source": "Run Test at Cursor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/testing/browser/testExplorerActions",
+      "key": "testing.debugAtCursor",
+      "source": "Debug Test at Cursor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/testing/browser/testExplorerActions",
+      "key": "testing.coverageAtCursor",
+      "source": "Run Test at Cursor with Coverage"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/testing/common/testingContextKeys",
+      "key": "testing.cursorInsideTestRange",
+      "source": "Whether the cursor is currently inside a test range"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+      "key": "captureDebuggingDataLogsDetail",
+      "source": "Includes recent Cursor log sessions."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+      "key": "captureDebuggingDataAgentTranscripts",
+      "source": "Agent transcripts (last 7 days)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+      "key": "captureDebuggingDataAgentTranscriptsDetail",
+      "source": "Includes recent Cursor agent transcripts for this workspace. If checked, chat and prompt data (which may include attached code snippets) will be uploaded, even in privacy mode."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/ui/browser/buttons/AgentsWindowButton",
+      "key": "agentsWindow.hoverGraphicTitle",
+      "source": "Meet the new Cursor"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/ui/browser/buttons/AgentsWindowButton",
+      "key": "agentsWindow.hoverSectionParallelTitle",
+      "source": "Run Many Agents in Parallel"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/ui/browser/buttons/AgentsWindowButton",
+      "key": "agentsWindow.hoverSectionParallelBody",
+      "source": "All your agents across repos—locally, on remote SSH, and in the cloud"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/ui/browser/buttons/AgentsWindowButton",
+      "key": "agentsWindow.hoverSectionDeeperTitle",
+      "source": "Dig Deeper Anytime"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/ui/browser/buttons/AgentsWindowButton",
+      "key": "agentsWindow.hoverSectionDeeperBody",
+      "source": "Access the best parts of the editor when you need them, like files and browser"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/ui/browser/buttons/AgentsWindowButton",
+      "key": "agentsWindowButtonLabel",
+      "source": "Agents Window"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/ui/browser/buttons/IdeTitlebarUpdateButton",
+      "key": "ideTitlebarUpdateButton.tooltip",
+      "source": "Restart Cursor to install the pending update."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/ui/browser/buttons/IdeTitlebarUpdateButton",
+      "key": "ideTitlebarUpdateButton.tooltipWithVersion",
+      "source": "Restart Cursor to install the pending update to {0}."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/ui/browser/buttons/IdeTitlebarUpdateButton",
+      "key": "ideTitlebarUpdateButton.installingTooltip",
+      "source": "Installing update — Cursor will close and reopen automatically."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/update/browser/update.contribution",
+      "key": "pickUpdate",
+      "source": "Apply Update"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/update/browser/update.contribution",
+      "key": "applyUpdate",
+      "source": "Apply Update..."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/userDataProfile/browser/userDataProfilesEditorModel",
+      "key": "applyToAllProfiles",
+      "source": "Apply Extension to all Profiles"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "logDataDirectories",
+      "source": "Log Data Directories"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "reloadWindowWithHMR",
+      "source": "Reload With HMR"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "hangRendererThread",
+      "source": "Hang Renderer Thread (30 s)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devForceNextSmartModeClassifierBlock",
+      "source": "Dev Force Next Auto-review Block"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devDelayNextSmartModeClassifier",
+      "source": "Dev Delay Next Auto-review ({0} s)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "restartInTemporaryProfile",
+      "source": "Restart in Temporary Profile"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "startInfiniteComposerSession",
+      "source": "Start Infinite Composer Session"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "stopInfiniteComposerSession",
+      "source": "Stop Infinite Composer Session"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devAutoLoginFree",
+      "source": "Dev Auto Login (Free)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devAutoLoginProTrial",
+      "source": "Dev Auto Login (Pro Trial)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devAutoLoginPro",
+      "source": "Dev Auto Login (Pro)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devAutoLoginProPlusTrial",
+      "source": "Dev Auto Login (Pro Plus Trial)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devAutoLoginProPlus",
+      "source": "Dev Auto Login (Pro Plus)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devAutoLoginUltra",
+      "source": "Dev Auto Login (Ultra)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devAutoLoginEnterprise",
+      "source": "Dev Auto Login (Enterprise)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devAutoLoginFakeForTesting",
+      "source": "Dev Auto Login (Fake Tokens for Testing)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devSetApplicationStorageForTesting",
+      "source": "Dev Set Application Storage (For Testing)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devGetApplicationStorageForTesting",
+      "source": "Dev Get Application Storage (For Testing)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devIsAgentHostEnabledForTesting",
+      "source": "Dev Is Agent Host Enabled (For Testing)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devBatchSetApplicationStorageForTesting",
+      "source": "Dev Batch Set Application Storage (For Testing)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devSetComposerModeAutoRun",
+      "source": "Dev Set Composer Mode AutoRun (For Testing)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devGetComposerDataForTesting",
+      "source": "Dev Get Composer Data (For Testing)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "setAnyrunCluster",
+      "source": "Set Anyrun Cluster"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devGetAutorunSettingForTesting",
+      "source": "Dev Get Autorun Setting (For Testing)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devGetLoadedPluginsSummaryForTesting",
+      "source": "Dev Get Loaded Plugins Summary (For Testing)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "devGetModelConfigForSurfaceForTesting",
+      "source": "Dev Get Model Config For Surface (For Testing)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions.cursor",
+      "key": "simulateNewUser",
+      "source": "Simulate New User"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/devRefreshTeamAdminSettingsAction.cursor",
+      "key": "devRefreshTeamAdminSettings",
+      "source": "Dev Refresh Team Admin Settings (For Testing)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/installActions",
+      "key": "successIn",
+      "source": "Successfully installed Cursor in the 'code' command."
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/installActions",
+      "key": "successIn",
+      "source": "Successfully unlinked Cursor from the 'code' command."
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "quitConfirmationTitle",
+      "source": "Quit Cursor?"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "zoomLevel",
+      "source": "Adjust the default zoom level for all windows. Each increment above `0` (e.g. `1`) or below (e.g. `-1`) represents zooming `20%` larger or smaller. You can also enter decimals to adjust the zoom level with a finer granularity. See {0} for configuring if the 'Zoom In' and 'Zoom Out' commands apply the zoom level to all windows or only the active window."
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "zoomPerWindow",
+      "source": "Controls if the 'Zoom In' and 'Zoom Out' commands apply the zoom level to all windows or only the active window. See {0} for configuring a default zoom level for all windows."
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "titleBarStyle",
+      "source": "Adjust the appearance of the window title bar to be native by the OS or custom. On Linux and Windows, this setting also affects the application and context menu appearances. Changes require a full restart to apply."
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "controlsStyle",
+      "source": "Adjust the appearance of the window controls to be native by the OS, custom drawn or hidden. Changes require a full restart to apply."
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "window.nativeTabs",
+      "source": "Enables macOS Sierra window tabs. Note that changes require a full restart to apply and that native tabs will disable a custom title bar style if configured."
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/parts/dialogs/dialogHandler",
+      "key": "aboutCopyright",
+      "source": "Copyright © 2026 Anysphere. All rights reserved."
+    },
+    {
+      "moduleId": "vs/workbench/services/agent/browser/agentExecProviderService",
+      "key": "agentExecSimulatedStreamStartTimeoutTitle",
+      "source": "Agent Stream Start Timeout"
+    },
+    {
+      "moduleId": "vs/workbench/services/agent/browser/agentExecProviderService",
+      "key": "agentExecSimulatedStreamStartTimeoutDetail",
+      "source": "The extension host did not respond in time. Please reload the window to continue."
+    },
+    {
+      "moduleId": "vs/workbench/services/agent/browser/agentExecProviderService",
+      "key": "reloadWindow",
+      "source": "Reload Window"
+    },
+    {
+      "moduleId": "vs/workbench/services/agent/browser/agentExecProviderService",
+      "key": "agentExecTimeoutTitle",
+      "source": "Agent Execution Timed Out"
+    },
+    {
+      "moduleId": "vs/workbench/services/agent/browser/agentExecProviderService",
+      "key": "agentExecTimeoutDetail",
+      "source": "The agent execution provider did not respond in time. This may indicate the extension host is not running or is unresponsive."
+    },
+    {
+      "moduleId": "vs/workbench/services/agent/browser/agentExecProviderService",
+      "key": "reloadWindow",
+      "source": "Reload Window"
+    },
+    {
+      "moduleId": "vs/workbench/services/agent/browser/agentExecProviderService",
+      "key": "toggleSimulatedAgentExecStreamStartTimeout",
+      "source": "Developer: Toggle Agent Exec Stream Start Timeout Simulation (Dev-only)"
+    },
+    {
+      "moduleId": "vs/workbench/services/agent/electron-sandbox/localAgentPromptQualityUrlHandler",
+      "key": "localAgentPromptQuality.invalidUploadLink",
+      "source": "The Prompt Quality upload link is invalid"
+    },
+    {
+      "moduleId": "vs/workbench/services/agent/electron-sandbox/localAgentPromptQualityUrlHandler",
+      "key": "localAgentPromptQuality.uploadFailed",
+      "source": "Failed to upload the local agent run to Prompt Quality: {0}"
+    },
+    {
+      "moduleId": "vs/workbench/services/agent/electron-sandbox/localAgentPromptQualityUrlHandler",
+      "key": "localAgentPromptQuality.confirmTitle",
+      "source": "Upload this local agent run to Prompt Quality?"
+    },
+    {
+      "moduleId": "vs/workbench/services/agent/electron-sandbox/localAgentPromptQualityUrlHandler",
+      "key": "localAgentPromptQuality.confirmDetail",
+      "source": "This uploads prompts, code and context, tool arguments and results, and model responses. Prompt Quality stores this data for internal debugging."
+    },
+    {
+      "moduleId": "vs/workbench/services/agent/electron-sandbox/localAgentPromptQualityUrlHandler",
+      "key": "localAgentPromptQuality.confirmButton",
+      "source": "Upload to Prompt Quality"
+    },
+    {
+      "moduleId": "vs/workbench/services/ai/browser/urlOpenToastService",
+      "key": "urlOpenToast.message",
+      "source": "Opening {0} in Cursor Browser"
+    },
+    {
+      "moduleId": "vs/workbench/services/configuration/common/configurationEditing",
+      "key": "openMcpConfiguration",
+      "source": "Open MCP Configuration"
+    },
+    {
+      "moduleId": "vs/workbench/services/configuration/common/configurationEditing",
+      "key": "errorInvalidMCPConfiguration",
+      "source": "Unable to write into the MCP configuration file. Please open it to correct errors/warnings in it and try again."
+    },
+    {
+      "moduleId": "vs/workbench/services/configuration/common/configurationEditing",
+      "key": "errorMCPConfigurationFileDirty",
+      "source": "Unable to write into MCP configuration file because the file has unsaved changes. Please save it first and then try again."
+    },
+    {
+      "moduleId": "vs/workbench/services/configuration/common/configurationEditing",
+      "key": "errorMCPConfigurationFileModifiedSince",
+      "source": "Unable to write into MCP configuration file because the content of the file is newer."
+    },
+    {
+      "moduleId": "vs/workbench/services/cursorAuth/browser/authenticationService.contribution",
+      "key": "cursorAuthConfigurationTitle",
+      "source": "Cursor Auth"
+    },
+    {
+      "moduleId": "vs/workbench/services/cursorAuth/browser/authenticationService.contribution",
+      "key": "cursor.allowedTeamId",
+      "source": "Specify the required team id that a user must belong to in order to use Cursor. If set and the signed-in user is not part of the team, Cursor will automatically sign the user out."
+    },
+    {
+      "moduleId": "vs/workbench/services/cursorAuth/browser/authenticationService.contribution",
+      "key": "cursor.signInEnforcement",
+      "source": "When enabled via device management (MDM), Cursor's backend refuses to issue or refresh sign-in sessions for accounts that match none of the configured allowed organizations, teams, emails, or email domains."
+    },
+    {
+      "moduleId": "vs/workbench/services/cursorAuth/browser/authenticationService.contribution",
+      "key": "cursor.allowedOrganizationIds",
+      "source": "Comma-separated list of Cursor organization ids whose members are allowed to sign in on this device (set via device management)."
+    },
+    {
+      "moduleId": "vs/workbench/services/cursorAuth/browser/authenticationService.contribution",
+      "key": "cursor.allowedTeamIds",
+      "source": "Comma-separated list of Cursor team ids whose members are allowed to sign in on this device (set via device management). Supersedes the singular AllowedTeamId policy; both are honored."
+    },
+    {
+      "moduleId": "vs/workbench/services/cursorAuth/browser/authenticationService.contribution",
+      "key": "cursor.allowedLoginEmails",
+      "source": "Comma-separated list of exact account emails allowed to sign in on this device (set via device management). Compared case-insensitively."
+    },
+    {
+      "moduleId": "vs/workbench/services/cursorAuth/browser/authenticationService.contribution",
+      "key": "cursor.allowedLoginDomains",
+      "source": "Comma-separated list of email domains (e.g. example.com) whose accounts are allowed to sign in on this device (set via device management). Exact domain match only; subdomains are not implicitly included."
+    },
+    {
+      "moduleId": "vs/workbench/services/experiment/browser/dynamicConfigOverrideActions",
+      "key": "confirmApplyConfigDefaults",
+      "source": "Confirm Apply Default Values"
+    },
+    {
+      "moduleId": "vs/workbench/services/experiment/browser/experimentOverrideActions",
+      "key": "confirmApplyExperimentDefaults",
+      "source": "Confirm Apply Default Values"
+    },
+    {
+      "moduleId": "vs/workbench/services/experiment/browser/featureFlagOverrideActions",
+      "key": "confirmApplyFlagBundledValues",
+      "source": "Confirm Apply Bundled Values"
+    },
+    {
+      "moduleId": "vs/workbench/services/experiment/browser/featureFlagOverrideActions",
+      "key": "statsigDummyConsoleLoopProductionWarning",
+      "source": "This command is only available for Cursor developers."
+    },
+    {
+      "moduleId": "vs/workbench/services/extensionManagement/electron-sandbox/extensionGalleryManifestService",
+      "key": "extensionGalleryManifestService.accountChange",
+      "source": "{0} is now configured to a different Marketplace. Please restart to apply the changes."
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/common/abstractExtensionService",
+      "key": "disconnectRemote",
+      "source": "Disconnect Remote Agent"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/common/extensionHostManager",
+      "key": "communicationProfilerUnavailable",
+      "source": "The Network & IPC Profiler is only available in development builds or to internal Cursor developers."
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/common/extensionsRegistry",
+      "key": "vscode.extension.activationEvents.onMcpCollection",
+      "source": "An activation event emitted whenver a tool from the MCP server is requested."
+    },
+    {
+      "moduleId": "vs/workbench/services/remote/browser/remoteAgentService",
+      "key": "connectionError",
+      "source": "An unexpected error occurred that requires a reload of this page."
+    },
+    {
+      "moduleId": "vs/workbench/services/remote/browser/remoteAgentService",
+      "key": "connectionErrorDetail",
+      "source": "The workbench failed to connect to the server (Error: {0})"
+    },
+    {
+      "moduleId": "vs/workbench/services/remote/browser/remoteAgentService",
+      "key": "reload",
+      "source": "&&Reload"
+    },
+    {
+      "moduleId": "vs/workbench/services/remote/electron-sandbox/remoteAgentService",
+      "key": "directUrl",
+      "source": "Open in browser"
+    },
+    {
+      "moduleId": "vs/workbench/services/remote/electron-sandbox/remoteAgentService",
+      "key": "connectionError",
+      "source": "Failed to connect to the remote extension host server (Error: {0})"
+    },
+    {
+      "moduleId": "vs/workbench/services/userDataProfile/browser/userDataProfileImportExportService",
+      "key": "applying global state",
+      "source": "Applying UI State..."
+    },
+    {
+      "moduleId": "vs/workbench/services/userDataProfile/browser/userDataProfileImportExportService",
+      "key": "progress extensions",
+      "source": "Applying Extensions..."
+    },
+    {
+      "moduleId": "vs/workbench/services/userDataProfile/browser/userDataProfileImportExportService",
+      "key": "progress settings",
+      "source": "Applying Settings..."
+    },
+    {
+      "moduleId": "vs/workbench/services/userDataProfile/browser/userDataProfileImportExportService",
+      "key": "progress keybindings",
+      "source": "Applying Keyboard Shortcuts..."
+    },
+    {
+      "moduleId": "vs/workbench/services/userDataProfile/browser/userDataProfileImportExportService",
+      "key": "progress tasks",
+      "source": "Applying Tasks..."
+    },
+    {
+      "moduleId": "vs/workbench/services/userDataProfile/browser/userDataProfileImportExportService",
+      "key": "progress snippets",
+      "source": "Applying Snippets..."
+    },
+    {
+      "moduleId": "vs/workbench/services/userDataProfile/browser/userDataProfileImportExportService",
+      "key": "progress global state",
+      "source": "Applying State..."
+    },
+    {
+      "moduleId": "vs/workbench/services/userDataProfile/browser/userDataProfileImportExportService",
+      "key": "progress extensions",
+      "source": "Applying Extensions..."
+    },
+    {
+      "moduleId": "vs/workbench/services/workspaceConnection/browser/workspaceConnectionService",
+      "key": "workspaceReconnectFailedCloudAgent",
+      "source": "Cursor could not reconnect to the machine running this agent. The agent keeps running in the background and is not affected. Reload the window to reconnect, or try again in a moment."
+    },
+    {
+      "moduleId": "vs/workbench/services/workspaceConnection/browser/workspaceConnectionService",
+      "key": "workspaceReconnectFailed",
+      "source": "Cursor could not reconnect this workspace. Reload the window to try again."
+    },
+    {
+      "moduleId": "vs/workbench/services/workspaceConnection/browser/workspaceConnectionService",
+      "key": "workspaceReconnectTimedOut",
+      "source": "Cursor could not reconnect this workspace within 5 seconds. Reload the window to try again."
+    },
+    {
+      "moduleId": "vs/workbench/services/workspaceConnection/browser/workspaceConnectionService",
+      "key": "workspaceReconnectStillDisconnected",
+      "source": "Cursor could not reconnect this workspace. Reload the window to try again."
+    },
+    {
+      "moduleId": "vs/workbench/services/workspaceConnection/browser/workspaceConnectionService",
+      "key": "workspaceRepairFailed",
+      "source": "Cursor could not repair this workspace connection. Reload the window to try again."
+    },
+    {
+      "moduleId": "vs/workbench/services/worktree/browser/worktree.contribution",
+      "key": "runCursorWorktreeCleanupDev",
+      "source": "Run Cursor Worktree Cleanup (Dev)"
+    },
+    {
+      "moduleId": "vs/workbench/services/worktree/browser/worktree.contribution",
+      "key": "runCursorWorktreeCleanupDev.leaseBusy",
+      "source": "Worktree cleanup skipped: another window already holds the cleanup lease."
+    },
+    {
+      "moduleId": "vs/workbench/services/worktree/browser/worktree.contribution",
+      "key": "runCursorWorktreeCleanupDev.done",
+      "source": "Worktree cleanup finished (dev). Removed {0} worktree(s), freed {1} byte(s). See logs for details."
+    }
+  ]
+}

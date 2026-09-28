@@ -1,0 +1,3632 @@
+{
+  "reviewedAt": "2026-09-28T04:06:13.028Z",
+  "counts": {
+    "accept": 186,
+    "human_review": 17
+  },
+  "items": {
+    "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuComponents#agentLayoutMenu.moreActions": {
+      "source": "More actions",
+      "translation": "更多操作",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.93,
+          "confidence": 0.93
+        }
+      }
+    },
+    "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuState#agentLayoutMenu.savedLayoutName": {
+      "source": "Layout {0}",
+      "translation": "布局 {0}",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.96
+        },
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.62,
+          "confidence": 0.62
+        }
+      }
+    },
+    "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuComponents#agentLayoutMenu.add": {
+      "source": "Add",
+      "translation": "添加",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.76,
+          "confidence": 0.76
+        }
+      }
+    },
+    "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuTypes#agentLayoutMenu.layout.agent": {
+      "source": "Layout • Left",
+      "translation": "布局 • 左侧",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.36,
+          "confidence": 0.36
+        }
+      }
+    },
+    "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuTypes#agentLayoutMenu.layout.editor": {
+      "source": "Layout • Right",
+      "translation": "布局 • 右侧",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.52,
+          "confidence": 0.52
+        }
+      }
+    },
+    "vs/workbench/browser/actions/exportCustomModesAction#noCustomModesFound": {
+      "source": "No custom modes found in storage.",
+      "translation": "存储中未找到自定义模式。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.96
+        },
+        "quality": {
+          "score": 2.89,
+          "confidence": 0.89
+        }
+      }
+    },
+    "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuTypes#agentLayoutMenu.layout.zen": {
+      "source": "Layout • Zen",
+      "translation": "布局 • Zen",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.49,
+          "confidence": 0.49
+        }
+      }
+    },
+    "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuTypes#agentLayoutMenu.layout.browser": {
+      "source": "Browser",
+      "translation": "浏览器",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.89
+        },
+        "quality": {
+          "score": 2.32,
+          "confidence": 0.32
+        }
+      }
+    },
+    "vs/workbench/browser/actions/exportCustomModesAction#hasCustomModes": {
+      "source": "Whether the user has legacy custom composer modes",
+      "translation": "用户是否仍有旧版自定义 Composer 模式",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.73
+        },
+        "quality": {
+          "score": 2.5,
+          "confidence": 0.5
+        }
+      }
+    },
+    "vs/workbench/browser/actions/exportCustomModesAction#customModesExported": {
+      "source": "Exported {0} custom mode(s) to {1}",
+      "translation": "已将 {0} 个自定义模式导出到 {1}",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.96
+        },
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.88,
+          "confidence": 0.88
+        }
+      }
+    },
+    "vs/workbench/browser/actions/exportNotepadsAction#parseError": {
+      "source": "Failed to parse notepad data: {0}",
+      "translation": "无法解析记事本数据：{0}",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.97
+        },
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.81,
+          "confidence": 0.81
+        }
+      }
+    },
+    "vs/workbench/browser/actions/exportCustomModesAction#exportCustomModes": {
+      "source": "Export Custom Modes",
+      "translation": "导出自定义模式",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.94
+        },
+        "quality": {
+          "score": 2.89,
+          "confidence": 0.89
+        }
+      }
+    },
+    "vs/workbench/browser/actions/exportNotepadsAction#noNotepadsFound": {
+      "source": "No notepads found in storage.",
+      "translation": "存储中未找到记事本。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.97
+        },
+        "quality": {
+          "score": 2.89,
+          "confidence": 0.89
+        }
+      }
+    },
+    "vs/workbench/browser/actions/exportNotepadsAction#hasNotepads": {
+      "source": "Whether the user has notepads in storage",
+      "translation": "用户存储中是否有记事本",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.96
+        },
+        "quality": {
+          "score": 2.55,
+          "confidence": 0.55
+        }
+      }
+    },
+    "vs/workbench/browser/actions/exportNotepadsAction#notepadsExported": {
+      "source": "Exported {0} notepad(s) to {1}",
+      "translation": "已将 {0} 个记事本导出到 {1}",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.95
+        },
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.92,
+          "confidence": 0.92
+        }
+      }
+    },
+    "vs/workbench/browser/actions/exportNotepadsAction#exportNotepadsError": {
+      "source": "Failed to export notepads: {0}",
+      "translation": "导出记事本失败：{0}",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.97
+        },
+        "glossary_ok": {
+          "noul": 0.97
+        },
+        "quality": {
+          "score": 2.87,
+          "confidence": 0.87
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsActions#quickOpenLeastRecentlyUsedAgent": {
+      "source": "Quick Open Least Recently Used Agent",
+      "translation": "快速打开最久未使用的 Agent",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "human_review",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.56
+        },
+        "quality": {
+          "score": 2.41,
+          "confidence": 0.41
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsActions#quickOpenPreviousRecentlyUsedAgent": {
+      "source": "Quick Open Previous Recently Used Agent",
+      "translation": "快速打开上一个最近使用的 Agent",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.73
+        },
+        "quality": {
+          "score": 2.33,
+          "confidence": 0.33
+        }
+      }
+    },
+    "vs/workbench/browser/actions/exportNotepadsAction#exportNotepads": {
+      "source": "Export Notepads to Files",
+      "translation": "将记事本导出为文件",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.97
+        },
+        "quality": {
+          "score": 2.82,
+          "confidence": 0.82
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsActions#all-agents": {
+      "source": "All Agents",
+      "translation": "全部 Agent",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "human_review",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.68
+        },
+        "quality": {
+          "score": 2.17,
+          "confidence": 0.17
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess#agents.chatHistory.section.chats": {
+      "source": "Chats",
+      "translation": "聊天",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.95
+        },
+        "quality": {
+          "score": 2.63,
+          "confidence": 0.63
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess#agents.chatHistory.section.cloudAgents": {
+      "source": "Cloud agents",
+      "translation": "云端 Agent",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.91
+        },
+        "quality": {
+          "score": 2.31,
+          "confidence": 0.31
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess#agents.chatHistory.noResults.empty": {
+      "source": "Start a new agent to see it here",
+      "translation": "开始新的 Agent 后会显示在这里",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "human_review",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.36
+        },
+        "quality": {
+          "score": 2.4,
+          "confidence": 0.4
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess#agents.chatHistory.noResults": {
+      "source": "No chats available",
+      "translation": "暂无聊天",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.89
+        },
+        "quality": {
+          "score": 2.55,
+          "confidence": 0.55
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess#agents.chatHistory.noResults.filter": {
+      "source": "Try a different search query",
+      "translation": "试试其他搜索词",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.83,
+          "confidence": 0.83
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess#agents.chatHistory.noResults.aria": {
+      "source": "No chats available",
+      "translation": "暂无聊天",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.92
+        },
+        "quality": {
+          "score": 2.56,
+          "confidence": 0.56
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess#agents.chatHistory.composerAria": {
+      "source": "Chat {0}",
+      "translation": "聊天 {0}",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.96
+        },
+        "glossary_ok": {
+          "noul": 0.96
+        },
+        "quality": {
+          "score": 2.58,
+          "confidence": 0.58
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess#agents.chatHistory.backgroundAria": {
+      "source": "Cloud agent {0}",
+      "translation": "云端 Agent {0}",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.96
+        },
+        "glossary_ok": {
+          "noul": 0.81
+        },
+        "quality": {
+          "score": 2.67,
+          "confidence": 0.67
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess#agents.chatHistory.placeholder": {
+      "source": "Search chats and cloud agents",
+      "translation": "搜索聊天和云端 Agent",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.85
+        },
+        "quality": {
+          "score": 2.41,
+          "confidence": 0.41
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess#agents.chatHistory.help": {
+      "source": "Search chat history",
+      "translation": "搜索聊天记录",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.71
+        },
+        "quality": {
+          "score": 2.77,
+          "confidence": 0.77
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess#agents.chatHistory.untitledChat": {
+      "source": "Untitled chat",
+      "translation": "未命名聊天",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.89
+        },
+        "quality": {
+          "score": 2.91,
+          "confidence": 0.91
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess#agents.mru.noResults": {
+      "source": "No recent agents",
+      "translation": "没有最近使用的 Agent",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "human_review",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.68
+        },
+        "quality": {
+          "score": 2.26,
+          "confidence": 0.26
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess#agents.mru.composerAria": {
+      "source": "Agent {0}",
+      "translation": "Agent {0}",
+      "deterministic": {
+        "placeholdersOk": true,
+        "productName": true
+      },
+      "decision": "accept",
+      "answers": null
+    },
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess#agents.mru.backgroundAria": {
+      "source": "Cloud agent {0}",
+      "translation": "云端 Agent {0}",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.96
+        },
+        "glossary_ok": {
+          "noul": 0.86
+        },
+        "quality": {
+          "score": 2.68,
+          "confidence": 0.68
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess#agents.mru.placeholder": {
+      "source": "Switch between recently used agents",
+      "translation": "在最近使用的 Agent 之间切换",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "human_review",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.61
+        },
+        "quality": {
+          "score": 2.5,
+          "confidence": 0.5
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess#agents.ctrlTab.draft": {
+      "source": "Draft",
+      "translation": "草稿",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.42,
+          "confidence": 0.42
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton#agentSidebarUpdateButton.tooltip": {
+      "source": "Restart Cursor to install the pending update.",
+      "translation": "重启 Cursor 以安装待处理的更新。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.84
+        },
+        "quality": {
+          "score": 2.73,
+          "confidence": 0.73
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess#agents.mru.help": {
+      "source": "Switch between recently used agents",
+      "translation": "在最近使用的 Agent 之间切换",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "human_review",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.64
+        },
+        "quality": {
+          "score": 2.62,
+          "confidence": 0.62
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton#agentSidebarUpdateButton.tooltipWithVersion": {
+      "source": "Restart Cursor to install the pending update to {0}.",
+      "translation": "重启 Cursor 以安装待处理的更新到 {0}。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "human_review",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.96
+        },
+        "glossary_ok": {
+          "noul": 0.91
+        },
+        "quality": {
+          "score": 2.13,
+          "confidence": 0.43
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton#agentSidebarUpdateButton.installingTooltip": {
+      "source": "Installing update — Cursor will close and reopen automatically.",
+      "translation": "正在安装更新 — Cursor 将自动关闭并重新打开。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.9
+        },
+        "quality": {
+          "score": 2.86,
+          "confidence": 0.86
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton#agentSidebarUpdateButton.label": {
+      "source": "Update",
+      "translation": "更新",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.97
+        },
+        "quality": {
+          "score": 2.95,
+          "confidence": 0.95
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton#agentSidebarUpdateButton.installingLabel": {
+      "source": "Installing",
+      "translation": "正在安装",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.98,
+          "confidence": 0.98
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/common/agentsContextKeys#agentNavigationMode": {
+      "source": "Whether currently in agent navigation mode (hold-and-release to switch).",
+      "translation": "当前是否处于 Agent 导航模式（按住并松开以切换）。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.78
+        },
+        "quality": {
+          "score": 2.23,
+          "confidence": 0.23
+        }
+      }
+    },
+    "vs/workbench/contrib/agents/common/agentsContextKeys#agentsPaneFocused": {
+      "source": "Whether the Agents sidebar currently contains keyboard focus.",
+      "translation": "Agents 侧栏当前是否具有键盘焦点。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.95
+        },
+        "quality": {
+          "score": 2.77,
+          "confidence": 0.77
+        }
+      }
+    },
+    "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution#cursorGeneralConfigurationTitle": {
+      "source": "General",
+      "translation": "常规",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.46,
+          "confidence": 0.46
+        }
+      }
+    },
+    "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution#http2.disable.title": {
+      "source": "Disable HTTP/2.0",
+      "translation": "禁用 HTTP/2.0",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.9,
+          "confidence": 0.9
+        }
+      }
+    },
+    "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution#http2.disable.description": {
+      "source": "Disable HTTP/2 for all requests, and use HTTP/1.1 instead. This increases resource utilization and latency, but is useful behind a corporate proxy that blocks HTTP/2.",
+      "translation": "对所有请求禁用 HTTP/2，改用 HTTP/1.1。这会增加资源占用和延迟，但适用于拦截 HTTP/2 的公司代理。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.38,
+          "confidence": 0.38
+        }
+      }
+    },
+    "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution#cursor.composer.planTextSizeScale.matchAgentChat": {
+      "source": "Match Agent chat",
+      "translation": "与 Agent 聊天一致",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.75
+        },
+        "quality": {
+          "score": 2.23,
+          "confidence": 0.23
+        }
+      }
+    },
+    "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution#debug.timeoutPrevention.title": {
+      "source": "Debug Timeout Prevention",
+      "translation": "调试超时防护",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.7,
+          "confidence": 0.7
+        }
+      }
+    },
+    "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution#cursor.composer.planTextSizeScale.small": {
+      "source": "Small",
+      "translation": "小",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.42,
+          "confidence": 0.42
+        }
+      }
+    },
+    "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution#cursor.composer.planTextSizeScale.defaultSize": {
+      "source": "Default",
+      "translation": "默认",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "human_review",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 1.3,
+          "confidence": 0.11
+        }
+      }
+    },
+    "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution#cursor.composer.planTextSizeScale.large": {
+      "source": "Large",
+      "translation": "大",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.49,
+          "confidence": 0.49
+        }
+      }
+    },
+    "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution#cursor.composer.planTextSizeScale.extraLarge": {
+      "source": "Extra Large",
+      "translation": "特大",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.75,
+          "confidence": 0.75
+        }
+      }
+    },
+    "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution#cursor.composer.conversationDensity.toolSummary": {
+      "source": "Compact",
+      "translation": "紧凑",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.49,
+          "confidence": 0.49
+        }
+      }
+    },
+    "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution#cursor.composer.conversationDensity.compactRows": {
+      "source": "Balanced",
+      "translation": "均衡",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "human_review",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 1.09,
+          "confidence": 0
+        }
+      }
+    },
+    "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution#cursor.composer.conversationDensity.detailed": {
+      "source": "Detailed",
+      "translation": "详细",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.42,
+          "confidence": 0.42
+        }
+      }
+    },
+    "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution#cursor.composer.editorConversationDensity.toolSummary": {
+      "source": "Compact",
+      "translation": "紧凑",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.57,
+          "confidence": 0.57
+        }
+      }
+    },
+    "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution#cursor.composer.editorConversationDensity.compactRows": {
+      "source": "Balanced",
+      "translation": "均衡",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "human_review",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 1.32,
+          "confidence": 0
+        }
+      }
+    },
+    "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution#cursor.composer.editorConversationDensity.detailed": {
+      "source": "Detailed",
+      "translation": "详细",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.19,
+          "confidence": 0.19
+        }
+      }
+    },
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#importGithubRule": {
+      "source": "Import Project Rules from GitHub/GitLab",
+      "translation": "从 GitHub/GitLab 导入项目规则",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.92
+        },
+        "quality": {
+          "score": 2.74,
+          "confidence": 0.74
+        }
+      }
+    },
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#githubUrlPlaceholder": {
+      "source": "https://github.com/owner/repository.git",
+      "translation": "https://github.com/owner/repository.git",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.56,
+          "confidence": 0.56
+        }
+      }
+    },
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#githubUrlPrompt": {
+      "source": "Enter the GitHub/GitLab repository URL to import project rules",
+      "translation": "输入要导入项目规则的 GitHub/GitLab 仓库 URL",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.77
+        },
+        "quality": {
+          "score": 2.82,
+          "confidence": 0.82
+        }
+      }
+    },
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#emptyUrl": {
+      "source": "URL cannot be empty",
+      "translation": "URL 不能为空",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.91,
+          "confidence": 0.91
+        }
+      }
+    },
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#invalidGitRepoUrl": {
+      "source": "Please enter a valid GitHub/GitLab repository URL.",
+      "translation": "请输入有效的 GitHub/GitLab 仓库 URL。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.77,
+          "confidence": 0.77
+        }
+      }
+    },
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#invalidRepoUrl": {
+      "source": "Could not extract repository name from URL.",
+      "translation": "无法从 URL 中提取仓库名称。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.88,
+          "confidence": 0.88
+        }
+      }
+    },
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#cloningRule": {
+      "source": "Cloning rule from GitHub/GitLab...",
+      "translation": "正在从 GitHub/GitLab 克隆规则…",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.81,
+          "confidence": 0.81
+        }
+      }
+    },
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#ruleAlreadyExists": {
+      "source": "Imported rules for \"{0}\" already exist in `.cursor/rules/imported/{0}`.",
+      "translation": "已导入的 \"{0}\" 规则已存在于 `.cursor/rules/imported/{0}`。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.85
+        },
+        "glossary_ok": {
+          "noul": 0.91
+        },
+        "quality": {
+          "score": 2.74,
+          "confidence": 0.74
+        }
+      }
+    },
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#teamContentDashboard": {
+      "source": "Team {0} can be created and edited in the Cursor Dashboard.",
+      "translation": "团队 {0} 可在 Cursor 控制台中创建和编辑。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.95
+        },
+        "glossary_ok": {
+          "noul": 0.95
+        },
+        "quality": {
+          "score": 2.47,
+          "confidence": 0.47
+        }
+      }
+    },
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#rulesImported": {
+      "source": "Imported {1} project rule file(s) from \"{0}\" into `.cursor/rules/imported/{0}`.",
+      "translation": "已从 \"{0}\" 导入 {1} 个项目规则文件到 `.cursor/rules/imported/{0}`。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "human_review",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.52
+        },
+        "glossary_ok": {
+          "noul": 0.9
+        },
+        "quality": {
+          "score": 2.71,
+          "confidence": 0.71
+        }
+      }
+    },
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#importFailed": {
+      "source": "Failed to import GitHub/GitLab rules: {0}",
+      "translation": "从 GitHub/GitLab 导入规则失败：{0}",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.97
+        },
+        "glossary_ok": {
+          "noul": 0.91
+        },
+        "quality": {
+          "score": 2.71,
+          "confidence": 0.71
+        }
+      }
+    },
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#openDashboard": {
+      "source": "Open Dashboard",
+      "translation": "打开控制台",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.94
+        },
+        "quality": {
+          "score": 2.35,
+          "confidence": 0.35
+        }
+      }
+    },
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#noWorkspaceForProjectRule": {
+      "source": "Cannot create project rules without a workspace. Please open a folder first.",
+      "translation": "未打开工作区时无法创建项目规则。请先打开一个文件夹。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.78
+        },
+        "quality": {
+          "score": 2.68,
+          "confidence": 0.68
+        }
+      }
+    },
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#noWorkspace": {
+      "source": "Please open a workspace folder first.",
+      "translation": "请先打开一个工作区文件夹。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.9,
+          "confidence": 0.9
+        }
+      }
+    },
+    "vs/workbench/contrib/appLayout/common/agentsWindowOrFocusMenuRegistrations#cursor.agentsWindowNew": {
+      "source": "New Agents Window",
+      "translation": "新建 Agents 窗口",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.93
+        },
+        "quality": {
+          "score": 2.75,
+          "confidence": 0.75
+        }
+      }
+    },
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#createRuleFailed": {
+      "source": "Failed to create rule. Please try again.",
+      "translation": "创建规则失败，请重试。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.93,
+          "confidence": 0.93
+        }
+      }
+    },
+    "vs/workbench/contrib/appLayout/common/agentsWindowOrFocusMenuRegistrations#cursor.agentsWindowSwitchTo": {
+      "source": "Switch to {0}",
+      "translation": "切换到 {0}",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.96
+        },
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.86,
+          "confidence": 0.86
+        }
+      }
+    },
+    "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions#switchToModelSlug.noAgentsWindow": {
+      "source": "Couldn't open the Agents window to switch the model. Open the Agents window and try again.",
+      "translation": "无法打开 Agents 窗口以切换模型。请打开 Agents 窗口后重试。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.89
+        },
+        "quality": {
+          "score": 2.79,
+          "confidence": 0.79
+        }
+      }
+    },
+    "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions#switchToModelSlug.agentsWindowRoutingFailed": {
+      "source": "Couldn't switch the model in the Agents window. Try again.",
+      "translation": "无法在 Agents 窗口中切换模型，请重试。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.84
+        },
+        "quality": {
+          "score": 2.59,
+          "confidence": 0.59
+        }
+      }
+    },
+    "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions#cursor.newAgentsWindow": {
+      "source": "New Agents Window",
+      "translation": "新建 Agents 窗口",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.94
+        },
+        "quality": {
+          "score": 2.78,
+          "confidence": 0.78
+        }
+      }
+    },
+    "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions#cursor.newAdditionalAgentsWindowDev": {
+      "source": "Developer: New Additional Agents Window",
+      "translation": "开发人员：新建额外 Agents 窗口",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.89
+        },
+        "quality": {
+          "score": 2.25,
+          "confidence": 0.25
+        }
+      }
+    },
+    "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions#cursor.switchToNamedWindow": {
+      "source": "Switch to {0}",
+      "translation": "切换到 {0}",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.96
+        },
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.84,
+          "confidence": 0.84
+        }
+      }
+    },
+    "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions#cursor.openOrFocusNamedWindow": {
+      "source": "Open or Focus {0}",
+      "translation": "打开或聚焦 {0}",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.97
+        },
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.87,
+          "confidence": 0.87
+        }
+      }
+    },
+    "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions#cursor.openOrFocusEditorWindow": {
+      "source": "Open or Focus IDE",
+      "translation": "打开或聚焦 IDE",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.85
+        },
+        "quality": {
+          "score": 2.44,
+          "confidence": 0.44
+        }
+      }
+    },
+    "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions#cursor.openGlassAndSwitchModelSlug": {
+      "source": "Open Glass and Switch Model",
+      "translation": "打开 Glass 并切换模型",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.81
+        },
+        "quality": {
+          "score": 2.67,
+          "confidence": 0.67
+        }
+      }
+    },
+    "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions#cursor.openGlassAndStartCloudAgent": {
+      "source": "Open Agents Window and Start Cloud Agent",
+      "translation": "打开 Agents 窗口并启动云端 Agent",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.89
+        },
+        "quality": {
+          "score": 2.53,
+          "confidence": 0.53
+        }
+      }
+    },
+    "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions#cursor.openGlassAndChangeToMultitask": {
+      "source": "Open Glass and Change to Multitask",
+      "translation": "打开 Glass 并切换到多任务",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.78
+        },
+        "quality": {
+          "score": 2.58,
+          "confidence": 0.58
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/browser/browserEditor.contribution#closeBrowserTab.message": {
+      "source": "Close Browser Tab",
+      "translation": "关闭浏览器标签页",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.95
+        },
+        "quality": {
+          "score": 2.83,
+          "confidence": 0.83
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/browser/browserEditor.contribution#closeBrowserTab.detail": {
+      "source": "This browser was created by an Agent. Closing it may impact a running chat.",
+      "translation": "此浏览器由 Agent 创建。关闭它可能会影响正在运行的聊天。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.93
+        },
+        "quality": {
+          "score": 2.63,
+          "confidence": 0.63
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/browser/browserEditor.contribution#closeBrowserTab.hide": {
+      "source": "&&Hide",
+      "translation": "隐藏(&&H)",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.77,
+          "confidence": 0.77
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/browser/browserEditor.contribution#closeBrowserTab.close": {
+      "source": "&&Close",
+      "translation": "关闭(&&C)",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.71,
+          "confidence": 0.71
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/browser/browserEditor.contribution#openBrowser": {
+      "source": "Open Browser",
+      "translation": "打开浏览器",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.93
+        },
+        "quality": {
+          "score": 2.8,
+          "confidence": 0.8
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/browser/browserEditor.contribution#newBrowserTab": {
+      "source": "New Browser Tab",
+      "translation": "新建浏览器标签页",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.94
+        },
+        "quality": {
+          "score": 2.8,
+          "confidence": 0.8
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/browser/browserEditor.contribution#focusBrowserLocationBar": {
+      "source": "Focus Browser Location Bar",
+      "translation": "聚焦浏览器地址栏",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.92
+        },
+        "quality": {
+          "score": 2.51,
+          "confidence": 0.51
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/browser/browserEditor.contribution#reloadBrowserTab": {
+      "source": "Reload Browser Tab",
+      "translation": "重新加载浏览器标签页",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.95
+        },
+        "quality": {
+          "score": 2.81,
+          "confidence": 0.81
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/browser/browserEditor.contribution#openCursorWebsite": {
+      "source": "Open cursor.com in Browser",
+      "translation": "在浏览器中打开 cursor.com",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.81
+        },
+        "quality": {
+          "score": 2.54,
+          "confidence": 0.54
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/browser/capabilities/chimes#chimes.unsafePath.unc": {
+      "source": "Custom chime sound path cannot be a network (UNC) path for security reasons. Please use a local file path.",
+      "translation": "出于安全原因，自定义提示音路径不能是网络 (UNC) 路径。请使用本地文件路径。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.82,
+          "confidence": 0.82
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/browser/capabilities/chimes#chimes.unsafePath.url": {
+      "source": "Custom chime sound path cannot be a URL. Please use a local file path.",
+      "translation": "自定义提示音路径不能是 URL。请使用本地文件路径。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.75,
+          "confidence": 0.75
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/browser/capabilities/chimes#chimes.untrustedWorkspace": {
+      "source": "Custom chime sound is configured in workspace settings but the workspace is not trusted. The custom sound will be ignored.",
+      "translation": "工作区设置中配置了自定义提示音，但此工作区不受信任。将忽略该自定义声音。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.76,
+          "confidence": 0.76
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/browser/composer.contribution#cursor ai": {
+      "source": "Cursor AI",
+      "translation": "Cursor AI",
+      "deterministic": {
+        "placeholdersOk": true,
+        "productName": true
+      },
+      "decision": "accept",
+      "answers": null
+    },
+    "vs/workbench/contrib/composer/browser/capabilities/chimes#chimes.source": {
+      "source": "Cursor Chimes",
+      "translation": "Cursor 提示音",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "human_review",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.46
+        },
+        "quality": {
+          "score": 2.37,
+          "confidence": 0.37
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/browser/composer.contribution#composerEditor": {
+      "source": "Cursor AI",
+      "translation": "Cursor AI",
+      "deterministic": {
+        "placeholdersOk": true,
+        "productName": true
+      },
+      "decision": "accept",
+      "answers": null
+    },
+    "vs/workbench/contrib/composer/browser/composerMessageStorageService#checkpointHydrationErrorTitle": {
+      "source": "Failed to Load Conversation",
+      "translation": "无法加载对话",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.65,
+          "confidence": 0.65
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/browser/composerMessageStorageService#checkpointHydrationErrorDetail": {
+      "source": "The conversation checkpoint data may be corrupted. You can start a new conversation or try reloading the window.",
+      "translation": "对话检查点数据可能已损坏。你可以开始新对话，或尝试重新加载窗口。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.74,
+          "confidence": 0.74
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/browser/transcript/composerTranscriptToolRuntime#composerTranscript.openFileFailed": {
+      "source": "Unable to open {0}",
+      "translation": "无法打开 {0}",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.97
+        },
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.95,
+          "confidence": 0.95
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/browserAutomation.contribution#crashBrowserWebviewRenderer": {
+      "source": "Developer: Crash Browser Webview Renderer",
+      "translation": "开发人员：使浏览器 Webview 渲染器崩溃",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.77
+        },
+        "quality": {
+          "score": 2.35,
+          "confidence": 0.35
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/browserAutomation.contribution#orphanBrowserViewEntry": {
+      "source": "Developer: Orphan Browser View Entry",
+      "translation": "开发人员：孤立的浏览器视图条目",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.89
+        },
+        "quality": {
+          "score": 2.34,
+          "confidence": 0.34
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#passkeyRequestStalled": {
+      "source": "This page is waiting for a passkey or security key. If using a hardware security key, insert and tap it to continue.",
+      "translation": "此页面正在等待通行密钥或安全密钥。如果使用硬件安全密钥，请插入并轻触以继续。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.77,
+          "confidence": 0.77
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#browserContextMenu.openLinkExternalBrowser": {
+      "source": "Open Link in Browser",
+      "translation": "在浏览器中打开链接",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.94
+        },
+        "quality": {
+          "score": 2.8,
+          "confidence": 0.8
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#passkeyHybridUnsupported": {
+      "source": "This sign-in needs a passkey from your phone or tablet via QR code, which the Cursor browser can't display. Open this page in your regular browser to continue.",
+      "translation": "此登录需要通过二维码从手机或平板获取通行密钥，Cursor 浏览器无法显示该二维码。请在常用浏览器中打开此页面以继续。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.81
+        },
+        "quality": {
+          "score": 2.57,
+          "confidence": 0.57
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#browserContextMenu.openLinkNewTab": {
+      "source": "Open Link in New Tab",
+      "translation": "在新标签页中打开链接",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.94,
+          "confidence": 0.94
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#browserContextMenu.openLinkBackgroundTab": {
+      "source": "Open Link in Background Tab",
+      "translation": "在后台标签页中打开链接",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.86,
+          "confidence": 0.86
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#browserContextMenu.copyLinkAddress": {
+      "source": "Copy Link Address",
+      "translation": "复制链接地址",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.93,
+          "confidence": 0.93
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#browserContextMenu.openMediaExternalBrowser": {
+      "source": "Open Media in Browser",
+      "translation": "在浏览器中打开媒体",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.94
+        },
+        "quality": {
+          "score": 2.68,
+          "confidence": 0.68
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#browserContextMenu.copyImage": {
+      "source": "Copy Image",
+      "translation": "复制图像",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.93,
+          "confidence": 0.93
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#browserContextMenu.openMediaNewTab": {
+      "source": "Open Media in New Tab",
+      "translation": "在新标签页中打开媒体",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.78,
+          "confidence": 0.78
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#browserContextMenu.copyMediaAddress": {
+      "source": "Copy Media Address",
+      "translation": "复制媒体地址",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.88,
+          "confidence": 0.88
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#browserContextMenu.back": {
+      "source": "Back",
+      "translation": "后退",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.89,
+          "confidence": 0.89
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#browserContextMenu.forward": {
+      "source": "Forward",
+      "translation": "前进",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.73,
+          "confidence": 0.73
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#browserContextMenu.reload": {
+      "source": "Reload",
+      "translation": "重新加载",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.92,
+          "confidence": 0.92
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#browserContextMenu.undo": {
+      "source": "Undo",
+      "translation": "撤消",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.92,
+          "confidence": 0.92
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#browserContextMenu.cut": {
+      "source": "Cut",
+      "translation": "剪切",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.95,
+          "confidence": 0.95
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#browserContextMenu.redo": {
+      "source": "Redo",
+      "translation": "重做",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.85,
+          "confidence": 0.85
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#browserContextMenu.copy": {
+      "source": "Copy",
+      "translation": "复制",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.96,
+          "confidence": 0.96
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#browserContextMenu.paste": {
+      "source": "Paste",
+      "translation": "粘贴",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.97,
+          "confidence": 0.97
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#browserContextMenu.selectAll": {
+      "source": "Select All",
+      "translation": "全选",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.97,
+          "confidence": 0.97
+        }
+      }
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager#browserContextMenu.inspectElement": {
+      "source": "Inspect Element",
+      "translation": "检查元素",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.8,
+          "confidence": 0.8
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorAiFeedback/browser/aiFeedbackActions#miGiveFeedback": {
+      "source": "Give &&Feedback...",
+      "translation": "提供反馈(&&F)...",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.57,
+          "confidence": 0.57
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorAiFeedback/browser/aiFeedbackActions#miReportIssue": {
+      "source": "Report &&Issue",
+      "translation": "报告问题(&&I)",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.43,
+          "confidence": 0.43
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu#chatRevealInWindows": {
+      "source": "Reveal in File Explorer",
+      "translation": "在文件资源管理器中显示",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.71,
+          "confidence": 0.71
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu#chatRevealInMac": {
+      "source": "Reveal in Finder",
+      "translation": "在 Finder 中显示",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.84,
+          "confidence": 0.84
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu#chatOpenContainer": {
+      "source": "Open Containing Folder",
+      "translation": "打开所在文件夹",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.71,
+          "confidence": 0.71
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu#chatFileAddToChat": {
+      "source": "Add to Chat",
+      "translation": "添加到聊天",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.84
+        },
+        "quality": {
+          "score": 2.84,
+          "confidence": 0.84
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu#copyPath": {
+      "source": "Copy Path",
+      "translation": "复制路径",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.95,
+          "confidence": 0.95
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution#cursorBlame.openFileBlameTitle": {
+      "source": "Open File Blame",
+      "translation": "打开文件 Blame",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.9
+        },
+        "quality": {
+          "score": 2.32,
+          "confidence": 0.32
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution#cursorBlame.category": {
+      "source": "Cursor Blame",
+      "translation": "Cursor Blame",
+      "deterministic": {
+        "placeholdersOk": true,
+        "productName": true
+      },
+      "decision": "accept",
+      "answers": null
+    },
+    "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution#cursorBlame.openCommitTitle": {
+      "source": "View Commit",
+      "translation": "查看提交",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.82,
+          "confidence": 0.82
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution#cursorBlame.pasteCommitHash": {
+      "source": "Paste commit hash",
+      "translation": "粘贴提交哈希",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.81,
+          "confidence": 0.81
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution#cursorBlame.viewCommitTitle": {
+      "source": "View commit",
+      "translation": "查看提交",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.86,
+          "confidence": 0.86
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution#cursorBlame.noGit": {
+      "source": "No git repository found",
+      "translation": "未找到 git 仓库",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.91,
+          "confidence": 0.91
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution#cursorBlame.uncommittedLine": {
+      "source": "This line has not been committed yet",
+      "translation": "此行尚未提交",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.86,
+          "confidence": 0.86
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution#cursorBlameSubmenu": {
+      "source": "Cursor Blame",
+      "translation": "Cursor Blame",
+      "deterministic": {
+        "placeholdersOk": true,
+        "productName": true
+      },
+      "decision": "accept",
+      "answers": null
+    },
+    "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution#cursorBlame.explorerContextMenu": {
+      "source": "Cursor Blame",
+      "translation": "Cursor Blame",
+      "deterministic": {
+        "placeholdersOk": true,
+        "productName": true
+      },
+      "decision": "accept",
+      "answers": null
+    },
+    "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution#toggleFileBlame": {
+      "source": "Toggle file blame",
+      "translation": "切换文件 Blame",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.84
+        },
+        "quality": {
+          "score": 2.45,
+          "confidence": 0.45
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution#cursor.blame.hoverDelay": {
+      "source": "Controls the delay in milliseconds before hovers in the Cursor Blame panes appear. If not set, uses `#editor.hover.delay#` with a minimum of 500ms.",
+      "translation": "控制 Cursor Blame 面板中悬停出现前的延迟（毫秒）。若未设置，则使用 `#editor.hover.delay#`，且不少于 500ms。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.97
+        },
+        "glossary_ok": {
+          "noul": 0.73
+        },
+        "quality": {
+          "score": 2.75,
+          "confidence": 0.75
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands#exampleUtilityHost.echo": {
+      "source": "Example Utility Host Echo",
+      "translation": "示例实用程序主机 Echo",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.35,
+          "confidence": 0.35
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution#cursorBlameConfigurationTitle": {
+      "source": "Cursor Blame",
+      "translation": "Cursor Blame",
+      "deterministic": {
+        "placeholdersOk": true,
+        "productName": true
+      },
+      "decision": "accept",
+      "answers": null
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands#exampleUtilityHost.echo.ok": {
+      "source": "Example Utility Host Echo: \"{0}\" ({1}ms round-trip)",
+      "translation": "示例实用程序主机 Echo：\"{0}\"（往返 {1}ms）",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.9
+        },
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.66,
+          "confidence": 0.66
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands#exampleUtilityHost.echo.err": {
+      "source": "Example Utility Host Echo failed: {0}",
+      "translation": "示例实用程序主机 Echo 失败：{0}",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.97
+        },
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.38,
+          "confidence": 0.38
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands#exampleUtilityHost.ping": {
+      "source": "Example Utility Host Ping",
+      "translation": "示例实用程序主机 Ping",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.43,
+          "confidence": 0.43
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands#exampleUtilityHost.ping.ok": {
+      "source": "Example Utility Host Ping: host time {0}, {1}ms round-trip",
+      "translation": "示例实用程序主机 Ping：主机时间 {0}，往返 {1}ms",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.89
+        },
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.62,
+          "confidence": 0.62
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands#exampleUtilityHost.tick": {
+      "source": "Example Utility Host Tick",
+      "translation": "示例实用程序主机 Tick",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.32,
+          "confidence": 0.32
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands#exampleUtilityHost.ping.err": {
+      "source": "Example Utility Host Ping failed: {0}",
+      "translation": "示例实用程序主机 Ping 失败：{0}",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.97
+        },
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.64,
+          "confidence": 0.64
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands#exampleUtilityHost.tick.start": {
+      "source": "Example Utility Host Tick: waiting for ticks…",
+      "translation": "示例实用程序主机 Tick：正在等待 tick…",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.35,
+          "confidence": 0.35
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands#exampleUtilityHost.tick.progress": {
+      "source": "Example Utility Host Tick: {0}/{1} (host time {2})",
+      "translation": "示例实用程序主机 Tick：{0}/{1}（主机时间 {2}）",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.94
+        },
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.67,
+          "confidence": 0.67
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands#exampleUtilityHost.tick.ok": {
+      "source": "Example Utility Host Tick: received {0} ticks in {1}ms (last host time {2})",
+      "translation": "示例实用程序主机 Tick：在 {1}ms 内收到 {0} 个 tick（最后主机时间 {2}）",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.94
+        },
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.66,
+          "confidence": 0.66
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands#exampleUtilityHost.tick.partial": {
+      "source": "Example Utility Host Tick: cancelled after {0}/{1} ticks",
+      "translation": "示例实用程序主机 Tick：在 {0}/{1} 个 tick 后取消",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.93
+        },
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.61,
+          "confidence": 0.61
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands#exampleUtilityHost.tick.err": {
+      "source": "Example Utility Host Tick: no ticks received (stream ended early)",
+      "translation": "示例实用程序主机 Tick：未收到 tick（流提前结束）",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.47,
+          "confidence": 0.47
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands#exampleUtilityHost.stressTest.start": {
+      "source": "Example Utility Host Stress Test ({0}): receiving payload…",
+      "translation": "示例实用程序主机压力测试（{0}）：正在接收载荷…",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.96
+        },
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.44,
+          "confidence": 0.44
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands#exampleUtilityHost.stressTest.ok": {
+      "source": "Example Utility Host Stress Test ({0}): received {1} MiB in {2}ms ({3} MiB/s)",
+      "translation": "示例实用程序主机压力测试（{0}）：在 {2}ms 内收到 {1} MiB（{3} MiB/s）",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.92
+        },
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.53,
+          "confidence": 0.53
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands#exampleUtilityHost.stressTest.err": {
+      "source": "Example Utility Host Stress Test ({0}) failed: {1}",
+      "translation": "示例实用程序主机压力测试（{0}）失败：{1}",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": {
+          "noul": 0.94
+        },
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.69,
+          "confidence": 0.69
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands#exampleUtilityHost.stressTest": {
+      "source": "Example Utility Host Stress Test (16 MiB)",
+      "translation": "示例实用程序主机压力测试（16 MiB）",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.53,
+          "confidence": 0.53
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands#exampleUtilityHost.stressTestLarge": {
+      "source": "Example Utility Host Stress Test Large (63 MiB, under 64 MiB tunnel cap)",
+      "translation": "示例实用程序主机压力测试（大，63 MiB，低于 64 MiB 隧道上限）",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.47,
+          "confidence": 0.47
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorLocalTrace/browser/cursorLocalTrace.contribution#cursorLocalTraceMode.settingTitle": {
+      "source": "Local Trace Mode",
+      "translation": "本地跟踪模式",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.73,
+          "confidence": 0.73
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorLocalTrace/browser/cursorLocalTrace.contribution#cursorLocalTraceModeConfigurationTitle": {
+      "source": "Local Trace Mode",
+      "translation": "本地跟踪模式",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.72,
+          "confidence": 0.72
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorLocalTrace/browser/cursorLocalTrace.contribution#cursorLocalTraceMode": {
+      "source": "When enabled, records performance marks and measures locally (for example in Chrome DevTools Performance) and mirrors VS Code RPCs into the DevTools Network tab.",
+      "translation": "启用后，会在本地记录性能标记和测量（例如 Chrome DevTools Performance），并把 VS Code RPC 镜像到 DevTools 网络面板。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.54,
+          "confidence": 0.54
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions#toggleMarkdownPlanEditorMode": {
+      "source": "Toggle Editor Mode",
+      "translation": "切换编辑器模式",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.52,
+          "confidence": 0.52
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions#acceptPlan": {
+      "source": "Build Plan",
+      "translation": "生成计划",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "human_review",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.83
+        },
+        "quality": {
+          "score": 1.8,
+          "confidence": 0
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions#markdownPlanEditor": {
+      "source": "Markdown Plan Editor",
+      "translation": "Markdown 计划编辑器",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.82
+        },
+        "quality": {
+          "score": 2.72,
+          "confidence": 0.72
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions#find": {
+      "source": "Find",
+      "translation": "查找",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.92,
+          "confidence": 0.92
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions#findNext": {
+      "source": "Find Next",
+      "translation": "查找下一个",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.91,
+          "confidence": 0.91
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions#findPrevious": {
+      "source": "Find Previous",
+      "translation": "查找上一个",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.8,
+          "confidence": 0.8
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions#closeFindWidget": {
+      "source": "Close Find Widget",
+      "translation": "关闭查找控件",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.6,
+          "confidence": 0.6
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/usePlanEditorState#markdownPlanEditor.fileChangedWhileDirty": {
+      "source": "The content of the file is newer. Do you want to overwrite the file with your changes, or revert your changes?",
+      "translation": "文件内容更新了。要用你的更改覆盖文件，还是还原你的更改？",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.64,
+          "confidence": 0.64
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/usePlanEditorState#revert": {
+      "source": "Revert",
+      "translation": "还原",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.82,
+          "confidence": 0.82
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/usePlanEditorState#overwrite": {
+      "source": "Overwrite",
+      "translation": "覆盖",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.92,
+          "confidence": 0.92
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution#cursorOrigin.category": {
+      "source": "Cursor Origin",
+      "translation": "Cursor Origin",
+      "deterministic": {
+        "placeholdersOk": true,
+        "productName": true
+      },
+      "decision": "accept",
+      "answers": null
+    },
+    "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution#cursorOrigin.noFile": {
+      "source": "No file is currently open.",
+      "translation": "当前没有打开的文件。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.94,
+          "confidence": 0.94
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution#cursorOrigin.noLink": {
+      "source": "Could not build a cursor.com link. Open a file in a git repository with an eligible remote.",
+      "translation": "无法生成 cursor.com 链接。请在具有符合条件远程仓库的 git 仓库中打开文件。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.87
+        },
+        "quality": {
+          "score": 2.63,
+          "confidence": 0.63
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution#cursorOrigin.copyCodeLink": {
+      "source": "Copy cursor.com link (with selection)",
+      "translation": "复制 cursor.com 链接（含选区）",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.88
+        },
+        "quality": {
+          "score": 2.65,
+          "confidence": 0.65
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution#cursorOrigin.copyCodeLink.menu": {
+      "source": "Copy cursor.com link",
+      "translation": "复制 cursor.com 链接",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.8
+        },
+        "quality": {
+          "score": 2.7,
+          "confidence": 0.7
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution#cursorOrigin.copyCodeLinkWithoutRange": {
+      "source": "Copy cursor.com link (file only)",
+      "translation": "复制 cursor.com 链接（仅文件）",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.9
+        },
+        "quality": {
+          "score": 2.58,
+          "confidence": 0.58
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution#cursorOrigin.copyCodeLinkExplorer.menu": {
+      "source": "Copy cursor.com link",
+      "translation": "复制 cursor.com 链接",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.9
+        },
+        "quality": {
+          "score": 2.77,
+          "confidence": 0.77
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution#cursorOrigin.copyCodeLinkEditorTitle.menu": {
+      "source": "Copy cursor.com link",
+      "translation": "复制 cursor.com 链接",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.85
+        },
+        "quality": {
+          "score": 2.74,
+          "confidence": 0.74
+        }
+      }
+    },
+    "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution#cursorOrigin.copyCodeLinkLineNumber.menu": {
+      "source": "Copy cursor.com link",
+      "translation": "复制 cursor.com 链接",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.86
+        },
+        "quality": {
+          "score": 2.39,
+          "confidence": 0.39
+        }
+      }
+    },
+    "vs/workbench/contrib/terminalContrib/cursorCliPrompt/browser/terminal.cursorCliPrompt.contribution#cursor.cliAlreadyInstalled": {
+      "source": "Cursor CLI is already installed.",
+      "translation": "已安装 Cursor CLI。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.81
+        },
+        "quality": {
+          "score": 2.87,
+          "confidence": 0.87
+        }
+      }
+    },
+    "vs/workbench/contrib/terminalContrib/cursorCliPrompt/browser/terminal.cursorCliPrompt.contribution#cursor.installCli": {
+      "source": "Install Cursor CLI",
+      "translation": "安装 Cursor CLI",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.91
+        },
+        "quality": {
+          "score": 2.93,
+          "confidence": 0.93
+        }
+      }
+    },
+    "vs/workbench/contrib/terminalContrib/cursorDeveloper/browser/terminal.cursorDeveloper.contribution#workbench.action.terminal.debugCheckExecutionServiceVersion": {
+      "source": "Debug: Check Terminal Execution Service Version",
+      "translation": "调试：检查终端执行服务版本",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.72,
+          "confidence": 0.72
+        }
+      }
+    },
+    "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution#workbench.action.terminal.externalAgentActions": {
+      "source": "External Agent Actions",
+      "translation": "外部 Agent 操作",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "human_review",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.64
+        },
+        "quality": {
+          "score": 2.57,
+          "confidence": 0.57
+        }
+      }
+    },
+    "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution#workbench.action.terminal.externalAgentSecondOpinion": {
+      "source": "Second Opinion",
+      "translation": "第二意见",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.78,
+          "confidence": 0.78
+        }
+      }
+    },
+    "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution#workbench.action.terminal.externalAgentAsk": {
+      "source": "Side Chat",
+      "translation": "侧边聊天",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "human_review",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.78
+        },
+        "quality": {
+          "score": 1.83,
+          "confidence": 0
+        }
+      }
+    },
+    "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution#workbench.action.terminal.externalAgentAsk.menu": {
+      "source": "Side Chat",
+      "translation": "侧边聊天",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "human_review",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.76
+        },
+        "quality": {
+          "score": 1.82,
+          "confidence": 0
+        }
+      }
+    },
+    "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution#workbench.action.terminal.externalAgentSecondOpinion.menu": {
+      "source": "Second Opinion",
+      "translation": "第二意见",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.73,
+          "confidence": 0.73
+        }
+      }
+    },
+    "vs/workbench/contrib/terminalContrib/cursorPromptBar/browser/terminalPromptBarContextKeys#terminalPromptBarVisible": {
+      "source": "Whether the terminal prompt bar is currently visible",
+      "translation": "终端提示栏当前是否可见",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.87,
+          "confidence": 0.87
+        }
+      }
+    },
+    "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution#workbench.action.terminal.externalAgentActions.title": {
+      "source": "External Agent Actions",
+      "translation": "外部 Agent 操作",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "human_review",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.48
+        },
+        "quality": {
+          "score": 2.62,
+          "confidence": 0.62
+        }
+      }
+    },
+    "vs/workbench/contrib/terminalContrib/cursorPromptBar/browser/terminalPromptBarContextKeys#terminalPromptBarCanCancelGeneration": {
+      "source": "Whether terminal prompt-bar generation can be cancelled",
+      "translation": "是否可以取消终端提示栏生成",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.56,
+          "confidence": 0.56
+        }
+      }
+    },
+    "vs/workbench/contrib/terminalContrib/cursorPromptBar/browser/terminalPromptBarContextKeys#terminalPromptBarCanRejectGeneration": {
+      "source": "Whether terminal prompt-bar generated command can be rejected",
+      "translation": "是否可以拒绝终端提示栏生成的命令",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.52,
+          "confidence": 0.52
+        }
+      }
+    },
+    "vs/workbench/services/cursorAuth/browser/authenticationService.contribution#cursorAuthConfigurationTitle": {
+      "source": "Cursor Auth",
+      "translation": "Cursor 身份验证",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.92
+        },
+        "quality": {
+          "score": 2.68,
+          "confidence": 0.68
+        }
+      }
+    },
+    "vs/workbench/services/cursorAuth/browser/authenticationService.contribution#cursor.allowedTeamId": {
+      "source": "Specify the required team id that a user must belong to in order to use Cursor. If set and the signed-in user is not part of the team, Cursor will automatically sign the user out.",
+      "translation": "指定用户必须所属的团队 ID 才能使用 Cursor。若已设置且登录用户不属于该团队，Cursor 会自动将其退出登录。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.96
+        },
+        "quality": {
+          "score": 2.78,
+          "confidence": 0.78
+        }
+      }
+    },
+    "vs/workbench/services/cursorAuth/browser/authenticationService.contribution#cursor.allowedOrganizationIds": {
+      "source": "Comma-separated list of Cursor organization ids whose members are allowed to sign in on this device (set via device management).",
+      "translation": "允许在此设备登录的 Cursor 组织 ID 逗号分隔列表（通过设备管理设置）。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.92
+        },
+        "quality": {
+          "score": 2.57,
+          "confidence": 0.57
+        }
+      }
+    },
+    "vs/workbench/services/cursorAuth/browser/authenticationService.contribution#cursor.signInEnforcement": {
+      "source": "When enabled via device management (MDM), Cursor's backend refuses to issue or refresh sign-in sessions for accounts that match none of the configured allowed organizations, teams, emails, or email domains.",
+      "translation": "通过设备管理 (MDM) 启用后，若账号与已配置的允许组织、团队、邮箱或邮箱域均不匹配，Cursor 后端将拒绝签发或刷新登录会话。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.94
+        },
+        "quality": {
+          "score": 2.68,
+          "confidence": 0.68
+        }
+      }
+    },
+    "vs/workbench/services/cursorAuth/browser/authenticationService.contribution#cursor.allowedTeamIds": {
+      "source": "Comma-separated list of Cursor team ids whose members are allowed to sign in on this device (set via device management). Supersedes the singular AllowedTeamId policy; both are honored.",
+      "translation": "允许在此设备登录的 Cursor 团队 ID 逗号分隔列表（通过设备管理设置）。优先于单独的 AllowedTeamId 策略；两者都会生效。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": {
+          "noul": 0.94
+        },
+        "quality": {
+          "score": 2.17,
+          "confidence": 0.17
+        }
+      }
+    },
+    "vs/workbench/services/cursorAuth/browser/authenticationService.contribution#cursor.allowedLoginEmails": {
+      "source": "Comma-separated list of exact account emails allowed to sign in on this device (set via device management). Compared case-insensitively.",
+      "translation": "允许在此设备登录的精确账号邮箱逗号分隔列表（通过设备管理设置）。比较时不区分大小写。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.45,
+          "confidence": 0.45
+        }
+      }
+    },
+    "vs/workbench/services/cursorAuth/browser/authenticationService.contribution#cursor.allowedLoginDomains": {
+      "source": "Comma-separated list of email domains (e.g. example.com) whose accounts are allowed to sign in on this device (set via device management). Exact domain match only; subdomains are not implicitly included.",
+      "translation": "允许在此设备登录的邮箱域逗号分隔列表（例如 example.com，通过设备管理设置）。仅精确匹配域名，不会隐式包含子域。",
+      "deterministic": {
+        "placeholdersOk": true
+      },
+      "decision": "accept",
+      "model": "jev-1.13.0",
+      "answers": {
+        "placeholders_ok": null,
+        "glossary_ok": null,
+        "quality": {
+          "score": 2.33,
+          "confidence": 0.33
+        }
+      }
+    }
+  }
+}

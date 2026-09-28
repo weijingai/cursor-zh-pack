@@ -1,0 +1,37 @@
+{
+  "product": {
+    "Cursor": "Cursor",
+    "Cursor AI": "Cursor AI",
+    "Cursor Blame": "Cursor Blame",
+    "Cursor Origin": "Cursor Origin",
+    "Cursor Tab": "Cursor Tab",
+    "Agent": "Agent",
+    "Agents": "Agent",
+    "Agents Window": "Agents 窗口",
+    "Agents sidebar": "Agents 侧栏",
+    "Cloud Agent": "云端 Agent",
+    "Cloud agents": "云端 Agent",
+    "Composer": "Composer",
+    "MCP": "MCP",
+    "Glass": "Glass",
+    "Blame": "Blame",
+    "IDE": "IDE"
+  },
+  "ui": {
+    "Chat": "聊天",
+    "Chats": "聊天",
+    "Rules": "规则",
+    "Dashboard": "控制台",
+    "Update": "更新",
+    "Browser": "浏览器",
+    "Browser Tab": "浏览器标签页",
+    "Plan": "计划",
+    "Notepads": "记事本",
+    "Custom Modes": "自定义模式"
+  },
+  "policy": [
+    "Keep product names Cursor, Agent, MCP, Glass, Composer, Blame in Latin letters.",
+    "Keep placeholders such as {0}, {1}, `#setting#`, and `.cursor/` paths intact.",
+    "When the source uses a && mnemonic, append it in Chinese form as (&&X), e.g. \"&&Hide\" -> \"隐藏(&&H)\"."
+  ]
+}

@@ -1,0 +1,4216 @@
+{
+  "stats": {
+    "total": 13622,
+    "translated": 11805,
+    "alias": 338,
+    "memoryUnique": 161,
+    "memoryMultiple": 15,
+    "none": 1303
+  },
+  "recovered": [
+    {
+      "moduleId": "vs/code/electron-sandbox/processExplorer/processExplorerMain",
+      "key": "copy",
+      "source": "Copy",
+      "via": "memory",
+      "zh": "复制"
+    },
+    {
+      "moduleId": "vs/code/electron-sandbox/processExplorer/processExplorerMain",
+      "key": "copyAll",
+      "source": "Copy All",
+      "via": "memory",
+      "zh": "全部复制"
+    },
+    {
+      "moduleId": "vs/code/electron-sandbox/processExplorer/processExplorerMain",
+      "key": "debug",
+      "source": "Debug",
+      "via": "memory",
+      "zh": "调试"
+    },
+    {
+      "moduleId": "vs/code/electron-sandbox/processExplorer/processExplorerMain",
+      "key": "debug",
+      "source": "Debug",
+      "via": "memory",
+      "zh": "调试"
+    },
+    {
+      "moduleId": "vs/editor/browser/services/hoverService/hoverWidget",
+      "key": "hoverhint",
+      "source": "Hold {0} key to mouse over",
+      "via": "alias",
+      "from": "vs/platform/hover/browser/hoverWidget",
+      "zh": "按住 {0} 键将鼠标悬停"
+    },
+    {
+      "moduleId": "vs/editor/browser/services/hoverService/updatableHoverWidget",
+      "key": "iconLabel.loading",
+      "source": "Loading...",
+      "via": "alias",
+      "from": "vs/platform/hover/browser/updatableHoverWidget",
+      "zh": "正在加载..."
+    },
+    {
+      "moduleId": "vs/editor/contrib/gotoSymbol/browser/peek/referencesWidget",
+      "key": "label.close",
+      "source": "Close",
+      "via": "memory",
+      "zh": "关闭"
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/hintsWidget/inlineCompletionsHintsWidget",
+      "key": "content",
+      "source": "{0} ({1})",
+      "via": "memory",
+      "zh": "{0} ({1})"
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/components/gutterIndicatorMenu",
+      "key": "goto",
+      "source": "Go To",
+      "via": "memory",
+      "zh": "转到"
+    },
+    {
+      "moduleId": "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/components/gutterIndicatorMenu",
+      "key": "accept",
+      "source": "Accept",
+      "via": "memory",
+      "zh": "接受"
+    },
+    {
+      "moduleId": "vs/platform/action/common/actionCommonCategories",
+      "key": "cursor",
+      "source": "Cursor",
+      "via": "memory",
+      "zh": "光标"
+    },
+    {
+      "moduleId": "vs/platform/actions/browser/menuEntryActionViewItem",
+      "key": "titleAndKb",
+      "source": "{0} ({1})",
+      "via": "memory",
+      "zh": "{0} ({1})"
+    },
+    {
+      "moduleId": "vs/platform/actions/browser/menuEntryActionViewItem",
+      "key": "titleAndKb",
+      "source": "{0} ({1})",
+      "via": "memory",
+      "zh": "{0} ({1})"
+    },
+    {
+      "moduleId": "vs/platform/browserView/electron-sandbox/externalSchemeConfirmation",
+      "key": "browserView.openExternalLinkOpen",
+      "source": "&&Open",
+      "via": "memory",
+      "zh": "打开(&&O)"
+    },
+    {
+      "moduleId": "vs/platform/browserView/electron-sandbox/externalSchemeConfirmation",
+      "key": "browserView.openExternalLinkCancel",
+      "source": "Cancel",
+      "via": "memory",
+      "zh": "取消"
+    },
+    {
+      "moduleId": "vs/platform/extensionManagement/node/extensionManagementService",
+      "key": "package not signed",
+      "source": "Extension is not signed.",
+      "via": "memory",
+      "zh": "扩展未签名。"
+    },
+    {
+      "moduleId": "vs/platform/files/browser/indexedDBFileSystemProvider",
+      "key": "fileNotExists",
+      "source": "File does not exist",
+      "via": "memory",
+      "zh": "文件不存在"
+    },
+    {
+      "moduleId": "vs/platform/process/electron-main/processMainService",
+      "key": "trace.ok",
+      "source": "&&OK",
+      "via": "memory",
+      "zh": "确定(&&O)"
+    },
+    {
+      "moduleId": "vs/platform/storage/electron-main/storageMainService",
+      "key": "storageError.restart",
+      "source": "Restart",
+      "via": "memory",
+      "zh": "重启"
+    },
+    {
+      "moduleId": "vs/platform/utilityHost/common/utilityHostCpuProfileCommands",
+      "key": "utilityHost.cpuProfile.stop",
+      "source": "Stop",
+      "via": "memory",
+      "zh": "停止"
+    },
+    {
+      "moduleId": "vs/platform/utilityHost/common/utilityHostCpuProfileCommands",
+      "key": "utilityHost.cpuProfile.stop",
+      "source": "Stop",
+      "via": "memory",
+      "zh": "停止"
+    },
+    {
+      "moduleId": "vs/workbench/api/browser/mainThreadCursor",
+      "key": "reloadWindow",
+      "source": "Reload Window",
+      "via": "memory",
+      "zh": "重新加载窗口"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/layoutActions",
+      "key": "miToggleZenMode",
+      "source": "Zen Mode",
+      "via": "memory",
+      "zh": "禅模式"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/layoutActions",
+      "key": "maximizeChatSize",
+      "source": "Maximize Chat Size",
+      "via": "memory",
+      "zh": "切换编辑器区域可见性"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/layoutSwitcherOverlay",
+      "key": "layoutSwitcher.editor",
+      "source": "Editor",
+      "via": "memory",
+      "zh": "编辑器"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/layoutSwitcherOverlay",
+      "key": "layoutSwitcher.untitled",
+      "source": "Untitled",
+      "via": "memory",
+      "zh": "无标题"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/layoutSwitcherOverlay",
+      "key": "layoutSwitcher.untitled",
+      "source": "Untitled",
+      "via": "memory",
+      "zh": "无标题"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/layoutSwitcherOverlay",
+      "key": "layoutSwitcher.untitled",
+      "source": "Untitled",
+      "via": "memory",
+      "zh": "无标题"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarPart",
+      "key": "titleAndKb",
+      "source": "{0} ({1})",
+      "via": "memory",
+      "zh": "{0} ({1})"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarPart",
+      "key": "auxiliaryBarNewAgent",
+      "source": "New Agent",
+      "via": "memory",
+      "zh": "打开聊天"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarPart",
+      "key": "titleAndKb",
+      "source": "{0} ({1})",
+      "via": "memory",
+      "zh": "{0} ({1})"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarPart",
+      "key": "auxiliaryBarClose",
+      "source": "Close",
+      "via": "memory",
+      "zh": "关闭"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/editor/breadcrumbsControl",
+      "key": "miBreadcrumbs",
+      "source": "Toggle &&Breadcrumbs",
+      "via": "memory",
+      "zh": "痕迹导航(&&B)"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/editor/editorGroupWatermark",
+      "key": "watermark.addFolder",
+      "source": "Add Folder",
+      "via": "memory",
+      "zh": "添加文件夹"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/editor/renderEditorEmptyScreen",
+      "key": "enable",
+      "source": "Enable and Reload",
+      "via": "memory",
+      "zh": "启用和重新加载"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/notifications/notificationAccessibleView",
+      "key": "notification.accessibleView",
+      "source": "{0}",
+      "via": "memory-choice",
+      "candidates": {
+        "{0}": 3,
+        "文件似乎是二进制文件，不能作为文本打开": 1
+      }
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/sidebar/sidebarMenu",
+      "key": "configureKeybinding",
+      "source": "Configure Keybinding",
+      "via": "memory",
+      "zh": "配置键绑定"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/sidebar/sidebarMenu",
+      "key": "configureKeybinding",
+      "source": "Configure Keybinding",
+      "via": "memory",
+      "zh": "配置键绑定"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/sidebar/sidebarMenu",
+      "key": "hide",
+      "source": "Hide '{0}'",
+      "via": "memory",
+      "zh": "隐藏“{0}”"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/sidebar/sidebarMenu",
+      "key": "keep",
+      "source": "Keep '{0}'",
+      "via": "memory",
+      "zh": "保留“{0}”"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/sidebar/sidebarMenu",
+      "key": "movePrimarySideBarRight",
+      "source": "Move Primary Side Bar Right",
+      "via": "memory",
+      "zh": "向右移动主侧栏"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/sidebar/sidebarMenu",
+      "key": "movePrimarySideBarLeft",
+      "source": "Move Primary Side Bar Left",
+      "via": "memory",
+      "zh": "向左移动主侧栏"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/sidebar/sidebarMenu",
+      "key": "movePrimarySideBarRight",
+      "source": "Move Primary Side Bar Right",
+      "via": "memory",
+      "zh": "向右移动主侧栏"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/sidebar/sidebarMenu",
+      "key": "movePrimarySideBarLeft",
+      "source": "Move Primary Side Bar Left",
+      "via": "memory",
+      "zh": "向左移动主侧栏"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/menubarControl",
+      "key": "mFile",
+      "source": "&&File",
+      "via": "memory",
+      "zh": "文件(&&F)"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/menubarControl",
+      "key": "mEdit",
+      "source": "&&Edit",
+      "via": "memory",
+      "zh": "编辑(&&E)"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/menubarControl",
+      "key": "mSelection",
+      "source": "&&Selection",
+      "via": "memory",
+      "zh": "选择(&&S)"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/menubarControl",
+      "key": "mView",
+      "source": "&&View",
+      "via": "memory",
+      "zh": "查看(&&V)"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/menubarControl",
+      "key": "mGoto",
+      "source": "&&Go",
+      "via": "memory",
+      "zh": "转到(&&G)"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/menubarControl",
+      "key": "mTerminal",
+      "source": "&&Terminal",
+      "via": "memory",
+      "zh": "终端(&&T)"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/menubarControl",
+      "key": "mHelp",
+      "source": "&&Help",
+      "via": "memory",
+      "zh": "帮助(&&H)"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/menubarControl",
+      "key": "mPreferences",
+      "source": "Preferences",
+      "via": "memory",
+      "zh": "首选项"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+      "key": "newAgentShort",
+      "source": "New Agent",
+      "via": "memory",
+      "zh": "打开聊天"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+      "key": "ideTitlebarUpdateAction",
+      "source": "Restart to Update",
+      "via": "memory",
+      "zh": "重启以更新"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+      "key": "togglePrimarySidebar",
+      "source": "Toggle Primary Side Bar",
+      "via": "memory",
+      "zh": "切换主侧栏"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+      "key": "goBack",
+      "source": "Go Back",
+      "via": "memory-choice",
+      "candidates": {
+        "返回": 4,
+        "后退": 1
+      }
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+      "key": "goForward",
+      "source": "Go Forward",
+      "via": "memory",
+      "zh": "前进"
+    },
+    {
+      "moduleId": "vs/workbench/browser/window",
+      "key": "open",
+      "source": "&&Open",
+      "via": "memory",
+      "zh": "打开(&&O)"
+    },
+    {
+      "moduleId": "vs/workbench/browser/window",
+      "key": "learnMore",
+      "source": "&&Learn More",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "了解详细信息"
+    },
+    {
+      "moduleId": "vs/workbench/browser/windowQuitConfirmation",
+      "key": "shutdownClose",
+      "source": "Close",
+      "via": "memory",
+      "zh": "关闭"
+    },
+    {
+      "moduleId": "vs/workbench/browser/windowQuitConfirmation",
+      "key": "shutdownReload",
+      "source": "Reload",
+      "via": "memory",
+      "zh": "重新加载"
+    },
+    {
+      "moduleId": "vs/workbench/browser/workbench.contribution",
+      "key": "zenModeConfigurationTitle",
+      "source": "Zen Mode",
+      "via": "memory",
+      "zh": "禅模式"
+    },
+    {
+      "moduleId": "vs/workbench/browser/workbench.contribution",
+      "key": "zenMode.showTabs.multiple",
+      "source": "Each editor is displayed as a tab in the editor title area.",
+      "via": "memory",
+      "zh": "每个编辑器在编辑器标题区域显示为选项卡。"
+    },
+    {
+      "moduleId": "vs/workbench/browser/workbench.contribution",
+      "key": "zenMode.showTabs.single",
+      "source": "The active editor is displayed as a single large tab in the editor title area.",
+      "via": "memory",
+      "zh": "活动编辑器在编辑器标题区域显示为单个大选项卡。"
+    },
+    {
+      "moduleId": "vs/workbench/browser/workbench.contribution",
+      "key": "zenMode.showTabs.none",
+      "source": "The editor title area is not displayed.",
+      "via": "memory",
+      "zh": "未显示编辑器标题区域。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton",
+      "key": "agentSidebarUpdateButton.label",
+      "source": "Update",
+      "via": "memory",
+      "zh": "更新"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton",
+      "key": "agentSidebarUpdateButton.installingLabel",
+      "source": "Installing",
+      "via": "memory",
+      "zh": "正在安装"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+      "key": "cursor.composer.planTextSizeScale.defaultSize",
+      "source": "Default",
+      "via": "memory-choice",
+      "candidates": {
+        "默认": 6,
+        "默认值": 4
+      }
+    },
+    {
+      "moduleId": "vs/workbench/contrib/authentication/browser/authentication.contribution",
+      "key": "loading",
+      "source": "Loading...",
+      "via": "memory-choice",
+      "candidates": {
+        "正在加载...": 11,
+        "正在加载…": 2
+      }
+    },
+    {
+      "moduleId": "vs/workbench/contrib/bulkEdit/browser/bulkEditService",
+      "key": "closeTheWindow",
+      "source": "&&Close Window",
+      "via": "memory",
+      "zh": "关闭窗口(&&C)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/bulkEdit/browser/bulkEditService",
+      "key": "reloadTheWindow",
+      "source": "&&Reload Window",
+      "via": "memory",
+      "zh": "重新加载窗口(&&R)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/bulkEdit/browser/bulkEditService",
+      "key": "quit.message",
+      "source": "Are you sure you want to quit?",
+      "via": "memory",
+      "zh": "是否确实要退出?"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/bulkEdit/browser/bulkEditService",
+      "key": "quit",
+      "source": "&&Quit",
+      "via": "memory",
+      "zh": "退出(&&Q)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/canvas/browser/canvas-start-page.react",
+      "key": "glass.canvasStartPage.showLess",
+      "source": "Show Less",
+      "via": "memory",
+      "zh": "显示更少"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/canvas/browser/canvas-start-page.react",
+      "key": "glass.canvasStartPage.showMore",
+      "source": "Show More",
+      "via": "memory",
+      "zh": "显示更多"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/codeEditor/browser/saveParticipants",
+      "key": "skip",
+      "source": "Skip",
+      "via": "memory",
+      "zh": "跳过"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/codeEditor/electron-sandbox/selectionClipboard",
+      "key": "actions.pasteSelectionClipboard",
+      "source": "Paste Selection Clipboard",
+      "via": "alias",
+      "from": "vs/workbench/contrib/codeEditor/electron-browser/selectionClipboard",
+      "zh": "粘贴选择剪贴板"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/codeEditor/electron-sandbox/startDebugTextMate",
+      "key": "startDebugTextMate",
+      "source": "Start TextMate Syntax Grammar Logging",
+      "via": "alias",
+      "from": "vs/workbench/contrib/codeEditor/electron-browser/startDebugTextMate",
+      "zh": "启动 TextMate 语法语法日志记录"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/comments/browser/commentThreadZoneWidget",
+      "key": "collapse",
+      "source": "Collapse",
+      "via": "memory",
+      "zh": "折叠"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
+      "key": "closeBrowserTab.close",
+      "source": "&&Close",
+      "via": "memory-choice",
+      "candidates": {
+        "关闭(&C)": 1,
+        "关闭(&&C)": 3
+      }
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.back",
+      "source": "Back",
+      "via": "memory",
+      "zh": "上一步"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.reload",
+      "source": "Reload",
+      "via": "memory",
+      "zh": "重新加载"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.undo",
+      "source": "Undo",
+      "via": "memory",
+      "zh": "撤消"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.redo",
+      "source": "Redo",
+      "via": "memory",
+      "zh": "恢复"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.cut",
+      "source": "Cut",
+      "via": "memory",
+      "zh": "剪切"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.copy",
+      "source": "Copy",
+      "via": "memory",
+      "zh": "复制"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.paste",
+      "source": "Paste",
+      "via": "memory",
+      "zh": "粘贴"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+      "key": "browserContextMenu.selectAll",
+      "source": "Select All",
+      "via": "memory-choice",
+      "candidates": {
+        "选择全部": 6,
+        "全选": 1
+      }
+    },
+    {
+      "moduleId": "vs/workbench/contrib/continuousProfiling/electron-sandbox/continuousProfiling.contribution",
+      "key": "captureProfileConfirmButton",
+      "source": "Continue",
+      "via": "memory",
+      "zh": "继续"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/continuousProfiling/electron-sandbox/continuousProfiling.contribution",
+      "key": "captureProfileCancelButton",
+      "source": "Cancel",
+      "via": "memory",
+      "zh": "取消"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu",
+      "key": "copyPath",
+      "source": "Copy Path",
+      "via": "memory",
+      "zh": "复制路径"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+      "key": "find",
+      "source": "Find",
+      "via": "memory",
+      "zh": "查找"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+      "key": "findNext",
+      "source": "Find Next",
+      "via": "memory",
+      "zh": "查找下一个"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+      "key": "findPrevious",
+      "source": "Find Previous",
+      "via": "memory-choice",
+      "candidates": {
+        "查找上一个": 2,
+        "查找前一个": 1
+      }
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/usePlanEditorState",
+      "key": "overwrite",
+      "source": "Overwrite",
+      "via": "memory",
+      "zh": "覆盖"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/usePlanEditorState",
+      "key": "revert",
+      "source": "Revert",
+      "via": "memory",
+      "zh": "还原"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+      "key": "debugConfigurationTitle",
+      "source": "Debug",
+      "via": "memory",
+      "zh": "调试"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+      "key": "debug.confirmOnExit.never",
+      "source": "Never confirm.",
+      "via": "memory",
+      "zh": "从不确认。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/browser/extensions.web.contribution",
+      "key": "runtimeExtension",
+      "source": "Running Extensions",
+      "via": "memory",
+      "zh": "正在运行的扩展"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/browser/extensionsActions",
+      "key": "learn why",
+      "source": "Learn Why",
+      "via": "memory",
+      "zh": "了解原因"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+      "key": "extensionsConfigurationTitle",
+      "source": "Extensions",
+      "via": "memory",
+      "zh": "扩展"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+      "key": "none",
+      "source": "None",
+      "via": "memory-choice",
+      "candidates": {
+        "无": 6,
+        "没有": 1
+      }
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+      "key": "notFound",
+      "source": "Extension '{0}' not found.",
+      "via": "memory",
+      "zh": "找不到扩展“{0}”。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+      "key": "notFound",
+      "source": "Extension '{0}' not found.",
+      "via": "memory",
+      "zh": "找不到扩展“{0}”。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/browser/extensionsViewlet",
+      "key": "dismiss",
+      "source": "Dismiss",
+      "via": "memory-choice",
+      "candidates": {
+        "关闭": 2,
+        "消除": 2
+      }
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/browser/extensionsViewlet",
+      "key": "dismiss",
+      "source": "Dismiss",
+      "via": "memory-choice",
+      "candidates": {
+        "关闭": 2,
+        "消除": 2
+      }
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/browser/extensionsViews",
+      "key": "extensions",
+      "source": "Extensions",
+      "via": "memory",
+      "zh": "扩展"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/browser/extensionsViews",
+      "key": "suggestProxyError",
+      "source": "Marketplace returned 'ECONNREFUSED'. Please check the 'http.proxy' setting.",
+      "via": "memory",
+      "zh": "市场返回了 \"ECONNREFUSED\"。请检查 \"http.proxy\" 设置。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/browser/extensionsViews",
+      "key": "open user settings",
+      "source": "Open User Settings",
+      "via": "memory",
+      "zh": "打开用户设置"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/browser/extensionsViews",
+      "key": "extension.arialabel.deprecated",
+      "source": "Deprecated",
+      "via": "memory",
+      "zh": "已弃用"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/browser/maliciousExtensionChecker",
+      "key": "restartNow",
+      "source": "Restart Extensions",
+      "via": "memory",
+      "zh": "重新启动扩展"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/browser/maliciousExtensionChecker",
+      "key": "reloadNow",
+      "source": "Reload Now",
+      "via": "memory",
+      "zh": "立即重载"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/debugExtensionHostAction",
+      "key": "selectExtensionHost",
+      "source": "Pick extension host",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/debugExtensionHostAction",
+      "zh": "选择扩展主机"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/debugExtensionHostAction",
+      "key": "debugExtensionHost",
+      "source": "Start Debugging Extension Host In New Window",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/debugExtensionHostAction",
+      "zh": "在新窗口中调试扩展主机"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/debugExtensionHostAction",
+      "key": "restart1",
+      "source": "Debug Extensions",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/debugExtensionHostAction",
+      "zh": "调试扩展"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/debugExtensionHostAction",
+      "key": "restart2",
+      "source": "In order to debug extensions a restart is required. Do you want to restart '{0}' now?",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/debugExtensionHostAction",
+      "zh": "需要重启，才能调试扩展。是否要立即重启“{0}”?"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/debugExtensionHostAction",
+      "key": "restart3",
+      "source": "&&Restart",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/debugExtensionHostAction",
+      "zh": "重启(&&R)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/debugExtensionHostAction",
+      "key": "restart3",
+      "source": "&&Restart",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/debugExtensionHostAction",
+      "zh": "重启(&&R)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/debugExtensionHostAction",
+      "key": "debugExtensionHost.progress",
+      "source": "Attaching Debugger To Extension Host",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/debugExtensionHostAction",
+      "zh": "正在将调试器附加到扩展主机"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/debugExtensionHostAction",
+      "key": "debugExtensionHost.launch.name",
+      "source": "Attach Extension Host",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/debugExtensionHostAction",
+      "zh": "附加扩展主机"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/debugExtensionHostAction",
+      "key": "openDevToolsForExtensionHost",
+      "source": "Open Developer Tools for Extension Host",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/debugExtensionHostAction",
+      "zh": "在开发工具中调试扩展主机"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionProfileService",
+      "key": "extensionHostProfileStatusTarget",
+      "source": "Extension Host",
+      "via": "memory",
+      "zh": "扩展宿主"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionProfileService",
+      "key": "status.profiler",
+      "source": "Profiler",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/extensionProfileService",
+      "zh": "扩展探查器"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionProfileService",
+      "key": "selectAndStartDebug",
+      "source": "Click to stop profiling.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/extensionProfileService",
+      "zh": "单击可停止分析。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionProfileService",
+      "key": "restart3",
+      "source": "&&Restart",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/extensionProfileService",
+      "zh": "重启(&&R)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionProfileService",
+      "key": "restartRemote3",
+      "source": "&&Restart",
+      "via": "memory",
+      "zh": "重启(&&R)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionProfileService",
+      "key": "extensionHostLocationRemote",
+      "source": "Remote",
+      "via": "memory",
+      "zh": "远程"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionProfileService",
+      "key": "extensionHostLocationLocal",
+      "source": "Local",
+      "via": "memory",
+      "zh": "本地"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionProfileService",
+      "key": "restartCurrentWorkspaceHost3",
+      "source": "&&Restart",
+      "via": "memory",
+      "zh": "重启(&&R)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionProfileService",
+      "key": "extensionHostProfileStatusTarget",
+      "source": "Extension Host",
+      "via": "memory",
+      "zh": "扩展宿主"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensions.contribution",
+      "key": "runtimeExtension",
+      "source": "Running Extensions",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/extensions.contribution",
+      "zh": "正在运行的扩展"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionsActions",
+      "key": "openExtensionsFolder",
+      "source": "Open Extensions Folder",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/extensionsActions",
+      "zh": "打开扩展文件夹"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionsActions",
+      "key": "cleanUpExtensionsFolder",
+      "source": "Cleanup Extensions Folder",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/extensionsActions",
+      "zh": "清理扩展文件夹"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionsSlowActions",
+      "key": "cmd.reportOrShow",
+      "source": "Performance Issue",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/extensionsSlowActions",
+      "zh": "性能问题"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionsSlowActions",
+      "key": "cmd.report",
+      "source": "Report Issue",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/extensionsSlowActions",
+      "zh": "报告问题"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionsSlowActions",
+      "key": "attach.title",
+      "source": "Did you attach the CPU-Profile?",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/extensionsSlowActions",
+      "zh": "您是否附上了 cpu 配置文件?"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionsSlowActions",
+      "key": "attach.msg",
+      "source": "This is a reminder to make sure that you have not forgotten to attach '{0}' to the issue you have just created.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/extensionsSlowActions",
+      "zh": "这是一个提醒, 以确保您没有忘记将 \"{0}\" 附加到刚刚创建的问题。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionsSlowActions",
+      "key": "cmd.show",
+      "source": "Show Issues",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/extensionsSlowActions",
+      "zh": "显示问题"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionsSlowActions",
+      "key": "attach.title",
+      "source": "Did you attach the CPU-Profile?",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/extensionsSlowActions",
+      "zh": "您是否附上了 cpu 配置文件?"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionsSlowActions",
+      "key": "attach.msg2",
+      "source": "This is a reminder to make sure that you have not forgotten to attach '{0}' to an existing performance issue.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/extensionsSlowActions",
+      "zh": "这是一个提醒, 以确保您没有忘记将 \"{0}\" 归入现有的性能问题中。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/runtimeExtensionsEditor",
+      "key": "extensionHostProfileStart",
+      "source": "Start Extension Host CPU Profiler",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/runtimeExtensionsEditor",
+      "zh": "开始分析扩展宿主"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/runtimeExtensionsEditor",
+      "key": "stopExtensionHostProfileStart",
+      "source": "Stop Extension Host Profiler",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/runtimeExtensionsEditor",
+      "zh": "停止分析扩展宿主"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/runtimeExtensionsEditor",
+      "key": "openExtensionHostProfile",
+      "source": "Open Extension Host Profile",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/runtimeExtensionsEditor",
+      "zh": "开放扩展主机配置文件"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/runtimeExtensionsEditor",
+      "key": "saveExtensionHostProfile",
+      "source": "Save Extension Host Profile",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/runtimeExtensionsEditor",
+      "zh": "保存扩展宿主分析文件"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/runtimeExtensionsEditor",
+      "key": "saveprofile.dialogTitle",
+      "source": "Save Extension Host Profile",
+      "via": "alias",
+      "from": "vs/workbench/contrib/extensions/electron-browser/runtimeExtensionsEditor",
+      "zh": "保存扩展宿主分析文件"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution",
+      "key": "terminal.kind.integrated",
+      "source": "Show the integrated terminal action.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/externalTerminal/electron-browser/externalTerminal.contribution",
+      "zh": "显示集成终端操作。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution",
+      "key": "terminal.kind.external",
+      "source": "Show the external terminal action.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/externalTerminal/electron-browser/externalTerminal.contribution",
+      "zh": "显示外部终端操作。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution",
+      "key": "terminal.kind.both",
+      "source": "Show both integrated and external terminal actions.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/externalTerminal/electron-browser/externalTerminal.contribution",
+      "zh": "同时显示集成和外部终端操作。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution",
+      "key": "terminalConfigurationTitle",
+      "source": "External Terminal",
+      "via": "alias",
+      "from": "vs/workbench/contrib/externalTerminal/electron-browser/externalTerminal.contribution",
+      "zh": "外部终端"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution",
+      "key": "explorer.openInTerminalKind",
+      "source": "When opening a file from the Explorer in a terminal, determines what kind of terminal will be launched",
+      "via": "alias",
+      "from": "vs/workbench/contrib/externalTerminal/electron-browser/externalTerminal.contribution",
+      "zh": "在终端中从资源管理器打开文件时，确定将启动哪种类型的终端"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution",
+      "key": "sourceControlRepositories.openInTerminalKind",
+      "source": "When opening a repository from the Source Control Repositories view in a terminal, determines what kind of terminal will be launched",
+      "via": "alias",
+      "from": "vs/workbench/contrib/externalTerminal/electron-browser/externalTerminal.contribution",
+      "zh": "当从终端中从“源代码管理存储库”视图中打开文件时，确定将启动哪种类型的终端"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution",
+      "key": "terminal.external.windowsExec",
+      "source": "Customizes which terminal to run on Windows.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/externalTerminal/electron-browser/externalTerminal.contribution",
+      "zh": "自定义要在 Windows 上运行的终端。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution",
+      "key": "terminal.external.osxExec",
+      "source": "Customizes which terminal application to run on macOS.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/externalTerminal/electron-browser/externalTerminal.contribution",
+      "zh": "定义在 macOS 上运行的终端应用程序。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution",
+      "key": "terminal.external.linuxExec",
+      "source": "Customizes which terminal to run on Linux.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/externalTerminal/electron-browser/externalTerminal.contribution",
+      "zh": "自定义要在 Linux 上运行的终端。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution",
+      "key": "globalConsoleAction",
+      "source": "Open New External Terminal",
+      "via": "alias",
+      "from": "vs/workbench/contrib/externalTerminal/electron-browser/externalTerminal.contribution",
+      "zh": "打开新的外部终端"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/files/browser/fileActions.contribution",
+      "key": "openFileInBrowser",
+      "source": "Open in Browser",
+      "via": "memory",
+      "zh": "在浏览器中打开"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/files/electron-sandbox/fileActions.contribution",
+      "key": "miShare",
+      "source": "Share",
+      "via": "alias",
+      "from": "vs/workbench/contrib/files/electron-browser/fileActions.contribution",
+      "zh": "共享"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/files/electron-sandbox/fileActions.contribution",
+      "key": "revealInWindows",
+      "source": "Reveal in File Explorer",
+      "via": "alias",
+      "from": "vs/workbench/contrib/files/electron-browser/fileActions.contribution",
+      "zh": "在文件资源管理器中显示"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/files/electron-sandbox/fileActions.contribution",
+      "key": "revealInMac",
+      "source": "Reveal in Finder",
+      "via": "alias",
+      "from": "vs/workbench/contrib/files/electron-browser/fileActions.contribution",
+      "zh": "在 Finder 中显示"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/files/electron-sandbox/fileActions.contribution",
+      "key": "openContainer",
+      "source": "Open Containing Folder",
+      "via": "alias",
+      "from": "vs/workbench/contrib/files/electron-browser/fileActions.contribution",
+      "zh": "打开所在的文件夹"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/files/electron-sandbox/fileActions.contribution",
+      "key": "filesCategory",
+      "source": "File",
+      "via": "alias",
+      "from": "vs/workbench/contrib/files/electron-browser/fileActions.contribution",
+      "zh": "文件"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/localHistory/electron-sandbox/localHistoryCommands",
+      "key": "revealInWindows",
+      "source": "Reveal in File Explorer",
+      "via": "alias",
+      "from": "vs/workbench/contrib/localHistory/electron-browser/localHistoryCommands",
+      "zh": "在文件资源管理器中显示"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/localHistory/electron-sandbox/localHistoryCommands",
+      "key": "revealInMac",
+      "source": "Reveal in Finder",
+      "via": "alias",
+      "from": "vs/workbench/contrib/localHistory/electron-browser/localHistoryCommands",
+      "zh": "在查找器中显示"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/localHistory/electron-sandbox/localHistoryCommands",
+      "key": "openContainer",
+      "source": "Open Containing Folder",
+      "via": "alias",
+      "from": "vs/workbench/contrib/localHistory/electron-browser/localHistoryCommands",
+      "zh": "打开包含文件夹"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/localization/electron-sandbox/localization.contribution",
+      "key": "updateLocale",
+      "source": "Would you like to change {0}'s display language to {1} and restart?",
+      "via": "alias",
+      "from": "vs/workbench/contrib/localization/electron-browser/localization.contribution",
+      "zh": "要将 {0} 的显示语言更改为 {1} 并重启吗?"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/localization/electron-sandbox/localization.contribution",
+      "key": "changeAndRestart",
+      "source": "Change Language and Restart",
+      "via": "alias",
+      "from": "vs/workbench/contrib/localization/electron-browser/localization.contribution",
+      "zh": "更改语言并重启"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/localization/electron-sandbox/localization.contribution",
+      "key": "neverAgain",
+      "source": "Don't Show Again",
+      "via": "alias",
+      "from": "vs/workbench/contrib/localization/electron-browser/localization.contribution",
+      "zh": "不再显示"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/localization/electron-sandbox/minimalTranslations",
+      "key": "showLanguagePackExtensions",
+      "source": "Search language packs in the Marketplace to change the display language to {0}.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/localization/electron-browser/minimalTranslations",
+      "zh": "在商店中搜索语言包并将显示语言更改为 {0}。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/localization/electron-sandbox/minimalTranslations",
+      "key": "searchMarketplace",
+      "source": "Search Marketplace",
+      "via": "alias",
+      "from": "vs/workbench/contrib/localization/electron-browser/minimalTranslations",
+      "zh": "搜索市场"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/localization/electron-sandbox/minimalTranslations",
+      "key": "installAndRestartMessage",
+      "source": "Install language pack to change the display language to {0}.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/localization/electron-browser/minimalTranslations",
+      "zh": "安装语言包并将显示语言更改为 {0}。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/localization/electron-sandbox/minimalTranslations",
+      "key": "installAndRestart",
+      "source": "Install and Restart",
+      "via": "alias",
+      "from": "vs/workbench/contrib/localization/electron-browser/minimalTranslations",
+      "zh": "安装并重启"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/logs/electron-sandbox/logsActions",
+      "key": "openLogsFolder",
+      "source": "Open Logs Folder",
+      "via": "alias",
+      "from": "vs/workbench/contrib/logs/electron-browser/logsActions",
+      "zh": "打开日志文件夹"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/logs/electron-sandbox/logsActions",
+      "key": "openExtensionLogsFolder",
+      "source": "Open Extension Logs Folder",
+      "via": "alias",
+      "from": "vs/workbench/contrib/logs/electron-browser/logsActions",
+      "zh": "打开扩展日志文件夹"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mergeEditor/electron-sandbox/devCommands",
+      "key": "mergeEditor.enterJSON",
+      "source": "Enter JSON",
+      "via": "alias",
+      "from": "vs/workbench/contrib/mergeEditor/electron-browser/devCommands",
+      "zh": "输入 JSON"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mergeEditor/electron-sandbox/devCommands",
+      "key": "mergeEditor",
+      "source": "Merge Editor (Dev)",
+      "via": "alias",
+      "from": "vs/workbench/contrib/mergeEditor/electron-browser/devCommands",
+      "zh": "合并编辑器(开发)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mergeEditor/electron-sandbox/devCommands",
+      "key": "merge.dev.openState",
+      "source": "Open Merge Editor State from JSON",
+      "via": "alias",
+      "from": "vs/workbench/contrib/mergeEditor/electron-browser/devCommands",
+      "zh": "从 JSON 打开合并编辑器状态"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/mergeEditor/electron-sandbox/devCommands",
+      "key": "merge.dev.openSelectionInTemporaryMergeEditor",
+      "source": "Open Selection In Temporary Merge Editor",
+      "via": "alias",
+      "from": "vs/workbench/contrib/mergeEditor/electron-browser/devCommands",
+      "zh": "在临时合并编辑器中打开所选内容"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/contrib/notebookVariables/notebookVariablesTree",
+      "key": "debugConsole",
+      "source": "Notebook Variables",
+      "via": "memory",
+      "zh": "笔记本变量"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/contrib/notebookVariables/notebookVariablesView",
+      "key": "notebook.notebookVariables",
+      "source": "Notebook Variables",
+      "via": "memory",
+      "zh": "笔记本变量"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/controller/coreActionsCommon",
+      "key": "notebookActions.category",
+      "source": "Notebook",
+      "via": "memory",
+      "zh": "笔记本"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/controller/insertCellActions",
+      "key": "notebookActions.menu.insertCodeCell",
+      "source": "Add Code",
+      "via": "memory-choice",
+      "candidates": {
+        "添加代码": 2,
+        "代码": 1
+      }
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/controller/insertCellActions",
+      "key": "notebookActions.menu.insertCodeCellTop",
+      "source": "Add Code",
+      "via": "memory-choice",
+      "candidates": {
+        "添加代码": 2,
+        "代码": 1
+      }
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/controller/insertCellActions",
+      "key": "notebookActions.menu.insertMarkdownCell",
+      "source": "Add Markdown",
+      "via": "memory",
+      "zh": "Markdown"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/notebook/browser/controller/insertCellActions",
+      "key": "notebookActions.menu.insertMarkdownCellTop",
+      "source": "Add Markdown",
+      "via": "memory",
+      "zh": "Markdown"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/performance/electron-sandbox/performance.contribution",
+      "key": "experimental.rendererProfiling",
+      "source": "When enabled, slow renderers are automatically profiled.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/performance/electron-browser/performance.contribution",
+      "zh": "启用时，将自动分析慢速呈现器。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/performance/electron-sandbox/startupProfiler",
+      "key": "prof.message",
+      "source": "Successfully created profiles.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/performance/electron-browser/startupProfiler",
+      "zh": "已成功创建配置文件。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/performance/electron-sandbox/startupProfiler",
+      "key": "prof.detail",
+      "source": "Please create an issue and manually attach the following files:\n{0}",
+      "via": "alias",
+      "from": "vs/workbench/contrib/performance/electron-browser/startupProfiler",
+      "zh": "请创建问题并手动附加以下文件:\r\n{0}"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/performance/electron-sandbox/startupProfiler",
+      "key": "prof.restartAndFileIssue",
+      "source": "&&Create Issue and Restart",
+      "via": "alias",
+      "from": "vs/workbench/contrib/performance/electron-browser/startupProfiler",
+      "zh": "创建问题并重启(&&C)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/performance/electron-sandbox/startupProfiler",
+      "key": "prof.restart",
+      "source": "Restart",
+      "via": "alias",
+      "from": "vs/workbench/contrib/performance/electron-browser/startupProfiler",
+      "zh": "重启"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/performance/electron-sandbox/startupProfiler",
+      "key": "prof.thanks",
+      "source": "Thanks for helping us.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/performance/electron-browser/startupProfiler",
+      "zh": "感谢您的帮助。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/performance/electron-sandbox/startupProfiler",
+      "key": "prof.detail.restart",
+      "source": "A final restart is required to continue to use '{0}'. Again, thank you for your contribution.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/performance/electron-browser/startupProfiler",
+      "zh": "需要重新启动才能继续使用“{0}”。再次感谢您的贡献。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/performance/electron-sandbox/startupProfiler",
+      "key": "prof.restart.button",
+      "source": "&&Restart",
+      "via": "alias",
+      "from": "vs/workbench/contrib/performance/electron-browser/startupProfiler",
+      "zh": "重启(&&R)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/keybindingsEditor",
+      "key": "foundResults",
+      "source": "{0} results",
+      "via": "memory",
+      "zh": "{0} 个结果"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/keyboardLayoutPicker",
+      "key": "autoDetect",
+      "source": "Auto Detect",
+      "via": "memory",
+      "zh": "自动检测"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/keyboardLayoutPicker",
+      "key": "fail.createSettings",
+      "source": "Unable to create '{0}' ({1}).",
+      "via": "memory",
+      "zh": "无法创建“{0}”({1})。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/browser/remoteStartEntry",
+      "key": "remote.category",
+      "source": "Remote",
+      "via": "memory",
+      "zh": "远程"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.contribution",
+      "key": "wslFeatureInstalled",
+      "source": "Whether the platform has the WSL feature installed",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remote/electron-browser/remote.contribution",
+      "zh": "平台是否安装了 WSL 功能"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.contribution",
+      "key": "remote",
+      "source": "Remote",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remote/electron-browser/remote.contribution",
+      "zh": "远程"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.contribution",
+      "key": "remote.downloadExtensionsLocally",
+      "source": "When enabled extensions are downloaded locally and installed on remote.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remote/electron-browser/remote.contribution",
+      "zh": "启用后，扩展将本地下载并安装在远程上。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+      "key": "wslMntWorkspaceWarning.ok",
+      "source": "&&OK",
+      "via": "memory",
+      "zh": "确定(&&O)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+      "key": "windowsWslPathWarning.ok",
+      "source": "&&OK",
+      "via": "memory",
+      "zh": "确定(&&O)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+      "key": "windowsWslPathWarning.ok",
+      "source": "&&OK",
+      "via": "memory",
+      "zh": "确定(&&O)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "remoteTunnel.actions.turnOn",
+      "source": "Turn on Remote Tunnel Access...",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "打开远程隧道访问..."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "remoteTunnel.actions.turnOff",
+      "source": "Turn off Remote Tunnel Access...",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "关闭远程隧道访问..."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "remoteTunnel.actions.showLog",
+      "source": "Show Remote Tunnel Service Log",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "显示远程隧道服务日志"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "remoteTunnel.actions.configure",
+      "source": "Configure Tunnel Name...",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "配置隧道名称..."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "remoteTunnel.actions.copyToClipboard",
+      "source": "Copy Browser URI to Clipboard",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "将浏览器 URI 复制到剪贴板"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "remoteTunnel.actions.learnMore",
+      "source": "Get Started with Tunnels",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "Tunnel 入门"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "recommend.remoteExtension",
+      "source": "Tunnel '{0}' is avaiable for remote access. The {1} extension can be used to connect to it.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "隧道 \"{0}\" 可用于远程访问。{1} 扩展可用于连接到该隧道。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "action.showExtension",
+      "source": "Show Extension",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "显示扩展"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "action.doNotShowAgain",
+      "source": "Do not show again",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "不再显示"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "initialize.progress.title",
+      "source": "[Looking for remote tunnel](command:{0})",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "[正在查找远程隧道](command:{0})"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "startTunnel.progress.title",
+      "source": "[Starting remote tunnel](command:{0})",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "[正在启动远程隧道](command:{0})"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "remoteTunnel.serviceInstallFailed",
+      "source": "Installation as a service failed, and we fell back to running the tunnel for this session. See the [error log](command:{0}) for details.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "作为服务安装失败，我们已回退到运行此会话的隧道。有关详细信息，请参阅 [error log](command:{0})。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "accountPreference.placeholder",
+      "source": "Sign in to an account to enable remote access",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "登录帐户以启用远程访问"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "signed in",
+      "source": "Signed In",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "已登录"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "others",
+      "source": "Others",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "其他"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "sign in using account",
+      "source": "Sign in with {0}",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "使用 {0} 登录"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "tunnel.preview",
+      "source": "Remote Tunnels is currently in preview. Please report any problems using the \"Help: Report Issue\" command.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "远程隧道目前为预览版。请使用“帮助: 报告问题”命令报告任何问题。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "enable",
+      "source": "&&Enable",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "启用(&&E)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "tunnel.enable.placeholder",
+      "source": "Select how you want to enable access",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "选择要如何启用访问权限"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "tunnel.enable.session",
+      "source": "Turn on for this session",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "启用此会话"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "tunnel.enable.session.description",
+      "source": "Run whenever {0} is open",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "每当打开时 {0} 运行"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "tunnel.enable.service",
+      "source": "Install as a service",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "作为服务安装"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "tunnel.enable.service.description",
+      "source": "Run whenever you're logged in",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "每次登录时运行"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "progress.turnOn.final",
+      "source": "You can now access this machine anywhere via the secure tunnel [{0}](command:{4}). To connect via a different machine, use the generated [{1}]({2}) link or use the [{6}]({7}) extension in the desktop or web. You can [configure](command:{3}) or [turn off](command:{5}) this access via the VS Code Accounts menu.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "现在，可以通过安全隧道 [{0}](command:{4}) 随时随地访问此计算机。要通过其他计算机进行连接，请使用生成的 [{1}]({2})链接，或者在桌面或 Web 中使用 [{6}]({7})扩展。可以通过“VS Code 帐户”菜单 [配置](command:{3}) 或 [关闭](command:{5})此访问权限。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "action.copyToClipboard",
+      "source": "Copy Browser Link to Clipboard",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "将浏览器链接复制到剪贴板"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "action.showExtension",
+      "source": "Show Extension",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "显示扩展"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "progress.turnOn.failed",
+      "source": "Unable to turn on the remote tunnel access. Check the Remote Tunnel Service log for details.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "无法启用远程隧道访问。有关详细信息，请查看远程隧道服务日志。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "remoteTunnel.actions.manage.on.v2",
+      "source": "Remote Tunnel Access is On",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "远程隧道访问已启用"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "remoteTunnel.actions.manage.connecting",
+      "source": "Remote Tunnel Access is Connecting",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "远程隧道访问正在连接"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "remoteTunnel.turnOffAttached.confirm",
+      "source": "Do you want to turn off Remote Tunnel Access? This will also stop the service that was started externally.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "是否要关闭远程隧道访问? 这也将停止在外部启动的服务。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "remoteTunnel.turnOff.confirm",
+      "source": "Do you want to turn off Remote Tunnel Access?",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "是否要关闭远程隧道访问?"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "manage.placeholder",
+      "source": "Select a command to invoke",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "选择要调用的命令"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "manage.title.attached",
+      "source": "Remote Tunnel Access enabled for {0} (launched externally)",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "已为 {0} 启用远程隧道访问(已在外部启动)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "manage.title.orunning",
+      "source": "Remote Tunnel Access enabled for {0}",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "已为 {0} 启用远程隧道访问"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "manage.title.off",
+      "source": "Remote Tunnel Access not enabled",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "未启用远程隧道访问"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "manage.showLog",
+      "source": "Show Log",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "显示日志"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "manage.tunnelName",
+      "source": "Change Tunnel Name",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "更改隧道名称"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "remoteTunnelAccess.machineName",
+      "source": "The name under which the remote tunnel access is registered. If not set, the host name is used.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "远程隧道访问注册名。如果未设置，则使用主机名。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "remoteTunnelAccess.machineNameRegex",
+      "source": "The name must only consist of letters, numbers, underscore and dash. It must not start with a dash.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "名称只能由字母、数字、下划线和短划线组成。不得以短划线开头。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "remoteTunnelAccess.preventSleep",
+      "source": "Prevent this computer from sleeping when remote tunnel access is turned on.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "启用远程隧道访问时，防止计算机进入休眠。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+      "key": "remoteTunnel.category",
+      "source": "Remote Tunnels",
+      "via": "alias",
+      "from": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+      "zh": "远程隧道"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/scm/browser/editorBugbotViewPane",
+      "key": "editorBugbotTitle",
+      "source": "Review",
+      "via": "memory",
+      "zh": "审阅"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/scm/browser/scmViewPane",
+      "key": "scmInputMoreActions",
+      "source": "More Actions...",
+      "via": "memory",
+      "zh": "更多操作..."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/scm/browser/scmViewPane",
+      "key": "scmInputCancelAction",
+      "source": "Cancel",
+      "via": "memory",
+      "zh": "取消"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/scm/browser/scmViewPane",
+      "key": "label.close",
+      "source": "Close",
+      "via": "memory",
+      "zh": "关闭"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/search/browser/search.contribution",
+      "key": "searchConfigurationTitle",
+      "source": "Search",
+      "via": "memory",
+      "zh": "搜索"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/search/browser/searchView",
+      "key": "openSettings.learnMore",
+      "source": "Learn More",
+      "via": "memory",
+      "zh": "了解详细信息"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/tasks/browser/abstractTaskService",
+      "key": "terminateTask",
+      "source": "Terminate Task",
+      "via": "memory",
+      "zh": "终止任务"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/tasks/electron-sandbox/taskService",
+      "key": "TaskSystem.runningTask",
+      "source": "There is a task running. Do you want to terminate it?",
+      "via": "alias",
+      "from": "vs/workbench/contrib/tasks/electron-browser/taskService",
+      "zh": "存在运行中的任务。要终止它吗?"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/tasks/electron-sandbox/taskService",
+      "key": "TaskSystem.terminateTask",
+      "source": "&&Terminate Task",
+      "via": "alias",
+      "from": "vs/workbench/contrib/tasks/electron-browser/taskService",
+      "zh": "终止任务(&&T)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/tasks/electron-sandbox/taskService",
+      "key": "TaskSystem.noProcess",
+      "source": "The launched task doesn't exist anymore. If the task spawned background processes exiting VS Code might result in orphaned processes. To avoid this start the last background process with a wait flag.",
+      "via": "alias",
+      "from": "vs/workbench/contrib/tasks/electron-browser/taskService",
+      "zh": "启动的任务不再存在。如果任务已生成出后台进程，则退出 VS Code 可能会导致出现孤立的进程。若要避免此情况，请使用等待标记启动最后一个后台进程。"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/tasks/electron-sandbox/taskService",
+      "key": "TaskSystem.exitAnyways",
+      "source": "&&Exit Anyways",
+      "via": "alias",
+      "from": "vs/workbench/contrib/tasks/electron-browser/taskService",
+      "zh": "仍要退出(&&E)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminal/browser/terminalInstance",
+      "key": "configureTerminalSettings",
+      "source": "Configure Terminal Settings",
+      "via": "memory",
+      "zh": "配置终端设置"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminal/browser/terminalMenus",
+      "key": "splitTerminal",
+      "source": "Split Terminal",
+      "via": "memory",
+      "zh": "拆分终端"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminal/browser/terminalTooltip",
+      "key": "shellIntegration.no",
+      "source": "No",
+      "via": "memory",
+      "zh": "否"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/terminal/electron-sandbox/terminalRemote",
+      "key": "workbench.action.terminal.newLocal",
+      "source": "Create New Integrated Terminal (Local)",
+      "via": "alias",
+      "from": "vs/workbench/contrib/terminal/electron-browser/terminalRemote",
+      "zh": "新建集成终端(本地)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+      "key": "captureDebuggingDataLogs",
+      "source": "Logs",
+      "via": "memory",
+      "zh": "日志"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+      "key": "watchForCrashesConfirmButton",
+      "source": "Continue",
+      "via": "memory",
+      "zh": "继续"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+      "key": "watchForCrashesCancelButton",
+      "source": "Cancel",
+      "via": "memory",
+      "zh": "取消"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+      "key": "forceOOMCancel",
+      "source": "Cancel",
+      "via": "memory",
+      "zh": "取消"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/ui/browser/buttons/IdeTitlebarUpdateButton",
+      "key": "ideTitlebarUpdateButton.label",
+      "source": "Update",
+      "via": "memory",
+      "zh": "更新"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/ui/browser/buttons/IdeTitlebarUpdateButton",
+      "key": "ideTitlebarUpdateButton.installingLabel",
+      "source": "Installing",
+      "via": "memory",
+      "zh": "正在安装"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/ui/browser/gallery/sections/TreeViewExampleSection",
+      "key": "openFile",
+      "source": "Open File",
+      "via": "memory",
+      "zh": "打开文件"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/update/browser/update",
+      "key": "tryAgain",
+      "source": "Try Again",
+      "via": "memory",
+      "zh": "重试"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/update/browser/update",
+      "key": "learn more",
+      "source": "Learn More",
+      "via": "memory",
+      "zh": "了解详细信息"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/update/common/updateActionTitles",
+      "key": "checkingForUpdates2",
+      "source": "Checking for Updates...",
+      "via": "memory",
+      "zh": "正在检查更新..."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/update/common/updateActionTitles",
+      "key": "DownloadingUpdate",
+      "source": "Downloading Update...",
+      "via": "memory",
+      "zh": "正在下载更新..."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/update/common/updateActionTitles",
+      "key": "installingUpdate",
+      "source": "Installing Update...",
+      "via": "memory",
+      "zh": "正在安装更新..."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/update/common/updateActionTitles",
+      "key": "restartToUpdate",
+      "source": "Restart to Update",
+      "via": "memory",
+      "zh": "重启以更新"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/webview/electron-sandbox/webviewCommands",
+      "key": "openToolsDescription",
+      "source": "Opens Developer Tools for active webviews",
+      "via": "alias",
+      "from": "vs/workbench/contrib/webview/electron-browser/webviewCommands",
+      "zh": "打开活动 Web 视图的开发人员工具"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/webview/electron-sandbox/webviewCommands",
+      "key": "iframeWebviewAlert",
+      "source": "Using standard dev tools to debug iframe based webview",
+      "via": "alias",
+      "from": "vs/workbench/contrib/webview/electron-browser/webviewCommands",
+      "zh": "使用标准开发工具调试基于 iFrame 的 Web 视图"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/webview/electron-sandbox/webviewCommands",
+      "key": "openToolsLabel",
+      "source": "Open Webview Developer Tools",
+      "via": "alias",
+      "from": "vs/workbench/contrib/webview/electron-browser/webviewCommands",
+      "zh": "打开 Webview 开发人员工具"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/workspace/browser/workspace.contribution",
+      "key": "securityConfigurationTitle",
+      "source": "Security",
+      "via": "memory",
+      "zh": "安全性"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions",
+      "key": "toggleDevTools",
+      "source": "Toggle Developer Tools",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/developerActions",
+      "zh": "切换开发人员工具"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions",
+      "key": "configureRuntimeArguments",
+      "source": "Configure Runtime Arguments",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/developerActions",
+      "zh": "配置运行时参数"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions",
+      "key": "reloadWindowWithExtensionsDisabled",
+      "source": "Reload with Extensions Disabled",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/developerActions",
+      "zh": "在禁用扩展的情况下重新加载"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions",
+      "key": "revealUserDataFolder",
+      "source": "Reveal User Data Folder",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/developerActions",
+      "zh": "显示用户数据文件夹"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/developerActions",
+      "key": "showGPUInfo",
+      "source": "Show GPU Info",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/developerActions",
+      "zh": "显示 GPU 信息"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/installActions",
+      "key": "successIn",
+      "source": "Shell command '{0}' successfully installed.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/installActions",
+      "zh": "已成功在 PATH 中安装了 Shell 命令“{0}”。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/installActions",
+      "key": "install",
+      "source": "Install 'code' command",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/installActions",
+      "zh": "在 PATH 中安装“{0}”命令"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/installActions",
+      "key": "successIn",
+      "source": "Successfully installed Cursor in the 'code' command.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/installActions",
+      "zh": "已成功在 PATH 中安装了 Shell 命令“{0}”。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/installActions",
+      "key": "successIn",
+      "source": "Successfully unlinked Cursor from the 'code' command.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/installActions",
+      "zh": "已成功在 PATH 中安装了 Shell 命令“{0}”。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/installActions",
+      "key": "successFrom",
+      "source": "Shell command '{0}' successfully uninstalled from PATH.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/installActions",
+      "zh": "已成功从 PATH 卸载 Shell 命令“{0}”。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/installActions",
+      "key": "shellCommand",
+      "source": "Shell Command",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/installActions",
+      "zh": "Shell 命令"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/installActions",
+      "key": "install",
+      "source": "Install '{0}' command",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/installActions",
+      "zh": "在 PATH 中安装“{0}”命令"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/installActions",
+      "key": "uninstall",
+      "source": "Uninstall '{0}' command from PATH",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/installActions",
+      "zh": "从 PATH 中卸载“{0}”命令"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/installActions",
+      "key": "uninstall",
+      "source": "Uninstall '{0}' command from PATH",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/installActions",
+      "zh": "从 PATH 中卸载“{0}”命令"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "quitConfirmationMessage",
+      "source": "Are you sure you want to quit?",
+      "via": "memory",
+      "zh": "是否确实要退出?"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "closeWindowButtonLabel",
+      "source": "Close",
+      "via": "memory",
+      "zh": "关闭"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "cancel",
+      "source": "Cancel",
+      "via": "memory",
+      "zh": "取消"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "miCloseWindow",
+      "source": "Clos&&e Window",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/windowActions",
+      "zh": "关闭窗口(&&E)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "miZoomIn",
+      "source": "&&Zoom In",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/windowActions",
+      "zh": "放大(&&Z)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "miZoomOut",
+      "source": "&&Zoom Out",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/windowActions",
+      "zh": "缩小(&&Z)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "miZoomReset",
+      "source": "&&Reset Zoom",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/windowActions",
+      "zh": "重置缩放(&&R)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "close",
+      "source": "Close Window",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/windowActions",
+      "zh": "关闭窗口"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "close",
+      "source": "Close Window",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/windowActions",
+      "zh": "关闭窗口"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "windowGroup",
+      "source": "window group",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/windowActions",
+      "zh": "窗口组"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "windowDirtyAriaLabel",
+      "source": "{0}, window with unsaved changes",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/windowActions",
+      "zh": "{0}，个具有未保存更改的窗口"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "current",
+      "source": "Current Window",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/windowActions",
+      "zh": "当前窗口"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "current",
+      "source": "Current Window",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/windowActions",
+      "zh": "当前窗口"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "switchWindowPlaceHolder",
+      "source": "Select a window to switch to",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/windowActions",
+      "zh": "选择切换的窗口"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "closeWindow",
+      "source": "Close Window",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/windowActions",
+      "zh": "关闭窗口"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "zoomIn",
+      "source": "Zoom In",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/windowActions",
+      "zh": "放大"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "zoomOut",
+      "source": "Zoom Out",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/windowActions",
+      "zh": "缩小"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "zoomReset",
+      "source": "Reset Zoom",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/windowActions",
+      "zh": "重置缩放"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "switchWindow",
+      "source": "Switch Window...",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/windowActions",
+      "zh": "切换窗口..."
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+      "key": "quickSwitchWindow",
+      "source": "Quick Switch Window...",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/actions/windowActions",
+      "zh": "快速切换窗口..."
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "miExit",
+      "source": "E&&xit",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "退出(&&X)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "application.shellEnvironmentResolutionTimeout",
+      "source": "Controls the timeout in seconds before giving up resolving the shell environment when the application is not already launched from a terminal. See our [documentation](https://go.microsoft.com/fwlink/?linkid=2149667) for more information.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "控制在应用程序尚未从终端启动时放弃解析 shell 环境之前的超时(以秒为单位)。有关详细信息，请参阅我们的 [文档](https://go.microsoft.com/fwlink/?linkid=2149667)。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "windowConfigurationTitle",
+      "source": "Window",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "窗口"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "confirmSaveUntitledWorkspace",
+      "source": "Controls whether a confirmation dialog shows asking to save or discard an opened untitled workspace in the window when switching to another workspace. Disabling the confirmation dialog will always discard the untitled workspace.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "控制切换到另一个工作区时是否显示确认对话框，以询问是保存还是放弃窗口中打开的无标题工作区。禁用确认对话框将始终放弃无标题工作区。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "window.openWithoutArgumentsInNewWindow.on",
+      "source": "Open a new empty window.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "打开一个新的空窗口。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "window.openWithoutArgumentsInNewWindow.off",
+      "source": "Focus the last active running instance.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "聚焦到上一活动的运行实例。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "openWithoutArgumentsInNewWindow",
+      "source": "Controls whether a new empty window should open when starting a second instance without arguments or if the last running instance should get focus.\nNote that there can still be cases where this setting is ignored (e.g. when using the `--new-window` or `--reuse-window` command line option).",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "在另一实例无参启动时，控制是打开新的空窗口或是聚焦到最后运行的实例。\r\n注意，此设置可能会被忽略 (例如，在使用 `--new-window` 或 `--reuse-window` 命令行选项时)。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "window.reopenFolders.preserve",
+      "source": "Always reopen all windows. If a folder or workspace is opened (e.g. from the command line) it opens as a new window unless it was opened before. If files are opened they will open in one of the restored windows together with editors that were previously opened.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "始终重新打开所有窗口。如果打开文件夹或工作区(例如从命令行打开)，它将作为新窗口打开，除非它之前已打开。如果文件已打开，则它们将与以前打开的编辑器一起在还原的一个窗口中打开。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "window.reopenFolders.all",
+      "source": "Reopen all windows unless a folder, workspace or file is opened (e.g. from the command line). If a file is opened, it will replace any of the editors that were previously opened in a window.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "重新打开所有窗口，除非文件夹、工作区或文件已打开(例如从命令行打开)。如果打开某个文件，它将替换以前在窗口中打开的任何编辑器。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "window.reopenFolders.folders",
+      "source": "Reopen all windows that had folders or workspaces opened unless a folder, workspace or file is opened (e.g. from the command line). If a file is opened, it will replace any of the editors that were previously opened in a window.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "重新打开已打开文件夹或工作区的所有窗口，除非文件夹、工作区或文件已打开(例如从命令行打开)。如果打开某个文件，它将替换以前在窗口中打开的任何编辑器。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "window.reopenFolders.one",
+      "source": "Reopen the last active window unless a folder, workspace or file is opened (e.g. from the command line). If a file is opened, it will replace any of the editors that were previously opened in a window.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "重新打开最后一个活动窗口，除非文件夹、工作区或文件已打开(例如从命令行打开)。如果打开某个文件，它将替换以前在窗口中打开的任何编辑器。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "window.reopenFolders.none",
+      "source": "Never reopen a window. Unless a folder or workspace is opened (e.g. from the command line), an empty window will appear.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "从不重新打开窗口。如果文件夹或工作区未打开(例如从命令行)，将出现一个空窗口。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "restoreWindows",
+      "source": "Controls how windows and editors within are being restored when opening.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "控制其中的窗口和编辑器在打开时的还原方式。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "restoreFullscreen",
+      "source": "Controls whether a window should restore to full screen mode if it was exited in full screen mode.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "控制在全屏模式下退出时窗口是否应还原为全屏模式。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "zoomLevel",
+      "source": "Adjust the default zoom level for all windows. Each increment above `0` (e.g. `1`) or below (e.g. `-1`) represents zooming `20%` larger or smaller. You can also enter decimals to adjust the zoom level with a finer granularity. See {0} for configuring if the 'Zoom In' and 'Zoom Out' commands apply the zoom level to all windows or only the active window.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "调整所有窗口的默认缩放级别。大于“0”的每个增量（例如“1”）或小于“0”的每个增量（例如“-1”）表示放大或缩小“20%”。还可以输入小数以使用更细的粒度调整缩放级别。请参阅 {0}，了解将“放大”和“缩小”命令配置为将缩放级别应用于所有窗口还是仅应用于活动窗口。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "zoomPerWindow",
+      "source": "Controls if the 'Zoom In' and 'Zoom Out' commands apply the zoom level to all windows or only the active window. See {0} for configuring a default zoom level for all windows.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "控制“放大”和“缩小”命令是将缩放级别应用于所有窗口还是仅应用于活动窗口。请参阅 {0} 以配置所有窗口的默认缩放级别。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "window.newWindowDimensions.default",
+      "source": "Open new windows in the center of the screen.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "在屏幕中心打开新窗口。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "window.newWindowDimensions.inherit",
+      "source": "Open new windows with same dimension as last active one.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "以与上一个活动窗口相同的尺寸打开新窗口。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "window.newWindowDimensions.offset",
+      "source": "Open new windows with same dimension as last active one with an offset position.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "打开与上次活动窗口具有相同尺寸的新窗口，并带有偏移位置。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "window.newWindowDimensions.maximized",
+      "source": "Open new windows maximized.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "打开最大化的新窗口。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "window.newWindowDimensions.fullscreen",
+      "source": "Open new windows in full screen mode.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "在全屏模式下打开新窗口。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "newWindowDimensions",
+      "source": "Controls the dimensions of opening a new window when at least one window is already opened. Note that this setting does not have an impact on the first window that is opened. The first window will always restore the size and location as you left it before closing.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "控制在至少已打开一个窗口时打开新窗口的维度。请注意，此设置对打开的第一个窗口没有影响。第一个窗口将始终还原为你在关闭之前退出窗口时的大小和位置。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "closeWhenEmpty",
+      "source": "Controls whether closing the last editor should also close the window. This setting only applies for windows that do not show folders.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "控制关闭最后一个编辑器时是否还应关闭该窗口。此设置仅适用于不显示文件夹的窗口。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "window.doubleClickIconToClose",
+      "source": "If enabled, this setting will close the window when the application icon in the title bar is double-clicked. The window will not be able to be dragged by the icon. This setting is effective only if {0} is set to `custom`.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "如果启用，当双击标题栏中的应用程序图标时，此设置将关闭窗口。该窗口将无法使用图标拖动。仅当 {0} 设置为 `custom` 时，此设置才有效。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "titleBarStyle",
+      "source": "Adjust the appearance of the window title bar to be native by the OS or custom. On Linux and Windows, this setting also affects the application and context menu appearances. Changes require a full restart to apply.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "将窗口标题栏的外观调整为操作系统本机或自定义。更改需要完全重启才能应用。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "controlsStyle",
+      "source": "Adjust the appearance of the window controls to be native by the OS, custom drawn or hidden. Changes require a full restart to apply.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "将窗口控件的外观调整为操作系统原生样式、自定义绘制或隐藏状态。更改需要完全重启才能应用。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "dialogStyle",
+      "source": "Adjust the appearance of dialog windows.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "将对话框的外观调整为操作系统或自定义的本机样式。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "window.nativeTabs",
+      "source": "Enables macOS Sierra window tabs. Note that changes require a full restart to apply and that native tabs will disable a custom title bar style if configured.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "启用 macOS 本机窗口选项卡。请注意，更改需要在完全重启后才能应用，并且本机选项卡将禁用自定义标题栏样式(如果已配置)。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "window.nativeFullScreen",
+      "source": "Controls if native full-screen should be used on macOS. Disable this option to prevent macOS from creating a new space when going full-screen.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "控制在 macOS 上是否应使用本机全屏。禁用此选项可防止 macOS 在全屏时创建新空间。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "window.clickThroughInactive",
+      "source": "If enabled, clicking on an inactive window will both activate the window and trigger the element under the mouse if it is clickable. If disabled, clicking anywhere on an inactive window will activate it only and a second click is required on the element.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "启用后，点击非活动窗口后将在激活窗口的同时触发光标之下的元素 (若可点击)。禁用后，点击非活动窗口仅能激活窗口，再次点击才能触发元素。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "telemetryConfigurationTitle",
+      "source": "Telemetry",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "遥测"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "telemetry.enableCrashReporting",
+      "source": "Enable crash reports to be collected. This helps us improve stability. \nThis option requires restart to take effect.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "启用要收集的崩溃报告。这有助于我们提高稳定性。\r\n此选项需重启才可生效。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "enableCrashReporterDeprecated",
+      "source": "If this setting is false, no telemetry will be sent regardless of the new setting's value. Deprecated due to being combined into the {0} setting.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "如果此设置为 false，则无论新设置的值如何，都不会发送遥测数据。由于合并到 {0} 设置，目前已弃用。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "keyboardConfigurationTitle",
+      "source": "Keyboard",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "键盘"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "touchbar.enabled",
+      "source": "Enables the macOS touchbar buttons on the keyboard if available.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "启用键盘上的 macOS 触控栏按钮 (若可用)。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "touchbar.ignored",
+      "source": "A set of identifiers for entries in the touchbar that should not show up (for example `workbench.action.navigateBack`).",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "触摸栏中不应显示的条目的一组标识符(例如 \"workbench.action.navigateBack\")。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "security.promptForLocalFileProtocolHandling",
+      "source": "If enabled, a dialog will ask for confirmation whenever a local file or workspace is about to open through a protocol handler.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "启用此参数后，每次即将通过协议处理程序打开本地文件或工作区时，都会弹出一个请求确认的对话框。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "security.promptForRemoteFileProtocolHandling",
+      "source": "If enabled, a dialog will ask for confirmation whenever a remote file or workspace is about to open through a protocol handler.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "启用此参数后，每次即将通过协议处理程序打开远程文件或工作区时，都会弹出一个请求确认的对话框。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "argv.locale",
+      "source": "The display Language to use. Picking a different language requires the associated language pack to be installed.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "要使用的显示语言。选取其他语言需要安装关联的语言包。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "argv.disableLcdText",
+      "source": "Disables LCD font antialiasing.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "禁用 LCD 字体抗锯齿。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "argv.proxyBypassList",
+      "source": "Bypass any specified proxy for the given semi-colon-separated list of hosts. Example value \"<local>;*.microsoft.com;*foo.com;1.2.3.4:5678\", will use the proxy server for all hosts except for local addresses (localhost, 127.0.0.1 etc.), microsoft.com subdomains, hosts that contain the suffix foo.com and anything at 1.2.3.4:5678",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "对于给定的分号分隔的主机列表，绕过任何指定代理。示例值 \"<local>;*.microsoft.com;*foo.com;1.2.3.4:5678\" 将对除以下主机外的所有主机使用代理服务器: 本地地址(localhost、127.0.0.1 等)、microsoft.com 子域、包含后缀 foo.com 的主机以及位于 1.2.3.4:5678 的主机"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "argv.disableHardwareAcceleration",
+      "source": "Disables hardware acceleration. ONLY change this option if you encounter graphic issues.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "禁用硬件加速。仅在遇到图形问题时更改此选项。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "argv.forceColorProfile",
+      "source": "Allows to override the color profile to use. If you experience colors appear badly, try to set this to `srgb` and restart.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "允许替代要使用的颜色配置文件。如果发现颜色显示不佳，可尝试将此项设置为`srgb` 并重启。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "argv.enableCrashReporter",
+      "source": "Allows to disable crash reporting, should restart the app if the value is changed.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "允许禁用崩溃报告；如果更改了值，则应重启应用。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "argv.crashReporterId",
+      "source": "Unique id used for correlating crash reports sent from this app instance.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "用于关联从此应用实例发送的崩溃报表的唯一 ID。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "argv.enebleProposedApi",
+      "source": "Enable proposed APIs for a list of extension ids (such as `vscode.git`). Proposed APIs are unstable and subject to breaking without warning at any time. This should only be set for extension development and testing purposes.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "为扩展 ID (如 \"vscode.git\")的列表启用建议的 API。建议的 API 不稳定，可能随时中断且不发出警告。仅应针对扩展开发和测试目的设置该项。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "argv.logLevel",
+      "source": "Log level to use. Default is 'info'. Allowed values are 'error', 'warn', 'info', 'debug', 'trace', 'off'.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "要使用的日志级别。默认值为 “info”。允许的值为 “error”、“warn”、“info”、“debug”、“trace” 和 “off”。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "argv.disableChromiumSandbox",
+      "source": "Disables the Chromium sandbox. This is useful when running VS Code as elevated on Linux and running under Applocker on Windows.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "禁用 Chromium 沙盒。当在 Linux 上以提升的权限运行 VS Code 并在 Windows 上的 Applocker 下运行时，这很有用。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "argv.useInMemorySecretStorage",
+      "source": "Ensures that an in-memory store will be used for secret storage instead of using the OS's credential store. This is often used when running VS Code extension tests or when you're experiencing difficulties with the credential store.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "确保内存中存储将用于机密存储，而不是使用 OS 的凭据存储。此选项通常在运行 VS Code 扩展测试或遇到凭据存储问题时使用。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "argv.force-renderer-accessibility",
+      "source": "Forces the renderer to be accessible. ONLY change this if you are using a screen reader on Linux. On other platforms the renderer will automatically be accessible. This flag is automatically set if you have editor.accessibilitySupport: on.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "强制渲染器可访问。仅当在 Linux 上使用屏幕阅读器时才更改此设置。在其他平台上，渲染器将自动可访问。如果已启用 editor.accessibilitySupport:，则会自动设置此标志。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "argv.passwordStore",
+      "source": "Configures the backend used to store secrets on Linux. This argument is ignored on Windows & macOS.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "配置用于在 Linux 上存储机密的后端。此参数在 Windows 和 macOS 上会被忽略。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "newTab",
+      "source": "New Window Tab",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "新建窗口标签页"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "showPreviousTab",
+      "source": "Show Previous Window Tab",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "显示上一个窗口选项卡"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "showNextWindowTab",
+      "source": "Show Next Window Tab",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "显示下一个窗口选项卡"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "moveWindowTabToNewWindow",
+      "source": "Move Window Tab to New Window",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "将窗口选项卡移动到新窗口"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "mergeAllWindowTabs",
+      "source": "Merge All Windows",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "合并所有窗口"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+      "key": "toggleWindowTabsBar",
+      "source": "Toggle Window Tabs Bar",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.contribution",
+      "zh": "切换窗口选项卡栏"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/desktop.main",
+      "key": "join.closeStorage",
+      "source": "Saving UI state",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/desktop.main",
+      "zh": "正在保存 UI 状态"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/parts/dialogs/dialogHandler",
+      "key": "copy",
+      "source": "&&Copy",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/parts/dialogs/dialogHandler",
+      "zh": "复制(&&C)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/parts/dialogs/dialogHandler",
+      "key": "okButton",
+      "source": "OK",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/parts/dialogs/dialogHandler",
+      "zh": "确定"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "sharedProcessCrash",
+      "source": "A shared background process terminated unexpectedly. Please restart the application to recover.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "共享后台进程意外终止。请重新启动应用程序以进行恢复。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "restart",
+      "source": "Restart",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "重启"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "restart",
+      "source": "Restart",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "重启"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "configure",
+      "source": "Configure",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "配置"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "learnMore",
+      "source": "Learn More",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "了解详细信息"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "keychainWriteError",
+      "source": "Writing login information to the keychain failed with error '{0}'.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "将登录信息写入密钥链失败，出现错误“{0}”。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "troubleshooting",
+      "source": "Troubleshooting Guide",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "故障排除指南"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "runningTranslated",
+      "source": "You are running an emulated version of {0}. For better performance download the native arm64 version of {0} build for your machine.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "你正在运行 {0} 的仿真版本。为了获得更好的性能，请下载适用于计算机的本机 arm64 版本的 {0} 内部版本。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "downloadArmBuild",
+      "source": "Download",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "下载"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "showArgvParseWarning",
+      "source": "The runtime arguments file 'argv.json' contains errors. Please correct them and restart.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "运行时参数文件 \"argv.json\" 包含错误。请更正它们并重启。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "showArgvParseWarningAction",
+      "source": "Open File",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "打开文件"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "proxyAuthRequired",
+      "source": "Proxy Authentication Required",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "需要代理身份验证"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "loginButton",
+      "source": "&&Log In",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "登录(&&L)"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "username",
+      "source": "Username",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "用户名"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "password",
+      "source": "Password",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "密码"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "proxyDetail",
+      "source": "The proxy {0} requires a username and password.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "代理 {0} 需要用户名和密码。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "rememberCredentials",
+      "source": "Remember my credentials",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "记住我的凭据"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "shutdownChatStreamingCancel",
+      "source": "Cancel",
+      "via": "memory",
+      "zh": "取消"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "shutdownBackgroundTerminalCancel",
+      "source": "Cancel",
+      "via": "memory",
+      "zh": "取消"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "shutdownErrorDetail",
+      "source": "Error: {0}",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "错误: {0}"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "willShutdownDetail",
+      "source": "The following operations are still running: \n{0}",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "以下操作仍在运行: \r\n{0}"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "shutdownErrorClose",
+      "source": "An unexpected error prevented the window to close",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "意外错误导致无法关闭窗口"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "shutdownErrorQuit",
+      "source": "An unexpected error prevented the application to quit",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "意外错误导致无法退出应用程序"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "shutdownErrorReload",
+      "source": "An unexpected error prevented the window to reload",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "意外错误导致无法重新加载窗口"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "shutdownErrorLoad",
+      "source": "An unexpected error prevented to change the workspace",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "意外错误导致无法更改工作区"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "shutdownTitleClose",
+      "source": "Closing the window is taking a bit longer...",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "关闭窗口需要的时间较长..."
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "shutdownTitleQuit",
+      "source": "Quitting the application is taking a bit longer...",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "退出应用程序需要的时间较长..."
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "shutdownTitleReload",
+      "source": "Reloading the window is taking a bit longer...",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "重新加载窗口需要的时间较长..."
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "shutdownTitleLoad",
+      "source": "Changing the workspace is taking a bit longer...",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "更改工作区需要的时间较长..."
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "runningAsRoot",
+      "source": "It is not recommended to run {0} as root user.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "不建议以 root 用户身份运行 {0}。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "appRootWarning.banner",
+      "source": "Files you store within the installation folder ('{0}') may be OVERWRITTEN or DELETED IRREVERSIBLY without warning at update time.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "在更新时，存储在安装文件夹(“{0}”)中的文件可能会被覆盖或删除(不可撤销)，而不会发出警告。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "macoseolmessage",
+      "source": "{0} on {1} will soon stop receiving updates. Consider upgrading your macOS version.",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "{1} 上的 {0} 将很快停止接收更新。请考虑升级 macOS 版本。"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "learnMore",
+      "source": "Learn More",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "了解详细信息"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "resolveShellEnvironment",
+      "source": "Resolving shell environment...",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "正在解析 shell 环境..."
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "learnMore",
+      "source": "Learn More",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "了解详细信息"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "zoomOut",
+      "source": "Zoom Out",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "缩小"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "zoomIn",
+      "source": "Zoom In",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "放大"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "zoomReset",
+      "source": "Reset",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "重置"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "zoomResetLabel",
+      "source": "{0} ({1})",
+      "via": "memory",
+      "zh": "{0} ({1})"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "zoomSettings",
+      "source": "Settings",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "设置"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "status.windowZoom",
+      "source": "Window Zoom",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "窗口缩放"
+    },
+    {
+      "moduleId": "vs/workbench/electron-sandbox/window",
+      "key": "zoomNumber",
+      "source": "Zoom Level: {0} ({1}%)",
+      "via": "alias",
+      "from": "vs/workbench/electron-browser/window",
+      "zh": "缩放级别: {0} ({1}%)"
+    },
+    {
+      "moduleId": "vs/workbench/services/agent/browser/agentExecProviderService",
+      "key": "reloadWindow",
+      "source": "Reload Window",
+      "via": "memory",
+      "zh": "重新加载窗口"
+    },
+    {
+      "moduleId": "vs/workbench/services/agent/browser/agentExecProviderService",
+      "key": "reloadWindow",
+      "source": "Reload Window",
+      "via": "memory",
+      "zh": "重新加载窗口"
+    },
+    {
+      "moduleId": "vs/workbench/services/auxiliaryWindow/electron-sandbox/auxiliaryWindowService",
+      "key": "backupErrorDetails",
+      "source": "Try saving or reverting the editors with unsaved changes first and then try again.",
+      "via": "alias",
+      "from": "vs/workbench/services/auxiliaryWindow/electron-browser/auxiliaryWindowService",
+      "zh": "请先尝试保存或还原具有未保存更改的编辑器，然后重试。"
+    },
+    {
+      "moduleId": "vs/workbench/services/dialogs/browser/fileDialogService",
+      "key": "learnMore",
+      "source": "&&Learn More",
+      "via": "memory",
+      "zh": "了解详细信息(&&L)"
+    },
+    {
+      "moduleId": "vs/workbench/services/experiment/browser/dynamicConfigOverrideActions",
+      "key": "cancelConfigOverride",
+      "source": "Cancel",
+      "via": "memory",
+      "zh": "取消"
+    },
+    {
+      "moduleId": "vs/workbench/services/experiment/browser/dynamicConfigOverrideActions",
+      "key": "cancelConfigClear",
+      "source": "Cancel",
+      "via": "memory",
+      "zh": "取消"
+    },
+    {
+      "moduleId": "vs/workbench/services/experiment/browser/experimentOverrideActions",
+      "key": "cancelExperimentOverride",
+      "source": "Cancel",
+      "via": "memory",
+      "zh": "取消"
+    },
+    {
+      "moduleId": "vs/workbench/services/experiment/browser/experimentOverrideActions",
+      "key": "cancelExperimentClear",
+      "source": "Cancel",
+      "via": "memory",
+      "zh": "取消"
+    },
+    {
+      "moduleId": "vs/workbench/services/experiment/browser/featureFlagOverrideActions",
+      "key": "cancelFlagOverride",
+      "source": "Cancel",
+      "via": "memory",
+      "zh": "取消"
+    },
+    {
+      "moduleId": "vs/workbench/services/experiment/browser/featureFlagOverrideActions",
+      "key": "cancelFlagClear",
+      "source": "Cancel",
+      "via": "memory",
+      "zh": "取消"
+    },
+    {
+      "moduleId": "vs/workbench/services/experiment/browser/overrideQuickPickOrdering",
+      "key": "overrideQuickPickOverriddenSection",
+      "source": "{0} ({1})",
+      "via": "memory",
+      "zh": "{0} ({1})"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensionManagement/common/extensionManagementServerService",
+      "key": "remote",
+      "source": "Remote",
+      "via": "alias",
+      "from": "vs/workbench/services/extensionManagement/electron-browser/extensionManagementServerService",
+      "zh": "远程"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensionManagement/electron-sandbox/extensionGalleryManifestService",
+      "key": "extensionGalleryManifestService.accountChange",
+      "source": "{0} is now configured to a different Marketplace. Please restart to apply the changes.",
+      "via": "alias",
+      "from": "vs/workbench/services/extensionManagement/electron-browser/extensionGalleryManifestService",
+      "zh": "{0} 现在已配置到其他市场。请重启以应用更改。"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensionManagement/electron-sandbox/extensionGalleryManifestService",
+      "key": "restart",
+      "source": "&&Restart",
+      "via": "alias",
+      "from": "vs/workbench/services/extensionManagement/electron-browser/extensionGalleryManifestService",
+      "zh": "重启(&&R)"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensionManagement/electron-sandbox/extensionManagementServerService",
+      "key": "local",
+      "source": "Local",
+      "via": "alias",
+      "from": "vs/workbench/services/extensionManagement/electron-browser/extensionManagementServerService",
+      "zh": "本地"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensionManagement/electron-sandbox/extensionManagementServerService",
+      "key": "remote",
+      "source": "Remote",
+      "via": "alias",
+      "from": "vs/workbench/services/extensionManagement/electron-browser/extensionManagementServerService",
+      "zh": "远程"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensionManagement/electron-sandbox/remoteExtensionManagementService",
+      "key": "notFoundReleaseExtension",
+      "source": "Can't install release version of '{0}' extension because it has no release version.",
+      "via": "alias",
+      "from": "vs/workbench/services/extensionManagement/electron-browser/remoteExtensionManagementService",
+      "zh": "由于 '{0}' 扩展没有发布版本，因此无法安装。"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensionManagement/electron-sandbox/remoteExtensionManagementService",
+      "key": "notFoundCompatibleDependency",
+      "source": "Can't install '{0}' extension because it is not compatible with the current version of {1} (version {2}).",
+      "via": "alias",
+      "from": "vs/workbench/services/extensionManagement/electron-browser/remoteExtensionManagementService",
+      "zh": "无法安装“{0}”扩展，因为它与当前 {1} 版本不兼容(版本 {2})。"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/cachedExtensionScanner",
+      "key": "extensionCache.invalid",
+      "source": "Extensions have been modified on disk. Please reload the window.",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/cachedExtensionScanner",
+      "zh": "扩展在磁盘上已被修改。请重新加载窗口。"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/cachedExtensionScanner",
+      "key": "reloadWindow",
+      "source": "Reload Window",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/cachedExtensionScanner",
+      "zh": "重新加载窗口"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/localProcessExtensionHost",
+      "key": "copyErrorMessage",
+      "source": "Copy",
+      "via": "memory",
+      "zh": "复制"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/localProcessExtensionHost",
+      "key": "reloadWindow",
+      "source": "Reload Window",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/localProcessExtensionHost",
+      "zh": "重新加载窗口"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/localProcessExtensionHost",
+      "key": "extensionHost.startupFailDebug",
+      "source": "Extension host did not start in 10 seconds, it might be stopped on the first line and needs a debugger to continue.",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/localProcessExtensionHost",
+      "zh": "扩展未在 10 秒内启动，可能在第一行已停止，需要调试器才能继续。"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/localProcessExtensionHost",
+      "key": "extensionHost.startupFail",
+      "source": "Extension host did not start in 10 seconds, that might be a problem.",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/localProcessExtensionHost",
+      "zh": "扩展主机未在 10 秒内启动，这可能是一个问题。"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/localProcessExtensionHost",
+      "key": "join.extensionDevelopment",
+      "source": "Terminating extension debug session",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/localProcessExtensionHost",
+      "zh": "正在终止扩展调试会话"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "extensionService.versionMismatchCrash",
+      "source": "Extension host cannot start: version mismatch.",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "扩展主机无法启动: 版本不匹配。"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "relaunch",
+      "source": "Relaunch VS Code",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "重新启动 VS Code"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "extensionService.autoRestart",
+      "source": "The extension host terminated unexpectedly. Restarting...",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "扩展主机意外终止。正在重启..."
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "startBisect",
+      "source": "Start Extension Bisect",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "开始扩展二等分"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "devTools",
+      "source": "Open Developer Tools",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "打开开发人员工具"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "restart",
+      "source": "Restart Extension Host",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "重启扩展主机"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "learnMore",
+      "source": "Learn More",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "了解详细信息"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "extensionService.crash",
+      "source": "Extension host terminated unexpectedly 3 times within the last 5 minutes.",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "扩展主机在过去 5 分钟内意外终止了 3 次。"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "remoteConnectionConfirm",
+      "source": "Allow connecting to the remote server '{0}:{1}'?",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "允许连接到远程服务器“{0}:{1}”?"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "remoteConnectionConfirmDetail",
+      "source": "Code is about to connect to '{0}:{1}' to host a remote extension host. Only continue if you trust this server, as it will be able to run code and access files on your behalf.",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "代码即将连接到“{0}:{1}”以托管远程扩展主机。仅当你信任此服务器时才继续，因为它将能够代表你运行代码和访问文件。"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "remoteConnectionConfirmButton",
+      "source": "Connect",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "连接"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "remoteConnectionRejected",
+      "source": "Connection to '{0}:{1}' was not allowed.",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "不允许连接到“{0}:{1}”。"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "getEnvironmentFailure",
+      "source": "Could not fetch remote environment",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "无法获取远程环境"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "enableResolver",
+      "source": "Extension '{0}' is required to open the remote window.\nOK to enable?",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "需要扩展“{0}”才能打开远程窗口。\r\n是否启用?"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "enable",
+      "source": "Enable and Reload",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "启用并重新加载"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "installResolver",
+      "source": "Extension '{0}' is required to open the remote window.\nDo you want to install the extension?",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "打开远程窗口需要扩展“{0}”。\r\n确定要安装扩展吗?"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "install",
+      "source": "Install and Reload",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "安装并重新加载"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "resolverExtensionNotFound",
+      "source": "`{0}` not found on marketplace",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "未在市场上找到“{0}”"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "restartExtensionHost.reason",
+      "source": "An explicit request",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "显式请求"
+    },
+    {
+      "moduleId": "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService",
+      "key": "restartExtensionHost",
+      "source": "Restart Extension Host",
+      "via": "alias",
+      "from": "vs/workbench/services/extensions/electron-browser/nativeExtensionService",
+      "zh": "重启扩展主机"
+    },
+    {
+      "moduleId": "vs/workbench/services/files/electron-sandbox/diskFileSystemProvider",
+      "key": "fileWatcher",
+      "source": "File Watcher",
+      "via": "alias",
+      "from": "vs/workbench/services/files/electron-browser/diskFileSystemProvider",
+      "zh": "文件观察程序"
+    },
+    {
+      "moduleId": "vs/workbench/services/files/electron-sandbox/elevatedFileService",
+      "key": "fileNotTrustedMessageWindows",
+      "source": "You are about to save '{0}' as admin.",
+      "via": "alias",
+      "from": "vs/workbench/services/files/electron-browser/elevatedFileService",
+      "zh": "你即将以管理员身份保存“{0}”。"
+    },
+    {
+      "moduleId": "vs/workbench/services/files/electron-sandbox/elevatedFileService",
+      "key": "fileNotTrustedMessagePosix",
+      "source": "You are about to save '{0}' as super user.",
+      "via": "alias",
+      "from": "vs/workbench/services/files/electron-browser/elevatedFileService",
+      "zh": "你即将以超级管理员身份保存“{0}”。"
+    },
+    {
+      "moduleId": "vs/workbench/services/files/electron-sandbox/elevatedFileService",
+      "key": "fileNotTrusted",
+      "source": "Workspace is not trusted.",
+      "via": "alias",
+      "from": "vs/workbench/services/files/electron-browser/elevatedFileService",
+      "zh": "此工作区不受信任。"
+    },
+    {
+      "moduleId": "vs/workbench/services/fileWatchRecording/electron-sandbox/fileWatchRecording.contribution",
+      "key": "stop",
+      "source": "Stop",
+      "via": "memory",
+      "zh": "停止"
+    },
+    {
+      "moduleId": "vs/workbench/services/host/browser/browserHostService",
+      "key": "open",
+      "source": "&&Open",
+      "via": "memory",
+      "zh": "打开(&&O)"
+    },
+    {
+      "moduleId": "vs/workbench/services/integrity/electron-sandbox/integrityService",
+      "key": "integrity.prompt",
+      "source": "Your {0} installation appears to be corrupt. Please reinstall.",
+      "via": "alias",
+      "from": "vs/workbench/services/integrity/electron-browser/integrityService",
+      "zh": "{0} 安装似乎损坏。请重新安装。"
+    },
+    {
+      "moduleId": "vs/workbench/services/integrity/electron-sandbox/integrityService",
+      "key": "integrity.moreInformation",
+      "source": "More Information",
+      "via": "alias",
+      "from": "vs/workbench/services/integrity/electron-browser/integrityService",
+      "zh": "更多信息"
+    },
+    {
+      "moduleId": "vs/workbench/services/integrity/electron-sandbox/integrityService",
+      "key": "integrity.dontShowAgain",
+      "source": "Don't Show Again",
+      "via": "alias",
+      "from": "vs/workbench/services/integrity/electron-browser/integrityService",
+      "zh": "不再显示"
+    },
+    {
+      "moduleId": "vs/workbench/services/keybinding/browser/keyboardLayoutService",
+      "key": "keyboardConfigurationTitle",
+      "source": "Keyboard",
+      "via": "memory",
+      "zh": "键盘"
+    },
+    {
+      "moduleId": "vs/workbench/services/localization/browser/localeService",
+      "key": "reload",
+      "source": "&&Reload",
+      "via": "memory-choice",
+      "candidates": {
+        "重新加载(&&R)": 1,
+        "重载(&&R)": 2
+      }
+    },
+    {
+      "moduleId": "vs/workbench/services/localization/browser/localeService",
+      "key": "reload",
+      "source": "&&Reload",
+      "via": "memory-choice",
+      "candidates": {
+        "重新加载(&&R)": 1,
+        "重载(&&R)": 2
+      }
+    },
+    {
+      "moduleId": "vs/workbench/services/localization/electron-sandbox/localeService",
+      "key": "argvInvalid",
+      "source": "Unable to write display language. Please open the runtime settings, correct errors/warnings in it and try again.",
+      "via": "alias",
+      "from": "vs/workbench/services/localization/electron-browser/localeService",
+      "zh": "无法编写显示语言。请打开运行时设置，更正其中的错误/警告，然后重试。"
+    },
+    {
+      "moduleId": "vs/workbench/services/localization/electron-sandbox/localeService",
+      "key": "openArgv",
+      "source": "Open Runtime Settings",
+      "via": "alias",
+      "from": "vs/workbench/services/localization/electron-browser/localeService",
+      "zh": "打开运行时设置"
+    },
+    {
+      "moduleId": "vs/workbench/services/localization/electron-sandbox/localeService",
+      "key": "installing",
+      "source": "Installing {0} language support...",
+      "via": "alias",
+      "from": "vs/workbench/services/localization/electron-browser/localeService",
+      "zh": "正在安装{0}语言支持..."
+    },
+    {
+      "moduleId": "vs/workbench/services/localization/electron-sandbox/localeService",
+      "key": "restartDisplayLanguageMessage1",
+      "source": "Restart {0} to switch to {1}?",
+      "via": "alias",
+      "from": "vs/workbench/services/localization/electron-browser/localeService",
+      "zh": "重启 {0} 以切换到 {1}?"
+    },
+    {
+      "moduleId": "vs/workbench/services/localization/electron-sandbox/localeService",
+      "key": "restartDisplayLanguageDetail1",
+      "source": "To change the display language to {0}, {1} needs to restart.",
+      "via": "alias",
+      "from": "vs/workbench/services/localization/electron-browser/localeService",
+      "zh": "要将显示语言更改为 {0}，{1} 需要重启。"
+    },
+    {
+      "moduleId": "vs/workbench/services/localization/electron-sandbox/localeService",
+      "key": "restart",
+      "source": "&&Restart",
+      "via": "alias",
+      "from": "vs/workbench/services/localization/electron-browser/localeService",
+      "zh": "重启(&&R)"
+    },
+    {
+      "moduleId": "vs/workbench/services/remote/browser/remoteAgentService",
+      "key": "connectionError",
+      "source": "An unexpected error occurred that requires a reload of this page.",
+      "via": "alias",
+      "from": "vs/workbench/services/remote/electron-browser/remoteAgentService",
+      "zh": "无法连接到远程扩展主机服务器 (错误: {0})"
+    },
+    {
+      "moduleId": "vs/workbench/services/remote/browser/remoteAgentService",
+      "key": "reload",
+      "source": "&&Reload",
+      "via": "memory-choice",
+      "candidates": {
+        "重新加载(&&R)": 1,
+        "重载(&&R)": 2
+      }
+    },
+    {
+      "moduleId": "vs/workbench/services/remote/electron-sandbox/remoteAgentService",
+      "key": "directUrl",
+      "source": "Open in browser",
+      "via": "alias",
+      "from": "vs/workbench/services/remote/electron-browser/remoteAgentService",
+      "zh": "在浏览器中打开"
+    },
+    {
+      "moduleId": "vs/workbench/services/remote/electron-sandbox/remoteAgentService",
+      "key": "connectionError",
+      "source": "Failed to connect to the remote extension host server (Error: {0})",
+      "via": "alias",
+      "from": "vs/workbench/services/remote/electron-browser/remoteAgentService",
+      "zh": "无法连接到远程扩展主机服务器 (错误: {0})"
+    },
+    {
+      "moduleId": "vs/workbench/services/request/browser/requestService",
+      "key": "network",
+      "source": "Network",
+      "via": "alias",
+      "from": "vs/workbench/services/request/electron-browser/requestService",
+      "zh": "网络"
+    },
+    {
+      "moduleId": "vs/workbench/services/request/electron-sandbox/requestService",
+      "key": "network",
+      "source": "Network",
+      "via": "alias",
+      "from": "vs/workbench/services/request/electron-browser/requestService",
+      "zh": "网络"
+    },
+    {
+      "moduleId": "vs/workbench/services/secrets/electron-sandbox/secretStorageService",
+      "key": "troubleshootingButton",
+      "source": "Open troubleshooting guide",
+      "via": "alias",
+      "from": "vs/workbench/services/secrets/electron-browser/secretStorageService",
+      "zh": "打开疑难解答指南"
+    },
+    {
+      "moduleId": "vs/workbench/services/secrets/electron-sandbox/secretStorageService",
+      "key": "encryptionNotAvailableJustTroubleshootingGuide",
+      "source": "An OS keyring couldn't be identified for storing the encryption related data in your current desktop environment.",
+      "via": "alias",
+      "from": "vs/workbench/services/secrets/electron-browser/secretStorageService",
+      "zh": "无法识别用于在当前桌面环境中存储加密相关数据的 OS keyring。"
+    },
+    {
+      "moduleId": "vs/workbench/services/secrets/electron-sandbox/secretStorageService",
+      "key": "usePlainTextExtraSentence",
+      "source": "Open the troubleshooting guide to address this or you can use weaker encryption that doesn't use the OS keyring.",
+      "via": "alias",
+      "from": "vs/workbench/services/secrets/electron-browser/secretStorageService",
+      "zh": "请打开疑难解答指南以解决此问题，也可以使用不用 OS keyring 的较弱加密。"
+    },
+    {
+      "moduleId": "vs/workbench/services/secrets/electron-sandbox/secretStorageService",
+      "key": "usePlainText",
+      "source": "Use weaker encryption",
+      "via": "alias",
+      "from": "vs/workbench/services/secrets/electron-browser/secretStorageService",
+      "zh": "使用较弱的加密"
+    },
+    {
+      "moduleId": "vs/workbench/services/secrets/electron-sandbox/secretStorageService",
+      "key": "isGnome",
+      "source": "You're running in a GNOME environment but the OS keyring is not available for encryption. Ensure you have gnome-keyring or another libsecret compatible implementation installed and running.",
+      "via": "alias",
+      "from": "vs/workbench/services/secrets/electron-browser/secretStorageService",
+      "zh": "你正在 GNOME 环境中运行，但 OS keyring 不可用用于加密。请确保已安装并运行 gnome-keyring 或其他 libsecret 兼容实现。"
+    },
+    {
+      "moduleId": "vs/workbench/services/secrets/electron-sandbox/secretStorageService",
+      "key": "isKwallet",
+      "source": "You're running in a KDE environment but the OS keyring is not available for encryption. Ensure you have kwallet running.",
+      "via": "alias",
+      "from": "vs/workbench/services/secrets/electron-browser/secretStorageService",
+      "zh": "你正在 KDE 环境中运行，但 OS keyring 不可用于加密。请确保 kwallet 正在运行。"
+    },
+    {
+      "moduleId": "vs/workbench/services/textfile/electron-sandbox/nativeTextFileService",
+      "key": "join.textFiles",
+      "source": "Saving text files",
+      "via": "alias",
+      "from": "vs/workbench/services/textfile/electron-browser/nativeTextFileService",
+      "zh": "正在保存文本文件"
+    },
+    {
+      "moduleId": "vs/workbench/services/themes/electron-sandbox/themes.contribution",
+      "key": "window.systemColorTheme.default",
+      "source": "Native widget colors match the system colors.",
+      "via": "alias",
+      "from": "vs/workbench/services/themes/electron-browser/themes.contribution",
+      "zh": "本机小组件颜色与系统颜色匹配。"
+    },
+    {
+      "moduleId": "vs/workbench/services/themes/electron-sandbox/themes.contribution",
+      "key": "window.systemColorTheme.auto",
+      "source": "Use light native widget colors for light color themes and dark for dark color themes.",
+      "via": "alias",
+      "from": "vs/workbench/services/themes/electron-browser/themes.contribution",
+      "zh": "对浅色主题使用浅色本机小组件颜色，对深色主题使用深色本机小组件颜色。"
+    },
+    {
+      "moduleId": "vs/workbench/services/themes/electron-sandbox/themes.contribution",
+      "key": "window.systemColorTheme.light",
+      "source": "Use light native widget colors.",
+      "via": "alias",
+      "from": "vs/workbench/services/themes/electron-browser/themes.contribution",
+      "zh": "使用浅色本机小组件颜色。"
+    },
+    {
+      "moduleId": "vs/workbench/services/themes/electron-sandbox/themes.contribution",
+      "key": "window.systemColorTheme.dark",
+      "source": "Use dark native widget colors.",
+      "via": "alias",
+      "from": "vs/workbench/services/themes/electron-browser/themes.contribution",
+      "zh": "使用深色本机小组件颜色。"
+    },
+    {
+      "moduleId": "vs/workbench/services/themes/electron-sandbox/themes.contribution",
+      "key": "window.systemColorTheme",
+      "source": "Set the color mode for native UI elements such as native dialogs, menus and title bar. Even if your OS is configured in light color mode, you can select a dark system color theme for the window. You can also configure to automatically adjust based on the {0} setting.\n\nNote: This setting is ignored when {1} is enabled.",
+      "via": "alias",
+      "from": "vs/workbench/services/themes/electron-browser/themes.contribution",
+      "zh": "设置本机 UI 元素的颜色模式，例如本机对话框、菜单和标题栏。即使在浅色模式下配置 OS，也可以为窗口选择深色系统颜色主题。还可以配置为根据 {0} 设置自动调整。\r\n\r\n注意: 启用 {1} 时会忽略此设置。"
+    },
+    {
+      "moduleId": "vs/workbench/services/workingCopy/electron-sandbox/workingCopyBackupService",
+      "key": "join.workingCopyBackups",
+      "source": "Backup working copies",
+      "via": "alias",
+      "from": "vs/workbench/services/workingCopy/electron-browser/workingCopyBackupService",
+      "zh": "备份工作副本"
+    },
+    {
+      "moduleId": "vs/workbench/services/workingCopy/electron-sandbox/workingCopyBackupTracker",
+      "key": "backupTrackerBackupFailed",
+      "source": "The following editors with unsaved changes could not be saved to the backup location.",
+      "via": "alias",
+      "from": "vs/workbench/services/workingCopy/electron-browser/workingCopyBackupTracker",
+      "zh": "以下具有未保存更改的编辑器无法保存到备份位置。"
+    },
+    {
+      "moduleId": "vs/workbench/services/workingCopy/electron-sandbox/workingCopyBackupTracker",
+      "key": "backupTrackerConfirmFailed",
+      "source": "The following editors with unsaved changes could not be saved or reverted.",
+      "via": "alias",
+      "from": "vs/workbench/services/workingCopy/electron-browser/workingCopyBackupTracker",
+      "zh": "无法保存或还原以下具有未保存更改的编辑器。"
+    },
+    {
+      "moduleId": "vs/workbench/services/workingCopy/electron-sandbox/workingCopyBackupTracker",
+      "key": "backupErrorDetails",
+      "source": "Try saving or reverting the editors with unsaved changes first and then try again.",
+      "via": "alias",
+      "from": "vs/workbench/services/workingCopy/electron-browser/workingCopyBackupTracker",
+      "zh": "请先尝试保存或还原具有未保存更改的编辑器，然后重试。"
+    },
+    {
+      "moduleId": "vs/workbench/services/workingCopy/electron-sandbox/workingCopyBackupTracker",
+      "key": "ok",
+      "source": "&&OK",
+      "via": "alias",
+      "from": "vs/workbench/services/workingCopy/electron-browser/workingCopyBackupTracker",
+      "zh": "确定(&&O)"
+    },
+    {
+      "moduleId": "vs/workbench/services/workingCopy/electron-sandbox/workingCopyBackupTracker",
+      "key": "shutdownForceClose",
+      "source": "Close Anyway",
+      "via": "alias",
+      "from": "vs/workbench/services/workingCopy/electron-browser/workingCopyBackupTracker",
+      "zh": "仍然关闭"
+    },
+    {
+      "moduleId": "vs/workbench/services/workingCopy/electron-sandbox/workingCopyBackupTracker",
+      "key": "shutdownForceQuit",
+      "source": "Quit Anyway",
+      "via": "alias",
+      "from": "vs/workbench/services/workingCopy/electron-browser/workingCopyBackupTracker",
+      "zh": "仍然退出"
+    },
+    {
+      "moduleId": "vs/workbench/services/workingCopy/electron-sandbox/workingCopyBackupTracker",
+      "key": "shutdownForceReload",
+      "source": "Reload Anyway",
+      "via": "alias",
+      "from": "vs/workbench/services/workingCopy/electron-browser/workingCopyBackupTracker",
+      "zh": "仍然重新加载"
+    },
+    {
+      "moduleId": "vs/workbench/services/workingCopy/electron-sandbox/workingCopyBackupTracker",
+      "key": "backupBeforeShutdownMessage",
+      "source": "Backing up editors with unsaved changes is taking a bit longer...",
+      "via": "alias",
+      "from": "vs/workbench/services/workingCopy/electron-browser/workingCopyBackupTracker",
+      "zh": "备份具有未保存更改的编辑器需要的时间较长..."
+    },
+    {
+      "moduleId": "vs/workbench/services/workingCopy/electron-sandbox/workingCopyBackupTracker",
+      "key": "backupBeforeShutdownDetail",
+      "source": "Click 'Cancel' to stop waiting and to save or revert editors with unsaved changes.",
+      "via": "alias",
+      "from": "vs/workbench/services/workingCopy/electron-browser/workingCopyBackupTracker",
+      "zh": "点击‘取消’以停止等待，并保存或还原具有未保存更改的编辑器。"
+    },
+    {
+      "moduleId": "vs/workbench/services/workingCopy/electron-sandbox/workingCopyBackupTracker",
+      "key": "saveBeforeShutdown",
+      "source": "Saving editors with unsaved changes is taking a bit longer...",
+      "via": "alias",
+      "from": "vs/workbench/services/workingCopy/electron-browser/workingCopyBackupTracker",
+      "zh": "保存具有未保存更改的编辑器需要的时间较长..."
+    },
+    {
+      "moduleId": "vs/workbench/services/workingCopy/electron-sandbox/workingCopyBackupTracker",
+      "key": "revertBeforeShutdown",
+      "source": "Reverting editors with unsaved changes is taking a bit longer...",
+      "via": "alias",
+      "from": "vs/workbench/services/workingCopy/electron-browser/workingCopyBackupTracker",
+      "zh": "还原具有未保存更改的编辑器需要的时间较长..."
+    },
+    {
+      "moduleId": "vs/workbench/services/workingCopy/electron-sandbox/workingCopyBackupTracker",
+      "key": "discardBackupsBeforeShutdown",
+      "source": "Discarding backups is taking a bit longer...",
+      "via": "alias",
+      "from": "vs/workbench/services/workingCopy/electron-browser/workingCopyBackupTracker",
+      "zh": "放弃备份需要的时间较长..."
+    },
+    {
+      "moduleId": "vs/workbench/services/workspaceConnection/browser/workspaceConnectionService",
+      "key": "reloadWindow",
+      "source": "&&Reload Window",
+      "via": "memory",
+      "zh": "重新加载窗口(&&R)"
+    },
+    {
+      "moduleId": "vs/workbench/services/workspaces/electron-sandbox/workspaceEditingService",
+      "key": "saveWorkspaceMessage",
+      "source": "Do you want to save your workspace configuration as a file?",
+      "via": "alias",
+      "from": "vs/workbench/services/workspaces/electron-browser/workspaceEditingService",
+      "zh": "你是否要将你的工作区配置保存为文件？"
+    },
+    {
+      "moduleId": "vs/workbench/services/workspaces/electron-sandbox/workspaceEditingService",
+      "key": "saveWorkspaceDetail",
+      "source": "Save your workspace if you plan to open it again.",
+      "via": "alias",
+      "from": "vs/workbench/services/workspaces/electron-browser/workspaceEditingService",
+      "zh": "若要再次打开此工作区，请先保存。"
+    },
+    {
+      "moduleId": "vs/workbench/services/workspaces/electron-sandbox/workspaceEditingService",
+      "key": "save",
+      "source": "&&Save",
+      "via": "alias",
+      "from": "vs/workbench/services/workspaces/electron-browser/workspaceEditingService",
+      "zh": "保存(&&S)"
+    },
+    {
+      "moduleId": "vs/workbench/services/workspaces/electron-sandbox/workspaceEditingService",
+      "key": "doNotSave",
+      "source": "Do&&n't Save",
+      "via": "alias",
+      "from": "vs/workbench/services/workspaces/electron-browser/workspaceEditingService",
+      "zh": "不保存(&&N)"
+    },
+    {
+      "moduleId": "vs/workbench/services/workspaces/electron-sandbox/workspaceEditingService",
+      "key": "doNotAskAgain",
+      "source": "Always discard untitled workspaces without asking",
+      "via": "alias",
+      "from": "vs/workbench/services/workspaces/electron-browser/workspaceEditingService",
+      "zh": "始终放弃无标题工作区而不询问"
+    },
+    {
+      "moduleId": "vs/workbench/services/workspaces/electron-sandbox/workspaceEditingService",
+      "key": "workspaceOpenedMessage",
+      "source": "Unable to save workspace '{0}'",
+      "via": "alias",
+      "from": "vs/workbench/services/workspaces/electron-browser/workspaceEditingService",
+      "zh": "无法保存工作区“{0}”"
+    },
+    {
+      "moduleId": "vs/workbench/services/workspaces/electron-sandbox/workspaceEditingService",
+      "key": "workspaceOpenedDetail",
+      "source": "The workspace is already opened in another window. Please close that window first and then try again.",
+      "via": "alias",
+      "from": "vs/workbench/services/workspaces/electron-browser/workspaceEditingService",
+      "zh": "已在另一个窗口打开工作区。请先关闭该窗口，然后重试。"
+    },
+    {
+      "moduleId": "vs/workbench/services/workspaces/electron-sandbox/workspaceEditingService",
+      "key": "restartExtensionHost.reason",
+      "source": "Opening a multi-root workspace",
+      "via": "alias",
+      "from": "vs/workbench/services/workspaces/electron-browser/workspaceEditingService",
+      "zh": "正在打开多根工作区"
+    }
+  ],
+  "untranslatedByModule": {
+    "vs/code/electron-main/main": 1,
+    "vs/code/electron-sandbox/processExplorer/processExplorerMain": 8,
+    "vs/code/electron-utility/mcpProcess/mcpProcessMain": 1,
+    "vs/editor/browser/services/inlineDiffService": 2,
+    "vs/editor/browser/widget/diffEditor/features/hideUnchangedRegionsFeature": 5,
+    "vs/editor/common/config/editorOptions": 2,
+    "vs/editor/common/editorContextKeys": 2,
+    "vs/editor/contrib/codeAction/browser/codeAction": 1,
+    "vs/editor/contrib/find/browser/findWidget": 1,
+    "vs/editor/contrib/gotoError/browser/gotoError": 1,
+    "vs/editor/contrib/gotoSymbol/browser/peek/referencesWidget": 1,
+    "vs/editor/contrib/hover/browser/markdownHoverParticipant": 2,
+    "vs/editor/contrib/inlineCompletions/browser/controller/commands": 3,
+    "vs/editor/contrib/inlineCompletions/browser/inlineCompletionsAccessibleView": 1,
+    "vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsModel": 1,
+    "vs/editor/contrib/inlineDiffs/browser/controllers/inlineDiffController": 2,
+    "vs/editor/contrib/quickAccess/browser/gotoLineQuickAccess": 5,
+    "vs/platform/actions/browser/toolbar": 1,
+    "vs/platform/browserView/electron-sandbox/externalSchemeConfirmation": 3,
+    "vs/platform/contextkey/common/contextkeys": 2,
+    "vs/platform/conversationSearch/electron-main/conversationSearchProcess": 1,
+    "vs/platform/environment/node/argv": 7,
+    "vs/platform/extensionManagement/common/abstractExtensionManagementService": 1,
+    "vs/platform/extensions/common/extensionValidator": 2,
+    "vs/platform/extensions/electron-main/extensionMonitorMainService": 1,
+    "vs/platform/externalTerminal/node/externalTerminalService": 2,
+    "vs/platform/files/browser/indexedDBFileSystemProvider": 5,
+    "vs/platform/files/common/fileService": 1,
+    "vs/platform/mcpProcess/electron-main/mcpProcess": 1,
+    "vs/platform/native/electron-main/nativeHostMainService": 1,
+    "vs/platform/process/electron-main/processMainService": 4,
+    "vs/platform/quickinput/browser/quickInputTree": 1,
+    "vs/platform/storage/electron-main/storageMainService": 4,
+    "vs/platform/update/common/update.config.contribution": 3,
+    "vs/platform/utilityHost/common/utilityHostCpuProfileCommands": 22,
+    "vs/workbench/api/browser/mainThreadAuthentication": 3,
+    "vs/workbench/api/browser/mainThreadCursor": 8,
+    "vs/workbench/api/browser/viewsExtensionPoint": 1,
+    "vs/workbench/api/test/browser/mainThreadTreeViews.test": 2,
+    "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuComponents": 2,
+    "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuState": 1,
+    "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuTypes": 4,
+    "vs/workbench/browser/actions/developerActions": 21,
+    "vs/workbench/browser/actions/exportCustomModesAction": 5,
+    "vs/workbench/browser/actions/exportNotepadsAction": 7,
+    "vs/workbench/browser/actions/helpActions": 1,
+    "vs/workbench/browser/actions/layoutActions": 12,
+    "vs/workbench/browser/actions/layoutIcons": 4,
+    "vs/workbench/browser/actions/layoutSwitcherOverlay": 1,
+    "vs/workbench/browser/parts/activitybar/activitybarPart": 1,
+    "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions": 1,
+    "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarPart": 3,
+    "vs/workbench/browser/parts/dialogs/dialogHandler": 2,
+    "vs/workbench/browser/parts/editor/editor.contribution": 3,
+    "vs/workbench/browser/parts/editor/editorActions.cursor": 1,
+    "vs/workbench/browser/parts/editor/editorActions": 2,
+    "vs/workbench/browser/parts/editor/editorGroupWatermark": 8,
+    "vs/workbench/browser/parts/editor/renderEditorEmptyScreen": 2,
+    "vs/workbench/browser/parts/globalCompositeBar": 1,
+    "vs/workbench/browser/parts/panel/panelActions": 2,
+    "vs/workbench/browser/parts/titlebar/titlebarActions": 3,
+    "vs/workbench/browser/parts/titlebar/titlebarPart": 10,
+    "vs/workbench/browser/web.main": 2,
+    "vs/workbench/browser/windowQuitConfirmation": 21,
+    "vs/workbench/browser/workbench.contribution": 11,
+    "vs/workbench/common/contextkeys": 4,
+    "vs/workbench/common/theme": 1,
+    "vs/workbench/contrib/agents/browser/agentsActions": 3,
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess": 18,
+    "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton": 3,
+    "vs/workbench/contrib/agents/common/agentsContextKeys": 2,
+    "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution": 14,
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab": 15,
+    "vs/workbench/contrib/analytics/browser/aiCodeTrackingActions.contribution": 2,
+    "vs/workbench/contrib/analytics/browser/aiCodeTrackingStatusBar": 2,
+    "vs/workbench/contrib/appLayout/browser/appLayoutActions": 6,
+    "vs/workbench/contrib/appLayout/browser/dumpLayoutAction": 7,
+    "vs/workbench/contrib/appLayout/common/agentsWindowOrFocusMenuRegistrations": 2,
+    "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions": 10,
+    "vs/workbench/contrib/authentication/browser/authentication.contribution": 1,
+    "vs/workbench/contrib/bulkEdit/browser/bulkEditService": 1,
+    "vs/workbench/contrib/canvas/browser/canvas-start-page.react": 5,
+    "vs/workbench/contrib/canvas/browser/canvas.contribution": 1,
+    "vs/workbench/contrib/canvas/browser/canvasNavigationCommands": 1,
+    "vs/workbench/contrib/canvas/browser/shareCanvasAction": 4,
+    "vs/workbench/contrib/canvas/common/canvasOpenResult": 2,
+    "vs/workbench/contrib/codeEditor/browser/emptyTextEditorHint/emptyTextEditorHint": 2,
+    "vs/workbench/contrib/codeEditor/browser/toggleRenderWhitespace": 1,
+    "vs/workbench/contrib/composer/browser/browserEditor.contribution": 8,
+    "vs/workbench/contrib/composer/browser/capabilities/chimes": 4,
+    "vs/workbench/contrib/composer/browser/composer.contribution": 2,
+    "vs/workbench/contrib/composer/browser/composerMessageStorageService": 2,
+    "vs/workbench/contrib/composer/browser/transcript/composerTranscriptToolRuntime": 1,
+    "vs/workbench/contrib/composer/electron-sandbox/browserAutomation.contribution": 2,
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager": 12,
+    "vs/workbench/contrib/continuousProfiling/electron-sandbox/continuousProfiling.contribution": 9,
+    "vs/workbench/contrib/cpuMonitor/electron-sandbox/cpuMonitor.contribution": 2,
+    "vs/workbench/contrib/cursorAiFeedback/browser/aiFeedbackActions": 2,
+    "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu": 4,
+    "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution": 15,
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands": 17,
+    "vs/workbench/contrib/cursorLocalTrace/browser/cursorLocalTrace.contribution": 3,
+    "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions": 9,
+    "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/usePlanEditorState": 1,
+    "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution": 9,
+    "vs/workbench/contrib/customizeEditor/browser/customizeEditor.contribution": 7,
+    "vs/workbench/contrib/customizeEditor/browser/skillPublishEditorTitle": 1,
+    "vs/workbench/contrib/debug/browser/debugCommands": 2,
+    "vs/workbench/contrib/debug/browser/debugIcons": 2,
+    "vs/workbench/contrib/debug/browser/replAccessibilityHelp": 8,
+    "vs/workbench/contrib/debug/browser/welcomeView": 2,
+    "vs/workbench/contrib/debug/common/debug": 1,
+    "vs/workbench/contrib/debug/common/debugConfiguration": 57,
+    "vs/workbench/contrib/extensions/browser/abstractRuntimeExtensionsEditor": 1,
+    "vs/workbench/contrib/extensions/browser/extensionFeaturesTab": 3,
+    "vs/workbench/contrib/extensions/browser/extensionsActions": 2,
+    "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution": 60,
+    "vs/workbench/contrib/extensions/browser/extensionsViewlet": 3,
+    "vs/workbench/contrib/extensions/browser/extensionsViews": 4,
+    "vs/workbench/contrib/extensions/browser/extensionsWidgets": 2,
+    "vs/workbench/contrib/extensions/browser/maliciousExtensionChecker": 1,
+    "vs/workbench/contrib/extensions/browser/showRuntimeExtensionsAction": 1,
+    "vs/workbench/contrib/extensions/electron-sandbox/debugExtensionHostAction": 4,
+    "vs/workbench/contrib/extensions/electron-sandbox/extensionMonitor.contribution": 3,
+    "vs/workbench/contrib/extensions/electron-sandbox/extensionProfileService": 28,
+    "vs/workbench/contrib/extensions/electron-sandbox/runtimeExtensionsEditor": 4,
+    "vs/workbench/contrib/files/browser/fileActions": 1,
+    "vs/workbench/contrib/issue/browser/issue.contribution": 1,
+    "vs/workbench/contrib/issue/electron-sandbox/process.contribution": 17,
+    "vs/workbench/contrib/markdownEditor/browser/markdownEditorActions": 6,
+    "vs/workbench/contrib/markers/browser/markers.contribution": 2,
+    "vs/workbench/contrib/mcp/common/mcpConfigPathsService": 1,
+    "vs/workbench/contrib/mcp/common/mcpService": 5,
+    "vs/workbench/contrib/mdceditor/browser/mdceditor.contribution": 9,
+    "vs/workbench/contrib/memoryMonitor/electron-sandbox/memoryMonitor.contribution": 1,
+    "vs/workbench/contrib/notebook/browser/contrib/notebookVariables/notebookVariablesView": 1,
+    "vs/workbench/contrib/notebook/browser/viewParts/notebookCellOverlays": 1,
+    "vs/workbench/contrib/onboarding/electron-sandbox/onboarding.contribution": 2,
+    "vs/workbench/contrib/performanceEvents/electron-sandbox/smoothness.contribution": 1,
+    "vs/workbench/contrib/preferences/browser/keybindingsEditor": 2,
+    "vs/workbench/contrib/preferences/browser/keyboardLayoutPicker": 10,
+    "vs/workbench/contrib/preferences/browser/preferences.contribution": 2,
+    "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution": 11,
+    "vs/workbench/contrib/remote/browser/remoteStartEntry": 1,
+    "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution": 10,
+    "vs/workbench/contrib/scm/browser/scm.contribution": 4,
+    "vs/workbench/contrib/scm/browser/scmHistoryViewPane": 9,
+    "vs/workbench/contrib/scm/browser/scmViewPane": 5,
+    "vs/workbench/contrib/search/browser/anythingQuickAccess": 5,
+    "vs/workbench/contrib/search/browser/search.contribution": 18,
+    "vs/workbench/contrib/search/browser/searchView": 11,
+    "vs/workbench/contrib/tasks/browser/abstractTaskService": 2,
+    "vs/workbench/contrib/tasks/browser/taskService": 1,
+    "vs/workbench/contrib/terminal/browser/terminalActions": 1,
+    "vs/workbench/contrib/terminal/browser/terminalInstance": 2,
+    "vs/workbench/contrib/terminal/browser/terminalTooltip": 5,
+    "vs/workbench/contrib/terminal/browser/terminalView": 1,
+    "vs/workbench/contrib/terminal/browser/xterm/decorationAddon": 1,
+    "vs/workbench/contrib/terminal/common/terminalConfiguration": 5,
+    "vs/workbench/contrib/terminal/common/terminalContextKey": 1,
+    "vs/workbench/contrib/terminal/common/terminalStrings": 1,
+    "vs/workbench/contrib/terminalContrib/cursorCliPrompt/browser/terminal.cursorCliPrompt.contribution": 2,
+    "vs/workbench/contrib/terminalContrib/cursorDeveloper/browser/terminal.cursorDeveloper.contribution": 1,
+    "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution": 6,
+    "vs/workbench/contrib/terminalContrib/cursorPromptBar/browser/terminalPromptBarContextKeys": 3,
+    "vs/workbench/contrib/terminalContrib/links/browser/terminalLinkManager": 1,
+    "vs/workbench/contrib/terminalContrib/suggest/browser/terminal.suggest.contribution": 1,
+    "vs/workbench/contrib/terminalContrib/suggest/common/terminalSuggestConfiguration": 1,
+    "vs/workbench/contrib/testing/browser/testingProgressUiService": 5,
+    "vs/workbench/contrib/tracing/browser/internalBugReportAction": 1,
+    "vs/workbench/contrib/tracing/browser/internalReportLagAction": 2,
+    "vs/workbench/contrib/tracing/browser/internalReportMenuAction": 7,
+    "vs/workbench/contrib/tracing/browser/sessionRecordingStatusBar": 3,
+    "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution": 29,
+    "vs/workbench/contrib/ui/browser/buttons/AgentsWindowButton": 6,
+    "vs/workbench/contrib/ui/browser/buttons/IdeTitlebarUpdateButton": 3,
+    "vs/workbench/contrib/ui/browser/gallery/sections/TreeViewExampleSection": 3,
+    "vs/workbench/contrib/update/browser/update": 6,
+    "vs/workbench/contrib/update/common/updateActionTitles": 3,
+    "vs/workbench/contrib/url/browser/trustedDomainsValidator": 1,
+    "vs/workbench/contrib/utilityHostTrace/browser/utilityHostTrace.contribution": 1,
+    "vs/workbench/contrib/webview/electron-sandbox/webviewCommands": 2,
+    "vs/workbench/contrib/welcomeGettingStarted/common/gettingStartedContent": 2,
+    "vs/workbench/contrib/workspace/browser/workspace.contribution": 3,
+    "vs/workbench/contrib/workspace/browser/workspaceTrustEditor": 2,
+    "vs/workbench/electron-sandbox/actions/developerActions.cursor": 27,
+    "vs/workbench/electron-sandbox/actions/devRefreshTeamAdminSettingsAction.cursor": 1,
+    "vs/workbench/electron-sandbox/actions/windowActions": 6,
+    "vs/workbench/electron-sandbox/glass.main": 1,
+    "vs/workbench/electron-sandbox/parts/dialogs/dialogHandler": 4,
+    "vs/workbench/services/actions/common/menusExtensionPoint": 2,
+    "vs/workbench/services/agent/browser/agentExecProviderService": 5,
+    "vs/workbench/services/agent/electron-sandbox/localAgentPromptQualityUrlHandler": 5,
+    "vs/workbench/services/ai/browser/urlOpenToastService": 2,
+    "vs/workbench/services/cursorAuth/browser/authenticationService.contribution": 7,
+    "vs/workbench/services/customize/browser/projectPrimitiveCreation": 12,
+    "vs/workbench/services/dialogs/browser/fileDialogService": 7,
+    "vs/workbench/services/experiment/browser/dynamicConfigOverrideActions": 48,
+    "vs/workbench/services/experiment/browser/experimentOverrideActions": 49,
+    "vs/workbench/services/experiment/browser/featureFlagOverrideActions": 67,
+    "vs/workbench/services/extensionManagement/browser/extensionEnablementService": 1,
+    "vs/workbench/services/extensionManagement/browser/webExtensionsScannerService": 2,
+    "vs/workbench/services/extensionManagement/common/extensionManagementServerService": 1,
+    "vs/workbench/services/extensionManagement/electron-sandbox/remoteExtensionManagementService": 1,
+    "vs/workbench/services/extensions/common/abstractExtensionService": 2,
+    "vs/workbench/services/extensions/common/extensionHostManager": 2,
+    "vs/workbench/services/extensions/common/extensionsRegistry": 1,
+    "vs/workbench/services/extensions/electron-sandbox/nativeExtensionService": 4,
+    "vs/workbench/services/fileWatchRecording/electron-sandbox/fileWatchRecording.contribution": 7,
+    "vs/workbench/services/keybinding/browser/keyboardLayoutService": 1,
+    "vs/workbench/services/localization/browser/localeService": 4,
+    "vs/workbench/services/preferences/browser/preferencesService": 1,
+    "vs/workbench/services/remote/browser/remoteAgentService": 1,
+    "vs/workbench/services/search/browser/searchService": 2,
+    "vs/workbench/services/userDataProfile/browser/extensionsResource": 8,
+    "vs/workbench/services/userDataProfile/browser/userDataProfileImportExportService": 5,
+    "vs/workbench/services/views/test/browser/viewContainerModel.test": 62,
+    "vs/workbench/services/views/test/browser/viewDescriptorService.test": 44,
+    "vs/workbench/services/workspaceCollection/browser/workspaceCollectionService": 1,
+    "vs/workbench/services/workspaceConnection/browser/workspaceConnectionService": 6,
+    "vs/workbench/services/worktree/browser/worktree.contribution": 3
+  }
+}

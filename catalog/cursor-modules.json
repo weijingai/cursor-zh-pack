@@ -1,0 +1,345 @@
+{
+  "extractedAt": "2026-09-28T06:40:42.101Z",
+  "moduleCount": 39,
+  "stringCount": 260,
+  "modules": {
+    "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuComponents": {
+      "agentLayoutMenu.add": "Add",
+      "agentLayoutMenu.moreActions": "More actions"
+    },
+    "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuState": {
+      "agentLayoutMenu.savedLayoutName": "Layout {0}"
+    },
+    "vs/workbench/browser/actions/agentLayoutQuickMenu/agentLayoutQuickMenuTypes": {
+      "agentLayoutMenu.layout.agent": "Layout • Left",
+      "agentLayoutMenu.layout.editor": "Layout • Right",
+      "agentLayoutMenu.layout.zen": "Layout • Zen",
+      "agentLayoutMenu.layout.browser": "Browser"
+    },
+    "vs/workbench/browser/actions/exportCustomModesAction": {
+      "hasCustomModes": "Whether the user has legacy custom composer modes",
+      "noCustomModesFound": "No custom modes found in storage.",
+      "customModesExported": "Exported {0} custom mode(s) to {1}",
+      "exportCustomModes": "Export Custom Modes"
+    },
+    "vs/workbench/browser/actions/exportNotepadsAction": {
+      "hasNotepads": "Whether the user has notepads in storage",
+      "noNotepadsFound": "No notepads found in storage.",
+      "parseError": "Failed to parse notepad data: {0}",
+      "notepadsExported": "Exported {0} notepad(s) to {1}",
+      "exportNotepadsError": "Failed to export notepads: {0}",
+      "exportNotepads": "Export Notepads to Files"
+    },
+    "vs/workbench/browser/parts/titlebar/titlebarActions": {
+      "toggle.navigation": "Navigation Controls",
+      "toggle.navigationDescription": "Toggle visibility of the Navigation Controls in title bar",
+      "toggle.layout": "Layout Controls",
+      "toggle.layoutDescription": "Toggle visibility of the Layout Controls in title bar",
+      "toggle.agentsWindow": "Agents Window Button",
+      "toggle.agentsWindowDescription": "Toggle visibility of the Agents Window button in the title bar",
+      "toggle.editorActions": "Editor Actions",
+      "toggle.titleBarStyle": "Restore Native Title Bar",
+      "accounts": "Accounts",
+      "manage": "Manage"
+    },
+    "vs/workbench/browser/windowQuitConfirmation": {
+      "shutdownChatStreamingTitle": "Agent is still working",
+      "shutdownChatStreamingDetail": "Stopping now will cancel the current task.",
+      "shutdownChatStreamingTitlePlural": "{0} agents are still working",
+      "shutdownChatStreamingDetailPlural": "Stopping now will cancel their current tasks.",
+      "shutdownChatStreamingAutoContinueDetail": "Cursor will pick this agent back up when you reopen.",
+      "shutdownChatStreamingAutoContinueDetailPlural": "Cursor will pick these agents back up when you reopen.",
+      "shutdownChatStreamingAutoContinueToggle": "Resume agent automatically",
+      "shutdownChatStreamingAutoContinueTogglePlural": "Resume agents automatically",
+      "shutdownClose": "Close",
+      "shutdownQuit": "Quit",
+      "shutdownReload": "Reload",
+      "shutdownLoad": "Change",
+      "shutdownForceClose": "Close Anyway",
+      "shutdownForceQuit": "Quit Anyway",
+      "shutdownForceReload": "Reload Anyway",
+      "shutdownForceLoad": "Change Anyway",
+      "archiveRunningAgentTitle": "Archive running agent?",
+      "archiveRunningAgentDetail": "This agent is still working. Archiving will stop it and cancel the current task.",
+      "archiveRunningAgentConfirm": "Archive",
+      "shutdownBackgroundTerminalTitle": "Background terminal is still running",
+      "shutdownBackgroundTerminalDetail": "Stopping now will kill the background terminal.",
+      "shutdownBackgroundTerminalTitlePlural": "{0} background terminals are still running",
+      "shutdownBackgroundTerminalDetailPlural": "Stopping now will kill the background terminals."
+    },
+    "vs/workbench/contrib/agents/browser/agentsActions": {
+      "all-agents": "All Agents",
+      "quickOpenPreviousRecentlyUsedAgent": "Quick Open Previous Recently Used Agent",
+      "quickOpenLeastRecentlyUsedAgent": "Quick Open Least Recently Used Agent"
+    },
+    "vs/workbench/contrib/agents/browser/agentsQuickAccess": {
+      "agents.chatHistory.section.chats": "Chats",
+      "agents.chatHistory.section.cloudAgents": "Cloud agents",
+      "agents.chatHistory.noResults": "No chats available",
+      "agents.chatHistory.noResults.filter": "Try a different search query",
+      "agents.chatHistory.noResults.empty": "Start a new agent to see it here",
+      "agents.chatHistory.noResults.aria": "No chats available",
+      "agents.chatHistory.composerAria": "Chat {0}",
+      "agents.chatHistory.backgroundAria": "Cloud agent {0}",
+      "agents.chatHistory.untitledChat": "Untitled chat",
+      "agents.chatHistory.placeholder": "Search chats and cloud agents",
+      "agents.chatHistory.help": "Search chat history",
+      "agents.mru.noResults": "No recent agents",
+      "agents.mru.composerAria": "Agent {0}",
+      "agents.mru.backgroundAria": "Cloud agent {0}",
+      "agents.ctrlTab.draft": "Draft",
+      "agents.mru.placeholder": "Switch between recently used agents",
+      "agents.mru.help": "Switch between recently used agents"
+    },
+    "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton": {
+      "agentSidebarUpdateButton.tooltip": "Restart Cursor to install the pending update.",
+      "agentSidebarUpdateButton.tooltipWithVersion": "Restart Cursor to install the pending update to {0}.",
+      "agentSidebarUpdateButton.installingTooltip": "Installing update — Cursor will close and reopen automatically.",
+      "agentSidebarUpdateButton.label": "Update",
+      "agentSidebarUpdateButton.installingLabel": "Installing"
+    },
+    "vs/workbench/contrib/agents/common/agentsContextKeys": {
+      "agentsPaneFocused": "Whether the Agents sidebar currently contains keyboard focus.",
+      "agentNavigationMode": "Whether currently in agent navigation mode (hold-and-release to switch)."
+    },
+    "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution": {
+      "cursorGeneralConfigurationTitle": "General",
+      "http2.disable.title": "Disable HTTP/2.0",
+      "http2.disable.description": "Disable HTTP/2 for all requests, and use HTTP/1.1 instead. This increases resource utilization and latency, but is useful behind a corporate proxy that blocks HTTP/2.",
+      "debug.timeoutPrevention.title": "Debug Timeout Prevention",
+      "cursor.composer.planTextSizeScale.matchAgentChat": "Match Agent chat",
+      "cursor.composer.planTextSizeScale.small": "Small",
+      "cursor.composer.planTextSizeScale.defaultSize": "Default",
+      "cursor.composer.planTextSizeScale.large": "Large",
+      "cursor.composer.planTextSizeScale.extraLarge": "Extra Large",
+      "cursor.composer.conversationDensity.toolSummary": "Compact",
+      "cursor.composer.conversationDensity.compactRows": "Balanced",
+      "cursor.composer.conversationDensity.detailed": "Detailed",
+      "cursor.composer.editorConversationDensity.toolSummary": "Compact",
+      "cursor.composer.editorConversationDensity.compactRows": "Balanced",
+      "cursor.composer.editorConversationDensity.detailed": "Detailed"
+    },
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab": {
+      "noWorkspace": "Please open a workspace folder first.",
+      "importGithubRule": "Import Project Rules from GitHub/GitLab",
+      "githubUrlPlaceholder": "https://github.com/owner/repository.git",
+      "githubUrlPrompt": "Enter the GitHub/GitLab repository URL to import project rules",
+      "emptyUrl": "URL cannot be empty",
+      "invalidGitRepoUrl": "Please enter a valid GitHub/GitLab repository URL.",
+      "invalidRepoUrl": "Could not extract repository name from URL.",
+      "ruleAlreadyExists": "Imported rules for \"{0}\" already exist in `.cursor/rules/imported/{0}`.",
+      "cloningRule": "Cloning rule from GitHub/GitLab...",
+      "rulesImported": "Imported {1} project rule file(s) from \"{0}\" into `.cursor/rules/imported/{0}`.",
+      "importFailed": "Failed to import GitHub/GitLab rules: {0}",
+      "teamContentDashboard": "Team {0} can be created and edited in the Cursor Dashboard.",
+      "openDashboard": "Open Dashboard",
+      "noWorkspaceForProjectRule": "Cannot create project rules without a workspace. Please open a folder first.",
+      "createRuleFailed": "Failed to create rule. Please try again."
+    },
+    "vs/workbench/contrib/appLayout/browser/appLayoutActions": {
+      "hideUnifiedSideBar": "Toggle Agents Side Bar",
+      "toggleUnifiedSideBarDescription": "Toggle Agents Side Bar visibility",
+      "toggleAgentsToggled": "Toggle Agents",
+      "toggleAgentsDescription": "Toggle Agents visibility",
+      "toggleUnifiedSideBar": "Toggle Agents Side Bar",
+      "toggleAgents": "Toggle Agents"
+    },
+    "vs/workbench/contrib/appLayout/browser/dumpLayoutAction": {
+      "applyLayoutStorageDataTitle": "Apply Layout Storage Data",
+      "applyLayoutStorageDataPrompt": "Paste JSON produced by \"Dump Layout Storage Data\"",
+      "applyLayoutStorageDataInvalidJson": "Invalid JSON: {0}",
+      "applyLayoutStorageDataSuccess": "Applied layout storage data ({0} updated, {1} removed). Some changes may require a window reload to fully reflect.",
+      "applyLayoutStorageDataFailed": "Failed to apply layout storage data: {0}",
+      "dumpLayoutStorageData": "Dump Layout Storage Data",
+      "applyLayoutStorageData": "Apply Layout Storage Data"
+    },
+    "vs/workbench/contrib/appLayout/common/agentsWindowOrFocusMenuRegistrations": {
+      "cursor.agentsWindowNew": "New Agents Window",
+      "cursor.agentsWindowSwitchTo": "Switch to {0}"
+    },
+    "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions": {
+      "switchToModelSlug.noAgentsWindow": "Couldn't open the Agents window to switch the model. Open the Agents window and try again.",
+      "switchToModelSlug.agentsWindowRoutingFailed": "Couldn't switch the model in the Agents window. Try again.",
+      "cursor.newAgentsWindow": "New Agents Window",
+      "cursor.newAdditionalAgentsWindowDev": "Developer: New Additional Agents Window",
+      "cursor.switchToNamedWindow": "Switch to {0}",
+      "cursor.openOrFocusNamedWindow": "Open or Focus {0}",
+      "cursor.openOrFocusEditorWindow": "Open or Focus IDE",
+      "cursor.openGlassAndSwitchModelSlug": "Open Glass and Switch Model",
+      "cursor.openGlassAndChangeToMultitask": "Open Glass and Change to Multitask",
+      "cursor.openGlassAndStartCloudAgent": "Open Agents Window and Start Cloud Agent"
+    },
+    "vs/workbench/contrib/composer/browser/browserEditor.contribution": {
+      "closeBrowserTab.message": "Close Browser Tab",
+      "closeBrowserTab.detail": "This browser was created by an Agent. Closing it may impact a running chat.",
+      "closeBrowserTab.hide": "&&Hide",
+      "closeBrowserTab.close": "&&Close",
+      "openBrowser": "Open Browser",
+      "newBrowserTab": "New Browser Tab",
+      "reloadBrowserTab": "Reload Browser Tab",
+      "focusBrowserLocationBar": "Focus Browser Location Bar",
+      "openCursorWebsite": "Open cursor.com in Browser"
+    },
+    "vs/workbench/contrib/composer/browser/capabilities/chimes": {
+      "chimes.unsafePath.unc": "Custom chime sound path cannot be a network (UNC) path for security reasons. Please use a local file path.",
+      "chimes.unsafePath.url": "Custom chime sound path cannot be a URL. Please use a local file path.",
+      "chimes.untrustedWorkspace": "Custom chime sound is configured in workspace settings but the workspace is not trusted. The custom sound will be ignored.",
+      "chimes.source": "Cursor Chimes"
+    },
+    "vs/workbench/contrib/composer/browser/composer.contribution": {
+      "cursor ai": "Cursor AI",
+      "composerEditor": "Cursor AI"
+    },
+    "vs/workbench/contrib/composer/browser/composerMessageStorageService": {
+      "checkpointHydrationErrorTitle": "Failed to Load Conversation",
+      "checkpointHydrationErrorDetail": "The conversation checkpoint data may be corrupted. You can start a new conversation or try reloading the window."
+    },
+    "vs/workbench/contrib/composer/browser/transcript/composerTranscriptToolRuntime": {
+      "composerTranscript.openFileFailed": "Unable to open {0}"
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/browserAutomation.contribution": {
+      "crashBrowserWebviewRenderer": "Developer: Crash Browser Webview Renderer",
+      "orphanBrowserViewEntry": "Developer: Orphan Browser View Entry"
+    },
+    "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager": {
+      "passkeyRequestStalled": "This page is waiting for a passkey or security key. If using a hardware security key, insert and tap it to continue.",
+      "passkeyHybridUnsupported": "This sign-in needs a passkey from your phone or tablet via QR code, which the Cursor browser can't display. Open this page in your regular browser to continue.",
+      "browserContextMenu.openLinkExternalBrowser": "Open Link in Browser",
+      "browserContextMenu.openLinkNewTab": "Open Link in New Tab",
+      "browserContextMenu.openLinkBackgroundTab": "Open Link in Background Tab",
+      "browserContextMenu.copyLinkAddress": "Copy Link Address",
+      "browserContextMenu.openMediaExternalBrowser": "Open Media in Browser",
+      "browserContextMenu.openMediaNewTab": "Open Media in New Tab",
+      "browserContextMenu.copyMediaAddress": "Copy Media Address",
+      "browserContextMenu.copyImage": "Copy Image",
+      "browserContextMenu.back": "Back",
+      "browserContextMenu.forward": "Forward",
+      "browserContextMenu.reload": "Reload",
+      "browserContextMenu.undo": "Undo",
+      "browserContextMenu.redo": "Redo",
+      "browserContextMenu.cut": "Cut",
+      "browserContextMenu.copy": "Copy",
+      "browserContextMenu.paste": "Paste",
+      "browserContextMenu.selectAll": "Select All",
+      "browserContextMenu.inspectElement": "Inspect Element"
+    },
+    "vs/workbench/contrib/cursorAiFeedback/browser/aiFeedbackActions": {
+      "miReportIssue": "Report &&Issue",
+      "miGiveFeedback": "Give &&Feedback..."
+    },
+    "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu": {
+      "chatRevealInWindows": "Reveal in File Explorer",
+      "chatRevealInMac": "Reveal in Finder",
+      "chatOpenContainer": "Open Containing Folder",
+      "chatFileAddToChat": "Add to Chat",
+      "copyPath": "Copy Path"
+    },
+    "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution": {
+      "cursorBlame.openFileBlameTitle": "Open File Blame",
+      "cursorBlame.category": "Cursor Blame",
+      "cursorBlame.openCommitTitle": "View Commit",
+      "cursorBlame.pasteCommitHash": "Paste commit hash",
+      "cursorBlame.viewCommitTitle": "View commit",
+      "cursorBlame.noGit": "No git repository found",
+      "cursorBlame.uncommittedLine": "This line has not been committed yet",
+      "cursorBlame.explorerContextMenu": "Cursor Blame",
+      "cursorBlameSubmenu": "Cursor Blame",
+      "toggleFileBlame": "Toggle file blame",
+      "cursorBlameConfigurationTitle": "Cursor Blame",
+      "cursor.blame.hoverDelay": "Controls the delay in milliseconds before hovers in the Cursor Blame panes appear. If not set, uses `#editor.hover.delay#` with a minimum of 500ms."
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands": {
+      "exampleUtilityHost.echo": "Example Utility Host Echo",
+      "exampleUtilityHost.echo.ok": "Example Utility Host Echo: \"{0}\" ({1}ms round-trip)",
+      "exampleUtilityHost.echo.err": "Example Utility Host Echo failed: {0}",
+      "exampleUtilityHost.ping": "Example Utility Host Ping",
+      "exampleUtilityHost.ping.ok": "Example Utility Host Ping: host time {0}, {1}ms round-trip",
+      "exampleUtilityHost.ping.err": "Example Utility Host Ping failed: {0}",
+      "exampleUtilityHost.tick": "Example Utility Host Tick",
+      "exampleUtilityHost.tick.start": "Example Utility Host Tick: waiting for ticks…",
+      "exampleUtilityHost.tick.progress": "Example Utility Host Tick: {0}/{1} (host time {2})",
+      "exampleUtilityHost.tick.ok": "Example Utility Host Tick: received {0} ticks in {1}ms (last host time {2})",
+      "exampleUtilityHost.tick.partial": "Example Utility Host Tick: cancelled after {0}/{1} ticks",
+      "exampleUtilityHost.tick.err": "Example Utility Host Tick: no ticks received (stream ended early)",
+      "exampleUtilityHost.stressTest.start": "Example Utility Host Stress Test ({0}): receiving payload…",
+      "exampleUtilityHost.stressTest.ok": "Example Utility Host Stress Test ({0}): received {1} MiB in {2}ms ({3} MiB/s)",
+      "exampleUtilityHost.stressTest.err": "Example Utility Host Stress Test ({0}) failed: {1}",
+      "exampleUtilityHost.stressTest": "Example Utility Host Stress Test (16 MiB)",
+      "exampleUtilityHost.stressTestLarge": "Example Utility Host Stress Test Large (63 MiB, under 64 MiB tunnel cap)"
+    },
+    "vs/workbench/contrib/cursorLocalTrace/browser/cursorLocalTrace.contribution": {
+      "cursorLocalTraceModeConfigurationTitle": "Local Trace Mode",
+      "cursorLocalTraceMode.settingTitle": "Local Trace Mode",
+      "cursorLocalTraceMode": "When enabled, records performance marks and measures locally (for example in Chrome DevTools Performance) and mirrors VS Code RPCs into the DevTools Network tab."
+    },
+    "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions": {
+      "toggleMarkdownPlanEditorMode": "Toggle Editor Mode",
+      "markdownPlanEditor": "Markdown Plan Editor",
+      "acceptPlan": "Build Plan",
+      "find": "Find",
+      "findNext": "Find Next",
+      "findPrevious": "Find Previous",
+      "closeFindWidget": "Close Find Widget"
+    },
+    "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/usePlanEditorState": {
+      "markdownPlanEditor.fileChangedWhileDirty": "The content of the file is newer. Do you want to overwrite the file with your changes, or revert your changes?",
+      "overwrite": "Overwrite",
+      "revert": "Revert"
+    },
+    "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution": {
+      "cursorOrigin.category": "Cursor Origin",
+      "cursorOrigin.noFile": "No file is currently open.",
+      "cursorOrigin.noLink": "Could not build a cursor.com link. Open a file in a git repository with an eligible remote.",
+      "cursorOrigin.copyCodeLink": "Copy cursor.com link (with selection)",
+      "cursorOrigin.copyCodeLinkWithoutRange": "Copy cursor.com link (file only)",
+      "cursorOrigin.copyCodeLink.menu": "Copy cursor.com link",
+      "cursorOrigin.copyCodeLinkExplorer.menu": "Copy cursor.com link",
+      "cursorOrigin.copyCodeLinkEditorTitle.menu": "Copy cursor.com link",
+      "cursorOrigin.copyCodeLinkLineNumber.menu": "Copy cursor.com link"
+    },
+    "vs/workbench/contrib/terminalContrib/cursorCliPrompt/browser/terminal.cursorCliPrompt.contribution": {
+      "cursor.cliAlreadyInstalled": "Cursor CLI is already installed.",
+      "cursor.installCli": "Install Cursor CLI"
+    },
+    "vs/workbench/contrib/terminalContrib/cursorDeveloper/browser/terminal.cursorDeveloper.contribution": {
+      "workbench.action.terminal.debugCheckExecutionServiceVersion": "Debug: Check Terminal Execution Service Version"
+    },
+    "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution": {
+      "workbench.action.terminal.externalAgentActions": "External Agent Actions",
+      "workbench.action.terminal.externalAgentSecondOpinion": "Second Opinion",
+      "workbench.action.terminal.externalAgentAsk": "Side Chat",
+      "workbench.action.terminal.externalAgentAsk.menu": "Side Chat",
+      "workbench.action.terminal.externalAgentSecondOpinion.menu": "Second Opinion",
+      "workbench.action.terminal.externalAgentActions.title": "External Agent Actions"
+    },
+    "vs/workbench/contrib/terminalContrib/cursorPromptBar/browser/terminalPromptBarContextKeys": {
+      "terminalPromptBarVisible": "Whether the terminal prompt bar is currently visible",
+      "terminalPromptBarCanCancelGeneration": "Whether terminal prompt-bar generation can be cancelled",
+      "terminalPromptBarCanRejectGeneration": "Whether terminal prompt-bar generated command can be rejected"
+    },
+    "vs/workbench/contrib/ui/browser/buttons/AgentsWindowButton": {
+      "agentsWindow.hoverGraphicTitle": "Meet the new Cursor",
+      "agentsWindow.hoverSectionParallelTitle": "Run Many Agents in Parallel",
+      "agentsWindow.hoverSectionParallelBody": "All your agents across repos—locally, on remote SSH, and in the cloud",
+      "agentsWindow.hoverSectionDeeperTitle": "Dig Deeper Anytime",
+      "agentsWindow.hoverSectionDeeperBody": "Access the best parts of the editor when you need them, like files and browser",
+      "agentsWindowButtonLabel": "Agents Window"
+    },
+    "vs/workbench/contrib/ui/browser/buttons/IdeTitlebarUpdateButton": {
+      "ideTitlebarUpdateButton.tooltip": "Restart Cursor to install the pending update.",
+      "ideTitlebarUpdateButton.tooltipWithVersion": "Restart Cursor to install the pending update to {0}.",
+      "ideTitlebarUpdateButton.installingTooltip": "Installing update — Cursor will close and reopen automatically.",
+      "ideTitlebarUpdateButton.label": "Update",
+      "ideTitlebarUpdateButton.installingLabel": "Installing"
+    },
+    "vs/workbench/services/cursorAuth/browser/authenticationService.contribution": {
+      "cursorAuthConfigurationTitle": "Cursor Auth",
+      "cursor.allowedTeamId": "Specify the required team id that a user must belong to in order to use Cursor. If set and the signed-in user is not part of the team, Cursor will automatically sign the user out.",
+      "cursor.signInEnforcement": "When enabled via device management (MDM), Cursor's backend refuses to issue or refresh sign-in sessions for accounts that match none of the configured allowed organizations, teams, emails, or email domains.",
+      "cursor.allowedOrganizationIds": "Comma-separated list of Cursor organization ids whose members are allowed to sign in on this device (set via device management).",
+      "cursor.allowedTeamIds": "Comma-separated list of Cursor team ids whose members are allowed to sign in on this device (set via device management). Supersedes the singular AllowedTeamId policy; both are honored.",
+      "cursor.allowedLoginEmails": "Comma-separated list of exact account emails allowed to sign in on this device (set via device management). Compared case-insensitively.",
+      "cursor.allowedLoginDomains": "Comma-separated list of email domains (e.g. example.com) whose accounts are allowed to sign in on this device (set via device management). Exact domain match only; subdomains are not implicitly included."
+    }
+  }
+}
