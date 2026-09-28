@@ -5,7 +5,15 @@
   "license": "UNLICENSED",
   "type": "module",
   "description": "Private Simplified Chinese overlay and installer for Cursor-specific UI (Settings, Agents Window, menus).",
-  "author": "repository owner",
+  "author": "weijingai",
+  "homepage": "https://github.com/weijingai/cursor-zh-pack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weijingai/cursor-zh-pack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/weijingai/cursor-zh-pack/issues"
+  },
   "keywords": [
     "cursor",
     "i18n",

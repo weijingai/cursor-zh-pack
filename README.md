@@ -7,7 +7,7 @@
 
 为 Cursor 补充官方「简体中文语言包」没有覆盖的 Cursor 专属界面：Settings 侧栏、Agents 窗口、标题栏、菜单、聊天输入框等。
 
-本仓库仅供所有者私人使用，禁止公开分发、转载或二次上架。
+本仓库仅供所有者私人使用，禁止公开分发、转载或二次上架。仓库地址：https://github.com/weijingai/cursor-zh-pack （私有）。
 
 ## 功能
 
