@@ -1,0 +1,2780 @@
+[
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "initialize.progress.title",
+    "source": "[Looking for remote tunnel](command:{0})",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "startTunnel.progress.title",
+    "source": "[Starting remote tunnel](command:{0})",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/mdceditor/browser/mdceditor.contribution",
+    "key": "commandExists",
+    "source": "A command with this name already exists",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.gutterMiddleClickAction.conditionalBreakpoint",
+    "source": "Add Conditional Breakpoint.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/keybindingsEditor",
+    "key": "addKeybindingLabelWithKey",
+    "source": "Add Keybinding {0}",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.gutterMiddleClickAction.logpoint",
+    "source": "Add Logpoint.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "addToChat",
+    "source": "Add to Chat",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.gutterMiddleClickAction.triggeredBreakpoint",
+    "source": "Add Triggered Breakpoint.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "dialogStyle",
+    "source": "Adjust the appearance of dialog windows.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/scm/browser/scm.view.contribution",
+    "key": "editorBugbot",
+    "source": "Agent Review",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/scm/browser/scm.contribution",
+    "key": "openBugbotSettings",
+    "source": "Agent Review Settings",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "captureDebuggingDataAgentTranscripts",
+    "source": "Agent transcripts (last 7 days)",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "all",
+    "source": "All Extensions",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.allowed.all",
+    "source": "All extensions are allowed.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.publisher.allowed.enable.desc",
+    "source": "All extensions from the publisher are allowed.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.publisher.allowed.disable.desc",
+    "source": "All extensions from the publisher are not allowed.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.allow.all.enable",
+    "source": "Allow all extensions.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.allowed.disable.stable.desc",
+    "source": "Allow only stable versions of the extension.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.publisher.allowed.disable.stable.desc",
+    "source": "Allow only stable versions of the extensions from the publisher.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extension.publisher.allow.description",
+    "source": "Allow or disallow all extensions from the publisher.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.allow.all.description",
+    "source": "Allow or disallow all extensions.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.allow.description",
+    "source": "Allow or disallow the extension.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "allowBreakpointsEverywhere",
+    "source": "Allow setting breakpoints in any file.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "argv.enableCrashReporter",
+    "source": "Allows to disable crash reporting, should restart the app if the value is changed.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.autoExpandLazyVariables.on",
+    "source": "Always automatically expand lazy variables.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.confirmOnExit.always",
+    "source": "Always confirm if there are debug sessions.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.actionsPositionRight",
+    "source": "Always position the actionbar to the right.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "always",
+    "source": "Always show debug in Status bar",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "inlineValues.on",
+    "source": "Always show variable values inline in editor while debugging.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "openExplorerOnEnd",
+    "source": "Automatically open the explorer view at the end of a debug session.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+    "key": "cursor.composer.conversationDensity.compactRows",
+    "source": "Balanced",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+    "key": "cursor.composer.editorConversationDensity.compactRows",
+    "source": "Balanced",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "dontTrustFolderOptionDescription",
+    "source": "Browse folder in restricted mode",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "dontTrustWorkspaceOptionDescription",
+    "source": "Browse workspace in restricted mode",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "cancel",
+    "source": "Cancel debugging.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "captureDebuggingDataPickerTitle",
+    "source": "Capture and Send Debugging Data",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "captureAndSendDebuggingData",
+    "source": "Capture and Send Debugging Data",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cpuMonitor/electron-sandbox/cpuMonitor.contribution",
+    "key": "developer.captureAndUploadProcessSnapshot.label",
+    "source": "Capture and Upload Process Snapshot",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/memoryMonitor/electron-sandbox/memoryMonitor.contribution",
+    "key": "developer.captureAndUploadRendererHeapSnapshot.label",
+    "source": "Capture and Upload Renderer Heap Snapshot",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/continuousProfiling/electron-sandbox/continuousProfiling.contribution",
+    "key": "captureProfileConfirm",
+    "source": "Capture Performance Profile",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/continuousProfiling/electron-sandbox/continuousProfiling.contribution",
+    "key": "captureProfile",
+    "source": "Capture Performance Profile",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "captureDebuggingDataHeapSnapshotDetail",
+    "source": "Captures a heapdump. This can freeze the editor and may fail when memory is already high.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "capturingAndSendingDebuggingData",
+    "source": "Capturing and sending debugging data...",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "capturingDebuggingData",
+    "source": "Capturing debugging data...",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/continuousProfiling/electron-sandbox/continuousProfiling.contribution",
+    "key": "capturingProfile",
+    "source": "Capturing performance profile...",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/keybindingsEditor",
+    "key": "editKeybindingLabelWithKey",
+    "source": "Change Keybinding {0}",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/localization/electron-sandbox/localization.contribution",
+    "key": "changeAndRestart",
+    "source": "Change Language and Restart",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "manage.tunnelName",
+    "source": "Change Tunnel Name",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "clearFiltersText",
+    "source": "Clear filters text",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/customizeEditor/browser/customizeEditor.contribution",
+    "key": "clearForcedSkillMigrationBanner",
+    "source": "Clear Forced Skill Migration Banner",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/preferences.view.contribution",
+    "key": "clearHistory",
+    "source": "Clear Keyboard Shortcuts Search History",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/customizeEditor/browser/customizeEditor.contribution",
+    "key": "clearPrimitiveAuthorshipCache",
+    "source": "Clear Primitive Authorship Cache",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/customizeEditor/browser/customizeEditor.contribution",
+    "key": "clearPrimitiveSourceCache",
+    "source": "Clear Primitive Source Cache",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/preferences.view.contribution",
+    "key": "clear",
+    "source": "Clear Search Results",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+    "key": "settings.clearResults",
+    "source": "Clear Settings Search Results",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/customizeEditor/browser/customizeEditor.contribution",
+    "key": "clearPrimitiveAuthorshipCache.done",
+    "source": "Cleared primitive authorship cache.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/customizeEditor/browser/customizeEditor.contribution",
+    "key": "clearPrimitiveSourceCache.done",
+    "source": "Cleared primitive source cache.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
+    "key": "closeBrowserTab.message",
+    "source": "Close Browser Tab",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/editor/editor.contribution",
+    "key": "closePaneAction",
+    "source": "Close Pane",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/editor/editor.contribution",
+    "key": "closePaneContext",
+    "source": "Close Pane",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/comments/browser/comments.view.contribution",
+    "key": "collapseAll",
+    "source": "Collapse All",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "collapseAll",
+    "source": "Collapse All",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.enableStatusBarColor",
+    "source": "Color of the Status bar when debugger is active.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/mdceditor/browser/mdceditor.contribution",
+    "key": "invalidCommandName",
+    "source": "Command name can only contain lowercase letters, numbers, and hyphens",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/mdceditor/browser/mdceditor.contribution",
+    "key": "emptyCommandName",
+    "source": "Command name cannot be empty",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.affinity",
+    "source": "Configure an extension to execute in a different extension host process.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.searchEditor.doubleClickBehaviour",
+    "source": "Configure effect of double-clicking a result in a search editor.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.searchEditor.singleClickBehaviour",
+    "source": "Configure effect of single-clicking a result in a search editor.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.gallery.serviceUrl",
+    "source": "Configure the Marketplace service URL to connect to",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "remoteTunnel.actions.configure",
+    "source": "Configure Tunnel Name...",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/files/browser/files.view.contribution",
+    "key": "remoteNoFolderHelp",
+    "source": "Connected to remote.\n{0}",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/continuousProfiling/electron-sandbox/continuousProfiling.contribution",
+    "key": "captureProfileConfirmButton",
+    "source": "Continue",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "watchForCrashesConfirmButton",
+    "source": "Continue",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "restoreWindows",
+    "source": "Controls how windows and editors within are being restored when opening.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.console.closeOnEnd",
+    "source": "Controls if the Debug Console should be automatically closed when the debug session ends.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.console.historySuggestions",
+    "source": "Controls if the Debug Console should suggest previously typed input.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.console.wordWrap",
+    "source": "Controls if the lines should wrap in the Debug Console.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "filterSortOrder",
+    "source": "Controls sorting order of editor history in quick open when filtering.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.sortOrder",
+    "source": "Controls sorting order of search results.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.defaultViewMode",
+    "source": "Controls the default search result view mode.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.console.fontFamily",
+    "source": "Controls the font family in the Debug Console.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.console.fontSize",
+    "source": "Controls the font size in pixels in the Debug Console.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.actionsPosition",
+    "source": "Controls the positioning of the actionbar on rows in the search view.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/workbench.contribution",
+    "key": "workbench.quickOpen.width",
+    "source": "Controls the width in pixels of Quick Open and other quick pickers.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.saveBeforeStart",
+    "source": "Controls what editors to save before starting a debug session.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.onTaskErrors",
+    "source": "Controls what to do when errors are encountered after running a preLaunchTask.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "showInStatusBar",
+    "source": "Controls when the debug Status bar should be visible.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "openDebug",
+    "source": "Controls when the debug view should open.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/workbench.contribution",
+    "key": "zenMode.restore",
+    "source": "Controls whether a window should restore to Zen Mode if it was exited in Zen Mode.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "showBreakpointsInOverviewRuler",
+    "source": "Controls whether breakpoints should be shown in the overview ruler.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.decorations.badges",
+    "source": "Controls whether search file decorations should use badges.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.decorations.colors",
+    "source": "Controls whether search file decorations should use colors.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/workbench.contribution",
+    "key": "agentsWindowButtonEnabled",
+    "source": "Controls whether the Agents Window button in the title bar is shown.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.focusEditorOnBreak",
+    "source": "Controls whether the editor should be focused when the debugger breaks.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.collapseAllResults",
+    "source": "Controls whether the search results will be collapsed or expanded.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.globalFindClipboard",
+    "source": "Controls whether the search view should read or modify the shared find clipboard on macOS.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.focusWindowOnBreak",
+    "source": "Controls whether the workbench window should be focused when the debugger breaks.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.confirmOnExit",
+    "source": "Controls whether to confirm when the window closes if there are active debug sessions.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.followSymlinks",
+    "source": "Controls whether to follow symlinks while searching.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.useReplacePreview",
+    "source": "Controls whether to open Replace Preview when selecting or replacing a match.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.showLineNumbers",
+    "source": "Controls whether to show line numbers for search results.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "useIgnoreFiles",
+    "source": "Controls whether to use `.gitignore` and `.ignore` files when searching for files.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/workbench.contribution",
+    "key": "zenMode.centerLayout",
+    "source": "Controls whether turning on Zen Mode also centers the layout.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/workbench.contribution",
+    "key": "zenMode.hideLineNumbers",
+    "source": "Controls whether turning on Zen Mode also hides the editor line numbers.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/workbench.contribution",
+    "key": "zenMode.fullScreen",
+    "source": "Controls whether turning on Zen Mode also puts the workbench into full screen mode.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "action.copyToClipboard",
+    "source": "Copy Browser Link to Clipboard",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "remoteTunnel.actions.copyToClipboard",
+    "source": "Copy Browser URI to Clipboard",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
+    "key": "cursorOrigin.copyCodeLink.menu",
+    "source": "Copy cursor.com link",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
+    "key": "cursorOrigin.copyCodeLinkExplorer.menu",
+    "source": "Copy cursor.com link",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
+    "key": "cursorOrigin.copyCodeLinkEditorTitle.menu",
+    "source": "Copy cursor.com link",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
+    "key": "cursorOrigin.copyCodeLinkLineNumber.menu",
+    "source": "Copy cursor.com link",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
+    "key": "cursorOrigin.copyCodeLinkWithoutRange",
+    "source": "Copy cursor.com link (file only)",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
+    "key": "cursorOrigin.copyCodeLink",
+    "source": "Copy cursor.com link (with selection)",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "copyMessage",
+    "source": "Copy Message",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "forceOOMButton",
+    "source": "Crash Now",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/issue/electron-sandbox/process.contribution",
+    "key": "stopProfiler.title",
+    "source": "Creating profile...",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/issue/electron-sandbox/process.contribution",
+    "key": "stopTracing.title",
+    "source": "Creating trace file...",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "status.workspaceNameTooltip",
+    "source": "Current workspace: {0}",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/composer/browser/composer.contribution",
+    "key": "cursor ai",
+    "source": "Cursor AI",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/composer/browser/composer.contribution",
+    "key": "composerEditor",
+    "source": "Cursor AI",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/services/cursorAuth/browser/authenticationService.contribution",
+    "key": "cursorAuthConfigurationTitle",
+    "source": "Cursor Auth",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+    "key": "cursorBlame.category",
+    "source": "Cursor Blame",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+    "key": "cursorBlame.explorerContextMenu",
+    "source": "Cursor Blame",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+    "key": "cursorBlameSubmenu",
+    "source": "Cursor Blame",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+    "key": "cursorBlameConfigurationTitle",
+    "source": "Cursor Blame",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/terminalContrib/cursorCliPrompt/browser/terminal.cursorCliPrompt.contribution",
+    "key": "cursor.cliAlreadyInstalled",
+    "source": "Cursor CLI is already installed.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
+    "key": "cursorOrigin.category",
+    "source": "Cursor Origin",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution",
+    "key": "terminal.external.osxExec",
+    "source": "Customizes which terminal application to run on macOS.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution",
+    "key": "terminal.external.linuxExec",
+    "source": "Customizes which terminal to run on Linux.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution",
+    "key": "terminal.external.windowsExec",
+    "source": "Customizes which terminal to run on Windows.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+    "key": "debug.timeoutPrevention.title",
+    "source": "Debug Timeout Prevention",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/terminalContrib/cursorDeveloper/browser/terminal.cursorDeveloper.contribution",
+    "key": "workbench.action.terminal.debugCheckExecutionServiceVersion",
+    "source": "Debug: Check Terminal Execution Service Version",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "debuggingDataSavedLocally",
+    "source": "Debugging data saved locally.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "debuggingDataUploadSuccess",
+    "source": "Debugging data was sent successfully.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.supportUntrustedWorkspaces.supported",
+    "source": "Defines the untrusted workspace support setting for the extension.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "useRipgrepDeprecated",
+    "source": "Deprecated. Consider \"search.usePCRE2\" for advanced regex feature support.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+    "key": "cursor.composer.conversationDensity.detailed",
+    "source": "Detailed",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+    "key": "cursor.composer.editorConversationDensity.detailed",
+    "source": "Detailed",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/actions/devRefreshTeamAdminSettingsAction.cursor",
+    "key": "devRefreshTeamAdminSettings",
+    "source": "Dev Refresh Team Admin Settings (For Testing)",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/composer/electron-sandbox/browserAutomation.contribution",
+    "key": "crashBrowserWebviewRenderer",
+    "source": "Developer: Crash Browser Webview Renderer",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/composer/electron-sandbox/browserAutomation.contribution",
+    "key": "orphanBrowserViewEntry",
+    "source": "Developer: Orphan Browser View Entry",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+    "key": "http2.disable.title",
+    "source": "Disable HTTP/2.0",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/terminal/common/terminalConfiguration",
+    "key": "terminal.integrated.environmentChangesIndicator.off",
+    "source": "Disable the indicator.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "argv.disableHardwareAcceleration",
+    "source": "Disables hardware acceleration. ONLY change this option if you encounter graphic issues.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "argv.disableLcdText",
+    "source": "Disables LCD font antialiasing.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.allow.all.disable",
+    "source": "Disallow all extensions.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "action.doNotShowAgain",
+    "source": "Do not show again",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debugToolBar.hidden",
+    "source": "Do not show debug toolbar.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "folderTrust",
+    "source": "Do you trust the authors of the files in this folder?",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "addWorkspaceFolderMessage",
+    "source": "Do you trust the authors of the files in this folder?",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "workspaceTrust",
+    "source": "Do you trust the authors of the files in this workspace?",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "openLooseFileWindowMesssage",
+    "source": "Do you want to allow untrusted files in this window?",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "openLooseFileWorkspaceMesssage",
+    "source": "Do you want to allow untrusted files in this workspace?",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "remoteTunnel.turnOff.confirm",
+    "source": "Do you want to turn off Remote Tunnel Access?",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.gutterMiddleClickAction.none",
+    "source": "Don't perform any action.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.saveBeforeStart.none",
+    "source": "Don't save any editors before starting a debug session.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/localization/electron-sandbox/localization.contribution",
+    "key": "neverAgain",
+    "source": "Don't Show Again",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+    "key": "wslMntWorkspaceWarning.checkbox",
+    "source": "Don't show this warning again",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+    "key": "windowsWslPathWarning.checkbox",
+    "source": "Don't show this warning again",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.searchEditor.doubleClickBehaviour.goToLocation",
+    "source": "Double-clicking opens the result in the active editor group.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.searchEditor.doubleClickBehaviour.selectWord",
+    "source": "Double-clicking selects the word under the cursor.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.autoUpdate.true",
+    "source": "Download and install updates automatically for all extensions.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.autoUpdate.enabled",
+    "source": "Download and install updates automatically only for enabled extensions.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/workbench.contribution",
+    "key": "zenMode.showTabs.multiple",
+    "source": "Each editor is displayed as a tab in the editor title area.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionMonitor.contribution",
+    "key": "extensionMonitorEnabled",
+    "source": "Enable extension monitoring. Requires a restart to take effect.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/terminal/common/terminalConfiguration",
+    "key": "terminal.integrated.environmentChangesIndicator.on",
+    "source": "Enable the indicator.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensionsWebWorker",
+    "source": "Enable web worker extension host.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "touchbar.enabled",
+    "source": "Enables the macOS touchbar buttons on the keyboard if available.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/mdceditor/browser/mdceditor.contribution",
+    "key": "newCommandName",
+    "source": "Enter Command Name",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/continuousProfiling/electron-sandbox/continuousProfiling.contribution",
+    "key": "profileCaptureError",
+    "source": "Error starting performance profile: {0}",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/comments/browser/comments.view.contribution",
+    "key": "expandAll",
+    "source": "Expand All",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/files/browser/files.glass.contribution",
+    "key": "explore",
+    "source": "Explorer",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/files/browser/files.view.contribution",
+    "key": "explore",
+    "source": "Explorer",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "builtin",
+    "source": "Extension '{0}' is a Built-in extension and cannot be installed",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "notFound",
+    "source": "Extension '{0}' not found.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "workbench.extensions.installExtension.arg.decription",
+    "source": "Extension id or VSIX resource uri",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "id required",
+    "source": "Extension id required.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.allowed.enable.desc",
+    "source": "Extension is allowed.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.allowed.disable.desc",
+    "source": "Extension is not allowed.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.supportUntrustedWorkspaces.true",
+    "source": "Extension will always be enabled.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.supportUntrustedWorkspaces.false",
+    "source": "Extension will only be enabled only when the workspace is trusted.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensionsConfigurationTitle",
+    "source": "Extensions",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.autoUpdate.false",
+    "source": "Extensions are not automatically updated.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution",
+    "key": "workbench.action.terminal.externalAgentActions",
+    "source": "External Agent Actions",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution",
+    "key": "workbench.action.terminal.externalAgentActions.title",
+    "source": "External Agent Actions",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution",
+    "key": "terminalConfigurationTitle",
+    "source": "External Terminal",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+    "key": "cursor.composer.planTextSizeScale.extraLarge",
+    "source": "Extra Large",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "debuggingDataCaptureFailed",
+    "source": "Failed to capture or send debugging data. {0}",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/continuousProfiling/electron-sandbox/continuousProfiling.contribution",
+    "key": "profileCaptureFailed",
+    "source": "Failed to start performance profile.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "captureDebuggingDataFeatureFlagsAndExtensions",
+    "source": "Feature flags and extension summary",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/services/fileWatchRecording/electron-sandbox/fileWatchRecording.contribution",
+    "key": "recordingStarted",
+    "source": "File watch recording is running. Make file changes to record them.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/services/fileWatchRecording/electron-sandbox/fileWatchRecording.contribution",
+    "key": "featureFlagDisabled",
+    "source": "File watch recording requires the \"{0}\" feature flag to be enabled.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/services/fileWatchRecording/electron-sandbox/fileWatchRecording.contribution",
+    "key": "recordingStopped",
+    "source": "File watch recording stopped. Collected {0} unique paths and {1} watcher stats.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.collapseResults.auto",
+    "source": "Files with less than 10 results are expanded. Others are collapsed.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "fixInChat",
+    "source": "Fix with Agent",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
+    "key": "focusBrowserLocationBar",
+    "source": "Focus Browser Location Bar",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/customizeEditor/browser/customizeEditor.contribution",
+    "key": "focusCustomizeSearch",
+    "source": "Focus Customize Search",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "focusProblemsFilter",
+    "source": "Focus problems filter",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "focusProblemsList",
+    "source": "Focus problems view",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+    "key": "settings.focusSettingControl",
+    "source": "Focus Setting Control",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+    "key": "settings.focusFile",
+    "source": "Focus settings file",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+    "key": "settings.focusSettingsList",
+    "source": "Focus settings list",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+    "key": "settings.focusSearch",
+    "source": "Focus Settings Search",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+    "key": "settings.focusSettingsTOC",
+    "source": "Focus Settings Table of Contents",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "window.openWithoutArgumentsInNewWindow.off",
+    "source": "Focus the last active running instance.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "forceOOMConfirm",
+    "source": "Force Renderer OOM Crash",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "forceRendererOOM",
+    "source": "Force Renderer OOM Crash",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/customizeEditor/browser/customizeEditor.contribution",
+    "key": "forceSkillMigrationBanner",
+    "source": "Force Skill Migration Banner",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "remoteTunnel.actions.learnMore",
+    "source": "Get Started with Tunnels",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/browser/search.contribution",
+    "key": "anythingQuickAccess",
+    "source": "Go to File",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/browser/search.contribution",
+    "key": "symbolsQuickAccess",
+    "source": "Go to Symbol in Workspace",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.hideSlowPreLaunchWarning",
+    "source": "Hide the warning shown when a `preLaunchTask` has been running for a while.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "filterSortOrder.recency",
+    "source": "History entries are sorted by recency. More recently opened entries appear first.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "workbench.extensions.uninstallExtension.arg.name",
+    "source": "Id of the extension to uninstall",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debugAnyway",
+    "source": "Ignore task errors and start debugging.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "captureDebuggingDataFeatureFlagsAndExtensionsDetail",
+    "source": "Includes feature gates, experiments, dynamic configs, and installed extensions.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "captureDebuggingDataLogsDetail",
+    "source": "Includes recent Cursor log sessions.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "captureDebuggingDataProcessDiagnosticsDetail",
+    "source": "Includes recent process memory and CPU history.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+    "key": "instantGrep.indexRepositories.title",
+    "source": "Index Repositories for Instant Grep",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "tunnel.enable.service",
+    "source": "Install as a service",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/terminalContrib/cursorCliPrompt/browser/terminal.cursorCliPrompt.contribution",
+    "key": "cursor.installCli",
+    "source": "Install Cursor CLI",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "workbench.extensions.installExtension.description",
+    "source": "Install the given extension",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/platform/update/common/update.config.contribution",
+    "key": "releaseTrackOverride",
+    "source": "Internal managed release track override for updates.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/preferences.view.contribution",
+    "key": "keybindingsEditor",
+    "source": "Keybindings Editor",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "keyboardConfigurationTitle",
+    "source": "Keyboard",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "restrictedModeBannerLearnMore",
+    "source": "Learn More",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/authentication/browser/authentication.contribution",
+    "key": "loading",
+    "source": "Loading...",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorLocalTrace/browser/cursorLocalTrace.contribution",
+    "key": "cursorLocalTraceModeConfigurationTitle",
+    "source": "Local Trace Mode",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorLocalTrace/browser/cursorLocalTrace.contribution",
+    "key": "cursorLocalTraceMode.settingTitle",
+    "source": "Local Trace Mode",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/scm/browser/scm.view.contribution",
+    "key": "manageWorkspaceTrustAction",
+    "source": "Manage Workspace Trust",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+    "key": "cursor.composer.planTextSizeScale.matchAgentChat",
+    "source": "Match Agent chat",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "mergeAllWindowTabs",
+    "source": "Merge All Windows",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+    "key": "settings.focusLevelUp",
+    "source": "Move Focus Up One Level",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "moveWindowTabToNewWindow",
+    "source": "Move Window Tab to New Window",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/services/themes/electron-sandbox/themes.contribution",
+    "key": "window.systemColorTheme.default",
+    "source": "Native widget colors match the system colors.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.autoExpandLazyVariables.off",
+    "source": "Never automatically expand lazy variables.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.confirmOnExit.never",
+    "source": "Never confirm.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "never",
+    "source": "Never show debug in Status bar",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "inlineValues.off",
+    "source": "Never show variable values inline in editor while debugging.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
+    "key": "newBrowserTab",
+    "source": "New Browser Tab",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/mdceditor/browser/mdceditor.contribution",
+    "key": "newCursorRule",
+    "source": "New Cursor Rule",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/mdceditor/browser/mdceditor.contribution",
+    "key": "newProjectCursorCommand",
+    "source": "New Project Cursor Command",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/mdceditor/browser/mdceditor.contribution",
+    "key": "newUserCursorCommand",
+    "source": "New User Cursor Command",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "newTab",
+    "source": "New Window Tab",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/authentication/browser/authentication.contribution",
+    "key": "authentication.Placeholder",
+    "source": "No accounts requested yet...",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.allowed.none",
+    "source": "No extensions are allowed.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
+    "key": "cursorOrigin.noFile",
+    "source": "No file is currently open.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+    "key": "cursorBlame.noGit",
+    "source": "No git repository found",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/scm/browser/scm.view.contribution",
+    "key": "no open repo",
+    "source": "No source control providers registered.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/scm/browser/scm.view.contribution",
+    "key": "no open repo in an untrusted workspace",
+    "source": "None of the registered source control providers work in Restricted Mode.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "enabled",
+    "source": "Only Enabled Extensions",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionMonitor.contribution",
+    "key": "miOpenExtensionMonitorer",
+    "source": "Open &&Extension Monitor",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/issue/electron-sandbox/process.contribution",
+    "key": "miOpenProcessExplorerer",
+    "source": "Open &&Process Explorer",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "window.openWithoutArgumentsInNewWindow.on",
+    "source": "Open a new empty window.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/editor/editor.contribution",
+    "key": "openBrowser",
+    "source": "Open Browser",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
+    "key": "openBrowser",
+    "source": "Open Browser",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/canvas/browser/canvas.contribution",
+    "key": "openCanvas",
+    "source": "Open Canvas",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/files/electron-sandbox/fileActions.contribution",
+    "key": "openContainer",
+    "source": "Open Containing Folder",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
+    "key": "openCursorWebsite",
+    "source": "Open cursor.com in Browser",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/customizeEditor/browser/customizeEditor.contribution",
+    "key": "openCustomizeEditor",
+    "source": "Open Customize",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionMonitor.contribution",
+    "key": "openExtensionMonitor",
+    "source": "Open Extension Monitor",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+    "key": "cursorBlame.openFileBlameTitle",
+    "source": "Open File Blame",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/files/browser/files.view.contribution",
+    "key": "openFolder",
+    "source": "Open Folder",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "newWindow",
+    "source": "Open in &&Restricted Mode",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/files/browser/fileActions.contribution",
+    "key": "openFileInBrowser",
+    "source": "Open in Browser",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution",
+    "key": "globalConsoleAction",
+    "source": "Open New External Terminal",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "window.newWindowDimensions.fullscreen",
+    "source": "Open new windows in full screen mode.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "window.newWindowDimensions.default",
+    "source": "Open new windows in the center of the screen.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "window.newWindowDimensions.maximized",
+    "source": "Open new windows maximized.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "window.newWindowDimensions.offset",
+    "source": "Open new windows with same dimension as last active one with an offset position.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "window.newWindowDimensions.inherit",
+    "source": "Open new windows with same dimension as last active one.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/issue/electron-sandbox/process.contribution",
+    "key": "openProcessExplorer",
+    "source": "Open Process Explorer",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/files/browser/files.view.contribution",
+    "key": "openRecent",
+    "source": "Open Recent",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/services/fileWatchRecording/electron-sandbox/fileWatchRecording.contribution",
+    "key": "openFolder",
+    "source": "Open Recording Folder",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+    "key": "openSettingsJson",
+    "source": "Open Settings (JSON)",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/customizeEditor/browser/customizeEditor.contribution",
+    "key": "openSkillPublishLogs",
+    "source": "Open Skill Publishing Logs",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/quickaccess/browser/quickAccess.view.contribution",
+    "key": "viewQuickAccess",
+    "source": "Open View",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/issue/electron-sandbox/process.contribution",
+    "key": "openGlassProcessExplorer",
+    "source": "Open Workspace Process Explorer",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+    "key": "windowsWslPathWarning.message",
+    "source": "Opening a WSL folder without the WSL extension is not recommended",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+    "key": "windowsWslPathWarning.extensionInstalled.message",
+    "source": "Opening a WSL folder without using the WSL extension is not recommended",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+    "key": "wslMntWorkspaceWarning.message",
+    "source": "Opening a WSL workspace under /mnt is not recommended",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.supportVirtualWorkspaces",
+    "source": "Override the virtual workspaces support of an extension.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+    "key": "cursorBlame.pasteCommitHash",
+    "source": "Paste commit hash",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/continuousProfiling/electron-sandbox/continuousProfiling.contribution",
+    "key": "profileCaptured",
+    "source": "Performance profile started.\n\nProfile ID: {0}",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/mdceditor/browser/mdceditor.contribution",
+    "key": "commandNamePrompt",
+    "source": "Please enter a name for the new command",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "remoteTunnelAccess.preventSleep",
+    "source": "Prevent this computer from sleeping when remote tunnel access is turned on.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "problems",
+    "source": "Problems",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "captureDebuggingDataProcessDiagnostics",
+    "source": "Process diagnostics",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "prompt",
+    "source": "Prompt user.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "workbench.extensions.search.arg.name",
+    "source": "Query to use in search",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
+    "key": "reloadBrowserTab",
+    "source": "Reload Browser Tab",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "openLooseFileWorkspaceCheckbox",
+    "source": "Remember my decision for all workspaces",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "manage.title.orunning",
+    "source": "Remote Tunnel Access enabled for {0}",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "manage.title.attached",
+    "source": "Remote Tunnel Access enabled for {0} (launched externally)",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "remoteTunnel.actions.manage.connecting",
+    "source": "Remote Tunnel Access is Connecting",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "remoteTunnel.actions.manage.on.v2",
+    "source": "Remote Tunnel Access is On",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "manage.title.off",
+    "source": "Remote Tunnel Access not enabled",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "remoteTunnel.category",
+    "source": "Remote Tunnels",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "captureDebuggingDataHeapSnapshot",
+    "source": "Renderer heap snapshot",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/scm/browser/scm.view.contribution",
+    "key": "scmRepositories",
+    "source": "Repositories",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/terminalContrib/suggest/browser/terminal.suggest.contribution",
+    "key": "workbench.action.terminal.requestCompletions",
+    "source": "Request Completions",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "untrusted",
+    "source": "Restricted Mode",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "status.ariaUntrustedFolder",
+    "source": "Restricted Mode: Some features are disabled because this folder is not trusted.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "status.ariaUntrustedWindow",
+    "source": "Restricted Mode: Some features are disabled because this window is not trusted.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "status.ariaUntrustedWorkspace",
+    "source": "Restricted Mode: Some features are disabled because this workspace is not trusted.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "searchSortOrder.countAscending",
+    "source": "Results are sorted by count per file, in ascending order.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "searchSortOrder.countDescending",
+    "source": "Results are sorted by count per file, in descending order.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "searchSortOrder.type",
+    "source": "Results are sorted by file extensions, in alphabetical order.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "searchSortOrder.modified",
+    "source": "Results are sorted by file last modified date, in descending order.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "searchSortOrder.filesOnly",
+    "source": "Results are sorted by file names ignoring folder order, in alphabetical order.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "searchSortOrder.default",
+    "source": "Results are sorted by folder and file names, in alphabetical order.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/files/electron-sandbox/fileActions.contribution",
+    "key": "revealInWindows",
+    "source": "Reveal in File Explorer",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "revealInOS",
+    "source": "Reveal in File Explorer",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/files/electron-sandbox/fileActions.contribution",
+    "key": "revealInMac",
+    "source": "Reveal in Finder",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/services/worktree/browser/worktree.contribution",
+    "key": "runCursorWorktreeCleanupDev",
+    "source": "Run Cursor Worktree Cleanup (Dev)",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "tunnel.enable.session.description",
+    "source": "Run whenever {0} is open",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "tunnel.enable.service.description",
+    "source": "Run whenever you're logged in",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensions.contribution",
+    "key": "runtimeExtension",
+    "source": "Running Extensions",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.saveBeforeStart.allEditorsInActiveGroup",
+    "source": "Save all editors in the active group before starting a debug session.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.saveBeforeStart.nonUntitledEditorsInActiveGroup",
+    "source": "Save all editors in the active group except untitled ones before starting a debug session.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.searchOnType",
+    "source": "Search all files as you type.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/browser/search.contribution",
+    "key": "anythingQuickAccessPlaceholder",
+    "source": "Search files, content, and symbols (append {0} to go to line or {1} to go to symbol)",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "workbench.extensions.search.description",
+    "source": "Search for a specific extension",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.mode.newEditor",
+    "source": "Search in a new search editor.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.mode.reuseEditor",
+    "source": "Search in an existing search editor if present, otherwise in a new search editor.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.mode.view",
+    "source": "Search in the search view, either in the panel or side bars.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution",
+    "key": "workbench.action.terminal.externalAgentSecondOpinion",
+    "source": "Second Opinion",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution",
+    "key": "workbench.action.terminal.externalAgentSecondOpinion.menu",
+    "source": "Second Opinion",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.contribution",
+    "key": "securityConfigurationTitle",
+    "source": "Security",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "manage.placeholder",
+    "source": "Select a command to invoke",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "captureDebuggingDataPickerPlaceholder",
+    "source": "Select debugging data to collect. Press Enter to continue.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "tunnel.enable.placeholder",
+    "source": "Select how you want to enable access",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+    "key": "settingsEditor2",
+    "source": "Settings Editor 2",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "show active file",
+    "source": "Show Active File Only",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution",
+    "key": "terminal.kind.both",
+    "source": "Show both integrated and external terminal actions.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "onFirstSessionStart",
+    "source": "Show debug in Status bar only after debug was started for the first time",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debugToolBar.floating",
+    "source": "Show debug toolbar in all views.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debugToolBar.docked",
+    "source": "Show debug toolbar only in debug views.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "show errors",
+    "source": "Show Errors",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "show excluded files",
+    "source": "Show Excluded Files",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "action.showExtension",
+    "source": "Show Extension",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/preferences.view.contribution",
+    "key": "showExtensionKeybindings",
+    "source": "Show Extension Keybindings",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "show infos",
+    "source": "Show Infos",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "manage.showLog",
+    "source": "Show Log",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "show multiline",
+    "source": "Show message in multiple lines",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "show singleline",
+    "source": "Show message in single line",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "showNextWindowTab",
+    "source": "Show Next Window Tab",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "toggleErrorsDescription",
+    "source": "Show or hide errors in the problems view.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "toggleExcludedFilesDescription",
+    "source": "Show or hide excluded files in the problems view.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "toggleInfosDescription",
+    "source": "Show or hide infos in the problems view.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "toggleWarningsDescription",
+    "source": "Show or hide warnings in the problems view.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/continuousProfiling/electron-sandbox/continuousProfiling.contribution",
+    "key": "showProfilingStatus",
+    "source": "Show Performance Profiling Status",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "showPreviousTab",
+    "source": "Show Previous Window Tab",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "remoteTunnel.actions.showLog",
+    "source": "Show Remote Tunnel Service Log",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+    "key": "settings.showContextMenu",
+    "source": "Show Setting Context Menu",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.disassemblyView.showSourceCode",
+    "source": "Show Source Code in Disassembly View.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/preferences.view.contribution",
+    "key": "showDefaultKeybindings",
+    "source": "Show System Keybindings",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution",
+    "key": "terminal.kind.external",
+    "source": "Show the external terminal action.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution",
+    "key": "terminal.kind.integrated",
+    "source": "Show the integrated terminal action.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "showErrors",
+    "source": "Show the Problems view and do not start debugging.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "viewAsTableDescription",
+    "source": "Show the problems view as a table.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "viewAsTreeDescription",
+    "source": "Show the problems view as a tree.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/preferences.view.contribution",
+    "key": "showUserKeybindings",
+    "source": "Show User Keybindings",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "showVariableTypes",
+    "source": "Show variable type in variable pane during debug session",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "inlineValues",
+    "source": "Show variable values inline in editor while debugging.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "show warnings",
+    "source": "Show Warnings",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "scm.defaultViewMode.list",
+    "source": "Shows search results as a list.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "scm.defaultViewMode.tree",
+    "source": "Shows search results as a tree.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution",
+    "key": "workbench.action.terminal.externalAgentAsk",
+    "source": "Side Chat",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/terminalContrib/cursorExternalAgentStatus/browser/terminal.externalAgentStatus.contribution",
+    "key": "workbench.action.terminal.externalAgentAsk.menu",
+    "source": "Side Chat",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "accountPreference.placeholder",
+    "source": "Sign in to an account to enable remote access",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "sign in using account",
+    "source": "Sign in with {0}",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "signed in",
+    "source": "Signed In",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.searchEditor.singleClickBehaviour.default",
+    "source": "Single-clicking does nothing.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.searchEditor.singleClickBehaviour.peekDefinition",
+    "source": "Single-clicking opens a Peek Definition window.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/scm/browser/scm.view.contribution",
+    "key": "miViewSCM",
+    "source": "Source &&Control",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/scm/browser/scm.view.contribution",
+    "key": "source control view",
+    "source": "Source Control",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/scm/browser/scm.view.contribution",
+    "key": "source control",
+    "source": "Source Control",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/scm/browser/scm.view.contribution",
+    "key": "source control graph",
+    "source": "Source Control Graph",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/scm/browser/scm.view.contribution",
+    "key": "source control repositories",
+    "source": "Source Control Repositories",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/scm/browser/scm.contribution",
+    "key": "triggerAgentReview",
+    "source": "Start Agent Review",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/issue/electron-sandbox/process.contribution",
+    "key": "toggleCPUProfiler",
+    "source": "Start Electron Trace",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/services/fileWatchRecording/electron-sandbox/fileWatchRecording.contribution",
+    "key": "startFileWatchRecording",
+    "source": "Start File Watch Recording",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/issue/electron-sandbox/process.contribution",
+    "key": "toggleGCProfiler",
+    "source": "Start GC Profiler",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/issue/electron-sandbox/process.contribution",
+    "key": "toggleMemoryProfiler",
+    "source": "Start Memory Profiler",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/services/fileWatchRecording/electron-sandbox/fileWatchRecording.contribution",
+    "key": "stopRecording",
+    "source": "Stop Recording",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/issue/electron-sandbox/process.contribution",
+    "key": "stopTracing",
+    "source": "Stop Tracing",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "notWatchingForCrashes",
+    "source": "Stopped watching for crashes.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "telemetryConfigurationTitle",
+    "source": "Telemetry",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/terminal/browser/terminal.glass.contribution",
+    "key": "terminal",
+    "source": "Terminal",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/terminal/browser/terminal.view.contribution",
+    "key": "terminal",
+    "source": "Terminal",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/workbench.contribution",
+    "key": "zenMode.showTabs.single",
+    "source": "The active editor is displayed as a single large tab in the editor title area.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/workbench.contribution",
+    "key": "zenMode.showTabs.none",
+    "source": "The editor title area is not displayed.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/scm/browser/scm.view.contribution",
+    "key": "no history items",
+    "source": "The selected source control provider does not have any source control history items.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensionsWebWorker.true",
+    "source": "The Web Worker Extension Host will always be launched.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensionsWebWorker.auto",
+    "source": "The Web Worker Extension Host will be launched when a web extension needs it.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensionsWebWorker.false",
+    "source": "The Web Worker Extension Host will never be launched.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
+    "key": "closeBrowserTab.detail",
+    "source": "This browser was created by an Agent. Closing it may impact a running chat.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/issue/electron-sandbox/process.contribution",
+    "key": "stopProfiler.detail",
+    "source": "This can take up to one minute to complete.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/issue/electron-sandbox/process.contribution",
+    "key": "stopTracing.detail",
+    "source": "This can take up to one minute to complete.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+    "key": "cursorBlame.uncommittedLine",
+    "source": "This line has not been committed yet",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "useRipgrep",
+    "source": "This setting is deprecated and now falls back on \"search.usePCRE2\".",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.location.deprecationMessage",
+    "source": "This setting is deprecated. You can drag the search icon to a new location instead.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+    "key": "toggleFileBlame",
+    "source": "Toggle file blame",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/keybindings/browser/keybindings.contribution",
+    "key": "toggleKeybindingsLog",
+    "source": "Toggle Keyboard Shortcuts Troubleshooting",
+    "zh": "Toggle Keyboard Shortcuts Troubleshooting"
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "watchForCrashesConfirm",
+    "source": "Toggle Watch for Crashes",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "toggleWatchForCrashes",
+    "source": "Toggle Watch for Crashes",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "toggleWindowTabsBar",
+    "source": "Toggle Window Tabs Bar",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/issue/electron-sandbox/process.contribution",
+    "key": "stopTracing.message",
+    "source": "Tracing requires to launch with a '--trace' argument",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "trustFolderOptionDescription",
+    "source": "Trust folder and enable all features",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "checkboxString",
+    "source": "Trust the authors of all files in the parent folder '{0}'",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "trustWorkspaceOptionDescription",
+    "source": "Trust workspace and enable all features",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "remoteTunnel.actions.turnOff",
+    "source": "Turn off Remote Tunnel Access...",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "tunnel.enable.session",
+    "source": "Turn on for this session",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution",
+    "key": "remoteTunnel.actions.turnOn",
+    "source": "Turn on Remote Tunnel Access...",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/browser/search.contribution",
+    "key": "symbolsQuickAccessPlaceholder",
+    "source": "Type the name of a symbol to open.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/quickaccess/browser/quickAccess.view.contribution",
+    "key": "viewQuickAccessPlaceholder",
+    "source": "Type the name of a view, output channel or terminal to open.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "workbench.extensions.uninstallExtension.description",
+    "source": "Uninstall the given extension",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/desktop.contribution",
+    "key": "argv.crashReporterId",
+    "source": "Unique id used for correlating crash reports sent from this app instance.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/services/themes/electron-sandbox/themes.contribution",
+    "key": "window.systemColorTheme.dark",
+    "source": "Use dark native widget colors.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/services/themes/electron-sandbox/themes.contribution",
+    "key": "window.systemColorTheme.auto",
+    "source": "Use light native widget colors for light color themes and dark for dark color themes.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/services/themes/electron-sandbox/themes.contribution",
+    "key": "window.systemColorTheme.light",
+    "source": "Use light native widget colors.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "captureDebuggingDataUserDirectory",
+    "source": "User database",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/utilityHostTrace/browser/utilityHostTrace.contribution",
+    "key": "utilityHostRpcTrace",
+    "source": "Utility Host RPC Trace",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "viewAsTable",
+    "source": "View as Table",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "viewAsTree",
+    "source": "View as Tree",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+    "key": "cursorBlame.viewCommitTitle",
+    "source": "View commit",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
+    "key": "cursorBlame.openCommitTitle",
+    "source": "View Commit",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/comments/browser/comments.view.contribution",
+    "key": "commentsViewIcon",
+    "source": "View icon of the comments view.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/files/browser/files.view.contribution",
+    "key": "explorerViewIcon",
+    "source": "View icon of the explorer view.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "markersViewIcon",
+    "source": "View icon of the markers view.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/files/browser/files.view.contribution",
+    "key": "openEditorsIcon",
+    "source": "View icon of the open editors view.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/outline/browser/outline.view.contribution",
+    "key": "outlineViewIcon",
+    "source": "View icon of the outline view.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/output/browser/output.view.contribution",
+    "key": "outputViewIcon",
+    "source": "View icon of the output view.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/scm/browser/scm.view.contribution",
+    "key": "sourceControlViewIcon",
+    "source": "View icon of the Source Control view.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/timeline/browser/timeline.view.contribution",
+    "key": "timelineViewIcon",
+    "source": "View icon of the timeline view.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/performanceEvents/electron-sandbox/smoothness.contribution",
+    "key": "openInteractionProfiles",
+    "source": "View Session Interaction Profiles in Datadog",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/preferences.contribution",
+    "key": "vsCodeSettings",
+    "source": "VS Code Settings",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/services/preferences/browser/preferencesService",
+    "key": "settingsEditor2InputNameVSCode",
+    "source": "VS Code Settings",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/tracing/electron-sandbox/tracing.contribution",
+    "key": "watchingForCrashes",
+    "source": "Watching for crashes.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.contribution",
+    "key": "remote.downloadExtensionsLocally",
+    "source": "When enabled extensions are downloaded locally and installed on remote.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensions.gallery.useUnpkgResourceApi",
+    "source": "When enabled, extensions to update are fetched from Unpkg service.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/performance/electron-sandbox/performance.contribution",
+    "key": "experimental.rendererProfiling",
+    "source": "When enabled, slow renderers are automatically profiled.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "extensionsIgnoreRecommendations",
+    "source": "When enabled, the notifications for extension recommendations will not be shown.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "workbench.extensions.installExtension.option.donotSync",
+    "source": "When enabled, VS Code do not sync this extension when Settings Sync is on.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/browser/extensionsBoot.contribution",
+    "key": "workbench.extensions.installExtension.option.installPreReleaseVersion",
+    "source": "When enabled, VS Code installs the pre-release version of the extension if available.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/common/debugConfiguration",
+    "key": "debug.autoExpandLazyVariables.auto",
+    "source": "When in screen reader optimized mode, automatically expand lazy variables.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.contribution",
+    "key": "wslFeatureInstalled",
+    "source": "Whether the platform has the WSL feature installed",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.quickOpen.includeSymbols",
+    "source": "Whether to include results from a global symbol search in the file results for Quick Open.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/search/common/searchConfiguration",
+    "key": "search.quickOpen.includeHistory",
+    "source": "Whether to include results from recently opened files in the file results for Quick Open.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/mcp/common/mcpConfiguration",
+    "key": "mcp.discovery.source.windsurf",
+    "source": "Windsurf",
+    "zh": "Windsurf"
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "status.workspaceName",
+    "source": "Workspace Name",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "status.WorkspaceTrust",
+    "source": "Workspace Trust",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "workspaceTrustEditor",
+    "source": "Workspace Trust Editor",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "status.workspaceNameAria",
+    "source": "Workspace: {0}",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/services/worktree/browser/worktree.contribution",
+    "key": "runCursorWorktreeCleanupDev.leaseBusy",
+    "source": "Worktree cleanup skipped: another window already holds the cleanup lease.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/localization/electron-sandbox/localization.contribution",
+    "key": "updateLocale",
+    "source": "Would you like to change {0}'s display language to {1} and restart?",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "openLooseFileWindowDetails",
+    "source": "You are trying to open untrusted files in a window which is trusted.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "openLooseFileWorkspaceDetails",
+    "source": "You are trying to open untrusted files in a workspace which is trusted.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/files/browser/files.view.contribution",
+    "key": "noWorkspaceHelp",
+    "source": "You have not yet added a folder to the workspace.\n{0}",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/files/browser/files.view.contribution",
+    "key": "noFolderHelp",
+    "source": "You have not yet opened a folder.\n{0}",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/files/browser/files.view.contribution",
+    "key": "noFolderHelpWeb",
+    "source": "You have not yet opened a folder.\n{0}\n{1}",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/workbench.contribution",
+    "key": "zenModeConfigurationTitle",
+    "source": "Zen Mode",
+    "zh": null
+  }
+]

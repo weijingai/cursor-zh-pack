@@ -1,0 +1,152 @@
+[
+  {
+    "moduleId": "vs/workbench/browser/actions/layoutActions",
+    "key": "toggleUnifiedSideBar",
+    "source": "Toggle Agents Side Bar",
+    "index": 3050
+  },
+  {
+    "moduleId": "vs/workbench/browser/actions/layoutActions",
+    "key": "toggleUnifiedSideBar",
+    "source": "Toggle Agents Side Bar",
+    "index": 3051
+  },
+  {
+    "moduleId": "vs/workbench/browser/actions/layoutActions",
+    "key": "openAgentLayoutQuickMenu",
+    "source": "Open Cursor Settings",
+    "index": 3111
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarActions",
+    "key": "toggle.agentsWindow",
+    "source": "Agents Window Button",
+    "index": 3962
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarActions",
+    "key": "toggle.agentsWindowDescription",
+    "source": "Toggle visibility of the Agents Window button in the title bar",
+    "index": 3963
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "openAgentsWindowTitlebar",
+    "source": "Open Agents Window",
+    "index": 3977
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "toggleAgents",
+    "source": "Toggle Agents",
+    "index": 3981
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "titlebarOpenCursorSettings",
+    "source": "Open Cursor Settings",
+    "index": 3982
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "cursorSettings",
+    "source": "Cursor Settings",
+    "index": 3983
+  },
+  {
+    "moduleId": "vs/workbench/browser/workbench.contribution",
+    "key": "agentsWindowButtonEnabled",
+    "source": "Controls whether the Agents Window button in the title bar is shown.",
+    "index": 4192
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+    "key": "hideUnifiedSideBar",
+    "source": "Toggle Agents Side Bar",
+    "index": 4768
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+    "key": "toggleUnifiedSideBarDescription",
+    "source": "Toggle Agents Side Bar visibility",
+    "index": 4769
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+    "key": "toggleAgentsToggled",
+    "source": "Toggle Agents",
+    "index": 4770
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+    "key": "toggleAgentsDescription",
+    "source": "Toggle Agents visibility",
+    "index": 4771
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+    "key": "toggleUnifiedSideBar",
+    "source": "Toggle Agents Side Bar",
+    "index": 4772
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+    "key": "toggleAgents",
+    "source": "Toggle Agents",
+    "index": 4773
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/common/agentsWindowOrFocusMenuRegistrations",
+    "key": "cursor.agentsWindowNew",
+    "source": "New Agents Window",
+    "index": 4781
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+    "key": "switchToModelSlug.noAgentsWindow",
+    "source": "Couldn't open the Agents window to switch the model. Open the Agents window and try again.",
+    "index": 4783
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+    "key": "switchToModelSlug.agentsWindowRoutingFailed",
+    "source": "Couldn't switch the model in the Agents window. Try again.",
+    "index": 4784
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+    "key": "cursor.newAgentsWindow",
+    "source": "New Agents Window",
+    "index": 4785
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+    "key": "cursor.newAdditionalAgentsWindowDev",
+    "source": "Developer: New Additional Agents Window",
+    "index": 4786
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+    "key": "cursor.openGlassAndStartCloudAgent",
+    "source": "Open Agents Window and Start Cloud Agent",
+    "index": 4792
+  },
+  {
+    "moduleId": "vs/workbench/contrib/ui/browser/buttons/AgentsWindowButton",
+    "key": "agentsWindowButtonLabel",
+    "source": "Agents Window",
+    "index": 11407
+  },
+  {
+    "moduleId": "vs/workbench/contrib/welcomeViews/common/viewsWelcomeExtensionPoint",
+    "key": "contributes.viewsWelcome",
+    "source": "Contributed views welcome content. Welcome content will be rendered in tree based views whenever they have no meaningful content to display, ie. the File Explorer when no folder is open. Such content is useful as in-product documentation to drive users to use certain features before they are available. A good example would be a `Clone Repository` button in the File Explorer welcome view.",
+    "index": 11738
+  },
+  {
+    "moduleId": "vs/workbench/services/agent/browser/agentExecProviderService",
+    "key": "toggleSimulatedAgentExecStreamStartTimeout",
+    "source": "Developer: Toggle Agent Exec Stream Start Timeout Simulation (Dev-only)",
+    "index": 12213
+  }
+]

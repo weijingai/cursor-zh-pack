@@ -1,0 +1,97 @@
+[
+  {
+    "moduleId": "vs/platform/tray/electron-main/dockMenuMain",
+    "key": "miNewWindow",
+    "source": "New &&Window"
+  },
+  {
+    "moduleId": "vs/workbench/contrib/debug/browser/debugEditorActions",
+    "key": "mitogglesource",
+    "source": "&&ToggleSource"
+  },
+  {
+    "moduleId": "vs/workbench/contrib/extensions/electron-sandbox/extensionMonitor.contribution",
+    "key": "miOpenExtensionMonitorer",
+    "source": "Open &&Extension Monitor"
+  },
+  {
+    "moduleId": "vs/workbench/contrib/files/browser/files.view.contribution",
+    "key": "miViewExplorer",
+    "source": "&&Explorer"
+  },
+  {
+    "moduleId": "vs/workbench/contrib/issue/electron-sandbox/process.contribution",
+    "key": "stopTracing.button",
+    "source": "&&Relaunch and Enable Tracing"
+  },
+  {
+    "moduleId": "vs/workbench/contrib/markers/browser/markers.view.contribution",
+    "key": "miMarker",
+    "source": "&&Problems"
+  },
+  {
+    "moduleId": "vs/workbench/contrib/output/browser/output.view.contribution",
+    "key": "miToggleOutput",
+    "source": "&&Output"
+  },
+  {
+    "moduleId": "vs/workbench/contrib/quickaccess/browser/quickAccess.view.contribution",
+    "key": "miOpenView",
+    "source": "&&Open View..."
+  },
+  {
+    "moduleId": "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution",
+    "key": "windowsWslPathWarning.install",
+    "source": "&&Install WSL Extension"
+  },
+  {
+    "moduleId": "vs/workbench/contrib/scm/browser/scm.view.contribution",
+    "key": "miViewSCM",
+    "source": "Source &&Control"
+  },
+  {
+    "moduleId": "vs/workbench/contrib/terminal/browser/terminal.view.contribution",
+    "key": "miToggleIntegratedTerminal",
+    "source": "&&Terminal"
+  },
+  {
+    "moduleId": "vs/workbench/contrib/url/browser/trustedDomainsValidator",
+    "key": "alwaysTrustDomain",
+    "source": "&&Always Open This Domain"
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "open",
+    "source": "&&Open"
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "grantWorkspaceTrustButton",
+    "source": "&&Trust Workspace & Continue"
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "grantFolderTrustButton",
+    "source": "&&Trust Folder & Continue"
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "manageWorkspaceTrustButton",
+    "source": "&&Manage"
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "trustOption",
+    "source": "&&Yes, I trust the authors"
+  },
+  {
+    "moduleId": "vs/workbench/contrib/workspace/browser/workspace.view.contribution",
+    "key": "dontTrustOption",
+    "source": "&&No, I don't trust the authors"
+  },
+  {
+    "moduleId": "vs/workbench/electron-sandbox/actions/windowActions",
+    "key": "miSetZoomLevel",
+    "source": "&&Set Zoom Level"
+  }
+]

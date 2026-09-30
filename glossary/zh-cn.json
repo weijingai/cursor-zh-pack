@@ -5,6 +5,8 @@
     "Cursor Blame": "Cursor Blame",
     "Cursor Origin": "Cursor Origin",
     "Cursor Tab": "Cursor Tab",
+    "Tab": "Tab",
+    "Hooks": "钩子",
     "Agent": "Agent",
     "Agents": "Agent",
     "Agents Window": "Agents 窗口",
@@ -25,6 +27,9 @@
     "Update": "更新",
     "Browser": "浏览器",
     "Browser Tab": "浏览器标签页",
+    "Tips": "提示",
+    "Browse": "浏览",
+    "Snooze": "暂停",
     "Plan": "计划",
     "Notepads": "记事本",
     "Custom Modes": "自定义模式"

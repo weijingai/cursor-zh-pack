@@ -1,0 +1,94 @@
+{
+  "extractedAt": "2026-09-29T05:07:56.012Z",
+  "hits": {
+    "workbench.desktop.main.js": {
+      "Open project": [
+        "er:underline cursor-pointer opacity-80\">Upgrade'),LM_=pt(\"<div>New project\"),ROh=pt(\"<div>Open project\"),NM_=pt(\"<div><div>\"),OM_=pt(\"<div class=empty-screen-view-all>View all (<!>)\"),FM_=pt(\"<div><div><div><span>Recent projects</span></div><",
+        "(\"click\",()=>e.onClick?.()),xe(n,()=>e.projectName),En(i=>{var r=!!e.onClick,s=e.onClick?`Open project: ${e.projectName}`:e.projectName;return r!==i.e&&t.classList.toggle(\"composer-project-badge--clickable\",i.e=r),s!==i.t&&Kr(t,\"title\",i.t=s)"
+      ],
+      "Open Project": [],
+      "Clone repo": [
+        "pointer opacity-80 text-description-foreground translate-x-[34px]\">Sign in'),WM_=pt(\"<div>Clone repo\"),GM_=pt(\"<div>Connect via SSH\"),jM_=pt(\"<div>New Window\"),VM_=pt(\"<div>Steer from iOS\"),DOh=pt(\"<div>\"),qM_=pt('<span class=\"cursor-icon u"
+      ],
+      "Clone Repo": [],
+      "Clone repository": [],
+      "Connect via SSH": [
+        "scription-foreground translate-x-[34px]\">Sign in'),WM_=pt(\"<div>Clone repo\"),GM_=pt(\"<div>Connect via SSH\"),jM_=pt(\"<div>New Window\"),VM_=pt(\"<div>Steer from iOS\"),DOh=pt(\"<div>\"),qM_=pt('<span class=\"cursor-icon ui-icon\"aria-hidden=true>'),zM_="
+      ],
+      "Steer from iOS": [
+        "(\"<div>Clone repo\"),GM_=pt(\"<div>Connect via SSH\"),jM_=pt(\"<div>New Window\"),VM_=pt(\"<div>Steer from iOS\"),DOh=pt(\"<div>\"),qM_=pt('<span class=\"cursor-icon ui-icon\"aria-hidden=true>'),zM_=pt(\"<div class=empty-screen-recent-item><div></div><div>"
+      ],
+      "Steer from IOS": [],
+      "Steer from iPhone": [],
+      "Open folder": [],
+      "Open Folder": [
+        "nFile\";var uDo=RNh,DNh=class i4p extends ct{constructor(){super({id:i4p.ID,title:Ce(3226,\"Open Folder...\"),category:Hn.File,f1:!0,precondition:HDe,keybinding:{weight:200,primary:void 0,linux:{primary:Os(md,ke.CtrlCmd|he.KeyO)},win:{primary:O",
+        "older\";var Mjt=DNh,MNh=class r4p extends ct{constructor(){super({id:r4p.ID,title:Ce(3227,\"Open Folder...\"),category:Hn.File,f1:!0,precondition:le.and(HDe.toNegated(),oy.isEqualTo(\"workspace\")),keybinding:{weight:200,primary:ke.CtrlCmd|he.Key",
+        "s extends ct{constructor(){super({id:\"workbench.action.openFolderSettings\",title:Ce(8552,\"Open Folder Settings\"),category:sse,menu:{id:Te.CommandPalette,when:oy.isEqualTo(\"workspace\")}})}async run(t,n){const i=t.get(On),r=t.get(Um),s=await i",
+        "tends ct{constructor(){super({id:\"workbench.action.openFolderSettingsFile\",title:Ce(8553,\"Open Folder Settings (JSON)\"),category:sse,menu:{id:Te.CommandPalette,when:oy.isEqualTo(\"workspace\")}})}async run(t,n){const i=t.get(On),r=t.get(Um),s="
+      ],
+      "New window": [],
+      "Recent projects": [
+        "\"),OM_=pt(\"<div class=empty-screen-view-all>View all (<!>)\"),FM_=pt(\"<div><div><div><span>Recent projects</span></div></div><div>\"),BM_=pt('<div class=empty-screen-glass-cta>Try a new window for running parallel agents<span class=\"cursor-icon ui"
+      ],
+      "Welcome to Cursor": [
+        "rn[{type:\"thinking\",shimmerMs:Kap,thinkingDurationMs:Kap},{type:\"text\",content:`Hi there! Welcome to Cursor. Cursor is the best way to code with agents. I can read your code, make edits, run commands, and help you build features end-to-end. Wha",
+        "onst e=await this.composerService.createComposer({partialState:{unifiedMode:\"agent\",name:\"Welcome to Cursor\"},view:\"pane\"});if(!e)return;const t=e.composerId,n=oqb();this._register(new cqb(t,this.composerDataService,n,tqb)).run();const r=setTimeou"
+      ],
+      "Get started": [
+        "ds into Agent Skills.\",searchKeywords:[\"Convert\",\"MDC\",\"SKILL.md\"]},onboard:{description:\"Get started with Cursor.\",searchKeywords:[\"Onboarding\",\"Setup\",\"Welcome\"]},review:{searchKeywords:[\"Audit\",\"Bugs\"]},\"review-bugbot\":{searchKeywords:[\"A"
+      ]
+    },
+    "workbench.glass.main.js": {
+      "Open project": [
+        "(\"click\",()=>t.onClick?.()),Re(n,()=>t.projectName),Cn(i=>{var r=!!t.onClick,s=t.onClick?`Open project: ${t.projectName}`:t.projectName;return r!==i.e&&e.classList.toggle(\"composer-project-badge--clickable\",i.e=r),s!==i.t&&Qs(e,\"title\",i.t=s)",
+        "er:underline cursor-pointer opacity-80\">Upgrade'),UpC=_t(\"<div>New project\"),hRv=_t(\"<div>Open project\"),jpC=_t(\"<div><div>\"),$pC=_t(\"<div class=empty-screen-view-all>View all (<!>)\"),HpC=_t(\"<div><div><div><span>Recent projects</span></div><"
+      ],
+      "Open Project": [
+        "\"selectAgentAtIndexRequested\",payload:{index:e}})}})}wr({id:\"openProjectTasksPage\",title:\"Open Project Notes Page\",icon:\"list-todo\",glassCategory:\"View\",keywords:[\"project\",\"notes\",\"open\"],f1:!1,scope:pl.AGENT_WORKSPACE,run:(t,...e)=>CLT(t,e["
+      ],
+      "Clone repo": [
+        "pointer opacity-80 text-description-foreground translate-x-[34px]\">Sign in'),VpC=_t(\"<div>Clone repo\"),KpC=_t(\"<div>Connect via SSH\"),YpC=_t(\"<div>New Window\"),XpC=_t(\"<div>Steer from iOS\"),pRv=_t(\"<div>\"),QpC=_t('<span class=\"cursor-icon u"
+      ],
+      "Clone Repo": [
+        ")},e[11]=f,e[12]=b):b=e[12];const _=b;let y;e[13]!==_||e[14]!==r?(y=Bat(VE,{\"aria-label\":\"Clone Repository\",autoCapitalize:\"off\",autoComplete:\"off\",autoCorrect:\"off\",autoFocus:!0,onChange:p,onKeyDown:_,placeholder:\"Repository URL (https or ",
+        "Git repository and add it as a project.\",ignoreFocusLost:!1,onOpenChange:d,open:!0,title:\"Clone Repository\",children:[w,I]}),e[30]=d,e[31]=I,e[32]=w,e[33]=A):A=e[33],A}var FSf,bQk=L({\"clone-repository-dialog.react.js\"(){\"use strict\";At(),tc",
+        "=e[3];let l;e[4]!==i.repositoryLabel?(l=zL(Ra.TextItem,{subtitle:i.repositoryLabel,title:\"Clone Repository\"}),e[4]=i.repositoryLabel,e[5]=l):l=e[5];let c;return e[6]!==n||e[7]!==o||e[8]!==l?(c=zL(JS,{disabled:n,ignoreSearch:!0,label:\"Clone ",
+        "[5];let c;return e[6]!==n||e[7]!==o||e[8]!==l?(c=zL(JS,{disabled:n,ignoreSearch:!0,label:\"Clone Repository\",leading:a,onSelect:o,children:l}),e[6]=n,e[7]=o,e[8]=l,e[9]=c):c=e[9],c}function Nhw(t){const e=NSs(18),{disabled:n,match:i,onSelect"
+      ],
+      "Clone repository": [],
+      "Connect via SSH": [
+        "u>=0?u:0)+1} of ${n.length}`;let p;e:switch(i){case\"host\":{p=l===\"wsl\"?\"Connect via WSL\":\"Connect via SSH\";break e}case\"connecting\":{p=a?\"Connection Failed\":\"Connecting\";break e}case\"folder\":{p=\"Select Folder\";break e}default:p=i}let g;e[2]!==a|",
+        "D,{noDivider:s,children:y}),e[10]=s,e[11]=y,e[12]=S):S=e[12],S}const o=i??r,a=i!==void 0?\"Connect via SSH\":\"Connect via WSL\",l=i!==void 0?\"terminal-rectangle\":\"plus\";let c;e[13]!==l?(c=jqe(Ht,{name:l}),e[13]=l,e[14]=c):c=e[14];let u;e[15]!==o?(u",
+        "&cw(JS,{disabled:nt,leading:cw(Ht,{name:\"terminal-rectangle\"}),onSelect:()=>c(),children:\"Connect via SSH\"}),u&&cw(JS,{disabled:nt,leading:cw(Ht,{name:\"server\"}),onSelect:u,children:\"WSL\"}),B===\"all\"?cw(lD,{title:\"Connect\",children:WIf.map(si=>c",
+        "scription-foreground translate-x-[34px]\">Sign in'),VpC=_t(\"<div>Clone repo\"),KpC=_t(\"<div>Connect via SSH\"),YpC=_t(\"<div>New Window\"),XpC=_t(\"<div>Steer from iOS\"),pRv=_t(\"<div>\"),QpC=_t('<span class=\"cursor-icon ui-icon\"aria-hidden=true>'),ZpC="
+      ],
+      "Steer from iOS": [
+        "(\"<div>Clone repo\"),KpC=_t(\"<div>Connect via SSH\"),YpC=_t(\"<div>New Window\"),XpC=_t(\"<div>Steer from iOS\"),pRv=_t(\"<div>\"),QpC=_t('<span class=\"cursor-icon ui-icon\"aria-hidden=true>'),ZpC=_t(\"<div class=empty-screen-recent-item><div></div><div>"
+      ],
+      "Steer from IOS": [],
+      "Steer from iPhone": [],
+      "Open folder": [],
+      "Open Folder": [
+        "t t.defaultFolderPath(),o=r&&(lr||i),a=!i||lr,c=(await t.showOpenDialog({title:n?.title??\"Open Folder\",...o?{filters:Ado}:{},canSelectFiles:o,canSelectFolders:a,canSelectMany:!1,defaultUri:s}))?.[0];if(c)return Vy1(c,e,{allowWorkspaceFiles:r",
+        "re a Git repository in an open folder.\",title:\"Get Started\",children:f7(CGg,{actionTitle:\"Open Folder\",description:o.notReadyMessage,onAction:p,title:\"Open a Git repository\"})})}),e[7]=p,e[8]=o.notReadyMessage,e[9]=E):E=e[9],E}let g;e[10]===",
+        ",children:KI(JS,{ignoreSearch:!0,leading:KI(Ht,{name:\"folder-open\"}),onSelect:O,children:\"Open Folder\"})}):null,e[116]=qe,e[117]=d,e[118]=_,e[119]=O,e[120]=ct,e[121]=X.id,e[122]=X.type,e[123]=gn):gn=e[123];let an;e[124]!==C||e[125]!==X.sshRe",
+        "rch:!0,leading:KI(Ht,{name:\"folder-open\"}),onSelect:()=>C(X.sshRemoteAuthority),children:\"Open Folder\"})}):null,e[124]=C,e[125]=X.sshRemoteAuthority,e[126]=an):an=e[126];let xn;e[127]!==d||e[128]!==p||e[129]!==g||e[130]!==f||e[131]!==_||e[13"
+      ],
+      "New window": [],
+      "Recent projects": [
+        "\"),$pC=_t(\"<div class=empty-screen-view-all>View all (<!>)\"),HpC=_t(\"<div><div><div><span>Recent projects</span></div></div><div>\"),WpC=_t('<div class=empty-screen-glass-cta>Try a new window for running parallel agents<span class=\"cursor-icon ui"
+      ],
+      "Welcome to Cursor": [
+        "n=>n.id===t)?.title??t}function $10(t){return t?M(\"glass.ftuxWizard.welcome.title.named\",\"Welcome to Cursor, {0}\",t):M(\"glass.ftuxWizard.welcome.title\",\"Welcome to Cursor\")}function H10(t){const e=Lhv(45),{firstName:n,onSelectRole:i,startIntro:r}=",
+        "zard.welcome.title.named\",\"Welcome to Cursor, {0}\",t):M(\"glass.ftuxWizard.welcome.title\",\"Welcome to Cursor\")}function H10(t){const e=Lhv(45),{firstName:n,onSelectRole:i,startIntro:r}=t;let s;e[0]!==n?(s=$10(n),e[0]=n,e[1]=s):s=e[1];const o=s,a=J2",
+        "rn[{type:\"thinking\",shimmerMs:KOv,thinkingDurationMs:KOv},{type:\"text\",content:`Hi there! Welcome to Cursor. Cursor is the best way to code with agents. I can read your code, make edits, run commands, and help you build features end-to-end. Wha",
+        "onst t=await this.composerService.createComposer({partialState:{unifiedMode:\"agent\",name:\"Welcome to Cursor\"},view:\"pane\"});if(!t)return;const e=t.composerId,n=xRC();this._register(new ARC(e,this.composerDataService,n,kRC)).run();const r=setTimeou"
+      ],
+      "Get started": [
+        "ds into Agent Skills.\",searchKeywords:[\"Convert\",\"MDC\",\"SKILL.md\"]},onboard:{description:\"Get started with Cursor.\",searchKeywords:[\"Onboarding\",\"Setup\",\"Welcome\"]},review:{searchKeywords:[\"Audit\",\"Bugs\"]},\"review-bugbot\":{searchKeywords:[\"A",
+        "pplication(s) and demonstrate that the environment is working.\",Xav=\"Continue setup\",Qav=\"Get started\",Zav=\"Loading\\u2026\"}});import{useCallback as LEs,useEffect as pg0,useMemo as mg0,useRef as Jav,useState as gg0}from\"./react-runtime/react/"
+      ]
+    }
+  }
+}

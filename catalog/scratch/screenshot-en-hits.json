@@ -1,0 +1,317 @@
+[
+  {
+    "needle": "Open View...",
+    "desktop": null,
+    "glass": null
+  },
+  {
+    "needle": "Submit with Ctrl",
+    "desktop": null,
+    "glass": "Submit with Ctrl + Enter\",\"Auto-Approve Mode Transitions\",\"Auto-Accept Web Search\",\"Commit Attribution\",\"PR Attribution\",\"Open Agents Window"
+  },
+  {
+    "needle": "Ctrl+Enter submits chat",
+    "desktop": null,
+    "glass": null
+  },
+  {
+    "needle": "Custom words that submit a voice prompt",
+    "desktop": "Custom words that submit a voice prompt. Spaces and punctuation are ignored.\",label:n,searchAliases:a,trailingStyle:gNy.fullWidthTrailing,ch",
+    "glass": "Custom words that submit a voice prompt. Spaces and punctuation are ignored.\",label:n,searchAliases:a,trailingStyle:Pqg.fullWidthTrailing,ch"
+  },
+  {
+    "needle": "Choose how Agents run tools",
+    "desktop": "Choose how Agents run tools like command execution, MCP, and file writes.\",Y1p=\"https://cursor.com/docs/agent/security/run-modes\";function A",
+    "glass": "Choose how Agents run tools like command execution, MCP, and file writes.\",Qwl=\"https://cursor.com/docs/agent/security/run-modes\",qzg=[\"cd\","
+  },
+  {
+    "needle": "A classifier will run",
+    "desktop": "A classifier will run for each action and decide whether it's safe to execute this command. Allowlists are still respected.\";case ym.SMART_A",
+    "glass": "A classifier will run for each action and decide whether it's safe to execute this command. Allowlists are still respected.\";case pf.SMART_A"
+  },
+  {
+    "needle": "Learn more",
+    "desktop": "Learn more about Agent Review\",class:\"scm-review-help-icon\",size:16}),null),ge}})},get children(){return pyy()}}),null),xe(be,ue(vt,{get whe",
+    "glass": "Learn more\":a,u=n!=null||o!=null||r!=null,d=i!=null||s!=null;let h;e[0]!==l?(h=Yi({rootClass:\"ui-page-header\",stylexStyles:bKy(),className:l"
+  },
+  {
+    "needle": "Auto-Review",
+    "desktop": "Auto-Review\";case ym.SMART_AUTO_WITH_SANDBOX:return\"Auto-Review (with Sandbox)\";case ym.FULL_YOLO:return t?\"Run Everything (Unsandboxed)\":\"R",
+    "glass": "Auto-Review\";case pf.SMART_AUTO_WITH_SANDBOX:return\"Auto-Review (with Sandbox)\";case pf.FULL_YOLO:return e?\"Run Everything (Unsandboxed)\":\"R"
+  },
+  {
+    "needle": "Prevent Agent from deleting files",
+    "desktop": "Prevent Agent from deleting files automatically${s}`,a=n.settings.deleteFileProtection??!1;let c;t[0]!==r||t[1]!==i?(c=y=>{r||i.setApplicati",
+    "glass": "Prevent Agent from deleting files automatically${s}`,a=n.settings.deleteFileProtection??!1;let l;e[0]!==r||e[1]!==i?(l=_=>{r||i.setApplicati"
+  },
+  {
+    "needle": "Prevent Agent from creating or modifying files",
+    "desktop": "Prevent Agent from creating or modifying files outside of the workspace automatically${s}`,m=n.settings.outsideWorkspaceProtection??!0;let g",
+    "glass": "Prevent Agent from creating or modifying files outside of the workspace automatically${s}`,h=n.settings.outsideWorkspaceProtection??!0;let p"
+  },
+  {
+    "needle": "You can configure Shell, MCP and Fetch",
+    "desktop": "You can configure Shell, MCP and Fetch allowlists for Auto mode. However, Auto works well without these.\",expanded:r,label:\"Allowlist Option",
+    "glass": "You can configure Shell, MCP and Fetch allowlists for Auto mode. However, Auto works well without these.\",expanded:r,label:\"Allowlist Option"
+  },
+  {
+    "needle": "Applying Changes",
+    "desktop": "Applying Changes\",children:yTp(ks.Root,{accessibleLabel:\"Applying Changes\",children:[g,f,y]})}),t[20]=g,t[21]=f,t[22]=y,t[23]=k):k=t[23],k}f",
+    "glass": "Applying Changes\",children:Fqg(Hs.Root,{accessibleLabel:\"Applying Changes\",children:[p,g,_]})}),e[20]=p,e[21]=g,e[22]=_,e[23]=y):y=e[23],y}f"
+  },
+  {
+    "needle": "Show inline diff decorations in the editor instead",
+    "desktop": "Show inline diff decorations in the editor instead of only showing changes in the review panel\",label:\"Inline Diffs\",children:BU(n1,{checked",
+    "glass": "Show inline diff decorations in the editor instead of only showing changes in the review panel\",label:\"Inline Diffs\",children:Fq(Xx,{checked"
+  },
+  {
+    "needle": "Automatically jump to the next diff",
+    "desktop": "Automatically jump to the next diff when accepting changes with ${Ei?\"\\u2318\":\"Ctrl+\"}Y`,label:\"Jump to Next Diff on Accept\",children:BU(n1,",
+    "glass": "Automatically jump to the next diff when accepting changes with ${lr?\"\\u2318\":\"Ctrl+\"}Y`,label:\"Jump to Next Diff on Accept\",children:Fq(Xx,"
+  },
+  {
+    "needle": "Automatically format files when the agent finishes",
+    "desktop": "Automatically format files when the agent finishes\",label:\"Auto Format on Agent Finish\",children:BU(n1,{checked:v,onCheckedChange:b})}),t[17",
+    "glass": "Automatically format files when the agent finishes\",label:\"Auto Format on Agent Finish\",children:Fq(Xx,{checked:f,onCheckedChange:b})}),e[17"
+  },
+  {
+    "needle": "Use the legacy terminal tool in agent mode",
+    "desktop": "Use the legacy terminal tool in agent mode, for use on systems with unsupported shell configurations\",label:\"Legacy Terminal Tool\",children:",
+    "glass": "Use the legacy terminal tool in agent mode, for use on systems with unsupported shell configurations\",label:\"Legacy Terminal Tool\",children:"
+  },
+  {
+    "needle": "Automatically parse links when pasted",
+    "desktop": "Automatically parse links when pasted into Quick Edit (${Ei?\"\\u2318\":\"Ctrl+\"}K) input`,label:\"Auto-Parse Links\",children:BU(n1,{checked:h,on",
+    "glass": "Automatically parse links when pasted into Quick Edit (${lr?\"\\u2318\":\"Ctrl+\"}K) input`,label:\"Auto-Parse Links\",children:Fq(Xx,{checked:d,on"
+  },
+  {
+    "needle": "Show a hint for Ctrl+K",
+    "desktop": null,
+    "glass": null
+  },
+  {
+    "needle": "Preview Box for Terminal",
+    "desktop": "Preview Box for Terminal ${Ei?\"\\u2318\":\"Ctrl+\"}K`,children:BU(n1,{checked:a,onCheckedChange:A=>{c(A),i(\"terminal_preview_box\",\"inline_termin",
+    "glass": "Preview Box for Terminal ${lr?\"\\u2318\":\"Ctrl+\"}K`,children:Fq(Xx,{checked:a,onCheckedChange:T=>{l(T),i(\"terminal_preview_box\",\"inline_termin"
+  },
+  {
+    "needle": "Use a preview box instead of streaming",
+    "desktop": "Use a preview box instead of streaming responses directly into the shell\",id:plo,label:`Preview Box for Terminal ${Ei?\"\\u2318\":\"Ctrl+\"}K`,ch",
+    "glass": "Use a preview box instead of streaming responses directly into the shell\",id:K8a,label:`Preview Box for Terminal ${lr?\"\\u2318\":\"Ctrl+\"}K`,ch"
+  },
+  {
+    "needle": "CURRENT PLAN",
+    "desktop": null,
+    "glass": null
+  },
+  {
+    "needle": "Usage limits reset",
+    "desktop": "Usage limits reset on \",x8_(h),\" (\",I8_(h),\")\"]}):d3(\"div\",{className:\"glass-1iyjqo2\"}),t[8]=h,t[9]=n,t[10]=r,t[11]=b):b=t[11];let y;t[12]!=",
+    "glass": "Usage limits reset on \",hf1(d),\" (\",pf1(d),\")\"]}):_7(\"div\",{className:\"glass-1iyjqo2\"}),e[8]=d,e[9]=n,e[10]=r,e[11]=b):b=e[11];let _;e[12]!="
+  },
+  {
+    "needle": "Adjust Plan",
+    "desktop": "Adjust Plan\"})}),t[12]=i,t[13]=r,t[14]=o,t[15]=a,t[16]=u,t[17]=y):y=t[17];let k;t[18]!==v||t[19]!==b||t[20]!==y?(k=IW(\"div\",{className:\"glas",
+    "glass": "Adjust Plan\"})}),e[12]=i,e[13]=r,e[14]=o,e[15]=a,e[16]=u,e[17]=_):_=e[17];let y;e[18]!==f||e[19]!==b||e[20]!==_?(y=UZ(\"div\",{className:\"glas"
+  },
+  {
+    "needle": "UPGRADE AVAILABLE",
+    "desktop": null,
+    "glass": null
+  },
+  {
+    "needle": "Unlock 3x more usage",
+    "desktop": "Unlock 3x more usage on Agent & more\"};case fr.PRO_PLUS:return{tier:\"ultra\",name:\"Get Ultra\",amount:400,price:\"$200/mo\",description:\"\"};defa",
+    "glass": "Unlock 3x more usage on Agent & more\"};case bs.PRO_PLUS:return{tier:\"ultra\",name:\"Get Ultra\",amount:400,price:\"$200/mo\",description:\"\"};defa"
+  },
+  {
+    "needle": "Included in Pro",
+    "desktop": null,
+    "glass": null
+  },
+  {
+    "needle": "Cursor Models",
+    "desktop": "Cursor Models\",autoDescription:\"Includes Cursor Grok and Composer\",apiTitle:\"Other Models\",apiDescription:\"Consumed by named models.\",autoBe",
+    "glass": "Cursor Models\",autoDescription:\"Includes Cursor Grok and Composer\",apiTitle:\"Other Models\",apiDescription:\"Consumed by named models.\",autoBe"
+  },
+  {
+    "needle": "Additional usage beyond limits",
+    "desktop": "Additional usage beyond limits consumes Other Models quota or on-demand spend.\",autoUsageBarLabel:\"your included total usage\",apiUsageBarLab",
+    "glass": "Additional usage beyond limits consumes Other Models quota or on-demand spend.\",autoUsageBarLabel:\"your included total usage\",apiUsageBarLab"
+  },
+  {
+    "needle": "Open a Git repository",
+    "desktop": "Open a Git repository\"})})}),t[7]=g,t[8]=o.notReadyMessage,t[9]=D):D=t[9],D}let f;t[10]===Symbol.for(\"react.memo_cache_sentinel\")?(f=[\"cloud",
+    "glass": "Open a Git repository\"})})}),e[7]=p,e[8]=o.notReadyMessage,e[9]=E):E=e[9],E}let g;e[10]===Symbol.for(\"react.memo_cache_sentinel\")?(g=[\"cloud"
+  },
+  {
+    "needle": "Please open a folder to use background agents",
+    "desktop": "Please open a folder to use background agents.\",_1p=\"Background agents only work in folders with a git repository. Please open a folder that",
+    "glass": "Please open a folder to use background agents.\",Pwl=\"Background agents only work in folders with a git repository. Please open a folder that"
+  },
+  {
+    "needle": "PR Link Destination",
+    "desktop": "PR Link Destination\",searchAliases:f3y,children:U1e(pT,{\"aria-label\":\"PR Link Destination\",disabled:r,onValueChange:se=>{se!==null&&u(se)},o",
+    "glass": "PR Link Destination\",searchAliases:EKg,children:gBe(nk,{\"aria-label\":\"PR Link Destination\",disabled:r,onValueChange:ne=>{ne!==null&&u(ne)},o"
+  },
+  {
+    "needle": "Choose Origin",
+    "desktop": "Choose Origin (cursor.com/codebase) or GitHub for GitHub pull request links on web and desktop\":\"Choose Origin (cursor.com/codebase), GitHub",
+    "glass": "Choose Origin (cursor.com/codebase) or GitHub for GitHub pull request links on web and desktop\":\"Choose Origin (cursor.com/codebase), GitHub"
+  },
+  {
+    "needle": "Open pull request links inside Cursor",
+    "desktop": "Open pull request links inside Cursor or in the default browser\";function WFy(e){return e?\"Choose Origin (cursor.com/codebase) or GitHub for",
+    "glass": "Open pull request links inside Cursor or in the default browser\"}});function c_k({canConfigure:t,queryReady:e,hasTeam:n}){return{showRow:t&&"
+  },
+  {
+    "needle": "Commit Attribution",
+    "desktop": "Commit Attribution\",children:h}),e[7]=c,e[8]=h,e[9]=m):m=e[9];const g=`Mark pull requests as made with Cursor${a}`,f=t?!1:s;let v;e[10]!==o|",
+    "glass": "Commit Attribution\",children:d}),t[7]=l,t[8]=d,t[9]=h):h=t[9];const p=`Mark pull requests as made with Cursor${a}`,g=e?!1:s;let f;t[10]!==o|"
+  },
+  {
+    "needle": "Made with Cursor",
+    "desktop": "Made with Cursor'${a}`,l=t?!1:i;let u;e[0]!==r||e[1]!==n?(u=T=>{r(T),n(\"attribute_commits_to_agent\",\"attribution\",T)},e[0]=r,e[1]=n,e[2]=u):",
+    "glass": "Made with Cursor'${a}`,c=e?!1:i;let u;t[0]!==r||t[1]!==n?(u=S=>{r(S),n(\"attribute_commits_to_agent\",\"attribution\",S)},t[0]=r,t[1]=n,t[2]=u):"
+  },
+  {
+    "needle": "PR Attribution",
+    "desktop": "PR Attribution\",children:b}),e[17]=g,e[18]=b,e[19]=y):y=e[19];let k;return e[20]!==m||e[21]!==y?(k=pO(Sv,{title:\"Attribution\",children:xia(k",
+    "glass": "PR Attribution\",children:b}),t[17]=p,t[18]=b,t[19]=_):_=t[19];let y;return t[20]!==h||t[21]!==_?(y=e9(rf,{title:\"Attribution\",children:kCl(H"
+  },
+  {
+    "needle": "Mark pull requests as made with Cursor",
+    "desktop": "Mark pull requests as made with Cursor${a}`,f=t?!1:s;let v;e[10]!==o||e[11]!==n?(v=T=>{o(T),n(\"attribute_prs_to_agent\",\"attribution\",T)},e[1",
+    "glass": "Mark pull requests as made with Cursor${a}`,g=e?!1:s;let f;t[10]!==o||t[11]!==n?(f=S=>{o(S),n(\"attribute_prs_to_agent\",\"attribution\",S)},t[1"
+  },
+  {
+    "needle": "Browser Automation",
+    "desktop": "Browser Automation\",protection:\"Browser Protection\",protectionDescription:\"Prevent Agent from automatically running Browser tools\",showLocal",
+    "glass": "Browser Automation\",protection:\"Browser Protection\",protectionDescription:\"Prevent Agent from automatically running Browser tools\",showLocal"
+  },
+  {
+    "needle": "Connected to Browser Tab",
+    "desktop": "Connected to Browser Tab\":\"Browser automation disabled\"}}function KZf(e){const t=e.verdict===\"admin_denied\",n=t?\"none\":e.storedMode;return{v",
+    "glass": "Connected to Browser Tab\":\"Browser automation disabled\"}}function D4S(t){const e=t.verdict===\"admin_denied\",n=e?\"none\":t.storedMode;return{v"
+  },
+  {
+    "needle": "Browser Protection",
+    "desktop": "Browser Protection\",protectionDescription:\"Prevent Agent from automatically running Browser tools\",showLocalhostLinks:\"Open Local Links in C",
+    "glass": "Browser Protection\",protectionDescription:\"Prevent Agent from automatically running Browser tools\",showLocalhostLinks:\"Open Local Links in C"
+  },
+  {
+    "needle": "Prevent Agent from automatically running Browser",
+    "desktop": "Prevent Agent from automatically running Browser tools\",showLocalhostLinks:\"Open Local Links in Cursor Browser\",openWebLinks:\"Open Web Links",
+    "glass": "Prevent Agent from automatically running Browser tools\",showLocalhostLinks:\"Open Local Links in Cursor Browser\",openWebLinks:\"Open Web Links"
+  },
+  {
+    "needle": "Open Local Links in Cursor Browser",
+    "desktop": "Open Local Links in Cursor Browser\",openWebLinks:\"Open Web Links in Cursor Browser\"};function NDy({surface:e}){const t=\"browser\",n=[{id:`set",
+    "glass": "Open Local Links in Cursor Browser\",openWebLinks:\"Open Web Links in Cursor Browser\"}}}),yg=L({\"use-solid-selector.react.js\"(){\"use strict\";l"
+  },
+  {
+    "needle": "These domains must be accessible",
+    "desktop": "These domains must be accessible for Cursor to function. Add them to your firewall or proxy allowlist.\",label:\"Required Domains\",children:[n",
+    "glass": "These domains must be accessible for Cursor to function. Add them to your firewall or proxy allowlist.\",label:\"Required Domains\",children:[J"
+  },
+  {
+    "needle": "Copy Domains",
+    "desktop": "Copy Domains\";let ne;t[23]!==X||t[24]!==Q?(ne=qR(Yr,{onClick:X,size:\"sm\",variant:\"ghost\",children:Q}),t[23]=X,t[24]=Q,t[25]=ne):ne=t[25];let",
+    "glass": "Copy Domains\";let J;e[23]!==z||e[24]!==Q?(J=HL(An,{onClick:z,size:\"sm\",variant:\"ghost\",children:Q}),e[23]=z,e[24]=Q,e[25]=J):J=e[25];let ee;"
+  },
+  {
+    "needle": "Run Diagnostic",
+    "desktop": "Run Diagnostic\";let _e;t[37]!==x?(_e=x?qR(Ri,{color:\"secondary\",modifier:\"spin\",name:\"loading\"}):null,t[37]=x,t[38]=_e):_e=t[38];let Ae;t[39",
+    "glass": "Run Diagnostic\";let le;e[37]!==w?(le=w?HL(Ht,{color:\"secondary\",modifier:\"spin\",name:\"loading\"}):null,e[37]=w,e[38]=le):le=e[38];let ce;e[39"
+  },
+  {
+    "needle": "Partial Accepts",
+    "desktop": "Partial Accepts\",labelAccessory:FU(Sp,{content:`Keybinding: ${Ona}`,placement:\"top\",children:FU(\"button\",{className:\"glass-3nfvp2 glass-6s0d",
+    "glass": "Partial Accepts\",labelAccessory:Oq(zs,{content:`Keybinding: ${Qhs}`,placement:\"top\",children:Oq(\"button\",{className:\"glass-3nfvp2 glass-6s0d"
+  },
+  {
+    "needle": "Accept the next word of a suggestion",
+    "desktop": "Accept the next word of a suggestion via ${u}`,label:\"Partial Accepts\",labelAccessory:FU(Sp,{content:`Keybinding: ${Ona}`,placement:\"top\",ch",
+    "glass": "Accept the next word of a suggestion via ${u}`,label:\"Partial Accepts\",labelAccessory:Oq(zs,{content:`Keybinding: ${Qhs}`,placement:\"top\",ch"
+  },
+  {
+    "needle": "Whitespace-Only Suggestions",
+    "desktop": "Whitespace-Only Suggestions\",children:FU(pb,{checked:s.cppShowWhitespaceOnlyChanges===!0,onCheckedChange:U=>{t.setApplicationUserPersistentS",
+    "glass": "Whitespace-Only Suggestions\",children:Oq(jf,{checked:s.cppShowWhitespaceOnlyChanges===!0,onCheckedChange:O=>{e.setApplicationUserPersistentS"
+  },
+  {
+    "needle": "Automatically import necessary modules",
+    "desktop": "Automatically import necessary modules for ${k}`,label:\"Imports\",children:FU(pb,{checked:y,onCheckedChange:U=>{U||r?.hideShownImport(),t.set",
+    "glass": "Automatically import necessary modules for ${y}`,label:\"Imports\",children:Oq(jf,{checked:_,onCheckedChange:O=>{O||r?.hideShownImport(),e.set"
+  },
+  {
+    "needle": "Ignored Files",
+    "desktop": "Ignored Files\",trailingStyle:oPy.patternField,children:FU(tPy,{ariaLabel:\"Ignored Files\",elementName:\"pattern\",elements:I,onChange:U=>{t.set",
+    "glass": "Ignored Files\",trailingStyle:Dzg.patternField,children:Oq(Pmk,{ariaLabel:\"Ignored Files\",elementName:\"pattern\",elements:C,onChange:O=>{e.set"
+  },
+  {
+    "needle": "View included files",
+    "desktop": "View included files.\"})]}),label:\"Ignore Files in .cursorignore\",searchAliases:[\"cursorignore\",\"ignore\",\"exclude\"],children:zR(Yr,{onClick:B",
+    "glass": "View included files.\"})]}),label:\"Ignore Files in .cursorignore\",searchAliases:[\"cursorignore\",\"ignore\",\"exclude\"],children:WL(An,{onClick:N"
+  },
+  {
+    "needle": "Hierarchical Cursor Ignore",
+    "desktop": "Hierarchical Cursor Ignore\",searchAliases:u,children:m}),e[10]=i,e[11]=l,e[12]=m,e[13]=g):g=e[13];const f=`Use with caution. Skip symlinks d",
+    "glass": "Hierarchical Cursor Ignore\",searchAliases:u,children:h}),t[10]=i,t[11]=c,t[12]=h,t[13]=p):p=t[13];const g=`Use with caution. Skip symlinks d"
+  },
+  {
+    "needle": "Apply .cursorignore files to all subdirectories",
+    "desktop": "Apply .cursorignore files to all subdirectories${i?\" (controlled by admin)\":\"\"}. Changing this setting requires restarting Cursor.`;let u;e[",
+    "glass": "Apply .cursorignore files to all subdirectories${i?\" (controlled by admin)\":\"\"}. Changing this setting requires restarting Cursor.`;let u;t["
+  },
+  {
+    "needle": "Use with caution. Skip symlinks",
+    "desktop": "Use with caution. Skip symlinks during .cursorignore file discovery. Enable only when all .cursorignore files are reachable without symlinks",
+    "glass": "Use with caution. Skip symlinks during .cursorignore file discovery. Enable only when all .cursorignore files are reachable without symlinks"
+  },
+  {
+    "needle": "By default, get notifications for stable updates",
+    "desktop": "By default, get notifications for stable updates. In Early Access, pre-release builds may be unstable for production work.\",e[35]=Z,e[36]=L,",
+    "glass": "By default, get notifications for stable updates. In Early Access, pre-release builds may be unstable for production work.\",t[35]=V,t[36]=A,"
+  },
+  {
+    "needle": "On Home",
+    "desktop": null,
+    "glass": null
+  },
+  {
+    "needle": "Open IDE",
+    "desktop": null,
+    "glass": "Open IDE\",icon:\"window\",glassCategory:\"Workspace\",keywords:[\"open\",\"new\",\"editor\",\"window\",\"ide\",\"cursor\",\"workspace\",\"classic\"],f1:!0,keybi"
+  },
+  {
+    "needle": "New Browser",
+    "desktop": "New Browser Tab\"),category:Hn.View,f1:!0,precondition:Vbt,keybinding:{primary:ke.CtrlCmd|he.KeyT,weight:500,when:Bv.isEqualTo(X_.EditorID)}}",
+    "glass": "New Browser Tab\"),category:Ni.View,f1:!0,precondition:j$t,keybinding:{primary:at.CtrlCmd|Ue.KeyT,weight:500,when:z6.isEqualTo(xS.EditorID)}}"
+  },
+  {
+    "needle": "View License",
+    "desktop": "View License\"),mnemonicTitle:S(3015,null)},category:Hn.Help,f1:!0,menu:{id:Te.MenubarHelpMenu,group:\"4_legal\",order:1}})}run(t){const n=t.ge",
+    "glass": "View License\"),mnemonicTitle:M(3015,null)},category:Ni.Help,f1:!0,menu:{id:Rt.MenubarHelpMenu,group:\"4_legal\",order:1}})}run(e){const n=e.ge"
+  },
+  {
+    "needle": "Agents Window Button",
+    "desktop": null,
+    "glass": null
+  },
+  {
+    "needle": "Command Palette › Experimental",
+    "desktop": null,
+    "glass": null
+  },
+  {
+    "needle": "Editor Large File Confirmation",
+    "desktop": null,
+    "glass": null
+  },
+  {
+    "needle": "Activity Bar: Orientation",
+    "desktop": null,
+    "glass": null
+  }
+]

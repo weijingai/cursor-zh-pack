@@ -51,7 +51,7 @@ for (const [moduleId, strings] of Object.entries(catalog.modules)) {
 const pkg = readJson("package.json", { version: "0.1.0" });
 const pack = {
   "": [
-    "Private Simplified Chinese overlay for Cursor.",
+    "Cursor Language for Chinese (Simplified)",
     "Install together with MS-CEINTL.vscode-language-pack-zh-hans for VS Code UI.",
   ],
   version: pkg.version,

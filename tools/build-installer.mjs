@@ -36,6 +36,10 @@ fs.copyFileSync("payload/hardcoded-zh.json", path.join(outDir, "payload", "hardc
 fs.copyFileSync("payload/hardcoded-ui.json", path.join(outDir, "payload", "hardcoded-ui.json"));
 fs.copyFileSync("payload/hardcoded-context.json", path.join(outDir, "payload", "hardcoded-context.json"));
 fs.copyFileSync("payload/cursor-zh-ui.js", path.join(outDir, "payload", "cursor-zh-ui.js"));
+fs.copyFileSync("payload/git-nls-zh.json", path.join(outDir, "payload", "git-nls-zh.json"));
+if (fs.existsSync("installer/restart-now.cmd")) {
+  copyCmd("installer/restart-now.cmd", path.join(outDir, "restart-now.cmd"));
+}
 
 const readme = fs
   .readFileSync("installer/README.txt", "utf8")

@@ -1,0 +1,37 @@
+[
+  {
+    "needle": "title:\"Editor Settings\"",
+    "found": false,
+    "snippet": ""
+  },
+  {
+    "needle": "title:\"Cursor Account\"",
+    "found": false,
+    "snippet": ""
+  },
+  {
+    "needle": "title:\"Privacy\"",
+    "found": true,
+    "snippet": "title:\"Privacy\",children:[FV(Sv,{bodyStyle:YTp.privacyCardBody,children:c_e(ks.Root,{accessibleLabel:\"Privacy\",children:[FV(ks.Entry,{description:j,label:W,labelAccessory:f?FV(yR,{"
+  },
+  {
+    "needle": "label:\"Default Model\"",
+    "found": true,
+    "snippet": "label:\"Default Model\",searchAliases:ee,children:oM(pT,{onValueChange:Q,options:ne,placement:\"bottom-end\",value:ie})}),t[24]=Q,t[25]=ie,t[26]=se):se=t[26];let ce;t[27]!==B||t[28]!=="
+  },
+  {
+    "needle": "title:\"Context and Tools\"",
+    "found": true,
+    "snippet": "title:\"Context and Tools\",children:HLy(ks.Root,{accessibleLabel:\"Context and Tools\",children:[I,A,P,B,U]})}),t[38]=B,t[39]=U,t[40]=I,t[41]=A,t[42]=P,t[43]=H):H=t[43],H}function GLy"
+  },
+  {
+    "needle": "title:\"Inline Diffs\"",
+    "found": false,
+    "snippet": ""
+  },
+  {
+    "needle": "title:\"Auto-Run\"",
+    "found": false,
+    "snippet": ""
+  }
+]

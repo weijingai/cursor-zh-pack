@@ -1,0 +1,452 @@
+[
+  {
+    "moduleId": "vs/editor/contrib/gotoSymbol/browser/peek/referencesWidget",
+    "key": "label.composer",
+    "source": "Open in Chat",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/actions/layoutActions",
+    "key": "minimizeChatSize",
+    "source": "Minimize Chat",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/actions/layoutActions",
+    "key": "maximizeChatSizeDescription",
+    "source": "Maximize Chat Size - hides editor, panel, and primary sidebar to focus on AI agent",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/actions/layoutActions",
+    "key": "toggleInlineDiffsDescription",
+    "source": "Toggle visibility of inline diffs in the editor",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/actions/layoutActions",
+    "key": "toggleUnifiedSideBar",
+    "source": "Toggle Agents Side Bar",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/actions/layoutActions",
+    "key": "openLayoutSettingsMenu",
+    "source": "Open Layout Settings Menu",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/actions/layoutActions",
+    "key": "miToggleZenMode",
+    "source": "Zen Mode",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/actions/layoutActions",
+    "key": "maximizeChatSize",
+    "source": "Maximize Chat Size",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/actions/layoutActions",
+    "key": "toggleInlineDiffs",
+    "source": "Toggle Inline Diffs",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/actions/layoutActions",
+    "key": "openAgentLayoutQuickMenu",
+    "source": "Open Cursor Settings",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/actions/layoutActions",
+    "key": "openLayoutSwitcher",
+    "source": "Switch Layout",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/actions/layoutActions",
+    "key": "toggleZenMode",
+    "source": "Toggle Zen Mode",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/menubarControl",
+    "key": "mFile",
+    "source": "&&File",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/menubarControl",
+    "key": "mEdit",
+    "source": "&&Edit",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/menubarControl",
+    "key": "mSelection",
+    "source": "&&Selection",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/menubarControl",
+    "key": "mView",
+    "source": "&&View",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/menubarControl",
+    "key": "mTerminal",
+    "source": "&&Terminal",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/menubarControl",
+    "key": "mHelp",
+    "source": "&&Help",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/menubarControl",
+    "key": "mPreferences",
+    "source": "Preferences",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarActions",
+    "key": "toggle.agentsWindow",
+    "source": "Agents Window Button",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarActions",
+    "key": "toggle.agentsWindowDescription",
+    "source": "Toggle visibility of the Agents Window button in the title bar",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarActions",
+    "key": "toggle.titleBarStyle",
+    "source": "Restore Native Title Bar",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "ariaLabelLeftTitleActions",
+    "source": "Left title actions",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "ariaLabelNavigationActions",
+    "source": "Navigation actions",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "movePrimarySideBarRight",
+    "source": "Move Side Bar Right",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "movePrimarySideBarLeft",
+    "source": "Move Side Bar Left",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "newAgentShort",
+    "source": "New Agent",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "chatHistoryTitlebarMaximized",
+    "source": "Chat History",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "openAgentsWindowTitlebar",
+    "source": "Open Agents Window",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "ideTitlebarUpdateAction",
+    "source": "Restart to Update",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "moreActionsTitlebarMaximized",
+    "source": "More Actions",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "togglePrimarySidebar",
+    "source": "Toggle Primary Side Bar",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "toggleAgents",
+    "source": "Toggle Agents",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "titlebarOpenCursorSettings",
+    "source": "Open Cursor Settings",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "cursorSettings",
+    "source": "Cursor Settings",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "goBack",
+    "source": "Go Back",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+    "key": "goForward",
+    "source": "Go Forward",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+    "key": "hideUnifiedSideBar",
+    "source": "Toggle Agents Side Bar",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+    "key": "toggleUnifiedSideBarDescription",
+    "source": "Toggle Agents Side Bar visibility",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+    "key": "toggleAgentsToggled",
+    "source": "Toggle Agents",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+    "key": "toggleAgentsDescription",
+    "source": "Toggle Agents visibility",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+    "key": "toggleUnifiedSideBar",
+    "source": "Toggle Agents Side Bar",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/appLayoutActions",
+    "key": "toggleAgents",
+    "source": "Toggle Agents",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/dumpLayoutAction",
+    "key": "applyLayoutStorageDataTitle",
+    "source": "Apply Layout Storage Data",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/dumpLayoutAction",
+    "key": "applyLayoutStorageDataPrompt",
+    "source": "Paste JSON produced by \"Dump Layout Storage Data\"",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/dumpLayoutAction",
+    "key": "applyLayoutStorageDataInvalidJson",
+    "source": "Invalid JSON: {0}",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/dumpLayoutAction",
+    "key": "applyLayoutStorageDataSuccess",
+    "source": "Applied layout storage data ({0} updated, {1} removed). Some changes may require a window reload to fully reflect.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/dumpLayoutAction",
+    "key": "applyLayoutStorageDataFailed",
+    "source": "Failed to apply layout storage data: {0}",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/dumpLayoutAction",
+    "key": "dumpLayoutStorageData",
+    "source": "Dump Layout Storage Data",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/browser/dumpLayoutAction",
+    "key": "applyLayoutStorageData",
+    "source": "Apply Layout Storage Data",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/common/agentsWindowOrFocusMenuRegistrations",
+    "key": "cursor.agentsWindowNew",
+    "source": "New Agents Window",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/common/agentsWindowOrFocusMenuRegistrations",
+    "key": "cursor.agentsWindowSwitchTo",
+    "source": "Switch to {0}",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+    "key": "switchToModelSlug.noAgentsWindow",
+    "source": "Couldn't open the Agents window to switch the model. Open the Agents window and try again.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+    "key": "switchToModelSlug.agentsWindowRoutingFailed",
+    "source": "Couldn't switch the model in the Agents window. Try again.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+    "key": "cursor.newAgentsWindow",
+    "source": "New Agents Window",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+    "key": "cursor.newAdditionalAgentsWindowDev",
+    "source": "Developer: New Additional Agents Window",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+    "key": "cursor.switchToNamedWindow",
+    "source": "Switch to {0}",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+    "key": "cursor.openOrFocusNamedWindow",
+    "source": "Open or Focus {0}",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+    "key": "cursor.openOrFocusEditorWindow",
+    "source": "Open or Focus IDE",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+    "key": "cursor.openGlassAndSwitchModelSlug",
+    "source": "Open Glass and Switch Model",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+    "key": "cursor.openGlassAndChangeToMultitask",
+    "source": "Open Glass and Change to Multitask",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+    "key": "cursor.openGlassAndStartCloudAgent",
+    "source": "Open Agents Window and Start Cloud Agent",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/codeEditor/browser/emptyTextEditorHint/emptyTextEditorHint",
+    "key": "message",
+    "source": "[[Press {0} to generate code.]] Start typing to dismiss.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/codeEditor/browser/emptyTextEditorHint/emptyTextEditorHint",
+    "key": "defaultHintAriaLabel",
+    "source": "Execute {0} to select a language, execute {1} to fill with template, or execute {2} to open a different editor and get started. Start typing to dismiss.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/codeEditor/browser/saveParticipants",
+    "key": "skip",
+    "source": "Skip",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/codeEditor/browser/toggleRenderWhitespace",
+    "key": "miToggleRenderWhitespace",
+    "source": "&&Render Whitespace",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/codeEditor/electron-sandbox/selectionClipboard",
+    "key": "actions.pasteSelectionClipboard",
+    "source": "Paste Selection Clipboard",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/codeEditor/electron-sandbox/startDebugTextMate",
+    "key": "startDebugTextMate",
+    "source": "Start TextMate Syntax Grammar Logging",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/preferences.contribution",
+    "key": "miOpenVSCodeSettings",
+    "source": "&&VS Code Settings",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/preferences/browser/preferences.contribution",
+    "key": "vsCodeSettings",
+    "source": "VS Code Settings",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/ui/browser/buttons/IdeTitlebarUpdateButton",
+    "key": "ideTitlebarUpdateButton.tooltip",
+    "source": "Restart Cursor to install the pending update.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/ui/browser/buttons/IdeTitlebarUpdateButton",
+    "key": "ideTitlebarUpdateButton.tooltipWithVersion",
+    "source": "Restart Cursor to install the pending update to {0}.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/ui/browser/buttons/IdeTitlebarUpdateButton",
+    "key": "ideTitlebarUpdateButton.installingTooltip",
+    "source": "Installing update — Cursor will close and reopen automatically.",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/ui/browser/buttons/IdeTitlebarUpdateButton",
+    "key": "ideTitlebarUpdateButton.label",
+    "source": "Update",
+    "zh": null
+  },
+  {
+    "moduleId": "vs/workbench/contrib/ui/browser/buttons/IdeTitlebarUpdateButton",
+    "key": "ideTitlebarUpdateButton.installingLabel",
+    "source": "Installing",
+    "zh": null
+  }
+]

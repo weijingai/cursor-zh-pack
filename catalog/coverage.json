@@ -1,6 +1,6 @@
 {
-  "translated": 740,
-  "fromOverlay": 281,
+  "translated": 1265,
+  "fromOverlay": 806,
   "fromRecovered": 459,
   "missing": 18,
   "rejected": 0,
@@ -45,6 +45,7 @@
     "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#teamContentDashboard",
     "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#openDashboard",
     "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#noWorkspaceForProjectRule",
-    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#createRuleFailed"
+    "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab#createRuleFailed",
+    "vs/workbench/browser/parts/titlebar/menubarControl#mRun"
   ]
 }

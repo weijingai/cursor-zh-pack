@@ -1,0 +1,33 @@
+{
+  "name": "cursor-language-zh-cn",
+  "displayName": "Cursor Language for Chinese (Simplified)",
+  "description": "%description%",
+  "version": "0.1.0",
+  "publisher": "cursor-zh",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Language Packs"],
+  "keywords": ["cursor", "i18n", "zh-cn", "chinese", "language pack"],
+  "capabilities": {
+    "untrustedWorkspaces": { "supported": true },
+    "virtualWorkspaces": true
+  },
+  "contributes": {
+    "localizations": [
+      {
+        "languageId": "zh-cn",
+        "languageName": "Chinese (Simplified)",
+        "localizedLanguageName": "中文(简体)",
+        "translations": [
+          {
+            "id": "vscode",
+            "path": "./translations/main.i18n.json"
+          }
+        ]
+      }
+    ]
+  }
+}

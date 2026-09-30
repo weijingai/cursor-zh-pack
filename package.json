@@ -1,10 +1,10 @@
 {
   "name": "cursor-zh-pack",
-  "version": "0.1.0",
-  "private": true,
-  "license": "UNLICENSED",
+  "version": "0.2.0",
+  "private": false,
+  "license": "MIT",
   "type": "module",
-  "description": "Private Simplified Chinese overlay and installer for Cursor-specific UI (Settings, Agents Window, menus).",
+  "description": "Simplified Chinese overlay and installer for Cursor-specific UI (Settings, Agents Window, menus).",
   "author": "weijingai",
   "homepage": "https://github.com/weijingai/cursor-zh-pack",
   "repository": {
@@ -25,7 +25,8 @@
     "extract": "node tools/extract-cursor-modules.mjs",
     "recover": "node tools/recover-official.mjs",
     "review": "node tools/review.mjs",
-    "assemble": "node tools/assemble.mjs",
+    "assemble": "node tools/assemble.mjs && node tools/build-language-pack.mjs",
+    "build-language-pack": "node tools/build-language-pack.mjs",
     "sync-hardcoded": "node tools/sync-hardcoded.mjs",
     "deploy": "node installer/lib/zh-pack.cjs install --payload translations/main.i18n.json",
     "restore": "node installer/lib/zh-pack.cjs uninstall",
@@ -42,6 +43,7 @@
     "translations",
     "glossary",
     "catalog",
+    "docs",
     "README.md",
     "LICENSE",
     "CHANGELOG.md"

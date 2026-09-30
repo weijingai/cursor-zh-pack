@@ -1,0 +1,423 @@
+{
+  "extractedAt": "2026-09-28T10:02:07.514Z",
+  "hits": {
+    "workbench.desktop.main.js": {
+      "Rules, Skills, Subagents": [
+        "\"},wGb={docs:\"https://cursor.com/docs\",contact:\"mailto:hi@cursor.com\"},kGb=()=>\"Rules, Skills, Subagents\",y$o={general:\"General\",profile:\"Profile\",\"vscode-settings\":\"VS Code Settings\",appearance:\"Appearance\",fun:\"Fun\",\"plan-",
+        "wser:\"Browser & Network\",tab:\"Tab\",models:\"Models\",\"git-prs\":\"Git & PRs\",rules:\"Rules, Skills, Subagents\",plugins:\"Plugins\",customize:\"Customize\",indexing:\"Indexing\",mcp:\"Tools & MCPs\",hooks:\"Hooks\",beta:\"Beta\",network:\"Netw",
+        ".get(OE).requestFocusSettingsSearch()}},Kor.ID=DUr,Kor));var LGb={...y$o,rules:\"Rules, Skills, Subagents\"};function NGb(e){const t=`Cursor Settings: ${LGb[e]}`;We(class extends ct{constructor(){super({id:`aiSettings.action.o"
+      ],
+      "Plan & Usage": [
+        "de-settings\":\"VS Code Settings\",appearance:\"Appearance\",fun:\"Fun\",\"plan-usage\":\"Plan & Usage\",chat:\"Agents\",browser:\"Browser & Network\",tab:\"Tab\",models:\"Models\",\"git-prs\":\"Git & PRs\",rules:\"Rules, Skills, Subage",
+        "|t[115]!==Jt||t[116]!==Pt||t[117]!==on?(Nn=f7y(mse,{legacyScrollGutter:n,title:\"Plan & Usage\",children:[qt,Jt,Pt,on]}),t[113]=n,t[114]=qt,t[115]=Jt,t[116]=Pt,t[117]=on,t[118]=Nn):Nn=t[118],Nn}dY();import{jsx as P"
+      ],
+      "Browser & Network": [
+        "rance:\"Appearance\",fun:\"Fun\",\"plan-usage\":\"Plan & Usage\",chat:\"Agents\",browser:\"Browser & Network\",tab:\"Tab\",models:\"Models\",\"git-prs\":\"Git & PRs\",rules:\"Rules, Skills, Subagents\",plugins:\"Plugins\",customize:\"Customiz"
+      ],
+      "Tools & MCPs": [
+        "ls, Subagents\",plugins:\"Plugins\",customize:\"Customize\",indexing:\"Indexing\",mcp:\"Tools & MCPs\",hooks:\"Hooks\",beta:\"Beta\",network:\"Network\",\"background-composer\":\"Cloud Agents\",\"grok-bot\":\"Grok Bot\",\"self-driving\":"
+      ],
+      "Self-Driving PRs": [
+        "ork\",\"background-composer\":\"Cloud Agents\",\"grok-bot\":\"Grok Bot\",\"self-driving\":\"Self-Driving PRs\",worktrees:\"Worktrees\",developer:\"Developer\"},Dop=e=>e.isGlass?\"Code Intelligence\":\"Indexing\",CGb=e=>({...y$o,rules:kGb",
+        "e[7]=u,e[8]=h,e[9]=m):m=e[9];let g;return e[10]!==l||e[11]!==m?(g=u3(Sv,{title:\"Self-Driving PRs\",children:$$n(\"div\",{className:\"glass-78zum5 glass-dt5ytf glass-1cy8zhl glass-ehausa glass-t9g0qb glass-g31tg3 glass-20",
+        ":\"ring\"}):null,e[13]=i,e[14]=s):s=e[14];let o;return e[15]!==s?(o=u3(Sv,{title:\"Self-Driving PRs\",children:u3(\"div\",{className:\"glass-78zum5 glass-cyd1wt glass-6s0dn4 glass-l56j7k glass-19aaqeu\",children:s})}),e[15]="
+      ],
+      "Cloud Agents": [
+        "n\",description:L.length>0?\"All associated plugins will be removed for users and Cloud Agents.\":\"This removes the marketplace and its access settings; the repository isn't affected.\"}),PAe(Cd.Footer,{children:[QT(",
+        "s you're removing from the marketplace will no longer be available to users and Cloud Agents that rely on them.\"}),t[3]=l,t[4]=f):f=t[4];let v;t[5]!==c||t[6]!==r?(v=LAi(Yr,{variant:\"text\",size:\"lg\",onClick:r,disa",
+        ":{},...n?{scmFailureReason:n}:{}}}function Ltv(e){switch(e){case\"Upgrade to run Cloud Agents\":return\"cloud_agent_pro_trial_denied\";case\"Upgrade to Ultra for more Cloud Agents\":return\"cloud_agent_plan_limit\";defau"
+      ],
+      "Code Intelligence": [
+        "elf-Driving PRs\",worktrees:\"Worktrees\",developer:\"Developer\"},Dop=e=>e.isGlass?\"Code Intelligence\":\"Indexing\",CGb=e=>({...y$o,rules:kGb(),indexing:Dop(e)}),TGb=[[\"vscode-settings\"],[\"appearance\"],[\"background-composer"
+      ],
+      "Meet the new Agents Window": [
+        "d 0,a:void 0}),l})()},get children(){return ue(n1p,{layout:\"stacked\",ariaLabel:\"Meet the new Agents Window\",title:\"Meet the new Agents Window\",get description(){return ue(vt,{get when(){return r()},get fallback(){return\"Run ma",
+        "){return ue(n1p,{layout:\"stacked\",ariaLabel:\"Meet the new Agents Window\",title:\"Meet the new Agents Window\",get description(){return ue(vt,{get when(){return r()},get fallback(){return\"Run many agents in parallel \\u2014 across"
+      ],
+      "Search Cursor Settings": [],
+      "Search settings": [
+        "mary)\"),it.style.setProperty(\"border-radius\",\"6px\"),En(()=>Kr(it,\"placeholder\",`Search settings ${U()}`)),En(()=>it.value=y()),Qe}}),Lt),xe(Lt,ue(vt,{get when(){return T()},get children(){return ue(Hp,{get each(){re"
+      ],
+      "Search agents": [
+        "ata-component\":\"menu-search-row\",role:\"none\",children:xk(\"input\",{\"aria-label\":\"Search agents\",className:\"compact-agent-history-search-input\",onChange:ee,onClick:Q,onKeyDown:ne,placeholder:\"Search Agents...\",ref:P"
+      ],
+      "No matching settings": [],
+      "No agents found": [],
+      "No agents yet": [
+        "){return f()},get fallback(){return(()=>{var P=cAb();return xe(P,ue(JIb,{title:\"No agents yet\",description:\"Create an agent to start working on tasks\",actionTitle:\"New Agent\",action:l})),P})()},get children(){var "
+      ],
+      "No matching agents": [
+        ":\"Search Agents...\",ref:P,type:\"text\",value:v})}),Z?xk(il.EmptyState,{children:\"No matching agents\"}):cqt(WXh,{children:[be.map((_e,Ae)=>xk(il.Section,{noDivider:Ae===0,title:_e.label,children:_e.entries.map(Ee=>xk(il."
+      ],
+      "Import Settings from VS Code": [
+        "{description:\"Import settings, extensions, and keybindings from VS Code\",label:\"Import Settings from VS Code\",searchAliases:h,children:_Le(Owe.Root,{onOpenChange:r,open:i,children:[v,k]})}),e[16]=i,e[17]=v,e[18]=k,e[19]=T):T=e[1",
+        "scription:\"Configure keyboard shortcuts\"}),jc(\"general\",\"import-vscode\",{label:\"Import Settings from VS Code\",surface:\"ide\",description:\"Import settings, extensions, and keybindings from VS Code\"}),jc(\"general\",\"reset-dialogs\",{"
+      ],
+      "Open Agents Window on Startup": [],
+      "Switch to Agents Window": [
+        "sSettingsBanner:s,handleGlassSettingsBannerClick:o}=MRy({isGlass:n}),a=()=>r()?\"Switch to Agents Window\":\"Try it now\",c=l=>{(l.key===\"Enter\"||l.key===\" \")&&(l.preventDefault(),o())};return ue(vt,{get when(){return i()},get ",
+        "d:uJ,title:Ce(4782,\"Switch to {0}\",WMn),category:Hn.View,metadata:{description:\"Switch to Agents Window (Glass)\"}},glassPresenceExpr:jOp,menuExtra:{group:\"1_new\",order:3.5}}];function qOp(e){for(const t of sgS)Dn.appendMenu",
+        "p.ID,title:Ce(4787,\"Switch to {0}\",WMn),category:Hn.View,metadata:{description:\"Switch to Agents Window (Glass)\"},f1:!1,precondition:jOp})}async run(t){await Jda(t,{startupHandoff:!1,source:\"ide_switch_to_agents_window_acti"
+      ],
+      "Use in Agents Window": [
+        "bel(){return Cr(()=>!!i())()?h():void 0},get secondaryActionLabel(){return m()?\"Use in Agents Window\":void 0},get title(){return o()},truncate:!0})}function k5h(e){const n=Ji().usageLimitPolicyStatusService;let i=!1;Gc(("
+      ],
+      "Jump back to the Agents Window": [
+        "llel \\u2014 across repos, locally, on remote SSH, and in the cloud.\"},children:\"Jump back to the Agents Window to keep working across repos.\"})},get action(){return{label:a(),onClick:o}},onDismiss:s})}})}})}Le(),Le(),Le(),Le(),Le("
+      ],
+      "Run many agents in parallel": [
+        "w\",get description(){return ue(vt,{get when(){return r()},get fallback(){return\"Run many agents in parallel \\u2014 across repos, locally, on remote SSH, and in the cloud.\"},children:\"Jump back to the Agents Window to keep worki"
+      ],
+      "Try it now": [
+        "assSettingsBannerClick:o}=MRy({isGlass:n}),a=()=>r()?\"Switch to Agents Window\":\"Try it now\",c=l=>{(l.key===\"Enter\"||l.key===\" \")&&(l.preventDefault(),o())};return ue(vt,{get when(){return i()},get children(){re"
+      ],
+      "Close Settings": [],
+      "About Cursor": [],
+      "Marketplace Settings": [
+        "1yf7rl7 ui-at24cr ui-j3b58b ui-exx8yu ui-y13l1i ui-18d9i69 ui-163pfp\",children:\"Marketplace Settings\"}),X&&QT(\"p\",{...Pn(jBt),children:X}),PAe(\"div\",{...Pn(WCs),children:[QT(MAe,{className:g,label:\"Marketplace Access\",de"
+      ],
+      "Plugin Settings": [
+        "[15]=y):y=t[15];let k;t[16]!==v||t[17]!==b||t[18]!==y?(k=zwe(lr.Section,{title:\"Plugin Settings\",children:[v,b,y]}),t[16]=v,t[17]=b,t[18]=y,t[19]=k):k=t[19];let T;return t[20]!==k||t[21]!==h||t[22]!==f?(T=zwe(lr,{ch"
+      ],
+      "Network Access Settings": [],
+      "Self-driving Settings": [],
+      "Edit Privacy Settings": [],
+      "New MCP Server": [
+        "e(\"div\",{...gc(Zu.rowText),children:[MI(No,{size:\"md\",color:\"primary\",children:\"New MCP Server\"}),MI(No,{size:\"sm\",color:\"tertiary\",children:\"Add a Custom MCP Server\"})]}),t[1]=s,t[2]=o):(s=t[1],o=t[2]);let a;t[3]!"
+      ],
+      "Add a Custom MCP Server": [
+        "rimary\",children:\"New MCP Server\"}),MI(No,{size:\"sm\",color:\"tertiary\",children:\"Add a Custom MCP Server\"})]}),t[1]=s,t[2]=o):(s=t[1],o=t[2]);let a;t[3]!==r?(a=EZe(\"button\",{type:\"button\",...i,onClick:r,children:[s,o]}),t[3]"
+      ],
+      "Loading settings": [],
+      "Loading team agents": [],
+      "Search agents, Canvas": [],
+      "Open VS Code Settings": [
+        ":\",\"Ask Github Copilot\"],Prp=\"Open Edit (Command K)\",xor=\"Cursor Settings\",Lrp=\"Open VS Code Settings\",Ior=[\"Open Browser\"],Wve=class extends qQ{constructor(e,t,n,i,r){super(Wve.PREFIX,e),this.instantiationService=t,this."
+      ],
+      "Open Composer Settings": [
+        "tion\",run:()=>{e.setPosition(null)}},new Lc,{id:\"open-composer-settings\",label:\"Open Composer Settings\",tooltip:\"Open Composer Settings\",enabled:!0,class:\"open-composer-settings\",run:()=>{t.commandService.executeCommand(uD",
+        ")}},new Lc,{id:\"open-composer-settings\",label:\"Open Composer Settings\",tooltip:\"Open Composer Settings\",enabled:!0,class:\"open-composer-settings\",run:()=>{t.commandService.executeCommand(uD,\"chat\",\"cursor-settings-chat-com"
+      ],
+      "Focus AI Settings Search": [
+        "Bmc,zor)),We((Kor=class extends ct{constructor(){super({id:Kor.ID,title:{value:\"Focus AI Settings Search\",original:\"Focus AI Settings Search\"},f1:!1,keybinding:{when:Pop.isEqualTo(!0),primary:ke.CtrlCmd|he.KeyF,weight:401}})",
+        "onstructor(){super({id:Kor.ID,title:{value:\"Focus AI Settings Search\",original:\"Focus AI Settings Search\"},f1:!1,keybinding:{when:Pop.isEqualTo(!0),primary:ke.CtrlCmd|he.KeyF,weight:401}})}run(e){e.get(OE).requestFocusSettin"
+      ],
+      "Manage Settings": [
+        "itHub/GitLab, manage team and user settings, and configure environments\",label:\"Manage Settings\",searchAliases:f,children:C$n(Yr,{onClick:v,rootStyle:g1t.legacyTertiaryButton,size:\"md\",variant:\"outline\",children:[\"O"
+      ],
+      "Cursor Settings": [
+        "to-keep to have changes be updated automatically. You can also do this later in Cursor Settings.\",[{label:\"Enable auto-keep\",run:()=>{e.diffDecorationVisibilityService.setNoInlineDiffsSetting(!0)}}])}}function B4s(e",
+        "ed\",Y7i=\"This server connects from Cursor's servers. Sign in and manage it from Cursor Settings.\",IDn=\"Checking where this server runs\\u2026\",tOd=3e4,nOd=5*6e4,iOd=\"mcp.hosted_placement.snapshot\",rOd=new Set([\"poll\"",
+        "var DLh=class B6p extends ct{constructor(){super({id:B6p.ID,title:Ce(3111,\"Open Cursor Settings\"),icon:Ie.settingsGear,f1:!1})}async run(t){await t.get(On).executeCommand(uD)}};DLh.ID=\"workbench.action.openAgentLayo"
+      ],
+      "vscode-settings": [
+        "metadata\",e.vscodeInteractiveInput=\"vscode-interactive-input\",e.vscodeSettings=\"vscode-settings\",e.vscodeWorkspaceTrust=\"vscode-workspace-trust\",e.vscodeTerminal=\"vscode-terminal\",e.terminal=\"terminal\",e.vscodeChatC",
+        "d,var(--vscode-dropdown-background))} .cursor-ui-13qktax{background-color:var(--vscode-settings-dropdownBorder,var(--vscode-widget-border))} .cursor-ui-20rimb{background-color:var(--vscode-sideBar-background)} .curs",
+        "-content\",class:\"ya-solid-dropdown-menu\",style:{gap:0,\"background-color\":\"var(--vscode-settings-dropdownBackground)\",border:\"1px solid var(--vscode-commandCenter-inactiveBorder)\",\"border-radius\":\"3px\",\"min-width\":\"4"
+      ],
+      "instantGrep": [
+        "equest context is ${this._enabled?\"enabled\":\"disabled\"} (killswitchActive=${r}, instantGrepEnabled=${s}, indexingGrepEnabled=${o}, agentHostEnabled=${c}, agentHostForcePush=${l})`)}getPushRequestContextEnabled()"
+      ],
+      "newAgentShort": [],
+      "openLayoutSettingsMenu": [
+        "run(t,n){n&&(n.preventDefault(),n.stopPropagation())}};RLh.ID=\"workbench.action.openLayoutSettingsMenu\";var Wer=RLh;We(Wer);var DLh=class B6p extends ct{constructor(){super({id:B6p.ID,title:Ce(3111,\"Open Cursor Settings\"),"
+      ],
+      "firstSteerNoticeOpenSettings": []
+    },
+    "workbench.glass.main.js": {
+      "Rules, Skills, Subagents": [
+        "[[\"background-composer\",\"https://cursor.com/dashboard/cloud-agents\"]]),V8g=()=>\"Rules, Skills, Subagents\",QEi={general:\"General\",profile:\"Profile\",\"vscode-settings\":\"VS Code Settings\",appearance:\"Appearance\",fun:\"Fun\",\"plan-",
+        "wser:\"Browser & Network\",tab:\"Tab\",models:\"Models\",\"git-prs\":\"Git & PRs\",rules:\"Rules, Skills, Subagents\",plugins:\"Plugins\",customize:\"Customize\",indexing:\"Indexing\",mcp:\"Tools & MCPs\",hooks:\"Hooks\",beta:\"Beta\",network:\"Netw",
+        ".get($b).requestFocusSettingsSearch()}},hMs.ID=Ivo,hMs));var MAC={...QEi,rules:\"Rules, Skills, Subagents\"};function DAC(t){const e=`Cursor Settings: ${MAC[t]}`;Lt(class extends en{constructor(){super({id:`aiSettings.action.o"
+      ],
+      "Plan & Usage": [
+        "de-settings\":\"VS Code Settings\",appearance:\"Appearance\",fun:\"Fun\",\"plan-usage\":\"Plan & Usage\",chat:\"Agents\",browser:\"Browser & Network\",tab:\"Tab\",models:\"Models\",\"git-prs\":\"Git & PRs\",rules:\"Rules, Skills, Subage",
+        "||e[115]!==dt||e[116]!==gt||e[117]!==vt?(Et=LCk(RW,{legacyScrollGutter:n,title:\"Plan & Usage\",children:[lt,dt,gt,vt]}),e[113]=n,e[114]=lt,e[115]=dt,e[116]=gt,e[117]=vt,e[118]=Et):Et=e[118],Et}var WQg,GQg,zQg=L({\""
+      ],
+      "Browser & Network": [
+        "rance:\"Appearance\",fun:\"Fun\",\"plan-usage\":\"Plan & Usage\",chat:\"Agents\",browser:\"Browser & Network\",tab:\"Tab\",models:\"Models\",\"git-prs\":\"Git & PRs\",rules:\"Rules, Skills, Subagents\",plugins:\"Plugins\",customize:\"Customiz"
+      ],
+      "Tools & MCPs": [
+        "ls, Subagents\",plugins:\"Plugins\",customize:\"Customize\",indexing:\"Indexing\",mcp:\"Tools & MCPs\",hooks:\"Hooks\",beta:\"Beta\",network:\"Network\",\"background-composer\":\"Cloud Agents\",\"grok-bot\":\"Grok Bot\",\"self-driving\":"
+      ],
+      "Self-Driving PRs": [
+        "ork\",\"background-composer\":\"Cloud Agents\",\"grok-bot\":\"Grok Bot\",\"self-driving\":\"Self-Driving PRs\",worktrees:\"Worktrees\",developer:\"Developer\"},n1l=t=>t.isGlass?\"Code Intelligence\":\"Indexing\",K8g=t=>({...QEi,rules:V8g",
+        "t[7]=u,t[8]=d,t[9]=h):h=t[9];let p;return t[10]!==c||t[11]!==h?(p=b7(rf,{title:\"Self-Driving PRs\",children:vIi(\"div\",{className:\"glass-78zum5 glass-dt5ytf glass-1cy8zhl glass-ehausa glass-t9g0qb glass-g31tg3 glass-20",
+        ":\"ring\"}):null,t[13]=i,t[14]=s):s=t[14];let o;return t[15]!==s?(o=b7(rf,{title:\"Self-Driving PRs\",children:b7(\"div\",{className:\"glass-78zum5 glass-cyd1wt glass-6s0dn4 glass-l56j7k glass-19aaqeu\",children:s})}),t[15]="
+      ],
+      "Cloud Agents": [
+        "n\",description:A.length>0?\"All associated plugins will be removed for users and Cloud Agents.\":\"This removes the marketplace and its access settings; the repository isn't affected.\"}),G$e(Dr.Footer,{children:[RR(",
+        "s you're removing from the marketplace will no longer be available to users and Cloud Agents that rely on them.\"}),e[3]=c,e[4]=g):g=e[4];let f;e[5]!==l||e[6]!==r?(f=IDr(An,{variant:\"text\",size:\"lg\",onClick:r,disa",
+        ":{},...n?{scmFailureReason:n}:{}}}function fUS(t){switch(t){case\"Upgrade to run Cloud Agents\":return\"cloud_agent_pro_trial_denied\";case\"Upgrade to Ultra for more Cloud Agents\":return\"cloud_agent_plan_limit\";defau"
+      ],
+      "Code Intelligence": [
+        "elf-Driving PRs\",worktrees:\"Worktrees\",developer:\"Developer\"},n1l=t=>t.isGlass?\"Code Intelligence\":\"Indexing\",K8g=t=>({...QEi,rules:V8g(),indexing:n1l(t)}),Y8g=[[\"vscode-settings\"],[\"appearance\"],[\"background-composer"
+      ],
+      "Meet the new Agents Window": [
+        "d 0,a:void 0}),c})()},get children(){return _e(tGg,{layout:\"stacked\",ariaLabel:\"Meet the new Agents Window\",title:\"Meet the new Agents Window\",get description(){return _e(Dt,{get when(){return r()},get fallback(){return\"Run ma",
+        "){return _e(tGg,{layout:\"stacked\",ariaLabel:\"Meet the new Agents Window\",title:\"Meet the new Agents Window\",get description(){return _e(Dt,{get when(){return r()},get fallback(){return\"Run many agents in parallel \\u2014 across"
+      ],
+      "Search Cursor Settings": [
+        "ard});return}r.openPalette({request:{kind:\"experiments\"}})}}),wr({id:Qag,title:\"Search Cursor Settings\",icon:\"search\",glassCategory:\"Settings\",keywords:[\"settings\",\"search\",\"cursor\",\"preferences\",\"find\"],hidden:!0,keybindi"
+      ],
+      "Search settings": [
+        "mary)\"),qe.style.setProperty(\"border-radius\",\"6px\"),Cn(()=>Qs(qe,\"placeholder\",`Search settings ${O()}`)),Cn(()=>qe.value=_()),Se}}),Xe),Re(Xe,_e(Dt,{get when(){return S()},get children(){return _e(Jc,{get each(){re"
+      ],
+      "Search agents": [
+        "ata-component\":\"menu-search-row\",role:\"none\",children:iT(\"input\",{\"aria-label\":\"Search agents\",className:\"compact-agent-history-search-input\",onChange:X,onClick:Q,onKeyDown:J,placeholder:\"Search Agents...\",ref:I,t",
+        "el:ie?\"Go back\":void 0,onIconClick:ie?ge:void 0,placeholder:te.placeholder??(W?\"Search agents...\":z?\"Search files...\":j?\"Search actions...\":q?\"Search Cursor settings\\u2026\":\"Search agents, Canvas, files, actions..",
+        "..\":z?\"Search files...\":j?\"Search actions...\":q?\"Search Cursor settings\\u2026\":\"Search agents, Canvas, files, actions...\"),ref:Te}),!te.render&&A?hd(ctw,{filterMode:y,fromSettings:S,onFilterModeChange:A,scrolled:A"
+      ],
+      "No matching settings": [
+        "eturn e[9]===Symbol.for(\"react.memo_cache_sentinel\")?(w=UPn(Gu.Empty,{children:\"No matching settings\"}),e[9]=w):w=e[9],w}let y;e[10]!==f||e[11]!==b||e[12]!==_?(y=!b&&_?.map(w=>{const C=w.item,T=Asw(w);return Isw(Gu.Item,"
+      ],
+      "No agents found": [
+        "const or=vi.length>0;return G2(Lqe,{children:[rl(or?null:hd(Gu.Empty,{children:\"No agents found\"})),Es?Hi(\"Results\"):null]})}const ks=or=>{switch(or){case\"flattened-commands\":return G2(Lqe,{children:[Vs(),ta()]});ca",
+        "E=_?l$(Ju.GroupEmptyState,{group:_,children:M(\"glass.agentPanel.noAgentsFound\",\"No agents found\")}):null,e[32]=_,e[33]=E):E=e[33];let I;e[34]!==S||e[35]!==n||e[36]!==r||e[37]!==s||e[38]!==a||e[39]!==l?(I=S?l$(Ju.Foo"
+      ],
+      "No agents yet": [
+        "){return g()},get fallback(){return(()=>{var I=DNg();return Re(I,_e($Y1,{title:\"No agents yet\",description:\"Create an agent to start working on tasks\",actionTitle:\"New Agent\",action:c})),I})()},get children(){var ",
+        "AS($ue,{disabled:!0,reserveIconSpace:!0,stylexStyles:GQv,tone:\"muted\",children:\"No agents yet\"})})}),e[137]=Dn,e[138]=j,e[139]=vn,e[140]=y,e[141]=et,e[142]=_s,e[143]=n.headers,e[144]=n.isFilterEmpty,e[145]=p,e[146"
+      ],
+      "No matching agents": [
+        ":\"Search Agents...\",ref:I,type:\"text\",value:f})}),V?iT(Ra.EmptyState,{children:\"No matching agents\"}):iAn(v3g,{children:[ae.map((le,ce)=>iT(Ra.Section,{noDivider:ce===0,title:le.label,children:le.entries.map(ue=>iT(Ra."
+      ],
+      "Import Settings from VS Code": [
+        "{description:\"Import settings, extensions, and keybindings from VS Code\",label:\"Import Settings from VS Code\",searchAliases:d,children:Zze(bL.Root,{onOpenChange:r,open:i,children:[f,y]})}),t[16]=i,t[17]=f,t[18]=y,t[19]=S):S=t[19",
+        "scription:\"Configure keyboard shortcuts\"}),tu(\"general\",\"import-vscode\",{label:\"Import Settings from VS Code\",surface:\"ide\",description:\"Import settings, extensions, and keybindings from VS Code\"}),tu(\"general\",\"reset-dialogs\",{"
+      ],
+      "Open Agents Window on Startup": [
+        "de Transitions\",\"Auto-Accept Web Search\",\"Commit Attribution\",\"PR Attribution\",\"Open Agents Window on Startup\",\"Branch Prefix\",\"Themed Diff Backgrounds\",\"Code Font Size\",\"UI Font Size\",\"Reduce Transparency\",\"Text Size\",\"Font Smoo"
+      ],
+      "Switch to Agents Window": [
+        "sSettingsBanner:s,handleGlassSettingsBannerClick:o}=Ohk({isGlass:n}),a=()=>r()?\"Switch to Agents Window\":\"Try it now\",l=c=>{(c.key===\"Enter\"||c.key===\" \")&&(c.preventDefault(),o())};return _e(Dt,{get when(){return i()},get ",
+        ":qoe,title:wt(4782,\"Switch to {0}\",c_i),category:Ni.View,metadata:{description:\"Switch to Agents Window (Glass)\"}},glassPresenceExpr:gcb,menuExtra:{group:\"1_new\",order:3.5}}];function vcb(t){for(const e of $JT)Ri.appendMenu",
+        "b.ID,title:wt(4787,\"Switch to {0}\",c_i),category:Ni.View,metadata:{description:\"Switch to Agents Window (Glass)\"},f1:!1,precondition:gcb})}async run(e){await Hxc(e,{startupHandoff:!1,source:\"ide_switch_to_agents_window_acti"
+      ],
+      "Use in Agents Window": [
+        "bel(){return Wr(()=>!!i())()?d():void 0},get secondaryActionLabel(){return h()?\"Use in Agents Window\":void 0},get title(){return o()},truncate:!0})}function Deg(t){const n=Or().usageLimitPolicyStatusService;let i=!1;Bc(("
+      ],
+      "Jump back to the Agents Window": [
+        "llel \\u2014 across repos, locally, on remote SSH, and in the cloud.\"},children:\"Jump back to the Agents Window to keep working across repos.\"})},get action(){return{label:a(),onClick:o}},onDismiss:s})}})}})}var oGg,Hhk=L({\"setting"
+      ],
+      "Run many agents in parallel": [
+        "w\",get description(){return _e(Dt,{get when(){return r()},get fallback(){return\"Run many agents in parallel \\u2014 across repos, locally, on remote SSH, and in the cloud.\"},children:\"Jump back to the Agents Window to keep worki"
+      ],
+      "Try it now": [
+        "assSettingsBannerClick:o}=Ohk({isGlass:n}),a=()=>r()?\"Switch to Agents Window\":\"Try it now\",l=c=>{(c.key===\"Enter\"||c.key===\" \")&&(c.preventDefault(),o())};return _e(Dt,{get when(){return i()},get children(){re"
+      ],
+      "Close Settings": [
+        "st U=B;let j;e[17]!==r?(j=()=>{E(),r()},e[17]=r,e[18]=j):j=e[18];const z=j,W=i?\"Close Settings\":\"Settings\";let q;e[19]!==W||e[20]!==o?(q=rV(Io,{shortcut:o,title:W}),e[19]=W,e[20]=o,e[21]=q):q=e[21];let G;e[22]!==i|",
+        "t({type:\"closeConfigurationRequested\"});return}PFk(t,e[0])}}),wr({id:Arl,title:\"Close Settings\",icon:\"close\",glassCategory:\"Settings\",keywords:[\"escape\",\"dismiss\",\"back\"],f1:!1,hidden:!0,keybindingCategory:ua.GENER"
+      ],
+      "About Cursor": [
+        "l show the confirmation again when needed.\")}}),wr({id:\"showAboutCursor\",title:\"About Cursor\",icon:\"compass\",glassCategory:\"Settings\",keywords:[\"about\",\"cursor\",\"version\",\"license\"],f1:!0,menu:{column:Rt.MenubarM",
+        "se\"],f1:!0,menu:{column:Rt.MenubarMainMenu,group:\"0_glassMacApp\",order:0,title:\"About Cursor\",when:see.toNegated()},run:t=>t.get(mBe).about()});var $Jt=see.toNegated();wr({id:\"checkForUpdatesFromGlassMenubar\",tit"
+      ],
+      "Marketplace Settings": [
+        "1yf7rl7 ui-at24cr ui-j3b58b ui-exx8yu ui-y13l1i ui-18d9i69 ui-163pfp\",children:\"Marketplace Settings\"}),z&&RR(\"p\",{...kn(Cbn),children:z}),G$e(\"div\",{...kn(fca),children:[RR(UOe,{className:p,label:\"Marketplace Access\",de"
+      ],
+      "Plugin Settings": [
+        "[15]=_):_=e[15];let y;e[16]!==f||e[17]!==b||e[18]!==_?(y=jOe(un.Section,{title:\"Plugin Settings\",children:[f,b,_]}),e[16]=f,e[17]=b,e[18]=_,e[19]=y):y=e[19];let S;return e[20]!==y||e[21]!==d||e[22]!==g?(S=jOe(un,{ch"
+      ],
+      "Network Access Settings": [
+        "for(\"react.memo_cache_sentinel\")?(me=rZ(Jt,{color:\"primary\",size:\"md\",children:\"Network Access Settings\"}),e[27]=me):me=e[27];let ke;e[28]!==l?(ke=l?rZ(Jt,{color:\"secondary\",size:\"sm\",children:\"Locked by admin\"}):null,e[28]"
+      ],
+      "Self-driving Settings": [
+        ":KYt(Ht,{\"aria-hidden\":!0,name:\"settings-gear\",size:\"sm\"}),onSelect:N,children:\"Self-driving Settings\"})}):null,e[32]=S,e[33]=N,e[34]=G):G=e[34];let V;e[35]!==q||e[36]!==G?(V=Bqf(un.Content,{\"aria-label\":\"Self-Driving Mod"
+      ],
+      "Edit Privacy Settings": [
+        "||t[10]!==o?(p=o?null:F4i(An,{onClick:c,size:\"sm\",variant:\"secondary\",children:\"Edit Privacy Settings\"}),t[9]=c,t[10]=o,t[11]=p):p=t[11];let g;t[12]!==d?(g=F4i(An,{onClick:d,size:\"sm\",variant:\"secondary\",children:\"Learn M"
+      ],
+      "New MCP Server": [
+        "t(\"div\",{...oc(Mh.rowText),children:[eD(Jt,{size:\"md\",color:\"primary\",children:\"New MCP Server\"}),eD(Jt,{size:\"sm\",color:\"tertiary\",children:\"Add a Custom MCP Server\"})]}),e[1]=s,e[2]=o):(s=e[1],o=e[2]);let a;e[3]!"
+      ],
+      "Add a Custom MCP Server": [
+        "rimary\",children:\"New MCP Server\"}),eD(Jt,{size:\"sm\",color:\"tertiary\",children:\"Add a Custom MCP Server\"})]}),e[1]=s,e[2]=o):(s=e[1],o=e[2]);let a;e[3]!==r?(a=ikt(\"button\",{type:\"button\",...i,onClick:r,children:[s,o]}),e[3]"
+      ],
+      "Loading settings": [
+        "glass-13ly8rp glass-1xlntvz glass-19aaqeu glass-1wm8ruf glass-2b8uid\",children:\"Loading settings...\"}):F&&F.length>0?F.map((oe,le)=>iV(_$e,{children:iV($ue,{compact:!0,icon:ZIn[oe.item.tab],isActive:le===W,itemId:`gl"
+      ],
+      "Loading team agents": [
+        "lass-i07v4r glass-2b8uid\",children:zY(Jt,{color:\"secondary\",size:\"sm\",children:\"Loading team agents...\"})}):_.length===0?zY(\"div\",{className:\"glass-78zum5 glass-6s0dn4 glass-l56j7k glass-1shn012 glass-1avjwpx glass-10cf"
+      ],
+      "Search agents, Canvas": [
+        "..\":z?\"Search files...\":j?\"Search actions...\":q?\"Search Cursor settings\\u2026\":\"Search agents, Canvas, files, actions...\"),ref:Te}),!te.render&&A?hd(ctw,{filterMode:y,fromSettings:S,onFilterModeChange:A,scrolled:Ae}):null"
+      ],
+      "Open VS Code Settings": [
+        ":\",\"Ask Github Copilot\"],u3v=\"Open Edit (Command K)\",KPs=\"Cursor Settings\",d3v=\"Open VS Code Settings\",YPs=[\"Open Browser\"],dMe=class extends zUt{constructor(t,e,n,i,r){super(dMe.PREFIX,t),this.instantiationService=e,this"
+      ],
+      "Open Composer Settings": [
+        "tion\",run:()=>{t.setPosition(null)}},new Ph,{id:\"open-composer-settings\",label:\"Open Composer Settings\",tooltip:\"Open Composer Settings\",enabled:!0,class:\"open-composer-settings\",run:()=>{e.commandService.executeCommand(wP",
+        ")}},new Ph,{id:\"open-composer-settings\",label:\"Open Composer Settings\",tooltip:\"Open Composer Settings\",enabled:!0,class:\"open-composer-settings\",run:()=>{e.commandService.executeCommand(wP,\"chat\",\"cursor-settings-chat-com"
+      ],
+      "Focus AI Settings Search": [
+        "P3u,dMs)),Lt((hMs=class extends en{constructor(){super({id:hMs.ID,title:{value:\"Focus AI Settings Search\",original:\"Focus AI Settings Search\"},f1:!1,keybinding:{when:DAn.isEqualTo(!0),primary:at.CtrlCmd|Ue.KeyF,weight:401}})",
+        "onstructor(){super({id:hMs.ID,title:{value:\"Focus AI Settings Search\",original:\"Focus AI Settings Search\"},f1:!1,keybinding:{when:DAn.isEqualTo(!0),primary:at.CtrlCmd|Ue.KeyF,weight:401}})}run(t){t.get($b).requestFocusSettin"
+      ],
+      "Manage Settings": [
+        "itHub/GitLab, manage team and user settings, and configure environments\",label:\"Manage Settings\",searchAliases:g,children:Uxi(An,{onClick:f,rootStyle:fTt.legacyTertiaryButton,size:\"md\",variant:\"outline\",children:[\"O"
+      ],
+      "Cursor Settings": [
+        "to-keep to have changes be updated automatically. You can also do this later in Cursor Settings.\",[{label:\"Enable auto-keep\",run:()=>{t.diffDecorationVisibilityService.setNoInlineDiffsSetting(!0)}}])}}function M1a(t",
+        "ed\",aWr=\"This server connects from Cursor's servers. Sign in and manage it from Cursor Settings.\",Qvi=\"Checking where this server runs\\u2026\",qcm=3e4,Vcm=5*6e4,Kcm=\"mcp.hosted_placement.snapshot\",Ycm=new Set([\"poll\"",
+        "ki),pZa=class emb extends en{constructor(){super({id:emb.ID,title:wt(3111,\"Open Cursor Settings\"),icon:bt.settingsGear,f1:!1})}async run(e){await e.get(er).executeCommand(wP)}},pZa.ID=\"workbench.action.openAgentLayo"
+      ],
+      "vscode-settings": [
+        "metadata\",t.vscodeInteractiveInput=\"vscode-interactive-input\",t.vscodeSettings=\"vscode-settings\",t.vscodeWorkspaceTrust=\"vscode-workspace-trust\",t.vscodeTerminal=\"vscode-terminal\",t.terminal=\"terminal\",t.vscodeChatC",
+        "d,var(--vscode-dropdown-background))} .cursor-ui-13qktax{background-color:var(--vscode-settings-dropdownBorder,var(--vscode-widget-border))} .cursor-ui-20rimb{background-color:var(--vscode-sideBar-background)} .curs",
+        "-content\",class:\"ya-solid-dropdown-menu\",style:{gap:0,\"background-color\":\"var(--vscode-settings-dropdownBackground)\",border:\"1px solid var(--vscode-commandCenter-inactiveBorder)\",\"border-radius\":\"3px\",\"min-width\":\"4"
+      ],
+      "instantGrep": [
+        "equest context is ${this._enabled?\"enabled\":\"disabled\"} (killswitchActive=${r}, instantGrepEnabled=${s}, indexingGrepEnabled=${o}, agentHostEnabled=${l}, agentHostForcePush=${c})`)}getPushRequestContextEnabled()"
+      ],
+      "newAgentShort": [],
+      "openLayoutSettingsMenu": [
+        "run(e,n){n&&(n.preventDefault(),n.stopPropagation())}},hZa.ID=\"workbench.action.openLayoutSettingsMenu\",Oki=hZa,Lt(Oki),pZa=class emb extends en{constructor(){super({id:emb.ID,title:wt(3111,\"Open Cursor Settings\"),icon:bt."
+      ],
+      "firstSteerNoticeOpenSettings": []
+    }
+  },
+  "nlsHits": [
+    {
+      "moduleId": "vs/workbench/browser/actions/layoutActions",
+      "key": "minimizeChatSize",
+      "source": "Minimize Chat"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/layoutActions",
+      "key": "minimizeChatSize",
+      "source": "Minimize Chat"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/layoutActions",
+      "key": "openLayoutSettingsMenu",
+      "source": "Open Layout Settings Menu"
+    },
+    {
+      "moduleId": "vs/workbench/browser/actions/layoutActions",
+      "key": "openLayoutSettingsMenu",
+      "source": "Open Layout Settings Menu"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/menubarControl",
+      "key": "goToSetting",
+      "source": "Open Settings"
+    },
+    {
+      "moduleId": "vs/workbench/browser/parts/titlebar/titlebarPart",
+      "key": "newAgentShort",
+      "source": "New Agent"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+      "key": "instantGrep.indexRepositories.title",
+      "source": "Index Repositories for Instant Grep"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/aiConfig/browser/aiconfig.contribution",
+      "key": "instantGrep.indexRepositories.policyDescription",
+      "source": "Controls whether Cursor indexes repositories locally for Instant Grep. Disable this policy to prevent repository indexing on managed devices."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/composer/browser/utils/firstSteerNotice",
+      "key": "firstSteerNoticeOpenSettings",
+      "source": "Open Settings"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/markers/browser/markers.contribution",
+      "key": "status.problemsVisibilityOff",
+      "source": "Problems are turned off. Click to open settings."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/preferences.contribution",
+      "key": "openSettings2",
+      "source": "Open Settings (UI)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/preferences.contribution",
+      "key": "openSettings2",
+      "source": "Open Settings (UI)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/preferencesIcons",
+      "key": "preferencesOpenSettings",
+      "source": "Icon for open settings commands."
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+      "key": "settingsEditor2",
+      "source": "Settings Editor 2"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+      "key": "settings.focusFile",
+      "source": "Focus settings file"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+      "key": "settings.focusFile",
+      "source": "Focus settings file"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+      "key": "settings.focusSettingsList",
+      "source": "Focus settings list"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+      "key": "settings.focusSettingControl",
+      "source": "Focus Setting Control"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+      "key": "settings.focusSearch",
+      "source": "Focus Settings Search"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+      "key": "settings.clearResults",
+      "source": "Clear Settings Search Results"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+      "key": "settings.focusSettingsTOC",
+      "source": "Focus Settings Table of Contents"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+      "key": "settings.showContextMenu",
+      "source": "Show Setting Context Menu"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+      "key": "settings.focusLevelUp",
+      "source": "Move Focus Up One Level"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/preferences/browser/settingsEditorPane.contribution",
+      "key": "openSettingsJson",
+      "source": "Open Settings (JSON)"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/search/browser/searchView",
+      "key": "openSettings.message",
+      "source": "Open Settings"
+    },
+    {
+      "moduleId": "vs/workbench/contrib/themes/browser/themes.contribution",
+      "key": "goToSetting",
+      "source": "Open Settings"
+    },
+    {
+      "moduleId": "vs/workbench/services/configuration/common/configurationEditing",
+      "key": "open",
+      "source": "Open Settings"
+    },
+    {
+      "moduleId": "vs/workbench/services/configuration/common/configurationEditing",
+      "key": "open",
+      "source": "Open Settings"
+    }
+  ]
+}

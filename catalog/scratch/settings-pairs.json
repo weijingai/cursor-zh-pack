@@ -1,0 +1,1361 @@
+{
+  "count": 336,
+  "pairs": [
+    {
+      "label": "Canvas",
+      "description": "Produces canvases"
+    },
+    {
+      "label": "Marketplace Access",
+      "description": "Select who can see and use plugins from this team marketplace"
+    },
+    {
+      "label": "Enable Auto Refresh",
+      "description": "Automatically update plugins when changes are pushed to the repository"
+    },
+    {
+      "label": "Allow Members to Publish",
+      "description": "Let any team member publish plugins to this marketplace. When off, only team admins can publish."
+    },
+    {
+      "label": "Serve Marketplace From Cursor",
+      "description": "Cursor keeps a synced copy of this repository and serves plugins from it, so team members can use the marketplace without GitHub access to the source repo. Access is controlled by Marketplace Access."
+    },
+    {
+      "label": "Plugin Repository",
+      "description": "Fetch marketplace plugins from the GitHub repository"
+    },
+    {
+      "label": "Remove Marketplace",
+      "description": "This marketplace and its access settings will be removed. The source repository won't be affected."
+    },
+    {
+      "label": "Bubble Data Map",
+      "description": "Map of bubble IDs to their associated data"
+    },
+    {
+      "label": "Plugins",
+      "description": "Plugins bundle rules, skills, subagents, commands, MCP servers, and hooks into one installable package."
+    },
+    {
+      "label": "New MCP Configuration",
+      "description": "Creates a new MCP configuration with example servers"
+    },
+    {
+      "label": "Stash Changes",
+      "description": "Save changes to a stash and restore them later"
+    },
+    {
+      "label": "Commit Changes",
+      "description": "Create a checkpoint commit with your current changes"
+    },
+    {
+      "label": "Discard Changes",
+      "description": "Permanently discard your current changes before switching branches"
+    },
+    {
+      "label": "Cancel",
+      "description": "Cancel the checkout operation"
+    },
+    {
+      "label": "true",
+      "description": "Skip this parameter"
+    },
+    {
+      "label": "Plan",
+      "description": "Generate an implementation plan"
+    },
+    {
+      "label": "Debug",
+      "description": "Pinpoint the root cause of an issue"
+    },
+    {
+      "label": "Ask",
+      "description": "Answer questions without making edits"
+    },
+    {
+      "label": "Multitask",
+      "description": "Orchestrate multiple subagents in parallel"
+    },
+    {
+      "label": "Development",
+      "description": "Use development environment"
+    },
+    {
+      "label": "Production",
+      "description": "Use production environment"
+    },
+    {
+      "label": "Full Local",
+      "description": "Use full local environment (non-VM running locally)"
+    },
+    {
+      "label": "Team",
+      "description": "All team members can access"
+    },
+    {
+      "label": "Public",
+      "description": "Anyone with the link can access"
+    },
+    {
+      "label": "Continuous RPC File Recording",
+      "description": "Optional folder for RPC logs (defaults to logs/exthost)."
+    },
+    {
+      "label": "Cmd+K: Escape Focuses the Editor When You Have a Diff",
+      "description": "Report disposables that are garbage-collected without being disposed. On by default in development builds; it captures a creation stack per disposable, so turn it off when profiling."
+    },
+    {
+      "label": "Disposable Tracking",
+      "description": "Enable Solid Dev Tools"
+    },
+    {
+      "label": "Solid Dev Tools",
+      "description": "Enable leak detection console output"
+    },
+    {
+      "label": "Leak Detection",
+      "description": "Force the display of view zones in the editor"
+    },
+    {
+      "label": "Force View Zones",
+      "description": "Select your preferred embedding model. Delete your index and reload to use it."
+    },
+    {
+      "label": "Suggestions While Commenting",
+      "description": "Suggest edits like new lines and indentation that modify whitespace only"
+    },
+    {
+      "label": "Imports",
+      "description": "Enable auto import for Python. This is a beta feature."
+    },
+    {
+      "label": "Auto-Run Network Access",
+      "description": "Control which network requests are allowed when commands run in the sandbox. Edit allowed/denied domains in sandbox.json in your workspace."
+    },
+    {
+      "label": "Sync Skills for Cloud Agents",
+      "description": "Cursor syncs your local skills so they can be used with Cloud Agents. Turn this off to disable syncing."
+    },
+    {
+      "label": "Code Block Word Wrap",
+      "description": "Wrap long lines in Agent conversation code blocks"
+    },
+    {
+      "label": "Themed Diff Backgrounds",
+      "description": "Use themed background colors for inline code diffs"
+    },
+    {
+      "label": "Steer",
+      "description": "Steer the agent without stopping it"
+    },
+    {
+      "label": "Interrupt",
+      "description": "Stop the agent and send the message"
+    },
+    {
+      "label": "Queue",
+      "description": "Send after Agent finishes"
+    },
+    {
+      "label": "Cursor Default",
+      "description": "What model new agents use by default"
+    },
+    {
+      "label": "Agent Autocomplete",
+      "description": "Suggest a follow-up for the Agent"
+    },
+    {
+      "label": "Legacy Terminal Tool",
+      "description": "Show Add to Chat & Quick Edit buttons when selecting code"
+    },
+    {
+      "label": "Include Third-Party Plugins, Skills, and Other Configs",
+      "description": "Sync chats and continue them in Cursor"
+    },
+    {
+      "label": "Open Customize",
+      "description": "We've introduced a new home for all the ways to customize Cursor."
+    },
+    {
+      "label": "Cursor Account",
+      "description": "Entry-level plan with access to premium models, unlimited Tab completions, and more."
+    },
+    {
+      "label": "Upgrade to Pro",
+      "description": "Accelerate development, shared knowledge, and context across your team"
+    },
+    {
+      "label": "Window Restoration",
+      "description": "Automatically resume working on agents and their subagents after a reload or restart"
+    },
+    {
+      "label": "Cloud Agent Approval Banners While Focused",
+      "description": "Show notifications for less urgent issues"
+    },
+    {
+      "label": "Start Agent Review on Commit",
+      "description": "Include changes from Git submodules in the review"
+    },
+    {
+      "label": "Include Submodules in Agent Review",
+      "description": "Include untracked files (new files not yet added to Git) in the review"
+    },
+    {
+      "label": "Include Untracked Files in Agent Review",
+      "description": "Choose between quick or more thorough, higher-cost analysis"
+    },
+    {
+      "label": "Ignore Files in .cursorignore",
+      "description": "Disable AI features in specific repositories based on file pattern"
+    },
+    {
+      "label": "API Key",
+      "description": "Secret saved"
+    },
+    {
+      "label": "Use Team AWS Bedrock",
+      "description": "AWS region used by your team's Bedrock configuration."
+    },
+    {
+      "label": "Region",
+      "description": "Your team has configured AWS Bedrock access. You can use your teams Bedrock instance without any additional configuration."
+    },
+    {
+      "label": "Base URL",
+      "description": "API key used for requests to your gateway."
+    },
+    {
+      "label": "On-Demand Usage",
+      "description": "On-demand spending is currently disabled"
+    },
+    {
+      "label": "Monthly Limit",
+      "description": "Set a fixed amount or make it unlimited."
+    },
+    {
+      "label": "Sign In",
+      "description": "Sign in to get started with Cursor's AI features"
+    },
+    {
+      "label": "Cursor Account",
+      "description": "Manage your account and billing"
+    },
+    {
+      "label": "Preferences",
+      "description": "Configure font, formatting, minimap and more"
+    },
+    {
+      "label": "Keyboard Shortcuts",
+      "description": "Configure keyboard shortcuts"
+    },
+    {
+      "label": "Import Settings from VS Code",
+      "description": "Import settings, extensions, and keybindings from VS Code"
+    },
+    {
+      "label": "Layout",
+      "description": "Choose how much detail Agent tool calls show in the conversation"
+    },
+    {
+      "label": "Auto-Hide Editor When Empty",
+      "description": "Show rotating tips on the empty screen"
+    },
+    {
+      "label": "Window Restoration",
+      "description": "Controls which windows Cursor restores on startup"
+    },
+    {
+      "label": "Continue Interrupted Agents",
+      "description": "Automatically resume working on agents and their subagents after a reload or restart"
+    },
+    {
+      "label": "Notifications",
+      "description": "Show system notifications when Agent completes or needs attention"
+    },
+    {
+      "label": "Cloud Agent Approval Banners While Focused",
+      "description": "Also show the approval banner while Cursor is focused; the request card in the agent conversation always shows"
+    },
+    {
+      "label": "Warning Notifications",
+      "description": "Show notifications for less urgent issues"
+    },
+    {
+      "label": "Menu Bar Icon",
+      "description": "Show Cursor in the menu bar"
+    },
+    {
+      "label": "System Tray Icon",
+      "description": "Show Cursor in the system tray"
+    },
+    {
+      "label": "Completion Sound",
+      "description": "Play a sound when Agent finishes responding"
+    },
+    {
+      "label": "Verify Extension Signatures",
+      "description": "Account email shown on the profile page"
+    },
+    {
+      "label": "Profile Image",
+      "description": "Upload or remove the profile photo"
+    },
+    {
+      "label": "First Name",
+      "description": "Name shown on the public profile page"
+    },
+    {
+      "label": "Last Name",
+      "description": "Name shown on the public profile page"
+    },
+    {
+      "label": "Handle",
+      "description": "Claim a handle for your public profile page"
+    },
+    {
+      "label": "Links",
+      "description": "Social and website links on the public profile page"
+    },
+    {
+      "label": "Public Profile",
+      "description": "Make the cursor.com profile page visible to anyone with the link"
+    },
+    {
+      "label": "Follow System Color Scheme",
+      "description": "Match the active theme to your OS dark/light setting"
+    },
+    {
+      "label": "Theme",
+      "description": "Choose which theme to use"
+    },
+    {
+      "label": "Light Theme",
+      "description": "Choose the theme used when your system is in light mode"
+    },
+    {
+      "label": "Dark Theme",
+      "description": "Choose the theme used when your system is in dark mode"
+    },
+    {
+      "label": "Follow System High Contrast",
+      "description": "Switch to a high contrast theme when your OS is in a high contrast mode"
+    },
+    {
+      "label": "High Contrast Light Theme",
+      "description": "Choose the theme used when your system is in light high contrast mode"
+    },
+    {
+      "label": "High Contrast Dark Theme",
+      "description": "Choose the theme used when your system is in dark high contrast mode"
+    },
+    {
+      "label": "Manage Themes",
+      "description": "Create your own themes, tweak the vibe, and import your favorites"
+    },
+    {
+      "label": "Colors",
+      "description": "Choose a tint color"
+    },
+    {
+      "label": "Intensity",
+      "description": "Control how strongly the tint is applied"
+    },
+    {
+      "label": "Reduce Transparency",
+      "description": "Replace translucent surfaces with opaque backgrounds"
+    },
+    {
+      "label": "Agent Conversations",
+      "description": "Adjust how much detail is shown for tool calls"
+    },
+    {
+      "label": "Typography",
+      "description": "Font size for the Cursor user interface"
+    },
+    {
+      "label": "Code Font Size",
+      "description": "Font size for code editors and diffs"
+    },
+    {
+      "label": "UI Font Family",
+      "description": "Override the Cursor user interface typeface"
+    },
+    {
+      "label": "Code Font Family",
+      "description": "Override the font for code editors and diffs"
+    },
+    {
+      "label": "Font Smoothing",
+      "description": "Use native macOS font anti-aliasing"
+    },
+    {
+      "label": "Motion",
+      "description": "Minimize interface animations"
+    },
+    {
+      "label": "Fun",
+      "description": "Allow the agent to celebrate with a shower of confetti"
+    },
+    {
+      "label": "Privacy",
+      "description": "Partially mask your email address in the Cursor user interface"
+    },
+    {
+      "label": "Monthly Limit",
+      "description": "Set a fixed amount or make on-demand usage unlimited"
+    },
+    {
+      "label": "Cursor Tab",
+      "description": "Context-aware, multi-line suggestions around your cursor based on recent edits"
+    },
+    {
+      "label": "Conversation",
+      "description": "When to show the usage summary at the bottom of the chat pane"
+    },
+    {
+      "label": "Text Size",
+      "description": "Adjust the conversation text size"
+    },
+    {
+      "label": "Default Environment",
+      "description": "Where new agents start by default"
+    },
+    {
+      "label": "Queue Messages",
+      "description": "Adjust the default behavior of sending a message while Agent is running"
+    },
+    {
+      "label": "New Messages",
+      "description": "What sending a message while Agent is running does"
+    },
+    {
+      "label": "Manually Sent Messages from Queue",
+      "description": "What the queued-message Send Now action does"
+    },
+    {
+      "label": "Agent Autocomplete",
+      "description": "Contextual suggestions while prompting Agent"
+    },
+    {
+      "label": "Follow-Up Prompt Suggestions",
+      "description": "Suggest a follow-up for the Agent"
+    },
+    {
+      "label": "Auto-Approve Mode Transitions",
+      "description": "Allow agent to switch to modes without asking. When off, skips if unanswered within 15 seconds."
+    },
+    {
+      "label": "Voice Submit Keywords",
+      "description": "Custom words that submit a voice prompt"
+    },
+    {
+      "label": "Context and Tools",
+      "description": "Allow Agent to search the web for relevant information"
+    },
+    {
+      "label": "Web Fetch Tool",
+      "description": "Allow Agent to fetch content from URLs"
+    },
+    {
+      "label": "Wait for MCP Authentication",
+      "description": "Wait indefinitely; otherwise skip prompts after 30 seconds"
+    },
+    {
+      "label": "Run Mode",
+      "description": "Control whether agents can read files outside the workspace without approval."
+    },
+    {
+      "label": "Read Allowlist",
+      "description": "File paths and glob patterns agents can read without approval."
+    },
+    {
+      "label": "Terminal and Editing",
+      "description": "Use legacy terminal tool on unsupported shells"
+    },
+    {
+      "label": "Auto-Parse Links",
+      "description": "Automatically parse links pasted into Quick Edit"
+    },
+    {
+      "label": "LSP",
+      "description": "Enable language server by default to provide code intelligence in workspaces"
+    },
+    {
+      "label": "Enable LSPs for Worktrees",
+      "description": "Enable language server by default to provide code intelligence in agent worktree workspaces"
+    },
+    {
+      "label": "Maximum Local LSP Workspaces",
+      "description": "Maximum local workspaces that can run language servers at the same time"
+    },
+    {
+      "label": "Maximum Remote LSP Workspaces",
+      "description": "Maximum remote workspaces that can run language servers at the same time"
+    },
+    {
+      "label": "Inline Diffs",
+      "description": "Show inline diff decorations in the editor"
+    },
+    {
+      "label": "Auto Format on Agent Finish",
+      "description": "Automatically format files when Agent finishes"
+    },
+    {
+      "label": "Sync Skills for Cloud Agents",
+      "description": "Cursor syncs your local skills so they can be used with Cloud Agents"
+    },
+    {
+      "label": "Toolbar on Selection",
+      "description": "Show Add to Chat and Quick Edit buttons"
+    },
+    {
+      "label": "Terminal Hint",
+      "description": "Show the Cmd/Ctrl+K hint in Terminal"
+    },
+    {
+      "label": "Preview Box for Terminal Cmd/Ctrl+K",
+      "description": "Use the preview box instead of shell streaming"
+    },
+    {
+      "label": "Task Models",
+      "description": "Choose the model used by Explore subagent for initial research"
+    },
+    {
+      "label": "Gateway",
+      "description": "Configure the local agent LLM gateway"
+    },
+    {
+      "label": "Review Provider",
+      "description": "Open pull request links inside Cursor or the default browser"
+    },
+    {
+      "label": "Attribution",
+      "description": "Prefix for new Agent branches"
+    },
+    {
+      "label": "Self-Driving PRs",
+      "description": "Enable or disable Self-driving for PRs owned by this account"
+    },
+    {
+      "label": "Start When I Open a PR",
+      "description": "Start Self-driving automatically for enabled repositories"
+    },
+    {
+      "label": "Default Mode",
+      "description": "Choose whether automatically started agents suggest or apply changes"
+    },
+    {
+      "label": "Post to Slack",
+      "description": "Post Self-driving updates to Slack"
+    },
+    {
+      "label": "Include Third-Party Plugins, Skills, and Other Configs",
+      "description": "Automatically import agent configs from other tools"
+    },
+    {
+      "label": "Import Claude Code Conversations",
+      "description": "Sync chats and continue them in Cursor"
+    },
+    {
+      "label": "Codebase",
+      "description": "Files to exclude from indexing in addition to .gitignore"
+    },
+    {
+      "label": "Ignore Files",
+      "description": "Apply .cursorignore files to subdirectories"
+    },
+    {
+      "label": "Ignore Symlinks in Cursor Ignore Search",
+      "description": "Skip symlinks during discovery"
+    },
+    {
+      "label": "HTTP Compatibility Mode",
+      "description": "Configure HTTP compatibility for proxies and VPNs"
+    },
+    {
+      "label": "Required Domains",
+      "description": "Domains required for Cursor"
+    },
+    {
+      "label": "Network Diagnostics",
+      "description": "Check connectivity to all Cursor services"
+    },
+    {
+      "label": "Update Access",
+      "description": "Run Private Inference in a separate local process to isolate it from remote workspace activity. Reload Cursor after changing this setting."
+    },
+    {
+      "label": "Cleanup",
+      "description": "Maximum retained Cursor-managed worktrees"
+    },
+    {
+      "label": "Max Total Size (GB)",
+      "description": "Maximum aggregate worktree size"
+    },
+    {
+      "label": "Get Grok Bot",
+      "description": "AI teammates you can give real work to"
+    },
+    {
+      "label": "Ignore branch difference",
+      "description": "Proceed anyway (changes might not apply correctly)"
+    },
+    {
+      "label": "Cancel",
+      "description": "Abort the operation"
+    },
+    {
+      "label": "Stash changes",
+      "description": "Save your changes and restore them later"
+    },
+    {
+      "label": "Always Apply",
+      "description": "Apply to every chat and cmd-k session"
+    },
+    {
+      "label": "Apply Intelligently",
+      "description": "When Agent decides it's relevant based on description"
+    },
+    {
+      "label": "Apply to Specific Files",
+      "description": "When file matches a specified pattern"
+    },
+    {
+      "label": "Apply Manually",
+      "description": "When @-mentioned"
+    },
+    {
+      "label": "Serve Marketplace From Cursor",
+      "description": "Let any team member publish plugins to this marketplace. When off, only team admins can publish."
+    },
+    {
+      "label": "Commit Changes",
+      "description": "Save changes to a stash and restore them later"
+    },
+    {
+      "label": "Discard Changes",
+      "description": "Create a checkpoint commit with your current changes"
+    },
+    {
+      "label": "Cancel",
+      "description": "Permanently discard your current changes before switching branches"
+    },
+    {
+      "label": "Debug",
+      "description": "Generate an implementation plan"
+    },
+    {
+      "label": "Ask",
+      "description": "Pinpoint the root cause of an issue"
+    },
+    {
+      "label": "Multitask",
+      "description": "Answer questions without making edits"
+    },
+    {
+      "label": "Production",
+      "description": "Use development environment"
+    },
+    {
+      "label": "Full Local",
+      "description": "Use production environment"
+    },
+    {
+      "label": "Public",
+      "description": "All team members can access"
+    },
+    {
+      "label": "Convert",
+      "description": "The current value cannot be preserved and the field will be empty."
+    },
+    {
+      "label": "Private",
+      "description": "Only you can access"
+    },
+    {
+      "label": "My Task",
+      "description": "Task definition file"
+    },
+    {
+      "label": "Manage Settings",
+      "description": "Connect GitHub/GitLab, manage team and user settings, and configure environments"
+    },
+    {
+      "label": "Connect Slack",
+      "description": "Work with Cloud Agents from Slack"
+    },
+    {
+      "label": "Dedicated Agent Runtime",
+      "description": "Run Private Inference in a separate local process to isolate it from remote workspace activity. Reload Cursor after changing this setting."
+    },
+    {
+      "label": "HTTP Compatibility Mode",
+      "description": "HTTP/2 is recommended for low-latency streaming. In some corporate proxy and VPN environments, the compatibility mode may need to be lowered."
+    },
+    {
+      "label": "Required Domains",
+      "description": "These domains must be accessible for Cursor to function. Add them to your firewall or proxy allowlist."
+    },
+    {
+      "label": "Network Diagnostics",
+      "description": "Check network connectivity to all Cursor services"
+    },
+    {
+      "label": "Local Trace Mode",
+      "description": "Mirror VS Code RPCs into the DevTools Network tab and record local performance marks. Adds overhead, so leave it off unless you're debugging."
+    },
+    {
+      "label": "Continuous RPC File Recording",
+      "description": "Log extension host RPC messages to JSON files viewable in Perfetto for performance analysis. Requires a restart to take effect."
+    },
+    {
+      "label": "RPC Log Folder",
+      "description": "Optional folder for RPC logs (defaults to logs/exthost)."
+    },
+    {
+      "label": "Show View Zone When Preview Box Is Clipped",
+      "description": "Show a view zone when the preview box is clipped"
+    },
+    {
+      "label": "Cmd+K: Escape Focuses the Editor When You Have a Diff",
+      "description": "Make escape focus editor instead of closing the prompt bar"
+    },
+    {
+      "label": "Disposable Tracking",
+      "description": "Report disposables that are garbage-collected without being disposed. On by default in development builds; it captures a creation stack per disposable, so turn it off when profiling."
+    },
+    {
+      "label": "Solid Dev Tools",
+      "description": "Enable Solid Dev Tools"
+    },
+    {
+      "label": "Leak Detection",
+      "description": "Enable leak detection console output"
+    },
+    {
+      "label": "Force View Zones",
+      "description": "Force the display of view zones in the editor"
+    },
+    {
+      "label": "Embedding Model",
+      "description": "Select your preferred embedding model. Delete your index and reload to use it."
+    },
+    {
+      "label": "Cpp Control Token",
+      "description": "Control tokens control how likely the model is to produce no-ops. Will be replaced with auto-selection"
+    },
+    {
+      "label": "Suggestions While Commenting",
+      "description": "Allow Tab to trigger while in a comment region"
+    },
+    {
+      "label": "Whitespace-Only Suggestions",
+      "description": "Suggest edits like new lines and indentation that modify whitespace only"
+    },
+    {
+      "label": "Auto Import for Python",
+      "description": "Enable auto import for Python. This is a beta feature."
+    },
+    {
+      "label": "Ignored Files",
+      "description": "Glob patterns for files where Cursor Tab will not suggest"
+    },
+    {
+      "label": "Smart Allowlist",
+      "description": "Use AI-powered command classification to intelligently match commands against allowlist patterns and suggest sandbox modes"
+    },
+    {
+      "label": "Fetch Domain Allowlist",
+      "description": "Domains that Agent can fetch from automatically. Use '*' for all domains, '*.example.com' for wildcard subdomains."
+    },
+    {
+      "label": "Web Search Tool",
+      "description": "Allow Agent to search the web for relevant information"
+    },
+    {
+      "label": "Wait for MCP Authentication",
+      "description": "Wait indefinitely to authenticate when prompted. When off, skip authentication prompts after 30 seconds."
+    },
+    {
+      "label": "Themed Diff Backgrounds",
+      "description": "Wrap long lines in Agent conversation code blocks"
+    },
+    {
+      "label": "Interrupt",
+      "description": "Steer the agent without stopping it"
+    },
+    {
+      "label": "Queue",
+      "description": "Stop the agent and send the message"
+    },
+    {
+      "label": "Default Model",
+      "description": "What model new agents use by default"
+    },
+    {
+      "label": "New Messages",
+      "description": "Choose the default behavior of messages sent while Agent is working"
+    },
+    {
+      "label": "Manually Sent Messages from Queue",
+      "description": "Choose the default behavior of messages sent from the queue"
+    },
+    {
+      "label": "Usage Summary",
+      "description": "When to show the usage summary at the bottom of the chat pane"
+    },
+    {
+      "label": "Auto-Approve Mode Transitions",
+      "description": "Allow agent to switch to modes like Plan or Debug without asking. When off, Cursor asks first, but skips if unanswered within 15 seconds."
+    },
+    {
+      "label": "Inline Diffs",
+      "description": "Show inline diff decorations in the editor instead of only showing changes in the review panel"
+    },
+    {
+      "label": "Auto Format on Agent Finish",
+      "description": "Automatically format files when the agent finishes"
+    },
+    {
+      "label": "Legacy Terminal Tool",
+      "description": "Use the legacy terminal tool in agent mode, for use on systems with unsupported shell configurations"
+    },
+    {
+      "label": "Toolbar on Selection",
+      "description": "Show Add to Chat & Quick Edit buttons when selecting code"
+    },
+    {
+      "label": "Keep This Computer Awake",
+      "description": "Prevent sleep when this computer is plugged in and Remote Control is enabled"
+    },
+    {
+      "label": "Voice",
+      "description": "Voice used for spoken replies. Changing the voice plays a short sample."
+    },
+    {
+      "label": "Speed",
+      "description": "How quickly spoken replies are read. Faster is the default."
+    },
+    {
+      "label": "Completion Sound",
+      "description": "Play a sound when agents finish or need attention"
+    },
+    {
+      "label": "Window Layout",
+      "description": "Switch between Agent and Editor default layouts"
+    },
+    {
+      "label": "Conversation Density",
+      "description": "Choose how much detail Agent tool calls show in the conversation"
+    },
+    {
+      "label": "Title Bar",
+      "description": "Show title bar in agent layout"
+    },
+    {
+      "label": "Status Bar",
+      "description": "Show status bar at the bottom of the window"
+    },
+    {
+      "label": "Review Control Location",
+      "description": "Show inline diff review controls in top level breadcrumbs or floating island"
+    },
+    {
+      "label": "Auto-Hide Editor When Empty",
+      "description": "When all editors are closed, hide the editor area and maximize chat"
+    },
+    {
+      "label": "Open Chat as Editor Tabs",
+      "description": "Show chats as editor tabs inside the chat area instead of the legacy stacked view"
+    },
+    {
+      "label": "Editor Settings",
+      "description": "Configure font, formatting, minimap and more"
+    },
+    {
+      "label": "Upgrade to Pro",
+      "description": "Entry-level plan with access to premium models, unlimited Tab completions, and more."
+    },
+    {
+      "label": "Invite Team Members",
+      "description": "Accelerate development, shared knowledge, and context across your team"
+    },
+    {
+      "label": "Tips",
+      "description": "Show rotating tips on the empty screen"
+    },
+    {
+      "label": "System Notifications",
+      "description": "Show system notifications when Agent completes or needs attention"
+    },
+    {
+      "label": "Allow Agents on My PRs",
+      "description": "Off disables Self-driving for PRs owned by this account."
+    },
+    {
+      "label": "Start When I Open a PR",
+      "description": "Starts Self-driving when a PR opens on an enabled repository."
+    },
+    {
+      "label": "Default Mode",
+      "description": "Used when Self-driving starts automatically from account defaults."
+    },
+    {
+      "label": "Post to Slack",
+      "description": "Posts Self-driving updates to Slack when there are suggestions for PRs."
+    },
+    {
+      "label": "Slack Channel",
+      "description": "Pick a Slack channel or use DMs."
+    },
+    {
+      "label": "Start Agent Review on Commit",
+      "description": "Automatically review your changes for issues after each commit"
+    },
+    {
+      "label": "Include Submodules in Agent Review",
+      "description": "Include changes from Git submodules in the review"
+    },
+    {
+      "label": "Include Untracked Files in Agent Review",
+      "description": "Include untracked files (new files not yet added to Git) in the review"
+    },
+    {
+      "label": "Default Approach",
+      "description": "Choose between quick or more thorough, higher-cost analysis"
+    },
+    {
+      "label": "Branch Prefix",
+      "description": "Prefix for new branches created by Agent (e.g., cursor/, username/)"
+    },
+    {
+      "label": "Team-Level Repository Control",
+      "description": "Disable AI features in specific repositories based on file pattern"
+    },
+    {
+      "label": "Enable LSPs",
+      "description": "Enable language server by default to provide code intelligence in workspaces"
+    },
+    {
+      "label": "Use OpenAI API Key",
+      "description": "Secret saved"
+    },
+    {
+      "label": "Override OpenAI Base URL",
+      "description": "Change the base URL for OpenAI API requests."
+    },
+    {
+      "label": "Region",
+      "description": "AWS region used by your team's Bedrock configuration."
+    },
+    {
+      "label": "Base URL",
+      "description": "OpenAI-compatible API base URL for the local agent."
+    },
+    {
+      "label": "API Key",
+      "description": "API key used for requests to your gateway."
+    },
+    {
+      "label": "On-Demand Usage",
+      "description": "Enable on-demand usage to go beyond your plan's included usage. Requires a paid plan."
+    },
+    {
+      "label": "On-Demand Spending",
+      "description": "On-demand spending is currently disabled"
+    },
+    {
+      "label": "Monthly Limit",
+      "description": "Spend limits for team plans are managed by team admins in the dashboard"
+    },
+    {
+      "label": "Cursor Account",
+      "description": "Sign in to get started with Cursor's AI features"
+    },
+    {
+      "label": "Preferences",
+      "description": "Manage your account and billing"
+    },
+    {
+      "label": "Keyboard Shortcuts",
+      "description": "Configure font, formatting, minimap and more"
+    },
+    {
+      "label": "Import Settings from VS Code",
+      "description": "Configure keyboard shortcuts"
+    },
+    {
+      "label": "Layout",
+      "description": "Import settings, extensions, and keybindings from VS Code"
+    },
+    {
+      "label": "Status Bar",
+      "description": "Choose how much detail Agent tool calls show in the conversation"
+    },
+    {
+      "label": "Window Restoration",
+      "description": "Show rotating tips on the empty screen"
+    },
+    {
+      "label": "Continue Interrupted Agents",
+      "description": "Controls which windows Cursor restores on startup"
+    },
+    {
+      "label": "Notifications",
+      "description": "Automatically resume working on agents and their subagents after a reload or restart"
+    },
+    {
+      "label": "Cloud Agent Approval Banners While Focused",
+      "description": "Show system notifications when Agent completes or needs attention"
+    },
+    {
+      "label": "Warning Notifications",
+      "description": "Also show the approval banner while Cursor is focused; the request card in the agent conversation always shows"
+    },
+    {
+      "label": "Menu Bar Icon",
+      "description": "Show notifications for less urgent issues"
+    },
+    {
+      "label": "System Tray Icon",
+      "description": "Show Cursor in the menu bar"
+    },
+    {
+      "label": "Completion Sound",
+      "description": "Show Cursor in the system tray"
+    },
+    {
+      "label": "Verify Extension Signatures",
+      "description": "Play a sound when Agent finishes responding"
+    },
+    {
+      "label": "Profile Image",
+      "description": "Account email shown on the profile page"
+    },
+    {
+      "label": "First Name",
+      "description": "Upload or remove the profile photo"
+    },
+    {
+      "label": "Handle",
+      "description": "Name shown on the public profile page"
+    },
+    {
+      "label": "Links",
+      "description": "Claim a handle for your public profile page"
+    },
+    {
+      "label": "Public Profile",
+      "description": "Social and website links on the public profile page"
+    },
+    {
+      "label": "Follow System Color Scheme",
+      "description": "Make the cursor.com profile page visible to anyone with the link"
+    },
+    {
+      "label": "Theme",
+      "description": "Match the active theme to your OS dark/light setting"
+    },
+    {
+      "label": "Light Theme",
+      "description": "Choose which theme to use"
+    },
+    {
+      "label": "Dark Theme",
+      "description": "Choose the theme used when your system is in light mode"
+    },
+    {
+      "label": "Follow System High Contrast",
+      "description": "Choose the theme used when your system is in dark mode"
+    },
+    {
+      "label": "High Contrast Light Theme",
+      "description": "Switch to a high contrast theme when your OS is in a high contrast mode"
+    },
+    {
+      "label": "High Contrast Dark Theme",
+      "description": "Choose the theme used when your system is in light high contrast mode"
+    },
+    {
+      "label": "Manage Themes",
+      "description": "Choose the theme used when your system is in dark high contrast mode"
+    },
+    {
+      "label": "Colors",
+      "description": "Create your own themes, tweak the vibe, and import your favorites"
+    },
+    {
+      "label": "Intensity",
+      "description": "Choose a tint color"
+    },
+    {
+      "label": "Reduce Transparency",
+      "description": "Control how strongly the tint is applied"
+    },
+    {
+      "label": "Agent Conversations",
+      "description": "Replace translucent surfaces with opaque backgrounds"
+    },
+    {
+      "label": "Code Font Size",
+      "description": "Font size for the Cursor user interface"
+    },
+    {
+      "label": "UI Font Family",
+      "description": "Font size for code editors and diffs"
+    },
+    {
+      "label": "Code Font Family",
+      "description": "Override the Cursor user interface typeface"
+    },
+    {
+      "label": "Font Smoothing",
+      "description": "Override the font for code editors and diffs"
+    },
+    {
+      "label": "Motion",
+      "description": "Use native macOS font anti-aliasing"
+    },
+    {
+      "label": "Fun",
+      "description": "Minimize interface animations"
+    },
+    {
+      "label": "Privacy",
+      "description": "Allow the agent to celebrate with a shower of confetti"
+    },
+    {
+      "label": "Monthly Limit",
+      "description": "Partially mask your email address in the Cursor user interface"
+    },
+    {
+      "label": "Cursor Tab",
+      "description": "Set a fixed amount or make on-demand usage unlimited"
+    },
+    {
+      "label": "Conversation",
+      "description": "Context-aware, multi-line suggestions around your cursor based on recent edits"
+    },
+    {
+      "label": "Text Size",
+      "description": "When to show the usage summary at the bottom of the chat pane"
+    },
+    {
+      "label": "Default Environment",
+      "description": "Adjust the conversation text size"
+    },
+    {
+      "label": "Queue Messages",
+      "description": "Where new agents start by default"
+    },
+    {
+      "label": "New Messages",
+      "description": "Adjust the default behavior of sending a message while Agent is running"
+    },
+    {
+      "label": "Manually Sent Messages from Queue",
+      "description": "What sending a message while Agent is running does"
+    },
+    {
+      "label": "Agent Autocomplete",
+      "description": "What the queued-message Send Now action does"
+    },
+    {
+      "label": "Follow-Up Prompt Suggestions",
+      "description": "Contextual suggestions while prompting Agent"
+    },
+    {
+      "label": "Auto-Approve Mode Transitions",
+      "description": "Suggest a follow-up for the Agent"
+    },
+    {
+      "label": "Voice Submit Keywords",
+      "description": "Allow agent to switch to modes without asking. When off, skips if unanswered within 15 seconds."
+    },
+    {
+      "label": "Context and Tools",
+      "description": "Custom words that submit a voice prompt"
+    },
+    {
+      "label": "Web Fetch Tool",
+      "description": "Allow Agent to search the web for relevant information"
+    },
+    {
+      "label": "Wait for MCP Authentication",
+      "description": "Allow Agent to fetch content from URLs"
+    },
+    {
+      "label": "Execution and Approvals",
+      "description": "Wait indefinitely; otherwise skip prompts after 30 seconds"
+    },
+    {
+      "label": "Read Allowlist",
+      "description": "Control whether agents can read files outside the workspace without approval."
+    },
+    {
+      "label": "Terminal and Editing",
+      "description": "File paths and glob patterns agents can read without approval."
+    },
+    {
+      "label": "Auto-Parse Links",
+      "description": "Use legacy terminal tool on unsupported shells"
+    },
+    {
+      "label": "LSP",
+      "description": "Automatically parse links pasted into Quick Edit"
+    },
+    {
+      "label": "Enable LSPs for Worktrees",
+      "description": "Enable language server by default to provide code intelligence in workspaces"
+    },
+    {
+      "label": "Maximum Local LSP Workspaces",
+      "description": "Enable language server by default to provide code intelligence in agent worktree workspaces"
+    },
+    {
+      "label": "Maximum Remote LSP Workspaces",
+      "description": "Maximum local workspaces that can run language servers at the same time"
+    },
+    {
+      "label": "Inline Diffs",
+      "description": "Maximum remote workspaces that can run language servers at the same time"
+    },
+    {
+      "label": "Auto Format on Agent Finish",
+      "description": "Show inline diff decorations in the editor"
+    },
+    {
+      "label": "Sync Skills for Cloud Agents",
+      "description": "Automatically format files when Agent finishes"
+    },
+    {
+      "label": "Toolbar on Selection",
+      "description": "Cursor syncs your local skills so they can be used with Cloud Agents"
+    },
+    {
+      "label": "Terminal Hint",
+      "description": "Show Add to Chat and Quick Edit buttons"
+    },
+    {
+      "label": "Preview Box for Terminal Cmd/Ctrl+K",
+      "description": "Show the Cmd/Ctrl+K hint in Terminal"
+    },
+    {
+      "label": "Task Models",
+      "description": "Use the preview box instead of shell streaming"
+    },
+    {
+      "label": "Gateway",
+      "description": "Choose the model used by Explore subagent for initial research"
+    },
+    {
+      "label": "Pull Requests",
+      "description": "Configure the local agent LLM gateway"
+    },
+    {
+      "label": "Attribution",
+      "description": "Open pull request links inside Cursor or the default browser"
+    },
+    {
+      "label": "Self-Driving PRs",
+      "description": "Prefix for new Agent branches"
+    },
+    {
+      "label": "Start When I Open a PR",
+      "description": "Enable or disable Self-driving for PRs owned by this account"
+    },
+    {
+      "label": "Default Mode",
+      "description": "Start Self-driving automatically for enabled repositories"
+    },
+    {
+      "label": "Post to Slack",
+      "description": "Choose whether automatically started agents suggest or apply changes"
+    },
+    {
+      "label": "Include Third-Party Plugins, Skills, and Other Configs",
+      "description": "Post Self-driving updates to Slack"
+    },
+    {
+      "label": "Import Claude Code Conversations",
+      "description": "Automatically import agent configs from other tools"
+    },
+    {
+      "label": "Codebase",
+      "description": "Sync chats and continue them in Cursor"
+    },
+    {
+      "label": "Ignore Files",
+      "description": "Files to exclude from indexing in addition to .gitignore"
+    },
+    {
+      "label": "Ignore Symlinks in Cursor Ignore Search",
+      "description": "Apply .cursorignore files to subdirectories"
+    },
+    {
+      "label": "HTTP Compatibility Mode",
+      "description": "Skip symlinks during discovery"
+    },
+    {
+      "label": "Required Domains",
+      "description": "Configure HTTP compatibility for proxies and VPNs"
+    },
+    {
+      "label": "Network Diagnostics",
+      "description": "Domains required for Cursor"
+    },
+    {
+      "label": "Update Access",
+      "description": "Check connectivity to all Cursor services"
+    },
+    {
+      "label": "Cleanup",
+      "description": "Run Private Inference in a separate local process to isolate it from remote workspace activity. Reload Cursor after changing this setting."
+    },
+    {
+      "label": "Max Total Size (GB)",
+      "description": "Maximum retained Cursor-managed worktrees"
+    },
+    {
+      "label": "Cursor-Managed Worktrees",
+      "description": "Maximum aggregate worktree size"
+    },
+    {
+      "label": "Ignore branch difference",
+      "description": "Recommended to ensure correct base for changes"
+    },
+    {
+      "label": "Cancel",
+      "description": "Proceed anyway (changes might not apply correctly)"
+    },
+    {
+      "label": "Cancel",
+      "description": "Save your changes and restore them later"
+    },
+    {
+      "label": "Apply Intelligently",
+      "description": "Apply to every chat and cmd-k session"
+    },
+    {
+      "label": "Apply to Specific Files",
+      "description": "When Agent decides it's relevant based on description"
+    },
+    {
+      "label": "Apply Manually",
+      "description": "When file matches a specified pattern"
+    }
+  ],
+  "viewCmds": [
+    "Te.MenubarViewMenu,{group:\"2_appearance\",title:S(3042,null),submenu:Te.MenubarAppearanceMenu,when:le.notEquals(OI.key,!0),order:1});var nDo=class $6p extends ct{constructor(){super({id:$6p.ID,title:Ce(3114,\"Toggle Primary Side Bar Visibility\"),precondition:kT.toNegated(),toggled:{condition:Rfe,title:S(3044,null),mnemonicTitle:S(3045,null)},metadata",
+    "Te.MenubarViewMenu,{group:\"2_appearance\",title:S(3444,null),submenu:Te.MenubarLayoutMenu,when:le.notEquals(OI.key,!0),order:2}),Dn.appendMenuItem(Te.MenubarLayoutMenu,{group:\"1_split\",command:{id:iJe,title:{...Ce(3496,\"Split Up\"),mnemonicTitle:S(3445,null)}},order:1}),Dn.appendMenuItem(Te.MenubarLayoutMenu,{group:\"1_split\",command:{id:w4e,title:{..",
+    "Te.MenubarViewMenu,title:{value:\"View\",original:\"View\",mnemonicTitle:S(3943,null)},order:4}),Dn.appendMenuItem(Te.MenubarMainMenu,{submenu:Te.MenubarGoMenu,title:{value:\"Go\",original:\"Go\",mnemonicTitle:S(3944,null)},when:le.notEquals(OI.key,!0),order:5}),Dn.appendMenuItem(Te.MenubarMainMenu,{submenu:Te.MenubarTerminalMenu,title:{value:\"Terminal\",or",
+    "Te.MenubarViewMenu,{command:{id:n,title:i},group:c===0?\"3_sidebar\":c===2?\"4_auxbar\":\"5_panel\",when:le.and(le.has(Tsr(e.id)),le.notEquals(OI.key,!0)),order:s??Number.MAX_VALUE}))}}return t}registerOpenViewAction(e){const t=new Fe,n=e.openCommandActionDescriptor?.title??e.name,i=e.openCommandActionDescriptor?.id??`${e.id}.open`,r=this;if(t.add(this.w",
+    "Te.MenubarViewMenu,{command:{id:i,title:e.openCommandActionDescriptor.mnemonicTitle},group:o===0?\"3_sidebar\":o===2?\"4_auxbar\":\"5_panel\",when:le.and(le.has(`${e.id}.active`),a?void 0:le.notEquals(OI.key,!0)),order:e.openCommandActionDescriptor.order??Number.MAX_VALUE}))}}return t}registerFocusViewAction(e,t){const n=e.focusCommand?e.focusCommand.id:",
+    "Te.MenubarViewMenu,{command:{id:uar,title:S(5002,null),toggled:Lap,precondition:Pap},when:le.notEquals(OI.key,!0),order:1,group:\"6_editor\"}),Ha(),bg(),Ai(),Li(),eu(),Bn(),ST(),bm(),m_(),nr(),Xr(),Rle(),gp();var R8e=class{constructor(e,t){this._instaService=e,this._inputUri=we.from({scheme:\"perf\",path:\"Startup Performance\"}),this._registration=t.reg",
+    "Te.MenubarViewMenu,{group:\"1_open\",command:{id:YKt.ID,title:S(8840,null)},order:1}),Dn.appendMenuItem(Te.MenubarHelpMenu,{group:\"1_welcome\",command:{id:YKt.ID,title:S(8841,null)},order:2}),Dn.appendMenuItem(Te.MenubarGoMenu,{group:\"5_infile_nav\",command:{id:\"workbench.action.gotoLine\",title:S(8842,null)},order:1}),Dn.appendMenuItem(Te.GlobalActivit",
+    "Te.MenubarViewMenu,{group:\"1_open\",command:{id:Gzo.ID,title:S(8847,null)},order:2}),We(Gzo),We(Vvp);var cgy=\"inViewsPicker\",qvp=le.and(ere,le.has(cgy)),XKt=Vvp.KEYBINDING,zvp=\"workbench.action.quickOpenNavigateNextInViewPicker\";Ur.registerCommandAndKeybindingRule({id:zvp,weight:250,handler:ufe(zvp,!0),when:qvp,primary:XKt.primary,linux:XKt.linux,ma"
+  ],
+  "integrity": "_showNotification(){const e=this.productService.checksumFailMoreInfoUrl,t=S(12841,null,this.productService.nameShort);e?this.notificationService.prompt(xs.Warning,t,[{label:S(12842,null),run:()=>this.openerService.open(we.parse(e))},{label:S(12843,null),isSecondary:!0,run:()=>this.storage.set({dontShowPrompt:!0,commit:this.productService.commit})}],{sticky:!0,priority:ty.URGENT}):this.notificationService.notify({severity:xs.Warning,message:t,sticky:!0,priority:ty.URGENT})}};bWn=__decorate([__param(0,ai),__param(1,Cn),__param(2,ld),__param(3,Js),__param(4,Wo),__param(5,pPp),__param(6,Fn),__param(7,IA),__param(8,Ci),__param(9,gZ)],bWn),dn(CDp,bWn,1),et(),Qt(),xn(),nV(),Li(),zn(),Xr(),Md(),et(),nV(),ST(),nP(),Md(),Pc(),ti(),Bn(),Li(),fe(),Tr(),_n(),Ao();var gPp=class w7p extends Se{constructor(t,n,i,r,s,o,a,c,l){super(),this.workingCopyBackupService=t,this.workingCopyService=n,this.logServi",
+  "adminWarn": "ref);s.searchParams.set(\"hash\",n),r.href=s.toString()}}})}async handleWarnings(){if(await this.lifecycleService.when(3),(async()=>{const t=await this.nativeHostService.isAdmin(),{isPure:n}=await this.integrityService.isPure();this.titleService.updateProperties({isPure:n,isAdmin:t}),t&&!Co&&this.notificationService.warn(S(12059,null,this.productService.nameShort))})(),this.environmentService.isBuilt){let t;Ei?t=Jc(Jc(Jc(we.file(this.nativeEnvironmentService.appRoot)))):t=Jc(Jc"
+}

@@ -9,6 +9,7 @@ const { spawnSync, spawn } = require("node:child_process");
 
 const PACK_ID = "MS-CEINTL.vscode-language-pack-zh-hans";
 const PACK_PREFIX = "ms-ceintl.vscode-language-pack-zh-hans-";
+const CUSTOM_PACK_PREFIX = "cursor-zh.cursor-language-zh-cn-";
 const LOCALE = "zh-cn";
 
 const extensionsDir = path.join(os.homedir(), ".cursor", "extensions");
@@ -45,7 +46,23 @@ function findCursorCli() {
   return candidates.find((file) => fs.existsSync(file)) || null;
 }
 
+function removeCustomLanguagePack() {
+  if (!fs.existsSync(extensionsDir)) return 0;
+  let removed = 0;
+  for (const name of fs.readdirSync(extensionsDir)) {
+    if (!name.startsWith(CUSTOM_PACK_PREFIX)) continue;
+    fs.rmSync(path.join(extensionsDir, name), { recursive: true, force: true });
+    removed += 1;
+  }
+  const languagePacks = path.join(userDataDir, "languagepacks.json");
+  if (fs.existsSync(languagePacks)) fs.rmSync(languagePacks);
+  return removed;
+}
+
 function ensureLanguagePack() {
+  const removedCustom = removeCustomLanguagePack();
+  if (removedCustom) console.log(`已移除 ${removedCustom} 个自制语言包，改回官方简体中文语言包方案。`);
+
   const existing = findPackDir();
   if (existing) return existing;
 
@@ -253,6 +270,42 @@ function patchHardcodedUi() {
   return { hits, files, patched };
 }
 
+function applyGitNls(value, zh) {
+  if (value && typeof value === "object" && typeof value.message === "string") {
+    return { ...value, message: zh };
+  }
+  return zh;
+}
+
+function patchGitNlsAt(appRoot) {
+  const file = path.join(appRoot, "extensions", "git", "package.nls.json");
+  if (!fs.existsSync(file)) return 0;
+  const zh = readJson(payloadFile("git-nls-zh.json"));
+  const backup = ensureBackup(file);
+  const source = readJson(backup);
+  let hits = 0;
+  for (const [key, translation] of Object.entries(zh)) {
+    if (source[key] === undefined) continue;
+    source[key] = applyGitNls(source[key], translation);
+    hits += 1;
+  }
+  writeFile(file, `${JSON.stringify(source)}\n`);
+  return hits;
+}
+
+function patchGitNls() {
+  let hits = 0;
+  let roots = 0;
+  for (const appRoot of findAppRoots()) {
+    const count = patchGitNlsAt(appRoot);
+    if (count) {
+      hits += count;
+      roots += 1;
+    }
+  }
+  return { hits, roots };
+}
+
 function unpatchHardcodedUi() {
   let restored = 0;
   for (const appRoot of findAppRoots()) {
@@ -263,6 +316,7 @@ function unpatchHardcodedUi() {
       path.join(appRoot, "out", "vs", "workbench", "workbench.desktop.main.js"),
       path.join(appRoot, "out", "vs", "workbench", "workbench.glass.main.js"),
       path.join(appRoot, "product.json"),
+      path.join(appRoot, "extensions", "git", "package.nls.json"),
     ];
     for (const file of files) if (fs.existsSync(file) && restoreBackup(file)) restored += 1;
     if (fs.existsSync(uiFile)) fs.rmSync(uiFile);
@@ -291,7 +345,7 @@ function install(payloadPath) {
 
   const base = readJson(backup);
   let count = 0;
-  for (const [moduleId, strings] of Object.entries(overlay.contents)) {
+  for (const [moduleId, strings] of Object.entries(overlay.contents || {})) {
     Object.assign((base.contents[moduleId] ??= {}), strings);
     count += Object.keys(strings).length;
   }
@@ -300,10 +354,12 @@ function install(payloadPath) {
   const localeChanged = setLocale();
   const cleared = clearLanguageCache();
   const patched = patchHardcodedUi();
+  const gitNls = patchGitNls();
   console.log(`已写入 ${count} 条 Cursor 专属中文译文。`);
   console.log(`语言包位置：${packDir}`);
   console.log(`已修补 ${patched.files} 个界面文件中的 ${patched.hits} 处写死英文。`);
   for (const appRoot of patched.patched || []) console.log(`界面补丁位置：${appRoot}`);
+  if (gitNls.hits) console.log(`已写入 Git 扩展欢迎文案 ${gitNls.hits} 条（${gitNls.roots} 个安装目录）。`);
   console.log("已更新 Cursor 完整性校验，避免出现“安装损坏”提示。");
   if (localeChanged) console.log("已将 Cursor 显示语言设为简体中文。");
   if (cleared) console.log(`已清理 ${cleared} 个旧的语言缓存。`);

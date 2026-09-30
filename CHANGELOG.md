@@ -2,6 +2,18 @@
 
 All notable changes to this project are documented in this file.
 
+## 0.2.0 — 2026-09-30
+
+First public release.
+
+- Settings / Agents / menubar / welcome / Git empty-state / model picker strings
+- DOM injector plus official-pack invert map for leftover VS Code setting titles
+- Integrity checksum updates and Agents-window `_isPure` bypass so Cursor does not report a corrupt install
+- Git extension `package.nls.json` overlay for SCM welcome copy
+- Detached `restart-now.cmd` for a full Cursor relaunch
+- Repository reorganized: pipeline tools vs `tools/scratch`, catalog vs `catalog/scratch`
+- License changed to MIT; repository visibility set to public
+
 ## 0.1.0 — 2026-09-28
 
 First private preview.

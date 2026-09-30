@@ -1,4 +1,7 @@
 {
+  "vs/platform/actions/browser/toolbar": {
+    "configureIconVisibility": "配置图标可见性"
+  },
   "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions": {
     "secondary sidebar mnemonic": "辅助侧边栏(&&D)"
   },
@@ -16,7 +19,11 @@
     "movePrimarySideBarRight": "将侧边栏移到右侧",
     "movePrimarySideBarLeft": "将侧边栏移到左侧",
     "ariaLabelLeftTitleActions": "左侧标题栏操作",
-    "ariaLabelNavigationActions": "导航操作"
+    "ariaLabelNavigationActions": "导航操作",
+    "goBack": "后退",
+    "goForward": "前进",
+    "togglePrimarySidebar": "切换主侧边栏",
+    "ideTitlebarUpdateAction": "重启以更新"
   },
   "vs/workbench/browser/parts/titlebar/titlebarActions": {
     "toggle.agentsWindow": "Agents 窗口按钮",
@@ -51,7 +58,22 @@
     "maximizeChatSizeDescription": "最大化聊天区域 — 隐藏编辑器、面板和主侧栏，以便专注于 AI Agent",
     "openAgentLayoutQuickMenu": "打开 Cursor 设置",
     "minimizeChatSize": "最小化聊天",
-    "openLayoutSettingsMenu": "打开布局设置菜单"
+    "openLayoutSettingsMenu": "打开布局设置菜单",
+    "toggleInlineDiffs": "切换内联差异",
+    "toggleInlineDiffsDescription": "切换编辑器中内联差异的显示",
+    "maximizeChatSize": "最大化聊天区域",
+    "openLayoutSwitcher": "切换布局",
+    "miToggleCenteredLayout": "居中布局(&&C)",
+    "miMoveSidebarRight": "向右移动主侧栏(&&M)",
+    "miMoveSidebarLeft": "向左移动主侧栏(&&M)",
+    "miShowEditorArea": "显示编辑区域(&&E)",
+    "miAppearance": "外观(&&A)",
+    "primary sidebar mnemonic": "主侧边栏(&&P)",
+    "miStatusbar": "状态栏(&&T)",
+    "miToggleZenMode": "禅模式",
+    "miMenuBar": "菜单栏(&&B)",
+    "miMenuBarNoMnemonic": "菜单栏",
+    "openAndCloseSidebar": "打开/显示并关闭/隐藏侧边栏"
   },
   "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarPart": {
     "auxiliaryBarShowAgentsSidebar": "显示 Agents 侧栏"
@@ -105,7 +127,8 @@
     "triggerAgentReview": "开始 Agent 审查"
   },
   "vs/workbench/contrib/search/browser/searchView": {
-    "openInComposer.tooltip": "在聊天中打开搜索结果"
+    "openInComposer.tooltip": "在聊天中打开搜索结果",
+    "replaceAll.confirm.button": "替换(&&R)"
   },
   "vs/editor/contrib/gotoSymbol/browser/peek/referencesWidget": {
     "label.composer": "在聊天中打开"
@@ -115,11 +138,16 @@
   },
   "vs/workbench/contrib/issue/electron-sandbox/process.contribution": {
     "miOpenProcessExplorerer": "打开进程资源管理器(&&P)",
-    "openProcessExplorer": "打开进程资源管理器"
+    "openProcessExplorer": "打开进程资源管理器",
+    "stopTracing.button": "重新启动并启用跟踪(&&R)"
   },
   "vs/workbench/contrib/preferences/browser/preferences.contribution": {
     "miOpenVSCodeSettings": "VS Code 设置(&&V)",
-    "vsCodeSettings": "VS Code 设置"
+    "vsCodeSettings": "VS Code 设置",
+    "miOpenSettings": "设置(&&S)",
+    "miOpenOnlineSettings": "联机服务设置(&&O)",
+    "miOpenTelemetrySettings": "遥测设置(&&T)",
+    "miPreferences": "首选项(&&P)"
   },
   "vs/workbench/services/preferences/browser/preferencesService": {
     "settingsEditor2InputNameVSCode": "VS Code 设置"
@@ -409,5 +437,797 @@
     "cursor.allowedTeamIds": "允许在此设备登录的 Cursor 团队 ID 逗号分隔列表（通过设备管理设置）。优先于单独的 AllowedTeamId 策略；两者都会生效。",
     "cursor.allowedLoginEmails": "允许在此设备登录的精确账号邮箱逗号分隔列表（通过设备管理设置）。比较时不区分大小写。",
     "cursor.allowedLoginDomains": "允许在此设备登录的邮箱域逗号分隔列表（例如 example.com，通过设备管理设置）。仅精确匹配域名，不会隐式包含子域。"
+  },
+  "vs/platform/menubar/electron-main/menubar": {
+    "mFile": "文件(&&F)",
+    "mEdit": "编辑(&&E)",
+    "mSelection": "选择(&&S)",
+    "mView": "查看(&&V)",
+    "mGoto": "转到(&&G)",
+    "mRun": "运行(&&R)",
+    "mTerminal": "终端(&&T)",
+    "mHelp": "帮助(&&H)",
+    "mWindow": "窗口",
+    "mAbout": "关于 {0}",
+    "miPreferences": "首选项(&&P)",
+    "mServices": "服务",
+    "mHide": "隐藏 {0}",
+    "mHideOthers": "隐藏其他",
+    "mShowAll": "全部显示",
+    "miQuit": "退出 {0}",
+    "quit": "退出(&&Q)",
+    "cancel": "取消",
+    "quitMessage": "是否确实要退出?",
+    "mMinimize": "最小化",
+    "mZoom": "缩放",
+    "mBringToFront": "全部置于顶层",
+    "miSwitchWindow": "切换窗口(&&W)...",
+    "mNewTab": "新建标签页",
+    "mShowPreviousTab": "显示上一个选项卡",
+    "mShowNextTab": "显示下一个选项卡",
+    "mMoveTabToNewWindow": "移动标签页到新窗口",
+    "mMergeAllWindows": "合并所有窗口",
+    "miCheckForUpdates": "检查更新(&&U)...",
+    "miCheckingForUpdates": "正在检查更新...",
+    "miDownloadUpdate": "下载可用更新(&&O)",
+    "miDownloadingUpdate": "正在下载更新...",
+    "miInstallUpdate": "安装更新(&&U)...",
+    "miInstallingUpdate": "正在安装更新...",
+    "miRestartToUpdate": "重新启动以更新(&&U)"
+  },
+  "vs/workbench/browser/parts/titlebar/menubarControl": {
+    "mFile": "文件(&&F)",
+    "mEdit": "编辑(&&E)",
+    "mSelection": "选择(&&S)",
+    "mView": "查看(&&V)",
+    "mGoto": "转到(&&G)",
+    "mRun": "运行(&&R)",
+    "mTerminal": "终端(&&T)",
+    "mHelp": "帮助(&&H)",
+    "mPreferences": "首选项",
+    "menubar.customTitlebarAccessibilityNotification": "为你启用了辅助功能支持。对于最易于访问的体验，我们建议使用自定义菜单样式。",
+    "goToSetting": "打开设置",
+    "checkForUpdates": "检查更新(&&U)...",
+    "checkingForUpdates": "正在检查更新...",
+    "download now": "下载更新(&&O)",
+    "DownloadingUpdate": "正在下载更新...",
+    "installUpdate...": "安装更新(&&U)...",
+    "installingUpdate": "正在安装更新...",
+    "restartToUpdate": "重新启动以更新(&&U)",
+    "focusMenu": "聚焦应用程序菜单"
+  },
+  "vs/workbench/contrib/debug/browser/debug.contribution": {
+    "mRun": "运行(&&R)",
+    "miStartDebugging": "启动调试(&&S)",
+    "miRun": "以非调试模式运行(&&W)",
+    "miStopDebugging": "停止调试(&&S)",
+    "miRestart Debugging": "重启调试(&&R)",
+    "miAddConfiguration": "添加配置(&&D)...",
+    "miStepOver": "逐过程(&&O)",
+    "miStepInto": "单步执行(&&I)",
+    "miStepOut": "单步停止(&&U)",
+    "miContinue": "继续(&&C)",
+    "miInlineBreakpoint": "内联断点(&&O)",
+    "miNewBreakpoint": "新建断点(&&N)",
+    "miInstallAdditionalDebuggers": "安装附加调试器(&&I)...",
+    "miToggleDebugConsole": "调试控制台(&&B)",
+    "miViewRun": "运行(&&R)"
+  },
+  "vs/workbench/contrib/files/browser/files.view.contribution": {
+    "openFolder": "打开文件夹",
+    "addAFolder": "添加文件夹",
+    "openRecent": "打开最近的文件",
+    "noWorkspaceHelp": "尚未向工作区添加文件夹。\n{0}",
+    "noFolderHelpWeb": "尚未打开文件夹。\n{0}\n{1}",
+    "remoteNoFolderHelp": "已连接到远程。\n{0}",
+    "noFolderButEditorsHelp": "尚未打开文件夹。\n{0}\n打开文件夹将关闭所有当前打开的编辑器。要使其保持打开状态，请改为 {1}。",
+    "noFolderHelp": "尚未打开文件夹。\n{0}",
+    "folders": "文件夹",
+    "miViewExplorer": "资源管理器(&&E)"
+  },
+  "vs/workbench/common/configuration": {
+    "security.allowedUNCHosts": "无需用户确认即可允许的一组 UNC 主机名（无前导或尾随反斜杠，例如 `192.168.0.1` 或 `my-server`）。如果正在访问的 UNC 主机不在此设置允许范围内，或未经用户确认，则会出错并停止操作。更改此设置后需要重启。详细信息：https://aka.ms/vscode-windows-unc。",
+    "security.allowedUNCHosts.patternErrorMessage": "UNC 主机名不得包含反斜杠。",
+    "security.restrictUNCAccess": "若已启用，则仅允许访问 `#security.allowedUNCHosts#` 设置允许的或经用户确认的 UNC 主机名。详细信息：https://aka.ms/vscode-windows-unc。"
+  },
+  "vs/workbench/electron-sandbox/desktop.contribution": {
+    "security.promptForLocalFileProtocolHandling": "启用后，每当即将通过协议处理程序打开本地文件或工作区时，都会弹出确认对话框。",
+    "security.promptForRemoteFileProtocolHandling": "启用后，每当即将通过协议处理程序打开远程文件或工作区时，都会弹出确认对话框。",
+    "miExit": "退出(&&X)"
+  },
+  "vs/workbench/contrib/workspace/browser/workspace.contribution": {
+    "workspace.trust.banner.description": "控制何时显示受限模式横幅。",
+    "workspace.trust.banner.always": "每次打开不受信任的工作区时都显示横幅。",
+    "workspace.trust.banner.untilDismissed": "打开不受信任的工作区时显示横幅，直到关闭为止。",
+    "workspace.trust.banner.never": "打开不受信任的工作区时不显示横幅。"
+  },
+  "vs/workbench/contrib/preferences/browser/settingsEditorSettingIndicators": {
+    "applicationSetting": "适用于所有配置文件",
+    "applicationSettingDescription": "此设置不属于当前配置文件，切换配置文件时会保留其值。",
+    "applicationSettingDescriptionAccessible": "切换配置文件时保留设置值"
+  },
+  "vs/base/browser/ui/menu/menubar": {
+    "mAppMenu": "应用程序菜单",
+    "mMore": "更多"
+  },
+  "vs/code/electron-main/app": {
+    "open": "是(&Y)",
+    "cancel": "否(&&N)"
+  },
+  "vs/code/electron-main/main": {
+    "close": "关闭(&C)"
+  },
+  "vs/editor/browser/editorExtensions": {
+    "miUndo": "撤消(&&U)",
+    "miRedo": "恢复(&&R)",
+    "miSelectAll": "全选(&&S)"
+  },
+  "vs/editor/contrib/bracketMatching/browser/bracketMatching": {
+    "miGoToBracket": "转到括号(&&B)"
+  },
+  "vs/editor/contrib/clipboard/browser/clipboard": {
+    "miCut": "剪切(&&T)",
+    "miCopy": "复制(&&C)",
+    "miPaste": "粘贴(&&P)"
+  },
+  "vs/editor/contrib/colorPicker/browser/standaloneColorPicker/standaloneColorPickerActions": {
+    "mishowOrFocusStandaloneColorPicker": "显示或聚焦独立颜色选取器(&&S)"
+  },
+  "vs/editor/contrib/comment/browser/comment": {
+    "miToggleLineComment": "切换行注释(&&T)",
+    "miToggleBlockComment": "切换块注释(&&B)"
+  },
+  "vs/editor/contrib/find/browser/findController": {
+    "miFind": "查找(&&F)",
+    "miReplace": "替换(&&R)"
+  },
+  "vs/editor/contrib/gotoError/browser/gotoError": {
+    "miGotoNextProblem": "下一个问题(&&P)",
+    "miGotoPreviousProblem": "上一个问题(&&P)"
+  },
+  "vs/editor/contrib/gotoSymbol/browser/goToCommands": {
+    "miGotoDefinition": "转到定义(&&D)",
+    "miGotoDeclaration": "转到声明(&&D)",
+    "miGotoTypeDefinition": "转到类型定义(&&T)",
+    "miGotoImplementation": "转到实现(&&I)",
+    "miGotoReference": "转到引用(&&R)"
+  },
+  "vs/editor/contrib/linesOperations/browser/linesOperations": {
+    "miCopyLinesUp": "向上复制一行(&&C)",
+    "miCopyLinesDown": "向下复制一行(&&P)",
+    "miDuplicateSelection": "重复选择(&&D)",
+    "miMoveLinesUp": "向上移动一行(&&V)",
+    "miMoveLinesDown": "向下移动一行(&&L)"
+  },
+  "vs/editor/contrib/multicursor/browser/multicursor": {
+    "miInsertCursorAbove": "在上面添加光标(&&A)",
+    "miInsertCursorBelow": "在下面添加光标(&&D)",
+    "miInsertCursorAtEndOfEachLineSelected": "在行尾添加光标(&&U)",
+    "miAddSelectionToNextFindMatch": "添加下一个匹配项(&&N)",
+    "miAddSelectionToPreviousFindMatch": "添加上一个匹配项(&&R)",
+    "miSelectHighlights": "选择所有匹配项(&&O)"
+  },
+  "vs/editor/contrib/smartSelect/browser/smartSelect": {
+    "miSmartSelectGrow": "扩大选区(&&E)",
+    "miSmartSelectShrink": "缩小选区(&&S)"
+  },
+  "vs/editor/contrib/stickyScroll/browser/stickyScrollActions": {
+    "mitoggleStickyScroll": "切换编辑器粘滞滚动",
+    "miStickyScroll": "粘滞滚动(&&S)",
+    "mifocusEditorStickyScroll": "焦点编辑器粘滞滚动(&&F)"
+  },
+  "vs/editor/contrib/unusualLineTerminators/browser/unusualLineTerminators": {
+    "unusualLineTerminators.fix": "删除异常行终止符(&&R)"
+  },
+  "vs/platform/browserView/electron-sandbox/externalSchemeConfirmation": {
+    "browserView.openExternalLinkOpen": "打开(&&O)"
+  },
+  "vs/platform/dialogs/common/dialogs": {
+    "yesButton": "是(&&Y)",
+    "okButton": "确定(&&O)"
+  },
+  "vs/platform/dialogs/electron-main/dialogMainService": {
+    "openWorkspace": "打开(&&O)"
+  },
+  "vs/platform/native/electron-main/nativeHostMainService": {
+    "ok": "确定(&&O)",
+    "copyLink": "复制链接(&&C)"
+  },
+  "vs/platform/process/electron-main/processMainService": {
+    "trace.ok": "确定(&&O)"
+  },
+  "vs/platform/undoRedo/common/undoRedoService": {
+    "ok": "在 {0} 个文件中撤消(&&U)",
+    "confirmDifferentSource.yes": "是(&&Y)"
+  },
+  "vs/platform/windows/electron-main/windowImpl": {
+    "reopen": "重新打开(&&R)",
+    "close": "关闭(&&C)",
+    "wait": "继续等待(&&K)",
+    "newWindow": "新建窗口(&&N)"
+  },
+  "vs/platform/windows/electron-main/windowsMainService": {
+    "ok": "确定(&&O)",
+    "allow": "允许(&&A)",
+    "cancel": "取消(&&C)",
+    "learnMore": "了解详细信息(&&L)"
+  },
+  "vs/platform/workspaces/electron-main/workspacesHistoryMainService": {
+    "clearButtonLabel": "清除(&&C)",
+    "cancel": "取消(&&C)"
+  },
+  "vs/platform/workspaces/electron-main/workspacesManagementMainService": {
+    "ok": "确定(&&O)"
+  },
+  "vs/workbench/api/browser/mainThreadFileSystemEventService": {
+    "ok": "确定(&&O)"
+  },
+  "vs/workbench/api/browser/mainThreadMessageService": {
+    "ok": "确定(&&O)"
+  },
+  "vs/workbench/browser/actions/developerActions": {
+    "removeLargeStorageEntriesButtonLabel": "删除(&&R)"
+  },
+  "vs/workbench/browser/actions/helpActions": {
+    "miLicense": "查看许可证(&&V)"
+  },
+  "vs/workbench/browser/actions/listCommands": {
+    "mitoggleTreeStickyScroll": "切换树粘滞滚动(&&T)"
+  },
+  "vs/workbench/browser/actions/windowActions": {
+    "miMore": "更多(&&M)...",
+    "miToggleFullScreen": "全屏(&&F)",
+    "miAbout": "关于(&&A)",
+    "miNewWindow": "新建窗口(&&W)",
+    "miConfirmClose": "关闭前确认",
+    "miOpenRecent": "打开最近的文件(&&R)"
+  },
+  "vs/workbench/browser/actions/workspaceActions": {
+    "miOpenFile": "打开文件(&&O)...",
+    "miOpenFolder": "打开文件夹(&&F)...",
+    "miOpen": "打开(&&O)...",
+    "miOpenWorkspace": "从文件打开工作区(&&K)...",
+    "miAddFolderToWorkspace": "将文件夹添加到工作区(&&D)...",
+    "miSaveWorkspaceAs": "将工作区另存为...",
+    "miCloseFolder": "关闭文件夹(&&F)",
+    "miCloseWorkspace": "关闭工作区(&&W)"
+  },
+  "vs/workbench/browser/actions/workspaceCommands": {
+    "add": "添加(&&A)"
+  },
+  "vs/workbench/browser/parts/dialogs/dialogHandler": {
+    "copy": "复制(&&C)"
+  },
+  "vs/workbench/browser/parts/editor/breadcrumbsControl": {
+    "miBreadcrumbs": "痕迹导航(&&B)",
+    "miBreadcrumbs2": "痕迹导航(&&B)"
+  },
+  "vs/workbench/browser/parts/editor/editor.contribution": {
+    "miReopenClosedEditor": "重新打开已关闭的编辑器(&&R)",
+    "miClearRecentOpen": "清除最近打开的…(&&C)",
+    "miShare": "共享",
+    "miEditorLayout": "编辑器布局(&&L)",
+    "miSplitEditorUp": "向上拆分(&&U)",
+    "miSplitEditorDown": "向下拆分(&&D)",
+    "miSplitEditorLeft": "向左拆分(&&L)",
+    "miSplitEditorRight": "向右拆分(&&R)",
+    "miSplitEditorInGroup": "在组中拆分(&&G)",
+    "miJoinEditorInGroup": "加入组(&&G)",
+    "miMoveEditorToNewWindow": "将编辑器移动到新窗口(&&M)",
+    "miCopyEditorToNewWindow": "将编辑器复制到新窗口(&&C)",
+    "miSingleColumnEditorLayout": "单列(&&S)",
+    "miTwoColumnsEditorLayout": "双列(&&T)",
+    "miThreeColumnsEditorLayout": "三列(&&H)",
+    "miTwoRowsEditorLayout": "双行(&&W)",
+    "miThreeRowsEditorLayout": "三行(&&R)",
+    "miTwoByTwoGridEditorLayout": "2x2 网格(&&G)",
+    "miTwoRowsRightEditorLayout": "右侧双行(&&O)",
+    "miTwoColumnsBottomEditorLayout": "底部双列(&&C)",
+    "miLastEditLocation": "上次编辑位置(&&L)",
+    "miFirstSideEditor": "编辑器中的第一侧(&&F)",
+    "miSecondSideEditor": "编辑器中的第二侧(&&S)",
+    "miNextEditor": "下一个编辑器(&&N)",
+    "miPreviousEditor": "上一个编辑器(&&P)",
+    "miNextRecentlyUsedEditor": "下一个使用过的编辑器(&&N)",
+    "miPreviousRecentlyUsedEditor": "上一个使用过的编辑器(&&P)",
+    "miNextEditorInGroup": "组中的下一个编辑器(&&N)",
+    "miPreviousEditorInGroup": "组中的上一个编辑器(&&P)",
+    "miNextUsedEditorInGroup": "组中下一个使用过的编辑器(&&N)",
+    "miPreviousUsedEditorInGroup": "组中上一个使用过的编辑器(&&P)",
+    "miSwitchEditor": "切换编辑器(&&E)",
+    "miFocusFirstGroup": "第 1 组(&&1)",
+    "miFocusSecondGroup": "第 2 组(&&2)",
+    "miFocusThirdGroup": "第 3 组(&&3)",
+    "miFocusFourthGroup": "第 4 组(&&4)",
+    "miFocusFifthGroup": "第 5 组(&&5)",
+    "miNextGroup": "下一个组(&&N)",
+    "miPreviousGroup": "上一个组(&&P)",
+    "miFocusLeftGroup": "左侧组(&&L)",
+    "miFocusRightGroup": "右侧组(&&R)",
+    "miFocusAboveGroup": "上方组(&&A)",
+    "miFocusBelowGroup": "下方组(&&B)",
+    "miSwitchGroup": "切换组(&&G)",
+    "miSplitEditorUpWithoutMnemonic": "向上拆分",
+    "miSplitEditorDownWithoutMnemonic": "向下拆分",
+    "miSplitEditorLeftWithoutMnemonic": "向左拆分",
+    "miSplitEditorRightWithoutMnemonic": "向右拆分",
+    "miSplitEditorInGroupWithoutMnemonic": "在组中拆分",
+    "miJoinEditorInGroupWithoutMnemonic": "合并组",
+    "miSingleColumnEditorLayoutWithoutMnemonic": "单一",
+    "miTwoColumnsEditorLayoutWithoutMnemonic": "两列",
+    "miThreeColumnsEditorLayoutWithoutMnemonic": "三列",
+    "miTwoRowsEditorLayoutWithoutMnemonic": "双行",
+    "miThreeRowsEditorLayoutWithoutMnemonic": "三行",
+    "miTwoByTwoGridEditorLayoutWithoutMnemonic": "2x2 网格",
+    "miTwoRowsRightEditorLayoutWithoutMnemonic": "右侧双行",
+    "miTwoColumnsBottomEditorLayoutWithoutMnemonic": "底部双列"
+  },
+  "vs/workbench/browser/parts/editor/editorActions": {
+    "miForward": "前进(&&F)",
+    "miBack": "返回(&&B)",
+    "clearButtonLabel": "清除(&&C)",
+    "miMoveEditorToNewWindow": "将编辑器移动到新窗口(&&M)",
+    "miCopyEditorToNewWindow": "将编辑器复制到新窗口(&&C)",
+    "miMoveEditorGroupToNewWindow": "将编辑器组移动到新窗口(&&M)",
+    "miCopyEditorGroupToNewWindow": "将编辑器组复制到新窗口(&&C)",
+    "miRestoreEditorsToMainWindow": "将编辑器还原到主窗口(&&R)",
+    "miNewEmptyEditorWindow": "新建空编辑器窗口(&&N)"
+  },
+  "vs/workbench/browser/parts/editor/editorPanes": {
+    "ok": "确定(&&O)"
+  },
+  "vs/workbench/browser/window": {
+    "quitButtonLabel": "退出(&&Q)",
+    "exitButtonLabel": "退出(&&E)",
+    "closeWindowButtonLabel": "关闭窗口(&&C)"
+  },
+  "vs/workbench/common/theme": {
+    "menubarSelectionForeground": "菜单栏中选定菜单项的前景色。",
+    "menubarSelectionBackground": "菜单栏中选定菜单项的背景色。",
+    "menubarSelectionBorder": "菜单栏中所选菜单项的边框颜色。"
+  },
+  "vs/workbench/contrib/authentication/browser/actions/signOutOfAccountAction": {
+    "signOut": "退出登录(&&S)"
+  },
+  "vs/workbench/contrib/bulkEdit/browser/bulkEditService": {
+    "closeTheWindow": "关闭窗口(&&C)",
+    "reloadTheWindow": "重新加载窗口(&&R)",
+    "quit": "退出(&&Q)"
+  },
+  "vs/workbench/contrib/bulkEdit/browser/preview/bulkEdit.contribution": {
+    "continue": "继续(&&C)"
+  },
+  "vs/workbench/contrib/codeEditor/browser/quickaccess/gotoSymbolQuickAccess": {
+    "miGotoSymbolInEditor": "转到编辑器中的符号(&&S)…"
+  },
+  "vs/workbench/contrib/codeEditor/browser/toggleColumnSelection": {
+    "miColumnSelection": "列选择模式(&&S)"
+  },
+  "vs/workbench/contrib/codeEditor/browser/toggleMinimap": {
+    "miMinimap": "缩略图(&&M)"
+  },
+  "vs/workbench/contrib/codeEditor/browser/toggleMultiCursorModifier": {
+    "miMultiCursorAlt": "切换为“Alt+单击”进行多光标功能",
+    "miMultiCursorCmd": "切换为“Cmd+单击”进行多光标功能",
+    "miMultiCursorCtrl": "切换为“Ctrl+单击”进行多光标功能"
+  },
+  "vs/workbench/contrib/codeEditor/browser/toggleOvertype": {
+    "mitoggleOvertypeInsertMode": "切换(&&T)改写/插入模式"
+  },
+  "vs/workbench/contrib/codeEditor/browser/toggleRenderControlCharacter": {
+    "miToggleRenderControlCharacters": "显示控制字符(&&C)"
+  },
+  "vs/workbench/contrib/codeEditor/browser/toggleWordWrap": {
+    "miToggleWordWrap": "自动换行(&&W)"
+  },
+  "vs/workbench/contrib/debug/browser/breakpointEditorContribution": {
+    "removeLogPoint": "移除 {0}(&&R)",
+    "disable": "禁用(&&D)",
+    "enable": "启用(&&E)"
+  },
+  "vs/workbench/contrib/debug/browser/breakpointsView": {
+    "miFunctionBreakpoint": "函数断点(&&F)...",
+    "miDataBreakpoint": "数据(&&D)断点...",
+    "miRemoveAllBreakpoints": "删除所有断点(&&A)",
+    "miEnableAllBreakpoints": "启用所有断点(&&E)",
+    "miDisableAllBreakpoints": "禁用所有断点(&&L)"
+  },
+  "vs/workbench/contrib/debug/browser/debugAdapterManager": {
+    "findExtension": "查找 {0} 扩展(&&F)"
+  },
+  "vs/workbench/contrib/debug/browser/debugEditorActions": {
+    "miToggleBreakpoint": "切换断点(&&B)",
+    "miConditionalBreakpoint": "条件断点(&&C)...",
+    "miLogPoint": "记录点(&&L)...",
+    "miTriggerByBreakpoint": "触发的断点...",
+    "miEditBreakpoint": "编辑断点(&&E)",
+    "miDisassemblyView": "反汇编视图(&&D)",
+    "mitogglesource": "切换源(&&T)"
+  },
+  "vs/workbench/contrib/debug/browser/debugTaskRunner": {
+    "debugAnyway": "仍要调试(&&D)",
+    "showErrors": "显示错误(&&S)"
+  },
+  "vs/workbench/contrib/debug/browser/debugViewlet": {
+    "miOpenConfigurations": "打开配置(&&C)"
+  },
+  "vs/workbench/contrib/debug/browser/rawDebugSession": {
+    "continue": "继续(&&C)"
+  },
+  "vs/workbench/contrib/debug/common/debugLifecycle": {
+    "debug.stop": "停止调试(&&S)"
+  },
+  "vs/workbench/contrib/emmet/browser/actions/expandAbbreviation": {
+    "miEmmetExpandAbbreviation": "Emmet: 展开缩写(&&X)"
+  },
+  "vs/workbench/contrib/extensions/browser/extensions.contribution": {
+    "miViewExtensions": "扩展(&&X)",
+    "miPreferencesExtensions": "扩展(&&E)",
+    "installButton": "安装(&&I)"
+  },
+  "vs/workbench/contrib/extensions/browser/extensionsActions": {
+    "more information": "更多信息(&&R)",
+    "Show alternate extension": "打开 {0}(&&O)",
+    "configure in settings": "配置设置(&&C)"
+  },
+  "vs/workbench/contrib/extensions/browser/extensionsWorkbenchService": {
+    "installButtonLabel": "安装扩展(&&I)",
+    "installButtonLabelWithAction": "安装扩展和 {0}(&&I)",
+    "enableButtonLabel": "启用扩展(&&E)",
+    "enableButtonLabelWithAction": "启用扩展和 {0}(&&E)"
+  },
+  "vs/workbench/contrib/extensions/electron-sandbox/debugExtensionHostAction": {
+    "restart3": "重启(&&R)"
+  },
+  "vs/workbench/contrib/extensions/electron-sandbox/extensionProfileService": {
+    "restart3": "重启(&&R)",
+    "restartRemote3": "重启(&&R)",
+    "restartCurrentWorkspaceHost3": "重启(&&R)"
+  },
+  "vs/workbench/contrib/files/browser/fileActions.contribution": {
+    "miNewFile": "新建文本文件(&&N)",
+    "miSave": "保存(&&S)",
+    "miSaveAs": "另存为(&&A)...",
+    "miSaveAll": "全部保存(&&L)",
+    "miAutoSave": "自动保存(&&U)",
+    "miRevert": "还原文件(&&V)",
+    "miCloseEditor": "关闭编辑器(&&C)",
+    "miGotoFile": "转到文件(&&F)..."
+  },
+  "vs/workbench/contrib/files/browser/fileActions": {
+    "deleteButtonLabelRecycleBin": "移动到回收站(&&M)",
+    "deleteButtonLabelTrash": "移动到废纸篓(&&M)",
+    "deleteButtonLabel": "删除(&&D)",
+    "deletePermanentlyButtonLabel": "永久删除(&&D)",
+    "retryButtonLabel": "重试(&&R)",
+    "replaceButtonLabel": "替换(&&R)",
+    "pasteButtonLabel": "粘贴(&&P)"
+  },
+  "vs/workbench/contrib/files/browser/fileImportExport": {
+    "copyFolders": "复制文件夹(&&C)",
+    "copyFolder": "复制文件夹(&&C)",
+    "addFolders": "将文件夹添加到工作区(&&A)",
+    "addFolder": "将文件夹添加到工作区(&&A)",
+    "replaceButtonLabel": "替换(&&R)"
+  },
+  "vs/workbench/contrib/files/browser/views/explorerViewer": {
+    "moveButtonLabel": "移动(&&M)"
+  },
+  "vs/workbench/contrib/files/browser/views/openEditorsView": {
+    "miToggleEditorLayout": "翻转布局(&&L)",
+    "miToggleEditorLayoutWithoutMnemonic": "翻转布局"
+  },
+  "vs/workbench/contrib/files/electron-sandbox/fileActions.contribution": {
+    "miShare": "共享"
+  },
+  "vs/workbench/contrib/format/browser/formatActionsMultiple": {
+    "do.config": "配置(&&C)..."
+  },
+  "vs/workbench/contrib/format/browser/formatActionsNone": {
+    "install.formatter": "安装格式化程序(&&I)..."
+  },
+  "vs/workbench/contrib/issue/browser/issueTroubleshoot": {
+    "msg": "&&排查问题"
+  },
+  "vs/workbench/contrib/localHistory/browser/localHistoryCommands": {
+    "restoreButtonLabel": "还原(&&R)",
+    "deleteButtonLabel": "删除(&&D)",
+    "deleteAllButtonLabel": "全部删除(&&D)"
+  },
+  "vs/workbench/contrib/mergeEditor/browser/commands/commands": {
+    "mergeEditor.acceptMerge.unhandledConflicts.accept": "完成但出现冲突(&&C)"
+  },
+  "vs/workbench/contrib/mergeEditor/browser/mergeEditorInputModel": {
+    "saveWithConflict": "保存(存在冲突)(&&S)",
+    "save": "保存(&&S)",
+    "acceptMerge": "接受合并(&&A)",
+    "workspace.saveWithConflict": "保存(存在冲突)(&&S)",
+    "workspace.save": "保存(&&S)",
+    "workspace.closeWithConflicts": "关闭(存在冲突)(&&C)",
+    "workspace.close": "关闭(&&C)"
+  },
+  "vs/workbench/contrib/notebook/browser/controller/coreActions": {
+    "miShare": "共享"
+  },
+  "vs/workbench/contrib/notebook/browser/controller/layoutActions": {
+    "mitoggleNotebookStickyScroll": "粘滞滚动 (&&S)"
+  },
+  "vs/workbench/contrib/notebook/browser/controller/sectionActions": {
+    "mirunCell": "运行单元(&&R)",
+    "mirunCellsInSection": "运行分区中的单元(&&R)",
+    "mifoldSection": "折叠分区(&&F)",
+    "miexpandSection": "展开分区(&&E)"
+  },
+  "vs/workbench/contrib/performance/electron-sandbox/startupProfiler": {
+    "prof.restartAndFileIssue": "创建问题并重启(&&C)",
+    "prof.restart.button": "重启(&&R)"
+  },
+  "vs/workbench/contrib/quickaccess/browser/commandsQuickAccess": {
+    "clearButtonLabel": "清除(&&C)"
+  },
+  "vs/workbench/contrib/quickaccess/browser/quickAccess.contribution": {
+    "miCommandPalette": "命令面板(&&C)…",
+    "miShowAllCommands": "显示所有命令",
+    "miGotoLine": "转到行/列(&&L)…"
+  },
+  "vs/workbench/contrib/relauncher/browser/relauncher.contribution": {
+    "restart": "重启(&&R)",
+    "restartWeb": "重载(&&R)"
+  },
+  "vs/workbench/contrib/remote/browser/remoteConnectionHealth": {
+    "allow": "允许(&&A)",
+    "learnMore": "了解详细信息(&&L)"
+  },
+  "vs/workbench/contrib/remote/browser/remoteIndicator": {
+    "miCloseRemote": "关闭远程连接(&&M)"
+  },
+  "vs/workbench/contrib/remote/common/remote.contribution": {
+    "invalidWorkspacePrimary": "打开工作区(&&O)..."
+  },
+  "vs/workbench/contrib/remote/electron-sandbox/remote.cursor.contribution": {
+    "wslMntWorkspaceWarning.ok": "确定(&&O)",
+    "windowsWslPathWarning.ok": "确定(&&O)",
+    "windowsWslPathWarning.install": "安装 WSL 扩展(&&I)"
+  },
+  "vs/workbench/contrib/remoteTunnel/electron-sandbox/remoteTunnel.contribution": {
+    "enable": "启用(&&E)"
+  },
+  "vs/workbench/contrib/scm/browser/menus": {
+    "miShare": "共享"
+  },
+  "vs/workbench/contrib/scm/browser/quickDiffWidget": {
+    "miGotoNextChange": "下一个更改(&&C)",
+    "miGotoPreviousChange": "上一个更改(&&C)"
+  },
+  "vs/workbench/contrib/scrollLocking/browser/scrollLocking": {
+    "miToggleLockedScrolling": "锁定滚动",
+    "miHoldLockedScrolling": "锁定滚动"
+  },
+  "vs/workbench/contrib/search/browser/search.contribution": {
+    "miViewSearch": "搜索(&&S)"
+  },
+  "vs/workbench/contrib/search/browser/searchActionsFind": {
+    "miFindInFiles": "在文件中查找(&&I)"
+  },
+  "vs/workbench/contrib/search/browser/searchActionsSymbol": {
+    "miGotoSymbolInWorkspace": "转到工作区中的符号(&&W)…"
+  },
+  "vs/workbench/contrib/snippets/browser/commands/configureSnippets": {
+    "miOpenSnippets": "代码片段(&&S)"
+  },
+  "vs/workbench/contrib/tasks/browser/abstractTaskService": {
+    "saveBeforeRun.save": "保存(&&S)"
+  },
+  "vs/workbench/contrib/tasks/browser/task.contribution": {
+    "miRunTask": "运行任务(&&R)…",
+    "miBuildTask": "运行生成任务(&&B)…",
+    "miRunningTask": "显示正在运行的任务(&&G)…",
+    "miRestartTask": "重启正在运行的任务(&&E)…",
+    "miTerminateTask": "终止任务(&&T)…",
+    "miConfigureTask": "配置任务(&&C)…",
+    "miConfigureBuildTask": "配置默认生成任务(&&F)…"
+  },
+  "vs/workbench/contrib/tasks/electron-sandbox/taskService": {
+    "TaskSystem.terminateTask": "终止任务(&&T)",
+    "TaskSystem.exitAnyways": "仍要退出(&&E)"
+  },
+  "vs/workbench/contrib/terminal/browser/terminalEditorInput": {
+    "confirmDirtyTerminal.button": "&&终止"
+  },
+  "vs/workbench/contrib/terminal/browser/terminalMenus": {
+    "miNewTerminal": "新建终端(&&N)",
+    "miSplitTerminal": "拆分终端(&&S)",
+    "miRunActiveFile": "运行活动文件(&&A)",
+    "miRunSelectedText": "运行所选文本(&&S)"
+  },
+  "vs/workbench/contrib/terminal/browser/terminalService": {
+    "terminate": "终止(&&T)"
+  },
+  "vs/workbench/contrib/terminalContrib/clipboard/browser/terminalClipboard": {
+    "multiLinePasteButton": "粘贴(&&P)"
+  },
+  "vs/workbench/contrib/terminalContrib/stickyScroll/browser/terminal.stickyScroll.contribution": {
+    "miStickyScroll": "粘滞滚动(&&S)"
+  },
+  "vs/workbench/contrib/testing/browser/testing.contribution": {
+    "miViewTesting": "测试(&&E)"
+  },
+  "vs/workbench/contrib/themes/browser/themes.contribution": {
+    "miSelectTheme": "主题(&&T)"
+  },
+  "vs/workbench/contrib/update/browser/update.contribution": {
+    "updateButton": "更新(&&U)"
+  },
+  "vs/workbench/contrib/url/browser/trustedDomainsValidator": {
+    "open": "打开(&&O)",
+    "copy": "复制(&&C)",
+    "alwaysTrustDomain": "始终打开此域(&&A)"
+  },
+  "vs/workbench/contrib/userDataProfile/browser/userDataProfile": {
+    "miOpenProfiles": "配置文件(&&P)"
+  },
+  "vs/workbench/electron-sandbox/actions/windowActions": {
+    "miCloseWindow": "关闭窗口(&&E)",
+    "miZoomIn": "放大(&&Z)",
+    "miZoomOut": "缩小(&&Z)",
+    "miZoomReset": "重置缩放(&&R)",
+    "miSetZoomLevel": "设置缩放级别(&&S)"
+  },
+  "vs/workbench/electron-sandbox/parts/dialogs/dialogHandler": {
+    "copy": "复制(&&C)"
+  },
+  "vs/workbench/electron-sandbox/window": {
+    "loginButton": "登录(&&L)"
+  },
+  "vs/workbench/services/authentication/browser/authenticationExtensionsService": {
+    "allow": "允许(&&A)",
+    "deny": "拒绝(&&D)"
+  },
+  "vs/workbench/services/auxiliaryWindow/browser/auxiliaryWindowService": {
+    "retry": "重试(&&R)"
+  },
+  "vs/workbench/services/dialogs/browser/abstractFileDialogService": {
+    "saveAll": "全部保存(&&S)",
+    "save": "保存(&&S)"
+  },
+  "vs/workbench/services/extensionManagement/browser/extensionBisect": {
+    "msg2": "开始扩展二等分(&&S)",
+    "report": "报告问题并继续(&&R)",
+    "next.stop": "停止二等分(&&S)",
+    "next.cancel": "取消二等分(&&C)"
+  },
+  "vs/workbench/services/extensionManagement/common/extensionManagementService": {
+    "learnMore": "了解详细信息(&&L)",
+    "install anyways": "仍然安装(&&I)",
+    "showExtensions": "显示扩展(&&S)"
+  },
+  "vs/workbench/services/extensionManagement/electron-sandbox/extensionGalleryManifestService": {
+    "restart": "重启(&&R)"
+  },
+  "vs/workbench/services/extensions/browser/extensionUrlHandler": {
+    "open": "打开(&&O)",
+    "reloadAndOpen": "重载窗口并打开(&&R)"
+  },
+  "vs/workbench/services/localization/electron-sandbox/localeService": {
+    "restart": "重启(&&R)"
+  },
+  "vs/workbench/services/textfile/browser/textFileService": {
+    "replaceButtonLabel": "替换(&&R)",
+    "makeWriteableButtonLabel": "仍然保存(&&S)"
+  },
+  "vs/workbench/services/userDataProfile/browser/userDataProfileImportExportService": {
+    "copy": "复制链接(&&C)",
+    "open": "打开链接(&&O)",
+    "open in": "在 {0} 中打开(&&O)",
+    "overwrite": "替换(&&R)"
+  },
+  "vs/workbench/services/userDataProfile/browser/userDataProfileManagement": {
+    "reload button": "重载(&&R)"
+  },
+  "vs/workbench/services/workingCopy/common/fileWorkingCopyManager": {
+    "replaceButtonLabel": "替换(&&R)",
+    "makeWriteableButtonLabel": "仍然保存(&&S)"
+  },
+  "vs/workbench/services/workingCopy/electron-sandbox/workingCopyBackupTracker": {
+    "ok": "确定(&&O)",
+    "shutdownForceClose": "仍然关闭",
+    "shutdownForceQuit": "仍然退出",
+    "shutdownForceReload": "仍然重新加载"
+  },
+  "vs/workbench/services/workspaces/electron-sandbox/workspaceEditingService": {
+    "save": "保存(&&S)"
+  },
+  "vs/platform/tray/electron-main/dockMenuMain": {
+    "miNewWindow": "新建窗口(&&W)"
+  },
+  "vs/workbench/contrib/extensions/electron-sandbox/extensionMonitor.contribution": {
+    "miOpenExtensionMonitorer": "打开扩展监视器(&&E)"
+  },
+  "vs/workbench/contrib/markers/browser/markers.view.contribution": {
+    "miMarker": "问题(&&P)"
+  },
+  "vs/workbench/contrib/output/browser/output.view.contribution": {
+    "miToggleOutput": "输出(&&O)"
+  },
+  "vs/workbench/contrib/quickaccess/browser/quickAccess.view.contribution": {
+    "miOpenView": "打开视图(&&O)..."
+  },
+  "vs/workbench/contrib/scm/browser/scm.view.contribution": {
+    "miViewSCM": "源代码管理(&&C)"
+  },
+  "vs/workbench/contrib/terminal/browser/terminal.view.contribution": {
+    "miToggleIntegratedTerminal": "终端(&&T)"
+  },
+  "vs/workbench/contrib/workspace/browser/workspace.view.contribution": {
+    "open": "打开(&&O)",
+    "grantWorkspaceTrustButton": "信任工作区并继续(&&T)",
+    "grantFolderTrustButton": "信任文件夹并继续(&&T)",
+    "manageWorkspaceTrustButton": "管理(&&M)",
+    "trustOption": "是，我信任作者(&&Y)",
+    "dontTrustOption": "不，我不信任作者(&&N)"
+  },
+  "vs/platform/update/common/updateActionTitles": {
+    "checkForUpdates": "检查更新...",
+    "checkingForUpdates2": "正在检查更新...",
+    "downloadUpdate": "下载更新",
+    "DownloadingUpdate": "正在下载更新...",
+    "installUpdate": "安装更新",
+    "installingUpdate": "正在安装更新...",
+    "restartToUpdate": "重启以更新"
+  },
+  "vs/workbench/contrib/preferences/browser/settingsLayout": {
+    "commonlyUsed": "常用设置",
+    "textEditor": "文本编辑器",
+    "cursor": "光标",
+    "find": "查找",
+    "font": "字体",
+    "formatting": "格式化",
+    "diffEditor": "差异编辑器",
+    "multiDiffEditor": "多文件差异编辑器",
+    "minimap": "缩略图",
+    "suggestions": "建议",
+    "files": "文件",
+    "workbench": "工作台",
+    "appearance": "外观",
+    "breadcrumbs": "导航路径",
+    "editorManagement": "编辑管理",
+    "settings": "设置编辑器",
+    "zenMode": "禅模式",
+    "screencastMode": "屏幕录制模式",
+    "window": "窗口",
+    "newWindow": "新建窗口",
+    "features": "功能",
+    "accessibility.signals": "辅助功能信号",
+    "accessibility": "辅助功能",
+    "fileExplorer": "资源管理器",
+    "search": "搜索",
+    "debug": "调试",
+    "testing": "测试",
+    "scm": "源代码管理",
+    "extensions": "扩展",
+    "terminal": "终端",
+    "task": "任务",
+    "problems": "问题",
+    "output": "输出",
+    "comments": "评论",
+    "remote": "远程",
+    "timeline": "时间线",
+    "notebook": "笔记本",
+    "mergeEditor": "合并编辑器",
+    "application": "应用程序",
+    "proxy": "代理服务器",
+    "keyboard": "键盘",
+    "update": "更新",
+    "telemetry": "遥测",
+    "experimental": "实验性",
+    "other": "其他",
+    "security": "安全性",
+    "workspace": "工作区"
+  },
+  "vs/workbench/contrib/extensions/browser/extensionsViewlet": {
+    "finalNote": "点击导入所有本地 {0} 扩展"
+  },
+  "vs/workbench/services/integrity/electron-sandbox/integrityService": {
+    "integrity.dontShowAgain": "不再显示"
   }
 }
