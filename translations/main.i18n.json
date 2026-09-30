@@ -3,7 +3,7 @@
     "Cursor Language for Chinese (Simplified)",
     "Install together with MS-CEINTL.vscode-language-pack-zh-hans for VS Code UI."
   ],
-  "version": "0.1.0",
+  "version": "0.2.0",
   "contents": {
     "vs/code/electron-sandbox/processExplorer/processExplorerMain": {
       "copy": "复制",
