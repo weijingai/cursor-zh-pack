@@ -1764,6 +1764,10 @@
     "自动恢复 Agent"
   ],
   [
+    "Clear Accepted Certificates",
+    "清除已接受的证书"
+  ],
+  [
     "Meet the new Agents Window",
     "认识新的 Agents 窗口"
   ],
@@ -1834,6 +1838,14 @@
   [
     "Resume agent automatically",
     "自动恢复 Agent"
+  ],
+  [
+    "Hide favorites and history",
+    "隐藏收藏与历史"
+  ],
+  [
+    "Show favorites and history",
+    "显示收藏与历史"
   ],
   [
     "New Agents Window (Glass)",
@@ -2000,6 +2012,18 @@
     "扫描漏洞"
   ],
   [
+    "Hide Favorites & History",
+    "隐藏收藏与历史"
+  ],
+  [
+    "Show Favorites & History",
+    "显示收藏与历史"
+  ],
+  [
+    "Hide favorites & History",
+    "隐藏收藏与历史"
+  ],
+  [
     "Switch to Agents Window",
     "切换到 Agents 窗口"
   ],
@@ -2082,6 +2106,10 @@
   [
     "Checking for Updates...",
     "正在检查更新..."
+  ],
+  [
+    "Capture Area Screenshot",
+    "截取区域截图"
   ],
   [
     "Maximize Agents window",
@@ -2178,6 +2206,10 @@
   [
     "Agent is still working",
     "Agent 仍在工作"
+  ],
+  [
+    "Clear Browsing History",
+    "清除浏览历史"
   ],
   [
     "Restore Agents window",
@@ -2422,6 +2454,10 @@
   [
     "Installing Update...",
     "正在安装更新..."
+  ],
+  [
+    "Move to this machine",
+    "移到此计算机"
   ],
   [
     "Close Agents window",
@@ -2928,6 +2964,18 @@
     "重启以更新"
   ],
   [
+    "Show Bookmark Bar",
+    "显示书签栏"
+  ],
+  [
+    "Mark chat as read",
+    "将聊天标为已读"
+  ],
+  [
+    "Archive All Below",
+    "归档下方全部"
+  ],
+  [
     "Search Agents...",
     "搜索 Agent..."
   ],
@@ -3086,6 +3134,14 @@
   [
     "Don't Show Again",
     "不再显示"
+  ],
+  [
+    "Copy Current URL",
+    "复制当前网址"
+  ],
+  [
+    "Copy current URL",
+    "复制当前网址"
   ],
   [
     "No agents found",
@@ -3278,6 +3334,10 @@
   [
     "Download Update",
     "下载更新"
+  ],
+  [
+    "Take Screenshot",
+    "截取屏幕截图"
   ],
   [
     "Close Settings",
@@ -3556,6 +3616,10 @@
     "安装更新"
   ],
   [
+    "Move to folder",
+    "移动到文件夹"
+  ],
+  [
     "Agents Window",
     "Agents 窗口"
   ],
@@ -3778,6 +3842,14 @@
   [
     "Reload Anyway",
     "仍然重新加载"
+  ],
+  [
+    "Clear Cookies",
+    "清除 Cookie"
+  ],
+  [
+    "Clear cookies",
+    "清除 Cookie"
   ],
   [
     "About Cursor",
@@ -4012,6 +4084,10 @@
     "显示侧边栏"
   ],
   [
+    "Mark as Read",
+    "标为已读"
+  ],
+  [
     "Focus Agent",
     "聚焦 Agent"
   ],
@@ -4142,6 +4218,14 @@
   [
     "Browser tab",
     "浏览器标签页"
+  ],
+  [
+    "Hard Reload",
+    "强制重新加载"
+  ],
+  [
+    "Clear Cache",
+    "清除缓存"
   ],
   [
     "Try it now",
@@ -4368,6 +4452,14 @@
     "打开文件"
   ],
   [
+    "Unarchive",
+    "取消归档"
+  ],
+  [
+    "Favorites",
+    "收藏"
+  ],
+  [
     "New Chat",
     "新聊天"
   ],
@@ -4496,6 +4588,14 @@
     "替换"
   ],
   [
+    "Move to",
+    "移动到"
+  ],
+  [
+    "Archive",
+    "归档"
+  ],
+  [
     "Snooze",
     "暂停"
   ],
@@ -4538,5 +4638,9 @@
   [
     "MCPs",
     "MCP"
+  ],
+  [
+    "Fork",
+    "派生"
   ]
 ]

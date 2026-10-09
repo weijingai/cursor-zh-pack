@@ -1,6 +1,6 @@
 # Cursor 简体中文补丁（cursor-zh-pack）
 
-**版本：** v0.2.0  
+**版本：** v0.2.1  
 **许可：** MIT  
 **平台：** Windows 10 及以上  
 **适用：** Cursor 桌面客户端（已验证 3.22.x）
@@ -62,7 +62,7 @@ npm install
 npm run build
 ```
 
-产物在 `dist/cursor-zh-pack-v0.2.0.zip`。
+产物在 `dist/cursor-zh-pack-v0.2.1.zip`。变更记录见 [CHANGELOG.md](CHANGELOG.md)，操作明细见 [docs/operations.md](docs/operations.md)。
 
 | 命令 | 作用 |
 | --- | --- |

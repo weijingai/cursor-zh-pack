@@ -2,6 +2,19 @@
 
 All notable changes to this project are documented in this file.
 
+逐次汉化与安装操作见 [docs/operations.md](docs/operations.md)。
+
+## 0.2.1 — 2026-10-10
+
+Browser 标签页菜单与 Agents 操作汉化，并发布到公开仓库。
+
+- Take Screenshot / Capture Area Screenshot / Hard Reload / Copy Current URL
+- Show Bookmark Bar / Clear Browsing History / Clear Cookies / Clear Cache
+- Hide/Show Favorites & History
+- Mark as Read
+- Fork / Move to / Archive（含 Unarchive、Archive All Below）
+- 已安装到本机两个 Cursor 根目录；需完全重启后生效
+
 ## 0.2.0 — 2026-09-30
 
 First public release.

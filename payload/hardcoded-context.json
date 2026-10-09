@@ -1806,5 +1806,93 @@
   [
     "\"(don't show again)\"",
     "\"(不再显示)\""
+  ],
+  [
+    "children:\"Take Screenshot\"",
+    "children:\"截取屏幕截图\""
+  ],
+  [
+    "children:\"Capture Area Screenshot\"",
+    "children:\"截取区域截图\""
+  ],
+  [
+    "children:\"Hard Reload\"",
+    "children:\"强制重新加载\""
+  ],
+  [
+    "children:\"Copy Current URL\"",
+    "children:\"复制当前网址\""
+  ],
+  [
+    "children:\"Show Bookmark Bar\"",
+    "children:\"显示书签栏\""
+  ],
+  [
+    "children:\"Clear Browsing History\"",
+    "children:\"清除浏览历史\""
+  ],
+  [
+    "children:\"Clear Cookies\"",
+    "children:\"清除 Cookie\""
+  ],
+  [
+    "children:\"Clear Cache\"",
+    "children:\"清除缓存\""
+  ],
+  [
+    "children:\"Clear Accepted Certificates\"",
+    "children:\"清除已接受的证书\""
+  ],
+  [
+    "title:xt?\"Hide Favorites & History\":\"Show Favorites & History\"",
+    "title:xt?\"隐藏收藏与历史\":\"显示收藏与历史\""
+  ],
+  [
+    "xt?\"Hide favorites and history\":\"Show favorites and history\"",
+    "xt?\"隐藏收藏与历史\":\"显示收藏与历史\""
+  ],
+  [
+    "label:\"Mark as Read\"",
+    "label:\"标为已读\""
+  ],
+  [
+    "tooltip:\"Mark chat as read\"",
+    "tooltip:\"将聊天标为已读\""
+  ],
+  [
+    "label:\"Fork\"",
+    "label:\"派生\""
+  ],
+  [
+    "label:\"Move to\"",
+    "label:\"移动到\""
+  ],
+  [
+    "children:\"Move to\"",
+    "children:\"移动到\""
+  ],
+  [
+    "\"aria-label\":\"Move to folder\"",
+    "\"aria-label\":\"移动到文件夹\""
+  ],
+  [
+    "label:\"Archive\"",
+    "label:\"归档\""
+  ],
+  [
+    "children:\"Archive\"",
+    "children:\"归档\""
+  ],
+  [
+    "label:\"Unarchive\"",
+    "label:\"取消归档\""
+  ],
+  [
+    "label:\"Archive All Below\"",
+    "label:\"归档下方全部\""
+  ],
+  [
+    "children:\"Favorites\"",
+    "children:\"收藏\""
   ]
 ]
