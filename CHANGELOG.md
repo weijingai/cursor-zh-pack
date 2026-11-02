@@ -4,6 +4,11 @@ All notable changes to this project are documented in this file.
 
 逐次汉化与安装操作见 [docs/operations.md](docs/operations.md)。
 
+## Unreleased
+
+- 安装后登记当前用户启动钩子。Cursor 版本更新或官方语言包更新覆盖补丁后，下次启动前自动重新套用汉化
+- 语言包文件被整文件替换时，以新的官方译文为底再合并补丁
+
 ## 0.2.1 — 2026-10-10
 
 Browser 标签页菜单与 Agents 操作汉化，并发布到公开仓库。
