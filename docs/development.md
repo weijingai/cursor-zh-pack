@@ -25,12 +25,14 @@ npm run deploy
 | `tools/assemble.mjs` | 组装 NLS |
 | `tools/sync-hardcoded.mjs` | 生成 `hardcoded-ui.json` 与注入脚本 |
 | `tools/build-installer.mjs` | 打 zip |
-| `installer/lib/zh-pack.cjs` | 安装 / 卸载 / 重启 |
+| `installer/lib/zh-pack.cjs` | 安装 / 卸载 / 启动前检查 / 重启 |
+| `installer/lib/guard.ps1` | Windows 启动钩子，在打开界面前调用 `ensure` |
+| `tools/verify-reapply.cjs` | 用临时目录验证更新后会重新套用 |
 | `tools/recover-official.mjs` | 从官方语言包回收译文（可选，依赖 TypeSafe） |
 | `tools/scratch/` | 历史一次性提取、合并、核对脚本 |
 
 ## 注意
 
-- `.cmd` 保持 ASCII，不要写 `chcp`。
+- `.cmd` 与 `guard.ps1` 保持 ASCII，不要写 `chcp`。
 - 不要全局替换过短的词（`On`、`Fast`、`Compact`），用上下文或 DOM SHORT。
 - 安装后核对 `product.json` checksums 与 `_isPure` 是否已打上。

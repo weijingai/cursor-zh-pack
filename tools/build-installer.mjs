@@ -27,6 +27,7 @@ copyCmd("installer/uninstall.cmd", path.join(outDir, "uninstall.cmd"));
 copyCmd("installer/restart.cmd", path.join(outDir, "restart.cmd"));
 copyCmd("installer/lib/find-cursor.cmd", path.join(outDir, "lib", "find-cursor.cmd"));
 copyCmd("installer/lib/run-zh-pack.cmd", path.join(outDir, "lib", "run-zh-pack.cmd"));
+copyCmd("installer/lib/guard.ps1", path.join(outDir, "lib", "guard.ps1"));
 fs.copyFileSync("installer/lib/zh-pack.cjs", path.join(outDir, "lib", "zh-pack.cjs"));
 fs.copyFileSync("installer/lib/win-console.cjs", path.join(outDir, "lib", "win-console.cjs"));
 fs.copyFileSync("installer/lib/patch-hardcoded.cjs", path.join(outDir, "lib", "patch-hardcoded.cjs"));

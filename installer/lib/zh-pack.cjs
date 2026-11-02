@@ -11,9 +11,32 @@ const PACK_ID = "MS-CEINTL.vscode-language-pack-zh-hans";
 const PACK_PREFIX = "ms-ceintl.vscode-language-pack-zh-hans-";
 const CUSTOM_PACK_PREFIX = "cursor-zh.cursor-language-zh-cn-";
 const LOCALE = "zh-cn";
+const IFEO_KEY = "HKCU\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Image File Execution Options\\Cursor.exe";
 
-const extensionsDir = path.join(os.homedir(), ".cursor", "extensions");
-const userDataDir = path.join(process.env.APPDATA || path.join(os.homedir(), ".config"), "Cursor");
+function cursorHome() {
+  return path.join(os.homedir(), ".cursor");
+}
+
+function extensionsDir() {
+  return path.join(cursorHome(), "extensions");
+}
+
+function homePackDir() {
+  return path.join(cursorHome(), "zh-pack");
+}
+
+function userDataDirs() {
+  const dirs = [];
+  const add = (dir) => {
+    if (!dir) return;
+    const resolved = path.resolve(dir);
+    if (!dirs.includes(resolved)) dirs.push(resolved);
+  };
+  if (process.env.APPDATA) add(path.join(process.env.APPDATA, "Cursor"));
+  add(path.join(os.homedir(), ".config", "Cursor"));
+  add(cursorHome());
+  return dirs;
+}
 
 function readJson(file) {
   return JSON.parse(fs.readFileSync(file, "utf8").replace(/^\uFEFF/, ""));
@@ -25,16 +48,17 @@ function versionOf(dirName) {
 }
 
 function findPackDir() {
-  if (!fs.existsSync(extensionsDir)) return null;
+  const root = extensionsDir();
+  if (!fs.existsSync(root)) return null;
   const dirs = fs
-    .readdirSync(extensionsDir, { withFileTypes: true })
+    .readdirSync(root, { withFileTypes: true })
     .filter((entry) => entry.isDirectory() && entry.name.startsWith(PACK_PREFIX))
     .map((entry) => entry.name)
     .sort((a, b) => {
       const [va, vb] = [versionOf(a), versionOf(b)];
       return va[0] - vb[0] || va[1] - vb[1] || va[2] - vb[2];
     });
-  return dirs.length ? path.join(extensionsDir, dirs[dirs.length - 1]) : null;
+  return dirs.length ? path.join(root, dirs[dirs.length - 1]) : null;
 }
 
 function findCursorCli() {
@@ -47,15 +71,18 @@ function findCursorCli() {
 }
 
 function removeCustomLanguagePack() {
-  if (!fs.existsSync(extensionsDir)) return 0;
+  const root = extensionsDir();
+  if (!fs.existsSync(root)) return 0;
   let removed = 0;
-  for (const name of fs.readdirSync(extensionsDir)) {
+  for (const name of fs.readdirSync(root)) {
     if (!name.startsWith(CUSTOM_PACK_PREFIX)) continue;
-    fs.rmSync(path.join(extensionsDir, name), { recursive: true, force: true });
+    fs.rmSync(path.join(root, name), { recursive: true, force: true });
     removed += 1;
   }
-  const languagePacks = path.join(userDataDir, "languagepacks.json");
-  if (fs.existsSync(languagePacks)) fs.rmSync(languagePacks);
+  for (const dir of userDataDirs()) {
+    const languagePacks = path.join(dir, "languagepacks.json");
+    if (fs.existsSync(languagePacks)) fs.rmSync(languagePacks);
+  }
   return removed;
 }
 
@@ -112,6 +139,13 @@ function findCursorExe() {
 }
 
 function findAppRoots() {
+  const override = process.env.CURSOR_ZH_PACK_APP_ROOT;
+  if (override) {
+    return override
+      .split(path.delimiter)
+      .map((dir) => path.resolve(dir))
+      .filter((dir) => fs.existsSync(path.join(dir, "out", "vs", "code", "electron-sandbox", "workbench", "workbench.html")));
+  }
   const exe = findCursorExe() || process.execPath;
   const fromExe =
     path.basename(exe).toLowerCase() === "cursor.exe"
@@ -325,13 +359,15 @@ function unpatchHardcodedUi() {
 }
 
 function clearLanguageCache() {
-  const clpDir = path.join(userDataDir, "clp");
-  if (!fs.existsSync(clpDir)) return 0;
   let cleared = 0;
-  for (const entry of fs.readdirSync(clpDir)) {
-    if (!entry.endsWith(`.${LOCALE}`)) continue;
-    fs.rmSync(path.join(clpDir, entry), { recursive: true, force: true });
-    cleared += 1;
+  for (const dir of userDataDirs()) {
+    const clpDir = path.join(dir, "clp");
+    if (!fs.existsSync(clpDir)) continue;
+    for (const entry of fs.readdirSync(clpDir)) {
+      if (!entry.endsWith(`.${LOCALE}`)) continue;
+      fs.rmSync(path.join(clpDir, entry), { recursive: true, force: true });
+      cleared += 1;
+    }
   }
   return cleared;
 }
@@ -342,6 +378,15 @@ function install(payloadPath) {
   const target = path.join(packDir, "translations", "main.i18n.json");
   const backup = `${target}.orig`;
   if (!fs.existsSync(backup)) fs.copyFileSync(target, backup);
+  // A file without the sentinel is an official pack (first install or a language-pack
+  // update that replaced main.i18n.json). Adopt it as the new baseline. A file that
+  // still has the sentinel is re-merged from the untouched official backup.
+  try {
+    const current = readJson(target);
+    if (typeof current.zhPack !== "string" || !current.zhPack) fs.copyFileSync(target, backup);
+  } catch {
+    /* keep the last known official backup */
+  }
 
   const base = readJson(backup);
   let count = 0;
@@ -349,6 +394,7 @@ function install(payloadPath) {
     Object.assign((base.contents[moduleId] ??= {}), strings);
     count += Object.keys(strings).length;
   }
+  base.zhPack = overlay.version || readPackVersion();
   fs.writeFileSync(target, JSON.stringify(base, null, "\t") + "\n");
 
   const localeChanged = setLocale();
@@ -363,6 +409,9 @@ function install(payloadPath) {
   console.log("已更新 Cursor 完整性校验，避免出现“安装损坏”提示。");
   if (localeChanged) console.log("已将 Cursor 显示语言设为简体中文。");
   if (cleared) console.log(`已清理 ${cleared} 个旧的语言缓存。`);
+  persistPackFiles(payloadPath);
+  registerLaunchGuard();
+  writePatchState();
 }
 
 function uninstall() {
@@ -374,12 +423,172 @@ function uninstall() {
     fs.copyFileSync(backup, target);
     fs.rmSync(backup);
   } else if (!restored) {
+    removeLaunchGuard();
     console.log("未发现已安装的汉化补丁，无需卸载。");
     return;
   }
   clearLanguageCache();
+  removeLaunchGuard();
   console.log("已移除 Cursor 汉化补丁，恢复为官方中文语言包。");
   if (restored) console.log(`已还原 ${restored} 个 Cursor 界面文件。`);
+}
+
+function copyIfDifferent(src, dest) {
+  if (!fs.existsSync(src)) return;
+  if (path.resolve(src) === path.resolve(dest)) return;
+  fs.mkdirSync(path.dirname(dest), { recursive: true });
+  fs.copyFileSync(src, dest);
+}
+
+function readPackVersion() {
+  for (const file of [path.join(__dirname, "..", "..", "package.json"), path.join(__dirname, "..", "package.json")]) {
+    if (!fs.existsSync(file)) continue;
+    try {
+      const version = readJson(file).version;
+      if (version) return version;
+    } catch {
+      /* ignore */
+    }
+  }
+  return "0.0.0";
+}
+
+function readProduct(appRoot) {
+  try {
+    return readJson(path.join(appRoot, "product.json"));
+  } catch {
+    return {};
+  }
+}
+
+function readState() {
+  const file = path.join(homePackDir(), "state.json");
+  if (!fs.existsSync(file)) return {};
+  try {
+    return readJson(file);
+  } catch {
+    return {};
+  }
+}
+
+function translationHasSentinel(packDir) {
+  try {
+    const json = readJson(path.join(packDir, "translations", "main.i18n.json"));
+    return typeof json.zhPack === "string" && json.zhPack.length > 0;
+  } catch {
+    return false;
+  }
+}
+
+function writePatchState() {
+  const roots = findAppRoots().map((root) => {
+    const product = readProduct(root);
+    return { root, commit: product.commit || "", version: product.version || "" };
+  });
+  let packVersion = "";
+  const packDir = findPackDir();
+  if (packDir) {
+    try {
+      packVersion = readJson(path.join(packDir, "translations", "main.i18n.json")).zhPack || "";
+    } catch {
+      /* ignore */
+    }
+  }
+  fs.mkdirSync(homePackDir(), { recursive: true });
+  fs.writeFileSync(
+    path.join(homePackDir(), "state.json"),
+    `${JSON.stringify({ packVersion, roots, updatedAt: new Date().toISOString() }, null, 2)}\n`,
+  );
+}
+
+function installationNeedsPatch() {
+  const roots = findAppRoots();
+  const packDir = findPackDir();
+  if (!roots.length && !packDir) return false;
+  if (!packDir || !translationHasSentinel(packDir)) return true;
+  const state = readState();
+  for (const root of roots) {
+    const htmlFile = path.join(root, "out", "vs", "code", "electron-sandbox", "workbench", "workbench.html");
+    let html = "";
+    try {
+      html = fs.readFileSync(htmlFile, "utf8");
+    } catch {
+      return true;
+    }
+    if (!html.includes(HTML_MARKER)) return true;
+    const product = readProduct(root);
+    const saved = (state.roots || []).find((item) => path.resolve(item.root) === path.resolve(root));
+    if (!saved || saved.commit !== (product.commit || "") || saved.version !== (product.version || "")) return true;
+  }
+  return false;
+}
+
+function persistPackFiles(payloadPath) {
+  const dest = homePackDir();
+  fs.mkdirSync(path.join(dest, "lib"), { recursive: true });
+  fs.mkdirSync(path.join(dest, "payload"), { recursive: true });
+  for (const name of ["zh-pack.cjs", "win-console.cjs", "patch-hardcoded.cjs", "cursor-zh-ui.js"]) {
+    copyIfDifferent(path.join(__dirname, name), path.join(dest, "lib", name));
+  }
+  copyIfDifferent(path.join(__dirname, "guard.ps1"), path.join(dest, "guard.ps1"));
+  for (const name of ["hardcoded-zh.json", "hardcoded-ui.json", "hardcoded-context.json", "git-nls-zh.json", "cursor-zh-ui.js"]) {
+    copyIfDifferent(payloadFile(name), path.join(dest, "payload", name));
+  }
+  if (payloadPath && fs.existsSync(payloadPath)) {
+    copyIfDifferent(payloadPath, path.join(dest, "payload", "cursor-overlay.i18n.json"));
+  }
+}
+
+function debuggerCommand(scriptPath) {
+  const ps = path.win32.join(
+    process.env.SystemRoot || "C:\\Windows",
+    "System32",
+    "WindowsPowerShell",
+    "v1.0",
+    "powershell.exe",
+  );
+  return `${ps} -NoProfile -ExecutionPolicy Bypass -File "${scriptPath}"`;
+}
+
+function registerLaunchGuard() {
+  if (process.platform !== "win32" || process.env.CURSOR_ZH_PACK_GUARDING === "1") return false;
+  const script = path.join(homePackDir(), "guard.ps1");
+  if (!fs.existsSync(script)) return false;
+  const value = debuggerCommand(script);
+  fs.writeFileSync(path.join(homePackDir(), "debugger.txt"), `${value}\n`);
+  const result = spawnSync("reg", ["add", IFEO_KEY, "/v", "Debugger", "/t", "REG_SZ", "/d", value, "/f"], {
+    encoding: "utf8",
+    windowsHide: true,
+  });
+  if (result.status !== 0) {
+    console.log("未能登记启动保护。Cursor 更新后请重新运行 install.cmd。");
+    return false;
+  }
+  console.log("已登记启动保护：Cursor 更新或语言包更新后会自动重新打上汉化。");
+  return true;
+}
+
+function removeLaunchGuard() {
+  if (process.platform === "win32") {
+    spawnSync("reg", ["delete", IFEO_KEY, "/v", "Debugger", "/f"], { stdio: "ignore", windowsHide: true });
+  }
+  fs.rmSync(homePackDir(), { recursive: true, force: true });
+}
+
+function defaultPayload() {
+  const persisted = path.join(homePackDir(), "payload", "cursor-overlay.i18n.json");
+  if (fs.existsSync(persisted)) return persisted;
+  return path.join(__dirname, "..", "payload", "cursor-overlay.i18n.json");
+}
+
+function ensureInstalled(payloadPath) {
+  const payload = path.resolve(payloadPath);
+  persistPackFiles(payload);
+  registerLaunchGuard();
+  if (!installationNeedsPatch()) return false;
+  console.log("检测到 Cursor 更新或汉化被还原，正在重新应用补丁……");
+  install(payload);
+  return true;
 }
 
 function ask(question) {
@@ -398,6 +607,11 @@ function otherCursorPids() {
 }
 
 async function restartCursor() {
+  try {
+    ensureInstalled(defaultPayload());
+  } catch (error) {
+    console.log(`重新应用汉化失败，仍会尝试重启：${error.message}`);
+  }
   const exe = findCursorExe();
   if (!exe) {
     console.log("未找到 Cursor.exe，请手动关闭所有窗口后再打开。");
@@ -415,6 +629,7 @@ async function restartCursor() {
   }
   const env = { ...process.env };
   delete env.ELECTRON_RUN_AS_NODE;
+  delete env.CURSOR_ZH_PACK_GUARDING;
   spawn(exe, [], { detached: true, stdio: "ignore", env, windowsHide: false }).unref();
   console.log("已重新启动 Cursor。");
 }
@@ -430,10 +645,12 @@ async function main(argv) {
     install(path.resolve(payload));
   } else if (command === "uninstall") {
     uninstall();
+  } else if (command === "ensure") {
+    ensureInstalled(path.resolve(payload));
   } else if (command === "restart") {
     await restartCursor();
   } else {
-    throw new Error("用法：zh-pack.cjs install | uninstall | restart  [--interactive] [--payload 文件]");
+    throw new Error("用法：zh-pack.cjs install | uninstall | ensure | restart  [--interactive] [--payload 文件]");
   }
   if (!interactive || command === "restart") return;
 
@@ -443,11 +660,21 @@ async function main(argv) {
   else console.log("请稍后手动关闭所有 Cursor 窗口，再重新打开。也可以双击 restart.cmd。");
 }
 
-main(process.argv.slice(2))
-  .catch((error) => {
-    console.error(`错误：${error.message}`);
-    process.exitCode = 1;
-  })
-  .finally(async () => {
-    if (process.argv.includes("--interactive")) await ask("\n按回车键退出……");
-  });
+if (require.main === module) {
+  main(process.argv.slice(2))
+    .catch((error) => {
+      console.error(`错误：${error.message}`);
+      process.exitCode = 1;
+    })
+    .finally(async () => {
+      if (process.argv.includes("--interactive")) await ask("\n按回车键退出……");
+    });
+}
+
+module.exports = {
+  debuggerCommand,
+  ensureInstalled,
+  installationNeedsPatch,
+  install,
+  uninstall,
+};

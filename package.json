@@ -32,6 +32,7 @@
     "restore": "node installer/lib/zh-pack.cjs uninstall",
     "restart": "node installer/lib/zh-pack.cjs restart",
     "verify": "node tools/verify-nls.cjs",
+    "verify:reapply": "node tools/verify-reapply.cjs",
     "build": "node tools/assemble.mjs && node tools/sync-hardcoded.mjs && node tools/build-installer.mjs"
   },
   "engines": {

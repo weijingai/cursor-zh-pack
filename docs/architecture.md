@@ -23,6 +23,13 @@
 - `%USERPROFILE%\.cursor\argv.json` 的 `"locale": "zh-cn"`（`locale.json` 不生效）
 - 两个 Cursor 根目录：`%ProgramFiles%\Cursor` 与 `%LOCALAPPDATA%\Programs\cursor`
 - `extensions/git/package.nls.json` 的欢迎页文案（`payload/git-nls-zh.json`）
+- 把安装器和 `payload/` 复制到 `%USERPROFILE%\.cursor\zh-pack\`，并在当前用户的 Image File Execution Options 中登记 `Cursor.exe` 启动钩子（`installer/lib/guard.ps1`）
+
+## 更新后自动恢复
+
+Cursor 升级会换掉安装目录里的界面脚本，官方语言包更新会换掉 `main.i18n.json`。这两件事都发生在主进程生成语言缓存之前，所以要在下次启动前重新打补丁。
+
+钩子先去掉 IFEO，再用 `ELECTRON_RUN_AS_NODE=1` 运行 `zh-pack.cjs ensure`，确认界面进程已经创建后才把钩子登记回去。`install.cmd`、`uninstall.cmd` 和 `restart.cmd` 本身就是通过 `Cursor.exe` 启动的，钩子认出参数里的 `zh-pack.cjs` 后原样执行，不再额外打开界面。`ensure` 在 HTML 标记、`main.i18n.json` 里的 `zhPack` 标记，以及已记录的 commit / 版本都一致时什么都不改。标记丢失或版本变化时会重新合并译文、修补界面并清掉 `clp` 里的 `zh-cn` 缓存。
 
 ## 不翻译
 
